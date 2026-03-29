@@ -1,0 +1,3564 @@
+{
+  "147409": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "sunfishcode"
+    ]
+  },
+  "147171": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "147034": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "146574": {
+    "merged_by": "sunfishcode",
+    "approvers": [
+      "sunfishcode"
+    ]
+  },
+  "146191": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "146155": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "146068": {
+    "merged_by": "dianqk",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "146004": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "145760": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "145690": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "145648": {
+    "merged_by": "dianqk",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "145149": {
+    "merged_by": "w2yehia",
+    "approvers": [
+      "RolandF77"
+    ]
+  },
+  "144693": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "sdesmalen-arm"
+    ]
+  },
+  "144459": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "144449": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dianqk",
+      "drodriguez"
+    ]
+  },
+  "144058": {
+    "merged_by": "drodriguez",
+    "approvers": [
+      "dianqk"
+    ]
+  },
+  "143893": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "anutosh491",
+      "vgvassilev"
+    ]
+  },
+  "143882": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "143821": {
+    "merged_by": "Ami-zhang",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "143647": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "kadircet"
+    ]
+  },
+  "143496": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "143374": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "143371": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "sdesmalen-arm"
+    ]
+  },
+  "143344": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HighCommander4",
+      "zyn0217"
+    ]
+  },
+  "142828": {
+    "merged_by": "ChuanqiXu9",
+    "approvers": [
+      "ChuanqiXu9"
+    ]
+  },
+  "142749": {
+    "merged_by": "anutosh491",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "142741": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "142730": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "142648": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tbaederr"
+    ]
+  },
+  "142551": {
+    "merged_by": "ChuanqiXu9",
+    "approvers": [
+      "ChuanqiXu9"
+    ]
+  },
+  "142498": {
+    "merged_by": "efriedma-quic",
+    "approvers": [
+      "shafik"
+    ]
+  },
+  "142482": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "142337": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "142311": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "MaskRay",
+      "nikic"
+    ]
+  },
+  "142251": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "142190": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "141957": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "zyn0217"
+    ]
+  },
+  "141890": {
+    "merged_by": "mizvekov",
+    "approvers": [
+      "zyn0217",
+      "ChuanqiXu9"
+    ]
+  },
+  "141461": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "141433": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "141334": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks",
+      "mydeveloperday",
+      "HazardyKnusperkeks"
+    ]
+  },
+  "141194": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "wangleiat"
+    ]
+  },
+  "141193": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "wangleiat"
+    ]
+  },
+  "141083": {
+    "merged_by": "nikic",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "141004": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday"
+    ]
+  },
+  "141002": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday"
+    ]
+  },
+  "140907": {
+    "merged_by": "heiher",
+    "approvers": [
+      "wangleiat"
+    ]
+  },
+  "140902": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "frasercrmck"
+    ]
+  },
+  "140862": {
+    "merged_by": "heiher",
+    "approvers": [
+      "wangleiat"
+    ]
+  },
+  "140703": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon",
+      "arsenm"
+    ]
+  },
+  "140666": {
+    "merged_by": "owenca",
+    "approvers": [
+      "mydeveloperday"
+    ]
+  },
+  "140525": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "RKSimon",
+      "arsenm"
+    ]
+  },
+  "140361": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "140246": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "140105": {
+    "merged_by": "shafik",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "140060": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "140051": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mstorsjo"
+    ]
+  },
+  "140044": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "brad0"
+    ]
+  },
+  "139909": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Xazax-hun"
+    ]
+  },
+  "139851": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "heiher"
+    ]
+  },
+  "139822": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "androm3da"
+    ]
+  },
+  "139631": {
+    "merged_by": "cjacek",
+    "approvers": [
+      "mstorsjo",
+      "mstorsjo"
+    ]
+  },
+  "139597": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "139591": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Xazax-hun"
+    ]
+  },
+  "139579": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "139396": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "139389": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vitalybuka"
+    ]
+  },
+  "139388": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "preames"
+    ]
+  },
+  "139356": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "139345": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday"
+    ]
+  },
+  "139222": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "davemgreen"
+    ]
+  },
+  "139212": {
+    "merged_by": "ytmukai",
+    "approvers": []
+  },
+  "139029": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "topperc"
+    ]
+  },
+  "138880": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "138770": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "138712": {
+    "merged_by": "iajbar",
+    "approvers": []
+  },
+  "138681": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "fhahn"
+    ]
+  },
+  "138680": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "138674": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "var-const"
+    ]
+  },
+  "138652": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "sylvestre"
+    ]
+  },
+  "138626": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "138589": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "138528": {
+    "merged_by": "nikic",
+    "approvers": [
+      "fhahn"
+    ]
+  },
+  "138460": {
+    "merged_by": "tambry",
+    "approvers": [
+      "sylvestre"
+    ]
+  },
+  "138380": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks",
+      "mydeveloperday"
+    ]
+  },
+  "138354": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mstorsjo"
+    ]
+  },
+  "138247": {
+    "merged_by": "cor3ntin",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "138142": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "138091": {
+    "merged_by": "vgvassilev",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "138017": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "rnk"
+    ]
+  },
+  "137806": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mizvekov",
+      "vgvassilev",
+      "shafik"
+    ]
+  },
+  "137775": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "PiotrZSL"
+    ]
+  },
+  "137752": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "eugeneepshteyn"
+    ]
+  },
+  "137707": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "137683": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "sdesmalen-arm"
+    ]
+  },
+  "137628": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "137620": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "137616": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "137615": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "137608": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "137606": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "137594": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "frederick-vs-ja",
+      "huixie90",
+      "ldionne"
+    ]
+  },
+  "137527": {
+    "merged_by": "JonPsson1",
+    "approvers": [
+      "nikic",
+      "uweigand"
+    ]
+  },
+  "137490": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lenary",
+      "topperc"
+    ]
+  },
+  "137403": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vitalybuka"
+    ]
+  },
+  "137353": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cjappl",
+      "davidtrevelyan"
+    ]
+  },
+  "137286": {
+    "merged_by": "carlosgalvezp",
+    "approvers": [
+      "HerrCai0907"
+    ]
+  },
+  "137179": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "fhahn"
+    ]
+  },
+  "137141": {
+    "merged_by": "rorth",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
+  "137129": {
+    "merged_by": "tangaac",
+    "approvers": [
+      "heiher"
+    ]
+  },
+  "136851": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "arsenm",
+      "nikic"
+    ]
+  },
+  "136842": {
+    "merged_by": "wangpc-pp",
+    "approvers": [
+      "lukel97",
+      "topperc"
+    ]
+  },
+  "136808": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "136752": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "136688": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lukel97"
+    ]
+  },
+  "136680": {
+    "merged_by": "NickGuy-Arm",
+    "approvers": [
+      "SamTebbs33",
+      "fhahn"
+    ]
+  },
+  "136648": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "136589": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Xazax-hun"
+    ]
+  },
+  "136546": {
+    "merged_by": "aankit-ca",
+    "approvers": [
+      "aankit-ca"
+    ]
+  },
+  "136545": {
+    "merged_by": "owenca",
+    "approvers": [
+      "mydeveloperday",
+      "HazardyKnusperkeks"
+    ]
+  },
+  "136458": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Sterling-Augustine"
+    ]
+  },
+  "136449": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "136433": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "136419": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "136404": {
+    "merged_by": "vgvassilev",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "136283": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "136273": {
+    "merged_by": "zyn0217",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "136238": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "136034": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "135957": {
+    "merged_by": "Fznamznon",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "135927": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "zyn0217",
+      "AaronBallman"
+    ]
+  },
+  "135923": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "heiher"
+    ]
+  },
+  "135850": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "pzhengqc"
+    ]
+  },
+  "135798": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "135769": {
+    "merged_by": "rj-jesus",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "135660": {
+    "merged_by": "AaronBallman",
+    "approvers": [
+      "Sirraide",
+      "cor3ntin",
+      "rnk"
+    ]
+  },
+  "135657": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "135577": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "135549": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "135543": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "135534": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "135489": {
+    "merged_by": "phoebewang",
+    "approvers": [
+      "e-kud"
+    ]
+  },
+  "135461": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "135413": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "135409": {
+    "merged_by": "iajbar",
+    "approvers": []
+  },
+  "135386": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "jyknight"
+    ]
+  },
+  "135291": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "135254": {
+    "merged_by": "uweigand",
+    "approvers": []
+  },
+  "135207": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic",
+      "fhahn"
+    ]
+  },
+  "135191": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "135118": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "135035": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks",
+      "mydeveloperday"
+    ]
+  },
+  "134970": {
+    "merged_by": "MaskRay",
+    "approvers": [
+      "sbc100",
+      "MaskRay"
+    ]
+  },
+  "134930": {
+    "merged_by": "rnk",
+    "approvers": [
+      "rnk"
+    ]
+  },
+  "134895": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mordante",
+      "frederick-vs-ja"
+    ]
+  },
+  "134874": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "mordante"
+    ]
+  },
+  "134775": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "huaatian"
+    ]
+  },
+  "134711": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ilovepi"
+    ]
+  },
+  "134626": {
+    "merged_by": "da-viper",
+    "approvers": [
+      "jimingham",
+      "JDevlieghere"
+    ]
+  },
+  "134514": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday"
+    ]
+  },
+  "134479": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "134435": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "134434": {
+    "merged_by": "ilovepi",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "134407": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Stylie777",
+      "DavidSpickett"
+    ]
+  },
+  "134406": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "134331": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "phoebewang"
+    ]
+  },
+  "134313": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "frederick-vs-ja"
+    ]
+  },
+  "134295": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "durga4github"
+    ]
+  },
+  "134278": {
+    "merged_by": "ldionne",
+    "approvers": []
+  },
+  "134215": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "PiotrZSL",
+      "HerrCai0907"
+    ]
+  },
+  "134194": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "134158": {
+    "merged_by": "var-const",
+    "approvers": [
+      "var-const"
+    ]
+  },
+  "134144": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "philnik777",
+      "frederick-vs-ja"
+    ]
+  },
+  "134109": {
+    "merged_by": "aaronpuchert",
+    "approvers": [
+      "phoebewang"
+    ]
+  },
+  "134079": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "134072": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "labath"
+    ]
+  },
+  "134058": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "134052": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "amy-kwan"
+    ]
+  },
+  "134014": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "133997": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman",
+      "ilya-biryukov"
+    ]
+  },
+  "133996": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "133863": {
+    "merged_by": "zyn0217",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "133839": {
+    "merged_by": "zhaoqi5",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "133836": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "133832": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "thetruestblue"
+    ]
+  },
+  "133813": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "133591": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
+  "133582": {
+    "merged_by": "carlosgalvezp",
+    "approvers": [
+      "HerrCai0907"
+    ]
+  },
+  "133460": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "133348": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
+  "133337": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "133336": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "133291": {
+    "merged_by": "efriedma-quic",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
+  "133279": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "alexrp"
+    ]
+  },
+  "133264": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "133225": {
+    "merged_by": "wangleiat",
+    "approvers": [
+      "xen0n",
+      "SixWeining",
+      "tangaac"
+    ]
+  },
+  "133216": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "133198": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "133153": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mordante"
+    ]
+  },
+  "133093": {
+    "merged_by": "labath",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "133082": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "133037": {
+    "merged_by": "vgvassilev",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "133033": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks",
+      "HazardyKnusperkeks"
+    ]
+  },
+  "133027": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "132932": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "132838": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "mordante"
+    ]
+  },
+  "132824": {
+    "merged_by": "e-kud",
+    "approvers": [
+      "phoebewang",
+      "RKSimon"
+    ]
+  },
+  "132802": {
+    "merged_by": "ChuanqiXu9",
+    "approvers": [
+      "ChuanqiXu9"
+    ]
+  },
+  "132697": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "132624": {
+    "merged_by": "MaskRay",
+    "approvers": []
+  },
+  "132536": {
+    "merged_by": "dianqk",
+    "approvers": [
+      "alexfh",
+      "arsenm"
+    ]
+  },
+  "132506": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "132499": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "132483": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "132478": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "132475": {
+    "merged_by": "klausler",
+    "approvers": [
+      "eugeneepshteyn"
+    ]
+  },
+  "132367": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "132361": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SixWeining"
+    ]
+  },
+  "132336": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "androm3da"
+    ]
+  },
+  "132324": {
+    "merged_by": "zhaoqi5",
+    "approvers": [
+      "heiher",
+      "SixWeining"
+    ]
+  },
+  "132289": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "132138": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "androm3da"
+    ]
+  },
+  "132031": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "igogo-x86"
+    ]
+  },
+  "131997": {
+    "merged_by": "usx95",
+    "approvers": [
+      "hokein",
+      "ilya-biryukov"
+    ]
+  },
+  "131921": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "mordante",
+      "domin144"
+    ]
+  },
+  "131811": {
+    "merged_by": "cor3ntin",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "131801": {
+    "merged_by": "nikic",
+    "approvers": [
+      "amy-kwan"
+    ]
+  },
+  "131729": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "131691": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "eddyz87"
+    ]
+  },
+  "131578": {
+    "merged_by": "serge-sans-paille",
+    "approvers": []
+  },
+  "131568": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "131522": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "131519": {
+    "merged_by": "JDevlieghere",
+    "approvers": [
+      "JDevlieghere",
+      "labath"
+    ]
+  },
+  "131506": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ian-twilightcoder",
+      "ldionne"
+    ]
+  },
+  "131474": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane",
+      "AaronBallman"
+    ]
+  },
+  "131450": {
+    "merged_by": "cor3ntin",
+    "approvers": [
+      "shafik"
+    ]
+  },
+  "131398": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "drodriguez"
+    ]
+  },
+  "131382": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "var-const",
+      "frederick-vs-ja",
+      "ldionne"
+    ]
+  },
+  "131270": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "131234": {
+    "merged_by": "wrotki",
+    "approvers": []
+  },
+  "131214": {
+    "merged_by": "nikic",
+    "approvers": [
+      "serge-sans-paille"
+    ]
+  },
+  "131209": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "131034": {
+    "merged_by": "davidtrevelyan",
+    "approvers": [
+      "cjappl"
+    ]
+  },
+  "130998": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "130995": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "eddyz87"
+    ]
+  },
+  "130977": {
+    "merged_by": "iajbar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "130964": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "130950": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "130774": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "130767": {
+    "merged_by": "phoebewang",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "130702": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "130693": {
+    "merged_by": "JonPsson1",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "130678": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "130658": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "frederick-vs-ja"
+    ]
+  },
+  "130585": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "130580": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "130489": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "130477": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "130474": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "130471": {
+    "merged_by": "owenca",
+    "approvers": [
+      "mydeveloperday",
+      "HazardyKnusperkeks"
+    ]
+  },
+  "130215": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "130158": {
+    "merged_by": "lei137",
+    "approvers": [
+      "RolandF77",
+      "tgross35"
+    ]
+  },
+  "130126": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Artem-B"
+    ]
+  },
+  "130035": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "DanielKristofKiss"
+    ]
+  },
+  "130009": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "heiher"
+    ]
+  },
+  "129997": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "129996": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "alexrp"
+    ]
+  },
+  "129952": {
+    "merged_by": "efriedma-quic",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "129934": {
+    "merged_by": "higher-performance",
+    "approvers": [
+      "AaronBallman",
+      "AaronBallman",
+      "erichkeane"
+    ]
+  },
+  "129914": {
+    "merged_by": "marcauberer",
+    "approvers": []
+  },
+  "129864": {
+    "merged_by": "SixWeining",
+    "approvers": [
+      "heiher"
+    ]
+  },
+  "129787": {
+    "merged_by": "davemgreen",
+    "approvers": [
+      "david-arm"
+    ]
+  },
+  "129735": {
+    "merged_by": "NickGuy-Arm",
+    "approvers": [
+      "igogo-x86"
+    ]
+  },
+  "129686": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "129667": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "pravinjagtap"
+    ]
+  },
+  "129595": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "129587": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "129566": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mordante"
+    ]
+  },
+  "129560": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "129546": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ostannard"
+    ]
+  },
+  "129383": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "129377": {
+    "merged_by": "pawosm-arm",
+    "approvers": [
+      "mordante"
+    ]
+  },
+  "129342": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "129311": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "iajbar"
+    ]
+  },
+  "129305": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "129303": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "philnik777",
+      "frederick-vs-ja"
+    ]
+  },
+  "129286": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "129272": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "129232": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "philnik777",
+      "frederick-vs-ja"
+    ]
+  },
+  "129170": {
+    "merged_by": "uweigand",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "129112": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "var-const",
+      "philnik777"
+    ]
+  },
+  "129088": {
+    "merged_by": "asl",
+    "approvers": [
+      "asl"
+    ]
+  },
+  "128996": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday"
+    ]
+  },
+  "128945": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "128942": {
+    "merged_by": "dschuff",
+    "approvers": [
+      "sbc100",
+      "dschuff"
+    ]
+  },
+  "128884": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "128845": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "hokein"
+    ]
+  },
+  "128793": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128764": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128738": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "androm3da"
+    ]
+  },
+  "128734": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "OCHyams",
+      "jmorse"
+    ]
+  },
+  "128730": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128720": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "zmodem"
+    ]
+  },
+  "128717": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "128690": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128686": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dwblaikie"
+    ]
+  },
+  "128684": {
+    "merged_by": "SLTozer",
+    "approvers": [
+      "OCHyams"
+    ]
+  },
+  "128639": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "128618": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "128554": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "keith"
+    ]
+  },
+  "128539": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128518": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic",
+      "tblah"
+    ]
+  },
+  "128478": {
+    "merged_by": "zyn0217",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "128409": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "efriedma-quic",
+      "cor3ntin",
+      "shafik"
+    ]
+  },
+  "128378": {
+    "merged_by": "aganea",
+    "approvers": [
+      "zmodem"
+    ]
+  },
+  "128371": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "alexey-bataev"
+    ]
+  },
+  "128283": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "128166": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "jhuber6",
+      "arsenm"
+    ]
+  },
+  "128161": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "RKSimon"
+    ]
+  },
+  "128146": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "wangpc-pp"
+    ]
+  },
+  "128136": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128132": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "128123": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "128121": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "128114": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128090": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tru"
+    ]
+  },
+  "128085": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "128009": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "128001": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "127982": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "127951": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "127949": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "127918": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "Artem-B"
+    ]
+  },
+  "127842": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "127831": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "127805": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "127802": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tblah"
+    ]
+  },
+  "127794": {
+    "merged_by": "zmodem",
+    "approvers": [
+      "tstellar"
+    ]
+  },
+  "127777": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "127771": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "127751": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "127732": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "127703": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "127691": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "127677": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "127659": {
+    "merged_by": "svs-quic",
+    "approvers": [
+      "lenary",
+      "wangpc-pp"
+    ]
+  },
+  "127618": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "usx95"
+    ]
+  },
+  "127597": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mgorny"
+    ]
+  },
+  "127591": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "kadircet"
+    ]
+  },
+  "127589": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "joker-eph"
+    ]
+  },
+  "127559": {
+    "merged_by": "frederick-vs-ja",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "127548": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "devnexen"
+    ]
+  },
+  "127531": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "127528": {
+    "merged_by": "AlexVlx",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "127527": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "topperc"
+    ]
+  },
+  "127504": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "127493": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "OCHyams"
+    ]
+  },
+  "127487": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "127467": {
+    "merged_by": "anutosh491",
+    "approvers": [
+      "vgvassilev",
+      "vgvassilev",
+      "vgvassilev"
+    ]
+  },
+  "127465": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "127460": {
+    "merged_by": "hokein",
+    "approvers": [
+      "Xazax-hun",
+      "usx95"
+    ]
+  },
+  "127459": {
+    "merged_by": "dwblaikie",
+    "approvers": [
+      "dwblaikie"
+    ]
+  },
+  "127406": {
+    "merged_by": "steakhal",
+    "approvers": [
+      "NagyDonat"
+    ]
+  },
+  "127391": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "127362": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mmuetzel",
+      "ldionne"
+    ]
+  },
+  "127358": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "kadircet",
+      "ckandeler"
+    ]
+  },
+  "127350": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "127342": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "frederick-vs-ja",
+      "ldionne"
+    ]
+  },
+  "127330": {
+    "merged_by": "mordante",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "127326": {
+    "merged_by": "mordante",
+    "approvers": []
+  },
+  "127310": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "127268": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tru"
+    ]
+  },
+  "127267": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "alexey-bataev"
+    ]
+  },
+  "127252": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "127232": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "127222": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "127216": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "127215": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "a-tarasyuk"
+    ]
+  },
+  "127187": {
+    "merged_by": "Artem-B",
+    "approvers": [
+      "Artem-B"
+    ]
+  },
+  "127174": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "hokein"
+    ]
+  },
+  "127157": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "127148": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "zyn0217"
+    ]
+  },
+  "127144": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lhames"
+    ]
+  },
+  "127136": {
+    "merged_by": "zixu-w",
+    "approvers": []
+  },
+  "127124": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jmorse"
+    ]
+  },
+  "127101": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "127099": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "127084": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "CarolineConcatto"
+    ]
+  },
+  "127015": {
+    "merged_by": "var-const",
+    "approvers": [
+      "var-const"
+    ]
+  },
+  "127007": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "126960": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lntue"
+    ]
+  },
+  "126921": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic",
+      "boomanaiden154"
+    ]
+  },
+  "126908": {
+    "merged_by": "frasercrmck",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "126891": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "126883": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "126881": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dcci"
+    ]
+  },
+  "126877": {
+    "merged_by": "petrhosek",
+    "approvers": [
+      "michaelrj-google"
+    ]
+  },
+  "126866": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "owenca"
+    ]
+  },
+  "126848": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
+  "126847": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126845": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "kito-cheng"
+    ]
+  },
+  "126843": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "rymiel"
+    ]
+  },
+  "126839": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday",
+      "owenca"
+    ]
+  },
+  "126831": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lhames"
+    ]
+  },
+  "126810": {
+    "merged_by": "JDevlieghere",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "126799": {
+    "merged_by": "davemgreen",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "126795": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jplehr"
+    ]
+  },
+  "126790": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "jplehr"
+    ]
+  },
+  "126776": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126767": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "hokein"
+    ]
+  },
+  "126744": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126742": {
+    "merged_by": "Fznamznon",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "126732": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "126727": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "126718": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "fhahn"
+    ]
+  },
+  "126698": {
+    "merged_by": "nikic",
+    "approvers": [
+      "dcci"
+    ]
+  },
+  "126687": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126685": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126666": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126659": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "cor3ntin",
+      "AaronBallman"
+    ]
+  },
+  "126627": {
+    "merged_by": "phoebewang",
+    "approvers": [
+      "phoebewang"
+    ]
+  },
+  "126607": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "MaskRay",
+      "jh7370"
+    ]
+  },
+  "126589": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "kovdan01"
+    ]
+  },
+  "126553": {
+    "merged_by": "metaflow",
+    "approvers": [
+      "AaronBallman",
+      "alexfh"
+    ]
+  },
+  "126549": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "smithp35"
+    ]
+  },
+  "126547": {
+    "merged_by": "mordante",
+    "approvers": [
+      "philnik777",
+      "ldionne"
+    ]
+  },
+  "126542": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "126535": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "carlocab"
+    ]
+  },
+  "126524": {
+    "merged_by": "nico",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "126518": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "zmodem"
+    ]
+  },
+  "126513": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mgabka"
+    ]
+  },
+  "126512": {
+    "merged_by": "nico",
+    "approvers": [
+      "zmodem"
+    ]
+  },
+  "126503": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "sdesmalen-arm"
+    ]
+  },
+  "126496": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "126493": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "126492": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "126487": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lukel97"
+    ]
+  },
+  "126479": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mydeveloperday",
+      "HazardyKnusperkeks"
+    ]
+  },
+  "126460": {
+    "merged_by": "BeMg",
+    "approvers": [
+      "kito-cheng"
+    ]
+  },
+  "126436": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "126396": {
+    "merged_by": "MaskRay",
+    "approvers": [
+      "smithp35"
+    ]
+  },
+  "126390": {
+    "merged_by": "phoebewang",
+    "approvers": [
+      "phoebewang"
+    ]
+  },
+  "126367": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jh7370",
+      "AmrDeveloper"
+    ]
+  },
+  "126361": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126359": {
+    "merged_by": "sylvestre",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "126351": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "maksfb"
+    ]
+  },
+  "126340": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks"
+    ]
+  },
+  "126310": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "126308": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "126289": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mizvekov"
+    ]
+  },
+  "126284": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nickdesaulniers"
+    ]
+  },
+  "126269": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "alexey-bataev"
+    ]
+  },
+  "126263": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "SamTebbs33"
+    ]
+  },
+  "126259": {
+    "merged_by": "nikic",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "126253": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "rj-jesus"
+    ]
+  },
+  "126236": {
+    "merged_by": "nikic",
+    "approvers": [
+      "fhahn",
+      "dtcxzyw"
+    ]
+  },
+  "126215": {
+    "merged_by": "Michael137",
+    "approvers": [
+      "hokein",
+      "mizvekov"
+    ]
+  },
+  "126211": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic",
+      "mgorny"
+    ]
+  },
+  "126210": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "paulwalker-arm",
+      "mgabka"
+    ]
+  },
+  "126209": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "fhahn"
+    ]
+  },
+  "126201": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "frasercrmck"
+    ]
+  },
+  "126193": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "jhuber6",
+      "nickdesaulniers"
+    ]
+  },
+  "126132": {
+    "merged_by": "arsenm",
+    "approvers": [
+      "scchan",
+      "arsenm"
+    ]
+  },
+  "126121": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "126120": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "jdoerfert"
+    ]
+  },
+  "126083": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "topperc"
+    ]
+  },
+  "126072": {
+    "merged_by": "kmclaughlin-arm",
+    "approvers": [
+      "jthackray",
+      "CarolineConcatto"
+    ]
+  },
+  "126071": {
+    "merged_by": "nikic",
+    "approvers": [
+      "frasercrmck"
+    ]
+  },
+  "126065": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "sivan-shani",
+      "MaskRay"
+    ]
+  },
+  "126062": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mgorny"
+    ]
+  },
+  "126038": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tblah"
+    ]
+  },
+  "126037": {
+    "merged_by": "nikic",
+    "approvers": [
+      "mgorny"
+    ]
+  },
+  "126030": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jyknight"
+    ]
+  },
+  "126029": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dwblaikie"
+    ]
+  },
+  "126027": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jyknight"
+    ]
+  },
+  "125996": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "125995": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "topperc",
+      "nikic",
+      "RKSimon"
+    ]
+  },
+  "125988": {
+    "merged_by": "ChuanqiXu9",
+    "approvers": [
+      "kadircet"
+    ]
+  },
+  "125985": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ronlieb"
+    ]
+  },
+  "125982": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "ronlieb"
+    ]
+  },
+  "125956": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "125953": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "preames"
+    ]
+  },
+  "125912": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "125910": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "topperc"
+    ]
+  },
+  "125903": {
+    "merged_by": "topperc",
+    "approvers": [
+      "preames"
+    ]
+  },
+  "125896": {
+    "merged_by": "jhuber6",
+    "approvers": [
+      "shiltian"
+    ]
+  },
+  "125894": {
+    "merged_by": "DavidSpickett",
+    "approvers": []
+  },
+  "125874": {
+    "merged_by": "CarolineConcatto",
+    "approvers": [
+      "paulwalker-arm",
+      "mgabka"
+    ]
+  },
+  "125866": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "david-arm"
+    ]
+  },
+  "125860": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "125858": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "125848": {
+    "merged_by": "phoebewang",
+    "approvers": [
+      "nikic",
+      "RKSimon",
+      "topperc",
+      "jcranmer-intel"
+    ]
+  },
+  "125842": {
+    "merged_by": "nikic",
+    "approvers": [
+      "joker-eph",
+      "joker-eph"
+    ]
+  },
+  "125838": {
+    "merged_by": "nico",
+    "approvers": [
+      "nico",
+      "zmodem",
+      "MaskRay",
+      "sivan-shani"
+    ]
+  },
+  "125837": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mgorny"
+    ]
+  },
+  "125834": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mgorny",
+      "nikic"
+    ]
+  },
+  "125809": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "125791": {
+    "merged_by": "mizvekov",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "125775": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "carlocab"
+    ]
+  },
+  "125730": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "125722": {
+    "merged_by": "kadircet",
+    "approvers": [
+      "jyknight"
+    ]
+  },
+  "125716": {
+    "merged_by": "david-arm",
+    "approvers": [
+      "fhahn"
+    ]
+  },
+  "125714": {
+    "merged_by": "kadircet",
+    "approvers": [
+      "jyknight"
+    ]
+  },
+  "125693": {
+    "merged_by": "alexey-bataev",
+    "approvers": [
+      "preames"
+    ]
+  },
+  "125680": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "DavidSpickett"
+    ]
+  },
+  "125659": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lukel97"
+    ]
+  },
+  "125653": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "125625": {
+    "merged_by": "MaskRay",
+    "approvers": [
+      "maksfb"
+    ]
+  },
+  "125624": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "mtrofin"
+    ]
+  },
+  "125603": {
+    "merged_by": "brad0",
+    "approvers": [
+      "mtrofin"
+    ]
+  },
+  "125590": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "preames"
+    ]
+  },
+  "125588": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125587": {
+    "merged_by": "ldionne",
+    "approvers": []
+  },
+  "125583": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vitalybuka"
+    ]
+  },
+  "125578": {
+    "merged_by": "dwblaikie",
+    "approvers": [
+      "dwblaikie"
+    ]
+  },
+  "125555": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "oontvoo"
+    ]
+  },
+  "125532": {
+    "merged_by": "nikic",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "125525": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jroelofs"
+    ]
+  },
+  "125515": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tblah"
+    ]
+  },
+  "125498": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jhuber6"
+    ]
+  },
+  "125431": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "lhames"
+    ]
+  },
+  "125399": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "125398": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "125386": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "aemerson"
+    ]
+  },
+  "125385": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "125378": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125368": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "125363": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "125345": {
+    "merged_by": "AmrDeveloper",
+    "approvers": [
+      "jh7370",
+      "MaskRay"
+    ]
+  },
+  "125344": {
+    "merged_by": "brad0",
+    "approvers": [
+      "tblah"
+    ]
+  },
+  "125338": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic",
+      "arsenm"
+    ]
+  },
+  "125329": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125327": {
+    "merged_by": "owenca",
+    "approvers": [
+      "HazardyKnusperkeks",
+      "mydeveloperday"
+    ]
+  },
+  "125305": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125287": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jurahul",
+      "arsenm"
+    ]
+  },
+  "125280": {
+    "merged_by": "kovdan01",
+    "approvers": [
+      "DanielKristofKiss"
+    ]
+  },
+  "125275": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "125266": {
+    "merged_by": "mizvekov",
+    "approvers": [
+      "erichkeane"
+    ]
+  },
+  "125261": {
+    "merged_by": "davemgreen",
+    "approvers": [
+      "rj-jesus"
+    ]
+  },
+  "125254": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "vdonaldson"
+    ]
+  },
+  "125252": {
+    "merged_by": "SamTebbs33",
+    "approvers": [
+      "david-arm"
+    ]
+  },
+  "125250": {
+    "merged_by": "AaronBallman",
+    "approvers": [
+      "cor3ntin",
+      "compnerd"
+    ]
+  },
+  "125249": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "125239": {
+    "merged_by": "iajbar",
+    "approvers": []
+  },
+  "125237": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125236": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "125232": {
+    "merged_by": "hokein",
+    "approvers": [
+      "cor3ntin",
+      "a-tarasyuk"
+    ]
+  },
+  "125230": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "tmatheson-arm"
+    ]
+  },
+  "125221": {
+    "merged_by": "nikic",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "125213": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "jeanPerier"
+    ]
+  },
+  "125210": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "125206": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "125194": {
+    "merged_by": "tstellar",
+    "approvers": []
+  },
+  "125185": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "125176": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125161": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "125108": {
+    "merged_by": "JonPsson1",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "125094": {
+    "merged_by": "hassnaaHamdi",
+    "approvers": [
+      "david-arm"
+    ]
+  },
+  "125077": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "efriedma-quic",
+      "efriedma-quic"
+    ]
+  },
+  "125067": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "125066": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "momchil-velikov"
+    ]
+  },
+  "125057": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "e-kud"
+    ]
+  },
+  "125049": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "125040": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "125021": {
+    "merged_by": "owenca",
+    "approvers": [
+      "mydeveloperday",
+      "rymiel"
+    ]
+  },
+  "125009": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154"
+    ]
+  },
+  "124987": {
+    "merged_by": "benlangmuir",
+    "approvers": [
+      "vitalybuka"
+    ]
+  },
+  "124970": {
+    "merged_by": "ldionne",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "124968": {
+    "merged_by": "momchil-velikov",
+    "approvers": [
+      "sdesmalen-arm"
+    ]
+  },
+  "124962": {
+    "merged_by": "RKSimon",
+    "approvers": [
+      "alexey-bataev",
+      "preames"
+    ]
+  },
+  "124922": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "124917": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "124895": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "dtcxzyw"
+    ]
+  },
+  "124839": {
+    "merged_by": "ldionne",
+    "approvers": []
+  },
+  "124799": {
+    "merged_by": "davemgreen",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "124798": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "pskrgag",
+      "necto",
+      "Xazax-hun"
+    ]
+  },
+  "124775": {
+    "merged_by": "ostannard",
+    "approvers": [
+      "vhscampos",
+      "tmatheson-arm"
+    ]
+  },
+  "124762": {
+    "merged_by": "ostannard",
+    "approvers": [
+      "efriedma-quic"
+    ]
+  },
+  "124750": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "sdesmalen-arm",
+      "kmclaughlin-arm",
+      "efriedma-quic"
+    ]
+  },
+  "124733": {
+    "merged_by": "labath",
+    "approvers": [
+      "jasonmolenda",
+      "DavidSpickett"
+    ]
+  },
+  "124466": {
+    "merged_by": "davemgreen",
+    "approvers": [
+      "aemerson"
+    ]
+  },
+  "124442": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "carlocab",
+      "boomanaiden154",
+      "carlocab"
+    ]
+  },
+  "124415": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "carlocab",
+      "boomanaiden154"
+    ]
+  },
+  "124329": {
+    "merged_by": "AaronBallman",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "124303": {
+    "merged_by": "tstellar",
+    "approvers": [
+      "boomanaiden154",
+      "boomanaiden154"
+    ]
+  },
+  "123678": {
+    "merged_by": "philnik777",
+    "approvers": [
+      "AaronBallman"
+    ]
+  },
+  "123128": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "philnik777"
+    ]
+  },
+  "121892": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  },
+  "121580": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "121245": {
+    "merged_by": "mpark",
+    "approvers": [
+      "mizvekov"
+    ]
+  },
+  "117764": {
+    "merged_by": "ldionne",
+    "approvers": []
+  },
+  "114062": {
+    "merged_by": "AlexVlx",
+    "approvers": [
+      "arsenm",
+      "arsenm",
+      "arsenm",
+      "arsenm"
+    ]
+  },
+  "105651": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "ldionne"
+    ]
+  },
+  "71058": {
+    "merged_by": "dtcxzyw",
+    "approvers": [
+      "nikic"
+    ]
+  }
+}

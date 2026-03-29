@@ -1,0 +1,4538 @@
+[
+  {
+    "number": 189139,
+    "title": "release/22.x: [X86] Improve illegal return type handling in FastISel (#186723)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-28T02:25:41Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 189059,
+    "title": "release/22.x: [AccelTable] Pre-compute entry pool offsets for DW_IDX_parent. NFC (#188915)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-27T16:55:59Z",
+    "closed_at": "2026-03-27T21:20:08Z",
+    "merged_at": null
+  },
+  {
+    "number": 189057,
+    "title": "release/22.x: [AccelTable] Pre-compute entry pool offsets for DW_IDX_parent. NFC (#188915)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-27T16:53:26Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188938,
+    "title": "release/22.x: [lit] Explicitly unset timer to free thread stack (#188717)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-27T09:49:24Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188915,
+    "title": "[AccelTable] Pre-compute entry pool offsets for DW_IDX_parent. NFC",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2026-03-27T07:07:18Z",
+    "closed_at": "2026-03-27T16:31:20Z",
+    "merged_at": "2026-03-27T16:31:20Z"
+  },
+  {
+    "number": 188913,
+    "title": "release/22.x: [sanitizer_common] [Darwin] Adopt _dyld_get_dyld_header (#182943)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-27T06:29:48Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188768,
+    "title": "release/22.x: [lldb] use the Py_REFCNT() macro instead of directly accessing member (#188161)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-26T15:26:52Z",
+    "closed_at": "2026-03-27T08:45:46Z",
+    "merged_at": "2026-03-27T08:45:46Z"
+  },
+  {
+    "number": 188672,
+    "title": "release/22.x: [LoongArch] Fix incorrect reciprocal sqrt estimate semantics (#187621)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-26T04:06:12Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188666,
+    "title": "release/22.x: [LoongArch] Fix incorrect indexing of incoming byval arguments in tail call eligibility check (#188006)",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2026-03-26T02:49:32Z",
+    "closed_at": "2026-03-27T08:45:05Z",
+    "merged_at": "2026-03-27T08:45:05Z"
+  },
+  {
+    "number": 188580,
+    "title": "release/22.x: [libunwind] Fix building on OpenBSD / FreeBSD aarch64 (#188397)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-25T19:46:59Z",
+    "closed_at": "2026-03-27T18:54:57Z",
+    "merged_at": "2026-03-27T18:54:57Z"
+  },
+  {
+    "number": 188541,
+    "title": "[MC,clang] Fix -Wa,--noexecstack not emitting .note.GNU-stack",
+    "author": "jtschuster",
+    "state": "open",
+    "created_at": "2026-03-25T16:56:11Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188466,
+    "title": "release/22.x: [ARM] Fix incorrect post increment from Or (#188036)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-25T11:38:11Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188330,
+    "title": "release/22.x: [clang-format] Correctly annotate binary stars in braced init lists (#186732)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-24T19:53:40Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 188161,
+    "title": "[lldb] use the Py_REFCNT() macro instead of directly accessing member",
+    "author": "vishwin",
+    "state": "closed",
+    "created_at": "2026-03-24T02:29:50Z",
+    "closed_at": "2026-03-24T22:49:10Z",
+    "merged_at": "2026-03-24T22:49:10Z"
+  },
+  {
+    "number": 187991,
+    "title": "release/22.x: [clang-format] Fix regression in annotating angles in static_assert (#187966)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-23T08:17:38Z",
+    "closed_at": "2026-03-23T18:46:33Z",
+    "merged_at": "2026-03-23T18:46:33Z"
+  },
+  {
+    "number": 187943,
+    "title": "release/22.x: [SystemZ] Remove custom lowering of f16 IS_FPCLASS (#187532)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-22T16:27:33Z",
+    "closed_at": "2026-03-23T03:11:41Z",
+    "merged_at": "2026-03-23T03:11:41Z"
+  },
+  {
+    "number": 187880,
+    "title": "[MC,clang] Fix -Wa,--noexecstack not emitting .note.GNU-stack",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2026-03-21T19:22:24Z",
+    "closed_at": "2026-03-22T16:58:32Z",
+    "merged_at": "2026-03-22T16:58:32Z"
+  },
+  {
+    "number": 187872,
+    "title": "release/22.x: [clang][AST] Preserve qualifiers in getFullyQualifiedType for AutoType (#187717)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-21T17:22:57Z",
+    "closed_at": "2026-03-27T08:44:27Z",
+    "merged_at": "2026-03-27T08:44:27Z"
+  },
+  {
+    "number": 187717,
+    "title": "[clang][AST] Preserve qualifiers in getFullyQualifiedType for AutoType",
+    "author": "devajithvs",
+    "state": "closed",
+    "created_at": "2026-03-20T14:58:48Z",
+    "closed_at": "2026-03-21T08:22:20Z",
+    "merged_at": "2026-03-21T08:22:20Z"
+  },
+  {
+    "number": 187683,
+    "title": "[analyzer][docs] Mention that 'expand-macros' won't use clang-format in the future",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2026-03-20T11:53:59Z",
+    "closed_at": "2026-03-21T00:45:42Z",
+    "merged_at": "2026-03-21T00:45:42Z"
+  },
+  {
+    "number": 187659,
+    "title": "backport: [SLP]Improve reductions for copyables/split nodes",
+    "author": "wangpc-pp",
+    "state": "closed",
+    "created_at": "2026-03-20T08:18:37Z",
+    "closed_at": "2026-03-23T18:45:50Z",
+    "merged_at": "2026-03-23T18:45:50Z"
+  },
+  {
+    "number": 187651,
+    "title": "release/22.x: [AArch64] Use an unknown size for memcpy ops with non-constant sizes. (#187445)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-20T07:39:16Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 187638,
+    "title": "release/22.x: [LoongArch] Ensure .dwo sections do not contain relocations (#187429)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-20T06:28:23Z",
+    "closed_at": "2026-03-23T03:11:00Z",
+    "merged_at": "2026-03-23T03:11:00Z"
+  },
+  {
+    "number": 187532,
+    "title": "[SystemZ] Remove custom lowering of f16 IS_FPCLASS",
+    "author": "dominik-steenken",
+    "state": "closed",
+    "created_at": "2026-03-19T16:42:20Z",
+    "closed_at": "2026-03-22T16:19:24Z",
+    "merged_at": "2026-03-22T16:19:24Z"
+  },
+  {
+    "number": 187507,
+    "title": "backport: [RISCV] Relax out of range Zibi conditional branches (#186965)",
+    "author": "wangpc-pp",
+    "state": "closed",
+    "created_at": "2026-03-19T14:12:24Z",
+    "closed_at": "2026-03-23T03:12:50Z",
+    "merged_at": "2026-03-23T03:12:50Z"
+  },
+  {
+    "number": 187445,
+    "title": "[AArch64] Use an unknown size for memcpy ops with non-constant sizes.",
+    "author": "davemgreen",
+    "state": "closed",
+    "created_at": "2026-03-19T07:07:28Z",
+    "closed_at": "2026-03-20T07:28:16Z",
+    "merged_at": "2026-03-20T07:28:16Z"
+  },
+  {
+    "number": 187429,
+    "title": "[LoongArch] Ensure .dwo sections do not contain relocations",
+    "author": "wangleiat",
+    "state": "closed",
+    "created_at": "2026-03-19T03:09:24Z",
+    "closed_at": "2026-03-20T02:03:09Z",
+    "merged_at": "2026-03-20T02:03:09Z"
+  },
+  {
+    "number": 187274,
+    "title": "release/22.x: Backport workarounds for certain addMatcher overloads ignoring traversal kind",
+    "author": "localspook",
+    "state": "closed",
+    "created_at": "2026-03-18T13:51:19Z",
+    "closed_at": "2026-03-18T21:20:58Z",
+    "merged_at": "2026-03-18T21:20:58Z"
+  },
+  {
+    "number": 187234,
+    "title": "release/22.x: [PowerPC] Preserve load output chain in vcmpequb combine (#187010)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-18T10:46:12Z",
+    "closed_at": "2026-03-18T21:20:19Z",
+    "merged_at": "2026-03-18T21:20:18Z"
+  },
+  {
+    "number": 187226,
+    "title": "release/22.x: [Clang] Fix a concept subsumption bug when template depths are adjusted (#186735)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-18T09:54:11Z",
+    "closed_at": "2026-03-27T08:43:22Z",
+    "merged_at": "2026-03-27T08:43:22Z"
+  },
+  {
+    "number": 186965,
+    "title": "[RISCV] Relax out of range Zibi conditional branches",
+    "author": "wangpc-pp",
+    "state": "closed",
+    "created_at": "2026-03-17T07:06:42Z",
+    "closed_at": "2026-03-19T13:07:53Z",
+    "merged_at": "2026-03-19T13:07:53Z"
+  },
+  {
+    "number": 186930,
+    "title": "[clang] Backport: use canonical arguments for checking function template constraints",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-03-17T01:21:50Z",
+    "closed_at": "2026-03-18T21:19:17Z",
+    "merged_at": "2026-03-18T21:19:16Z"
+  },
+  {
+    "number": 186882,
+    "title": "release/22.x: [clang][AST] Fix assertion in `getFullyQualifiedType` for AutoType (#186105)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-16T20:56:49Z",
+    "closed_at": "2026-03-21T00:49:54Z",
+    "merged_at": "2026-03-21T00:49:54Z"
+  },
+  {
+    "number": 186778,
+    "title": "release/22.x: [LLD] [ELF] Make -z gcs=always implicitly warn on missing GCS, like force-bti (#186203)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-16T11:31:38Z",
+    "closed_at": "2026-03-23T03:20:12Z",
+    "merged_at": "2026-03-23T03:20:12Z"
+  },
+  {
+    "number": 186735,
+    "title": "[Clang] Fix a concept subsumption bug when template depths are adjusted",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-03-16T04:53:49Z",
+    "closed_at": "2026-03-17T00:23:53Z",
+    "merged_at": "2026-03-17T00:23:53Z"
+  },
+  {
+    "number": 186732,
+    "title": "[clang-format] Correctly annotate binary stars in braced init lists",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2026-03-16T04:11:58Z",
+    "closed_at": "2026-03-16T19:29:06Z",
+    "merged_at": "2026-03-16T19:29:06Z"
+  },
+  {
+    "number": 186725,
+    "title": "release/22.x: [lld][ELF] Fix crash when relaxation pass encounters synthetic sections",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-16T02:20:50Z",
+    "closed_at": "2026-03-18T21:18:37Z",
+    "merged_at": "2026-03-18T21:18:37Z"
+  },
+  {
+    "number": 186723,
+    "title": "[X86] Improve illegal return type handling in FastISel",
+    "author": "LuoYuanke",
+    "state": "closed",
+    "created_at": "2026-03-16T01:52:02Z",
+    "closed_at": "2026-03-17T00:20:53Z",
+    "merged_at": "2026-03-17T00:20:53Z"
+  },
+  {
+    "number": 186288,
+    "title": "release/22.x: MIPS/expandAtomicBinOp: Remove tailing kill dead register operands (#186055)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-13T00:36:41Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 186203,
+    "title": "[LLD] [ELF] Make -z gcs=always implicitly warn on missing GCS, like force-bti",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2026-03-12T18:01:10Z",
+    "closed_at": "2026-03-13T08:52:30Z",
+    "merged_at": "2026-03-13T08:52:30Z"
+  },
+  {
+    "number": 186105,
+    "title": "[clang][AST] Fix assertion in `getFullyQualifiedType` for AutoType",
+    "author": "devajithvs",
+    "state": "closed",
+    "created_at": "2026-03-12T12:10:01Z",
+    "closed_at": "2026-03-12T13:23:50Z",
+    "merged_at": "2026-03-12T13:23:50Z"
+  },
+  {
+    "number": 186061,
+    "title": "release/22.x: [libc++] Fix iostream size ABI break (#185839)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-12T09:25:48Z",
+    "closed_at": "2026-03-18T21:16:54Z",
+    "merged_at": "2026-03-18T21:16:54Z"
+  },
+  {
+    "number": 186055,
+    "title": "MIPS/expandAtomicBinOp: Remove tailing kill dead register operands",
+    "author": "wzssyqa",
+    "state": "closed",
+    "created_at": "2026-03-12T08:49:12Z",
+    "closed_at": "2026-03-13T00:29:36Z",
+    "merged_at": "2026-03-13T00:29:36Z"
+  },
+  {
+    "number": 186052,
+    "title": "release/22.x: [SystemZ] Limit depth of findCCUse() (#185922)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-12T08:11:57Z",
+    "closed_at": "2026-03-12T23:29:59Z",
+    "merged_at": "2026-03-12T23:29:59Z"
+  },
+  {
+    "number": 186008,
+    "title": "release/22.x: MIPSr6: Fix COPY of reg:fgr64cc without fcmp in the same BB (#185820)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-12T00:07:24Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 185967,
+    "title": "release/22.x: [arm64ec] Fix missing sret return in Arm64EC entry thunks for large struct returns (#185452)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-11T20:29:37Z",
+    "closed_at": "2026-03-12T23:28:58Z",
+    "merged_at": "2026-03-12T23:28:58Z"
+  },
+  {
+    "number": 185927,
+    "title": "release/22.x:  [AArch64] Ensure FPR128 callee-save stack offsets are aligned",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-11T17:15:15Z",
+    "closed_at": "2026-03-18T21:16:08Z",
+    "merged_at": "2026-03-18T21:16:08Z"
+  },
+  {
+    "number": 185839,
+    "title": "[libc++] Fix iostream size ABI break",
+    "author": "philnik777",
+    "state": "closed",
+    "created_at": "2026-03-11T09:05:48Z",
+    "closed_at": "2026-03-12T09:18:26Z",
+    "merged_at": "2026-03-12T09:18:26Z"
+  },
+  {
+    "number": 185820,
+    "title": "MIPSr6: Fix COPY of reg:fgr64cc without fcmp in the same BB",
+    "author": "wzssyqa",
+    "state": "closed",
+    "created_at": "2026-03-11T07:07:20Z",
+    "closed_at": "2026-03-11T23:55:17Z",
+    "merged_at": "2026-03-11T23:55:17Z"
+  },
+  {
+    "number": 185783,
+    "title": "release/22.x: [clang][CUDA] Define _NV_RSQRT_SPECIFIER for glibc-2.42/cuda-13.2 compatibility (#185701)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-11T00:41:39Z",
+    "closed_at": "2026-03-18T21:14:48Z",
+    "merged_at": "2026-03-18T21:14:48Z"
+  },
+  {
+    "number": 185781,
+    "title": "release/22.x: [Hexagon] Fix 64-bit funnel shift miscompilation with register shift amounts (#183669)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-11T00:37:10Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 185779,
+    "title": "release/22.x: [Hexagon] Fix B0 macro conflict between hexagon_types.h and termios.h (#184539)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-11T00:09:11Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 185701,
+    "title": "[clang][CUDA] Define _NV_RSQRT_SPECIFIER for glibc-2.42/cuda-13.2 compatibility",
+    "author": "Artem-B",
+    "state": "closed",
+    "created_at": "2026-03-10T17:31:59Z",
+    "closed_at": "2026-03-10T19:52:46Z",
+    "merged_at": "2026-03-10T19:52:46Z"
+  },
+  {
+    "number": 185567,
+    "title": "release/22.x: [FastISel] Lower call instruction with illegal type returned (#180322)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-10T04:05:22Z",
+    "closed_at": "2026-03-12T23:28:18Z",
+    "merged_at": "2026-03-12T23:28:17Z"
+  },
+  {
+    "number": 185565,
+    "title": "release/22.x: [Hexagon] Fix truncation to boolean vector that need widening",
+    "author": "androm3da",
+    "state": "open",
+    "created_at": "2026-03-10T03:30:00Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 185452,
+    "title": "[arm64ec] Fix missing sret return in Arm64EC entry thunks for large struct returns",
+    "author": "dpaoliello",
+    "state": "closed",
+    "created_at": "2026-03-09T16:30:27Z",
+    "closed_at": "2026-03-09T21:33:46Z",
+    "merged_at": "2026-03-09T21:33:46Z"
+  },
+  {
+    "number": 185424,
+    "title": "[llvm][docs] Update ptrtoaddr provenance reference in ReleaseNotes",
+    "author": "Ayush3941",
+    "state": "closed",
+    "created_at": "2026-03-09T13:58:55Z",
+    "closed_at": "2026-03-18T21:14:03Z",
+    "merged_at": "2026-03-18T21:14:03Z"
+  },
+  {
+    "number": 185375,
+    "title": "release/22.x: [SimplifyCFG] process prof data when remove case in umin (#182261)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-09T08:41:43Z",
+    "closed_at": "2026-03-12T23:27:38Z",
+    "merged_at": "2026-03-12T23:27:38Z"
+  },
+  {
+    "number": 185267,
+    "title": "release/22.x: [clang-tidy] Correctly handle attributes in readability-inconsistent-ifelse-braces (#184095)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-08T09:43:56Z",
+    "closed_at": "2026-03-12T23:40:14Z",
+    "merged_at": "2026-03-12T23:40:14Z"
+  },
+  {
+    "number": 185151,
+    "title": "release/22.x: [ELF] Adjust allowed dynamic relocation types for x86-64 (#182905)",
+    "author": "alexrp",
+    "state": "closed",
+    "created_at": "2026-03-07T05:02:02Z",
+    "closed_at": "2026-03-09T09:33:22Z",
+    "merged_at": "2026-03-09T09:33:22Z"
+  },
+  {
+    "number": 185071,
+    "title": "release/22.x: [AArch64][llvm] Update Armv9.7-A dependencies (#185034)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-06T18:09:24Z",
+    "closed_at": "2026-03-12T23:26:59Z",
+    "merged_at": "2026-03-12T23:26:59Z"
+  },
+  {
+    "number": 185034,
+    "title": "[AArch64][llvm] Update Armv9.7-A dependencies",
+    "author": "jthackray",
+    "state": "closed",
+    "created_at": "2026-03-06T16:28:29Z",
+    "closed_at": "2026-03-06T17:49:49Z",
+    "merged_at": "2026-03-06T17:49:49Z"
+  },
+  {
+    "number": 185014,
+    "title": "release/22.x: [Hexagon] Define __HVX_IEEE_FP__ ; Use __HVX_IEEE_FP__ to guard protos",
+    "author": "androm3da",
+    "state": "open",
+    "created_at": "2026-03-06T14:47:47Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 184916,
+    "title": "[green dragon] add stage1-RA job to release/22.x",
+    "author": "justice-adams-apple",
+    "state": "closed",
+    "created_at": "2026-03-05T23:23:52Z",
+    "closed_at": "2026-03-06T18:42:51Z",
+    "merged_at": "2026-03-06T18:42:51Z"
+  },
+  {
+    "number": 184806,
+    "title": "release/22.x: [win][clang] Fix devirtualization of vector deleting destructor call",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2026-03-05T15:10:10Z",
+    "closed_at": "2026-03-12T23:26:20Z",
+    "merged_at": "2026-03-12T23:26:20Z"
+  },
+  {
+    "number": 184785,
+    "title": "release/22.x: [Benchmark] Fix warnings around usage of __COUNTER__ (#184524)",
+    "author": "dyung",
+    "state": "closed",
+    "created_at": "2026-03-05T12:45:12Z",
+    "closed_at": "2026-03-05T12:46:33Z",
+    "merged_at": null
+  },
+  {
+    "number": 184784,
+    "title": "release/22.x: [Benchmark] Fix warnings around usage of __COUNTER__ (#184524)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-05T12:41:51Z",
+    "closed_at": "2026-03-05T14:36:16Z",
+    "merged_at": null
+  },
+  {
+    "number": 184777,
+    "title": "release/22.x: [AArch64] Fix sign-extend-inreg combine for i1 types (#177976)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-05T11:53:53Z",
+    "closed_at": "2026-03-05T19:35:47Z",
+    "merged_at": null
+  },
+  {
+    "number": 184735,
+    "title": "release/22.x: [Hexagon] Avoid contracting predicates in createHvxPrefixPred",
+    "author": "androm3da",
+    "state": "closed",
+    "created_at": "2026-03-05T04:20:24Z",
+    "closed_at": "2026-03-06T18:47:05Z",
+    "merged_at": "2026-03-06T18:47:05Z"
+  },
+  {
+    "number": 184700,
+    "title": "release/22.x: [Hexagon] Add missing early architecture features to V81 processor (#183499)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-04T23:10:07Z",
+    "closed_at": "2026-03-05T19:09:35Z",
+    "merged_at": null
+  },
+  {
+    "number": 184646,
+    "title": "release/22.x: [lld][Hexagon] Fix findMaskR8 missing duplex support (#183936)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-04T17:19:38Z",
+    "closed_at": "2026-03-05T19:07:10Z",
+    "merged_at": null
+  },
+  {
+    "number": 184600,
+    "title": "release/22.x: [clang-repl] Create virtual files for `input_line_N` buffers (#182044)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-04T12:08:49Z",
+    "closed_at": "2026-03-06T18:49:57Z",
+    "merged_at": "2026-03-06T18:49:56Z"
+  },
+  {
+    "number": 184568,
+    "title": "[libomp] Backport: Fix hwloc include for non-standard paths (#184087)",
+    "author": "ro-i",
+    "state": "closed",
+    "created_at": "2026-03-04T08:43:13Z",
+    "closed_at": "2026-03-05T12:25:05Z",
+    "merged_at": "2026-03-05T12:25:05Z"
+  },
+  {
+    "number": 184565,
+    "title": "release/22.x: [SelectionDAG] Fix fptoui.sat expansion using minnum/maxnum (#180178)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-04T08:38:31Z",
+    "closed_at": "2026-03-27T09:14:33Z",
+    "merged_at": null
+  },
+  {
+    "number": 184524,
+    "title": "[Benchmark] Fix warnings around usage of __COUNTER__",
+    "author": "boomanaiden154",
+    "state": "closed",
+    "created_at": "2026-03-04T00:54:53Z",
+    "closed_at": "2026-03-04T01:39:16Z",
+    "merged_at": "2026-03-04T01:39:16Z"
+  },
+  {
+    "number": 184395,
+    "title": "release/22.x: [clang-tidy] Fix yet another false positive in `readability-redundant-typename` (#184301)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-03T17:51:18Z",
+    "closed_at": "2026-03-06T17:21:05Z",
+    "merged_at": "2026-03-06T17:21:04Z"
+  },
+  {
+    "number": 184320,
+    "title": "release/22.x: [lldb] Don't link TestingSupport as a component (#184310)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-03T11:11:04Z",
+    "closed_at": "2026-03-05T20:11:54Z",
+    "merged_at": null
+  },
+  {
+    "number": 184314,
+    "title": "[AArch64] Ensure FPR128 callee-save stack offsets are aligned",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2026-03-03T10:28:54Z",
+    "closed_at": "2026-03-08T09:38:42Z",
+    "merged_at": "2026-03-08T09:38:42Z"
+  },
+  {
+    "number": 184301,
+    "title": "[clang-tidy] Fix yet another false positive in `readability-redundant-typename`",
+    "author": "localspook",
+    "state": "closed",
+    "created_at": "2026-03-03T08:57:29Z",
+    "closed_at": "2026-03-03T17:43:55Z",
+    "merged_at": "2026-03-03T17:43:55Z"
+  },
+  {
+    "number": 184288,
+    "title": "release/22.x: [clang] Don't use `VarDecl` of local variables as `ManglingContextDecl` for lambdas (#179035)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-03T03:39:19Z",
+    "closed_at": "2026-03-05T18:44:18Z",
+    "merged_at": null
+  },
+  {
+    "number": 184187,
+    "title": "release/22.x: [lldb][Target] Allow eLanguageTypeAssembly to use ScratchTypeSystemClang (#183771)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-02T17:46:50Z",
+    "closed_at": "2026-03-03T11:03:08Z",
+    "merged_at": null
+  },
+  {
+    "number": 184166,
+    "title": "release/22.x: [AArch64][PAC] Emit `!dbg` locations in `*_vfpthunk_` functions (#179688)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-02T16:24:17Z",
+    "closed_at": "2026-03-06T19:02:29Z",
+    "merged_at": "2026-03-06T19:02:29Z"
+  },
+  {
+    "number": 184095,
+    "title": "[clang-tidy] Correctly handle attributes in readability-inconsistent-ifelse-braces",
+    "author": "zeyi2",
+    "state": "closed",
+    "created_at": "2026-03-02T10:56:17Z",
+    "closed_at": "2026-03-07T04:17:16Z",
+    "merged_at": "2026-03-07T04:17:16Z"
+  },
+  {
+    "number": 184086,
+    "title": "release/22.x: [openmp][tests] Fix bug63197.c (#183508)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-02T09:57:18Z",
+    "closed_at": "2026-03-05T17:42:43Z",
+    "merged_at": null
+  },
+  {
+    "number": 184079,
+    "title": "release/22.x: [Clang] Check the underlying type dependency in concept checking guards",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-03-02T09:21:07Z",
+    "closed_at": "2026-03-13T20:19:03Z",
+    "merged_at": null
+  },
+  {
+    "number": 184039,
+    "title": "release/22.x: [clang] Add missing support for traversal kind in addMatcher overloads (#170953)",
+    "author": "localspook",
+    "state": "closed",
+    "created_at": "2026-03-01T20:55:22Z",
+    "closed_at": "2026-03-18T14:03:16Z",
+    "merged_at": null
+  },
+  {
+    "number": 183978,
+    "title": "release/22.x: [Hexagon] Define __HVX_IEEE_FP__ when -mhvx-ieee-fp is enabled (#183829)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-01T05:03:24Z",
+    "closed_at": "2026-03-06T14:48:39Z",
+    "merged_at": null
+  },
+  {
+    "number": 183968,
+    "title": "[clang] Backport: use typo-corrected name qualifier for expressions",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-28T23:24:22Z",
+    "closed_at": "2026-03-05T13:54:27Z",
+    "merged_at": "2026-03-05T13:54:27Z"
+  },
+  {
+    "number": 183865,
+    "title": "release/22.x: [NFC] Fix use-after-free: track TargetLibraryAnalysis in BasicAAResult invalidation (#183852)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-27T23:28:26Z",
+    "closed_at": "2026-03-05T17:30:11Z",
+    "merged_at": null
+  },
+  {
+    "number": 183852,
+    "title": "[NFC] Fix use-after-free: track TargetLibraryAnalysis in BasicAAResult invalidation",
+    "author": "dpaoliello",
+    "state": "closed",
+    "created_at": "2026-02-27T22:19:33Z",
+    "closed_at": "2026-02-27T23:19:14Z",
+    "merged_at": "2026-02-27T23:19:14Z"
+  },
+  {
+    "number": 183824,
+    "title": "[clang] Backport: fix transformation of substituted constant template\u2026",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-27T20:10:02Z",
+    "closed_at": "2026-02-28T09:27:17Z",
+    "merged_at": "2026-02-28T09:27:17Z"
+  },
+  {
+    "number": 183823,
+    "title": "[clang] Backport: allow canonicalizing assumed template names",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-27T20:06:42Z",
+    "closed_at": "2026-02-28T09:26:28Z",
+    "merged_at": "2026-02-28T09:26:28Z"
+  },
+  {
+    "number": 183821,
+    "title": "[clang] Backport: NestedNameSpecifier typo correction fix",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-27T20:03:39Z",
+    "closed_at": "2026-02-28T09:25:08Z",
+    "merged_at": "2026-02-28T09:25:07Z"
+  },
+  {
+    "number": 183820,
+    "title": "[clang] Backport: CodeGen: fix ConstantExpr LValue emission",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-27T20:01:39Z",
+    "closed_at": "2026-03-09T09:19:00Z",
+    "merged_at": null
+  },
+  {
+    "number": 183819,
+    "title": "[clang] Backport: stop error recovery in SFINAE for narrowing in converted constant expressions",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-27T19:58:44Z",
+    "closed_at": "2026-02-28T09:22:25Z",
+    "merged_at": "2026-02-28T09:22:25Z"
+  },
+  {
+    "number": 183817,
+    "title": "[clang] Backport: create local instantiation scope for matching template template parameters",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-02-27T19:53:58Z",
+    "closed_at": "2026-02-28T09:21:12Z",
+    "merged_at": "2026-02-28T09:21:12Z"
+  },
+  {
+    "number": 183775,
+    "title": "release/22.x: [OpenMP][omptest] Improve CMake and address review comments (#159416)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-27T17:22:42Z",
+    "closed_at": "2026-03-05T16:40:38Z",
+    "merged_at": null
+  },
+  {
+    "number": 183771,
+    "title": "[lldb][Target] Allow eLanguageTypeAssembly to use ScratchTypeSystemClang",
+    "author": "Michael137",
+    "state": "closed",
+    "created_at": "2026-02-27T17:04:26Z",
+    "closed_at": "2026-03-02T17:06:14Z",
+    "merged_at": "2026-03-02T17:06:14Z"
+  },
+  {
+    "number": 183741,
+    "title": "[win][clang] Fix devirtualization of vector deleting destructor call",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2026-02-27T14:12:36Z",
+    "closed_at": "2026-03-05T09:19:39Z",
+    "merged_at": "2026-03-05T09:19:39Z"
+  },
+  {
+    "number": 183734,
+    "title": "Backport fix gh 183344 ownership returns crash",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2026-02-27T12:54:19Z",
+    "closed_at": "2026-02-28T09:20:19Z",
+    "merged_at": "2026-02-28T09:20:19Z"
+  },
+  {
+    "number": 183722,
+    "title": "release/22.x: [libc++] Fix vector::append_range growing before the capacity is reached (#183264)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-27T10:20:30Z",
+    "closed_at": "2026-03-05T17:27:45Z",
+    "merged_at": null
+  },
+  {
+    "number": 183551,
+    "title": "release/22.x: [libc++] Introduce a escape hatch for the changed behavior of map and set search operations (#183190)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-26T15:30:22Z",
+    "closed_at": "2026-03-05T17:25:29Z",
+    "merged_at": null
+  },
+  {
+    "number": 183508,
+    "title": "[openmp][tests] Fix bug63197.c",
+    "author": "jprotze",
+    "state": "closed",
+    "created_at": "2026-02-26T12:20:29Z",
+    "closed_at": "2026-02-26T16:26:48Z",
+    "merged_at": "2026-02-26T16:26:48Z"
+  },
+  {
+    "number": 183376,
+    "title": "release/22.x: [Hexagon] Fix truncation to boolean vector that need widening (#182528)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-25T20:10:43Z",
+    "closed_at": "2026-03-10T03:30:53Z",
+    "merged_at": null
+  },
+  {
+    "number": 183313,
+    "title": "release/22.x: [AMDGPU] Ignore unused VALU src0/1/2 fields when disassembling (#175182)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-25T15:11:40Z",
+    "closed_at": "2026-03-09T09:50:46Z",
+    "merged_at": "2026-03-09T09:50:46Z"
+  },
+  {
+    "number": 183283,
+    "title": "release/22.x: [llvm][release] Note that some packages have 2 signature files (#183266)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-25T11:36:43Z",
+    "closed_at": "2026-02-28T08:43:48Z",
+    "merged_at": "2026-02-28T08:43:47Z"
+  },
+  {
+    "number": 183271,
+    "title": "release/22.x: [Clang] Don't diagnose missing members when looking at the instantiating class template",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-02-25T10:22:56Z",
+    "closed_at": "2026-02-28T09:15:52Z",
+    "merged_at": "2026-02-28T09:15:52Z"
+  },
+  {
+    "number": 183266,
+    "title": "[llvm][release] Note that some packages have 2 signature files",
+    "author": "DavidSpickett",
+    "state": "closed",
+    "created_at": "2026-02-25T09:34:04Z",
+    "closed_at": "2026-02-25T11:26:43Z",
+    "merged_at": "2026-02-25T11:26:43Z"
+  },
+  {
+    "number": 183264,
+    "title": "[libc++] Fix vector::append_range growing before the capacity is reached",
+    "author": "philnik777",
+    "state": "closed",
+    "created_at": "2026-02-25T09:14:57Z",
+    "closed_at": "2026-02-27T10:12:18Z",
+    "merged_at": "2026-02-27T10:12:17Z"
+  },
+  {
+    "number": 183190,
+    "title": "[libc++] Introduce a escape hatch for the changed behavior of map and set search operations",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2026-02-24T22:34:09Z",
+    "closed_at": "2026-02-26T15:23:00Z",
+    "merged_at": "2026-02-26T15:23:00Z"
+  },
+  {
+    "number": 183182,
+    "title": "release/22.x: [lldb/Target] Revert overly broad locking in StackFrameList::FetchFramesUpTo (#182969)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-24T22:09:56Z",
+    "closed_at": "2026-03-05T17:14:19Z",
+    "merged_at": null
+  },
+  {
+    "number": 183162,
+    "title": "release/22.x: [Hexagon] Disable new value jumps when packetizer is disabled (#180615)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-24T20:34:36Z",
+    "closed_at": "2026-03-05T17:11:29Z",
+    "merged_at": null
+  },
+  {
+    "number": 183054,
+    "title": "release/22.x: [openmp] Allow testing OpenMP in runtimes builds without a full clang build tree",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2026-02-24T13:23:50Z",
+    "closed_at": "2026-03-05T16:35:42Z",
+    "merged_at": "2026-03-05T16:35:42Z"
+  },
+  {
+    "number": 182969,
+    "title": "[lldb/Target] Revert overly broad locking in StackFrameList::FetchFramesUpTo",
+    "author": "medismailben",
+    "state": "closed",
+    "created_at": "2026-02-24T00:35:10Z",
+    "closed_at": "2026-02-24T18:20:36Z",
+    "merged_at": "2026-02-24T18:20:36Z"
+  },
+  {
+    "number": 182955,
+    "title": "release/22.x: [Hexagon] Fix extractHvxSubvectorPred shuffle mask for small predicates (#181364)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-23T22:53:35Z",
+    "closed_at": "2026-02-28T09:13:21Z",
+    "merged_at": null
+  },
+  {
+    "number": 182943,
+    "title": "[sanitizer_common] [Darwin] Adopt _dyld_get_dyld_header",
+    "author": "ndrewh",
+    "state": "closed",
+    "created_at": "2026-02-23T21:41:08Z",
+    "closed_at": "2026-02-24T16:29:37Z",
+    "merged_at": "2026-02-24T16:29:37Z"
+  },
+  {
+    "number": 182821,
+    "title": "[flang][ReleaseNotes] Add `do concurrent` parallelizatio note",
+    "author": "ergawy",
+    "state": "closed",
+    "created_at": "2026-02-23T09:13:32Z",
+    "closed_at": "2026-02-23T15:32:55Z",
+    "merged_at": null
+  },
+  {
+    "number": 182781,
+    "title": "release/22.x: Revert \"[InstCombine] Allow freezing multiple operands (#154336)\" (#182769)",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2026-02-22T23:10:59Z",
+    "closed_at": "2026-02-23T15:24:21Z",
+    "merged_at": "2026-02-23T15:24:21Z"
+  },
+  {
+    "number": 182769,
+    "title": "Revert \"[InstCombine] Allow freezing multiple operands (#154336)\"",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2026-02-22T19:52:20Z",
+    "closed_at": "2026-02-22T22:22:56Z",
+    "merged_at": "2026-02-22T22:22:56Z"
+  },
+  {
+    "number": 182756,
+    "title": "release/22.x: [LIT][LLVM-STRINGS]Make stdin tests shell-consistent (#176139)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-22T17:01:14Z",
+    "closed_at": "2026-03-07T18:33:03Z",
+    "merged_at": null
+  },
+  {
+    "number": 182755,
+    "title": "release/22.x: [Sema] Fix format-strings test on AIX (#180566)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-02-22T17:00:36Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 182739,
+    "title": "release/22.x: [SPARC] Set how many bytes load from or store to stack slot (#182674)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-22T12:29:23Z",
+    "closed_at": "2026-02-23T08:38:41Z",
+    "merged_at": "2026-02-23T08:38:41Z"
+  },
+  {
+    "number": 182726,
+    "title": "[release/22.x][clang] Avoid calling isInSystemMacro() too often (#182\u2026",
+    "author": "tbaederr",
+    "state": "closed",
+    "created_at": "2026-02-22T05:50:07Z",
+    "closed_at": "2026-02-23T16:07:15Z",
+    "merged_at": null
+  },
+  {
+    "number": 182674,
+    "title": "[SPARC] Set how many bytes load from or store to stack slot",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2026-02-21T13:58:02Z",
+    "closed_at": "2026-02-22T12:20:54Z",
+    "merged_at": "2026-02-22T12:20:54Z"
+  },
+  {
+    "number": 182641,
+    "title": "release/22.x: [Hexagon] Handle subreg copies between DoubleRegs and IntRegs (#181360)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-21T01:25:21Z",
+    "closed_at": "2026-02-23T14:40:02Z",
+    "merged_at": null
+  },
+  {
+    "number": 182606,
+    "title": "release/22.x: [Clang][CodeGen] Fix __builtin_counted_by_ref for nested struct FAMs (#182575) (#182590)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-20T22:28:53Z",
+    "closed_at": "2026-02-23T08:37:13Z",
+    "merged_at": "2026-02-23T08:37:13Z"
+  },
+  {
+    "number": 182590,
+    "title": "[Clang][CodeGen] Fix __builtin_counted_by_ref for nested struct FAMs (#182575)",
+    "author": "kees",
+    "state": "closed",
+    "created_at": "2026-02-20T20:49:16Z",
+    "closed_at": "2026-02-20T21:34:18Z",
+    "merged_at": "2026-02-20T21:34:18Z"
+  },
+  {
+    "number": 182476,
+    "title": "release/22.x: [clang] CodeGen: fix ConstantExpr LValue emission (#181057)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-20T11:28:01Z",
+    "closed_at": "2026-02-23T08:33:14Z",
+    "merged_at": "2026-02-23T08:33:14Z"
+  },
+  {
+    "number": 182418,
+    "title": "release/22.x: [Hexagon] Fix SplitVectors crash in HVX type legalization (#181377)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-20T01:36:31Z",
+    "closed_at": "2026-02-20T08:39:46Z",
+    "merged_at": "2026-02-20T08:39:46Z"
+  },
+  {
+    "number": 182394,
+    "title": "release/22.x: [RISCV] Correct the LMUL operand for __riscv_sf_vc_i_se_u8mf4 and __riscv_sf_vc_i_se_u8mf2 intrinsics. (#182345)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-19T22:49:29Z",
+    "closed_at": "2026-02-20T08:36:30Z",
+    "merged_at": "2026-02-20T08:36:30Z"
+  },
+  {
+    "number": 182345,
+    "title": "[RISCV] Correct the LMUL operand for __riscv_sf_vc_i_se_u8mf4 and __riscv_sf_vc_i_se_u8mf2 intrinsics.",
+    "author": "topperc",
+    "state": "closed",
+    "created_at": "2026-02-19T19:14:58Z",
+    "closed_at": "2026-02-19T22:42:12Z",
+    "merged_at": "2026-02-19T22:42:12Z"
+  },
+  {
+    "number": 182309,
+    "title": "release/22.x: [RISCV] Remove VMConstraint from VAESKF1_VI/VAESKF2_VI. (#181887)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-19T16:10:43Z",
+    "closed_at": "2026-02-20T09:32:27Z",
+    "merged_at": "2026-02-20T09:32:27Z"
+  },
+  {
+    "number": 182261,
+    "title": "[SimplifyCFG] process prof data when remove case in umin",
+    "author": "HerrCai0907",
+    "state": "closed",
+    "created_at": "2026-02-19T13:08:09Z",
+    "closed_at": "2026-02-19T23:03:28Z",
+    "merged_at": "2026-02-19T23:03:28Z"
+  },
+  {
+    "number": 182217,
+    "title": "[clang] Avoid calling isInSystemMacro() too often",
+    "author": "tbaederr",
+    "state": "closed",
+    "created_at": "2026-02-19T05:00:43Z",
+    "closed_at": "2026-02-22T05:21:34Z",
+    "merged_at": "2026-02-22T05:21:34Z"
+  },
+  {
+    "number": 182090,
+    "title": "Backport '[CMake] Update \"all\" project/runtimes (#179270)' to 22.x",
+    "author": "jcalvinowens",
+    "state": "closed",
+    "created_at": "2026-02-18T18:26:30Z",
+    "closed_at": "2026-03-22T04:41:44Z",
+    "merged_at": null
+  },
+  {
+    "number": 182044,
+    "title": "[clang-repl] Create virtual files for `input_line_N` buffers",
+    "author": "devajithvs",
+    "state": "closed",
+    "created_at": "2026-02-18T15:32:14Z",
+    "closed_at": "2026-03-04T10:15:59Z",
+    "merged_at": "2026-03-04T10:15:59Z"
+  },
+  {
+    "number": 181992,
+    "title": "release/22.x: [Polly][ScopInfo] Lazy Scop instantiation (#179535)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-18T10:43:17Z",
+    "closed_at": "2026-02-23T08:32:02Z",
+    "merged_at": "2026-02-23T08:32:02Z"
+  },
+  {
+    "number": 181985,
+    "title": "release/22.x: [AArch64][PAC] Mark $Scratch operand of AUTxMxN as earlyclobber (#173999)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-18T10:32:39Z",
+    "closed_at": "2026-02-23T15:26:47Z",
+    "merged_at": "2026-02-23T15:26:47Z"
+  },
+  {
+    "number": 181907,
+    "title": "release/22.x: [X86] Correctly call 16 byte atomic helpers on x86_64 Windows (#181356)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-17T21:04:17Z",
+    "closed_at": "2026-02-18T08:24:44Z",
+    "merged_at": "2026-02-18T08:24:44Z"
+  },
+  {
+    "number": 181887,
+    "title": "[RISCV] Remove VMConstraint from VAESKF1_VI/VAESKF2_VI.",
+    "author": "topperc",
+    "state": "closed",
+    "created_at": "2026-02-17T19:21:46Z",
+    "closed_at": "2026-02-18T04:03:40Z",
+    "merged_at": "2026-02-18T04:03:39Z"
+  },
+  {
+    "number": 181801,
+    "title": "release/22.x: [libc++] Fix FreeBSD atomic timed wait system call (#180400)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-17T11:13:20Z",
+    "closed_at": "2026-02-18T08:23:18Z",
+    "merged_at": "2026-02-18T08:23:18Z"
+  },
+  {
+    "number": 181799,
+    "title": "release/22.x: [MC][ARM] Don't set funcs to Thumb as a side effect of .hidden (#181156)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-17T10:49:34Z",
+    "closed_at": "2026-02-20T09:31:32Z",
+    "merged_at": "2026-02-20T09:31:32Z"
+  },
+  {
+    "number": 181428,
+    "title": "release/22.x: [libc++] Increase the minimum deployment target on macOS to 11.0 (#176094)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-13T22:11:15Z",
+    "closed_at": "2026-02-16T09:06:41Z",
+    "merged_at": "2026-02-16T09:06:41Z"
+  },
+  {
+    "number": 181415,
+    "title": "release/22.x: [libc++] Fix semaphore timed wait hanging on Windows (#180398)",
+    "author": "huixie90",
+    "state": "closed",
+    "created_at": "2026-02-13T20:20:06Z",
+    "closed_at": "2026-02-17T09:18:10Z",
+    "merged_at": "2026-02-17T09:18:10Z"
+  },
+  {
+    "number": 181380,
+    "title": "release/22.x: [lldb-dap] Add unknown request handler (#181109)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-13T16:09:23Z",
+    "closed_at": "2026-02-16T09:04:46Z",
+    "merged_at": "2026-02-16T09:04:46Z"
+  },
+  {
+    "number": 181356,
+    "title": "[X86] Correctly call 16 byte atomic helpers on x86_64 Windows",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2026-02-13T12:54:28Z",
+    "closed_at": "2026-02-16T22:18:45Z",
+    "merged_at": "2026-02-16T22:18:45Z"
+  },
+  {
+    "number": 181285,
+    "title": "release/22.x: workflows/release-binaries: Pass missing release-version input to upload-release-artifact (#180879)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-13T01:15:09Z",
+    "closed_at": "2026-02-16T09:01:52Z",
+    "merged_at": "2026-02-16T09:01:52Z"
+  },
+  {
+    "number": 181280,
+    "title": "release/22.x: workflows/release-documentation: Add release environment (#181063)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-13T01:06:13Z",
+    "closed_at": "2026-02-16T08:59:16Z",
+    "merged_at": "2026-02-16T08:59:16Z"
+  },
+  {
+    "number": 181277,
+    "title": "release/22.x: [flang] Fix -fno-omit-frame-pointer (#180507)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-13T00:21:07Z",
+    "closed_at": "2026-02-16T08:57:51Z",
+    "merged_at": "2026-02-16T08:57:51Z"
+  },
+  {
+    "number": 181226,
+    "title": "release/22.x: [clang-repl] Fix disambiguation of out-of-line member with private types (#178842)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-12T20:17:42Z",
+    "closed_at": "2026-02-16T08:56:39Z",
+    "merged_at": "2026-02-16T08:56:39Z"
+  },
+  {
+    "number": 181214,
+    "title": "release/22.x: [libc++] Fix native wait alignment (#180928)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-12T19:21:55Z",
+    "closed_at": "2026-02-16T08:53:47Z",
+    "merged_at": "2026-02-16T08:53:47Z"
+  },
+  {
+    "number": 181156,
+    "title": "[MC][ARM] Don't set funcs to Thumb as a side effect of .hidden",
+    "author": "statham-arm",
+    "state": "closed",
+    "created_at": "2026-02-12T14:44:43Z",
+    "closed_at": "2026-02-17T09:31:36Z",
+    "merged_at": "2026-02-17T09:31:36Z"
+  },
+  {
+    "number": 181147,
+    "title": "release/22.x: [SelectionDAG] Make sure demanded lanes for AND/MUL-by-zero are frozen (#180727)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-02-12T14:18:17Z",
+    "closed_at": "2026-02-16T08:51:31Z",
+    "merged_at": null
+  },
+  {
+    "number": 181140,
+    "title": "release/22.x: [AggressiveInstCombine] Create zext during store merge (#181125)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-12T13:48:14Z",
+    "closed_at": "2026-02-16T08:48:03Z",
+    "merged_at": "2026-02-16T08:48:03Z"
+  },
+  {
+    "number": 181138,
+    "title": "release/22.x: [libunwind] Fix building with EXCEPTION_DISPOSITION as enum (#180513)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-12T13:09:21Z",
+    "closed_at": "2026-02-16T08:46:33Z",
+    "merged_at": "2026-02-16T08:46:33Z"
+  },
+  {
+    "number": 181109,
+    "title": "[lldb-dap] Add unknown request handler",
+    "author": "DrSergei",
+    "state": "closed",
+    "created_at": "2026-02-12T09:27:36Z",
+    "closed_at": "2026-02-13T13:00:57Z",
+    "merged_at": "2026-02-13T13:00:57Z"
+  },
+  {
+    "number": 181063,
+    "title": "workflows/release-documentation: Add release environment",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-02-12T00:53:49Z",
+    "closed_at": "2026-02-12T23:01:44Z",
+    "merged_at": "2026-02-12T23:01:44Z"
+  },
+  {
+    "number": 181059,
+    "title": "release/22.x: [DTLTO][Windows] Expand short 8.3 form paths in ThinLTO module IDs",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-12T00:28:16Z",
+    "closed_at": "2026-02-18T08:19:26Z",
+    "merged_at": "2026-02-18T08:19:26Z"
+  },
+  {
+    "number": 181048,
+    "title": "release/22.x: [libc] Fix unit test dependency and respect LIBC_INCLUDE_BENCHMARKS (#180812)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-11T23:44:35Z",
+    "closed_at": "2026-02-12T07:59:30Z",
+    "merged_at": "2026-02-12T07:59:30Z"
+  },
+  {
+    "number": 180928,
+    "title": "[libc++] Fix native wait alignment",
+    "author": "huixie90",
+    "state": "closed",
+    "created_at": "2026-02-11T12:10:55Z",
+    "closed_at": "2026-02-12T19:14:19Z",
+    "merged_at": "2026-02-12T19:14:19Z"
+  },
+  {
+    "number": 180918,
+    "title": "[AArch64]Add SCR2_EL3 system register",
+    "author": "CarolineConcatto",
+    "state": "closed",
+    "created_at": "2026-02-11T11:18:48Z",
+    "closed_at": "2026-02-12T11:19:52Z",
+    "merged_at": "2026-02-12T11:19:52Z"
+  },
+  {
+    "number": 180914,
+    "title": "release/22.x: [IndVarSimplify] Add safety check for getTruncateExpr in genLoopLimit (#172234)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-11T10:46:16Z",
+    "closed_at": "2026-02-12T13:52:43Z",
+    "merged_at": null
+  },
+  {
+    "number": 180879,
+    "title": "workflows/release-binaries: Pass missing release-version input to upload-release-artifact",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-02-11T03:58:03Z",
+    "closed_at": "2026-02-13T01:07:19Z",
+    "merged_at": "2026-02-13T01:07:19Z"
+  },
+  {
+    "number": 180877,
+    "title": "release/22.x: Add release notes for the  PowerPC target.",
+    "author": "amy-kwan",
+    "state": "closed",
+    "created_at": "2026-02-11T03:07:37Z",
+    "closed_at": "2026-02-24T07:14:03Z",
+    "merged_at": null
+  },
+  {
+    "number": 180812,
+    "title": "[libc] Fix unit test dependency and respect LIBC_INCLUDE_BENCHMARKS",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2026-02-10T19:17:13Z",
+    "closed_at": "2026-02-10T20:08:49Z",
+    "merged_at": "2026-02-10T20:08:49Z"
+  },
+  {
+    "number": 180732,
+    "title": "release/22.x: [libc++] Only make comparators transparent in __tree if they don't cause a conversion (#179453)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-10T12:35:17Z",
+    "closed_at": "2026-02-11T10:09:07Z",
+    "merged_at": "2026-02-11T10:09:07Z"
+  },
+  {
+    "number": 180727,
+    "title": "[SelectionDAG] Make sure demanded lanes for AND/MUL-by-zero are frozen",
+    "author": "bjope",
+    "state": "closed",
+    "created_at": "2026-02-10T11:52:51Z",
+    "closed_at": "2026-02-12T09:58:29Z",
+    "merged_at": "2026-02-12T09:58:29Z"
+  },
+  {
+    "number": 180697,
+    "title": "release/22.x: [clang-format] Don't annotate C compound literal r_paren (#180436)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-10T07:44:30Z",
+    "closed_at": "2026-02-11T09:57:23Z",
+    "merged_at": "2026-02-11T09:57:23Z"
+  },
+  {
+    "number": 180653,
+    "title": "release/22.x: workflows/release-task: Use less privileged token for uploading release notes (#180299) (#180650)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-10T00:53:29Z",
+    "closed_at": "2026-02-10T07:49:50Z",
+    "merged_at": null
+  },
+  {
+    "number": 180650,
+    "title": "workflows/release-task: Use less privileged token for uploading release notes (#180299)",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-02-10T00:16:22Z",
+    "closed_at": "2026-02-10T00:37:52Z",
+    "merged_at": "2026-02-10T00:37:52Z"
+  },
+  {
+    "number": 180619,
+    "title": "release/22.x: [Hexagon] Fix encoding of packets with fixups followed by alignment (#179168)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-09T21:14:32Z",
+    "closed_at": "2026-02-18T08:18:11Z",
+    "merged_at": "2026-02-18T08:18:11Z"
+  },
+  {
+    "number": 180610,
+    "title": "release/22.x: [lld][Hexagon] Fix R_HEX_TPREL_11_X relocation on duplex instructions (#179860)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-09T20:53:12Z",
+    "closed_at": "2026-02-11T10:07:00Z",
+    "merged_at": "2026-02-11T10:07:00Z"
+  },
+  {
+    "number": 180583,
+    "title": "[flang][OpenMP] Improve locality check when determining DSA",
+    "author": "kparzysz",
+    "state": "closed",
+    "created_at": "2026-02-09T18:38:24Z",
+    "closed_at": "2026-02-09T21:54:01Z",
+    "merged_at": "2026-02-09T21:54:01Z"
+  },
+  {
+    "number": 180566,
+    "title": "[Sema] Fix format-strings test on AIX",
+    "author": "luporl",
+    "state": "closed",
+    "created_at": "2026-02-09T17:27:58Z",
+    "closed_at": "2026-02-09T21:42:22Z",
+    "merged_at": "2026-02-09T21:42:22Z"
+  },
+  {
+    "number": 180564,
+    "title": "release/22.x: workflows/release-task: Use less privileged token for uploading release notes (#180299)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-09T17:21:24Z",
+    "closed_at": "2026-02-10T00:54:18Z",
+    "merged_at": null
+  },
+  {
+    "number": 180513,
+    "title": "[libunwind] Fix building with EXCEPTION_DISPOSITION as enum",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2026-02-09T12:47:39Z",
+    "closed_at": "2026-02-11T22:31:09Z",
+    "merged_at": "2026-02-11T22:31:09Z"
+  },
+  {
+    "number": 180507,
+    "title": "[flang] Fix -fno-omit-frame-pointer",
+    "author": "kawashima-fj",
+    "state": "closed",
+    "created_at": "2026-02-09T11:24:19Z",
+    "closed_at": "2026-02-12T01:24:47Z",
+    "merged_at": "2026-02-12T01:24:47Z"
+  },
+  {
+    "number": 180400,
+    "title": "[libc++] Fix FreeBSD atomic timed wait system call",
+    "author": "huixie90",
+    "state": "closed",
+    "created_at": "2026-02-08T10:02:16Z",
+    "closed_at": "2026-02-16T18:27:09Z",
+    "merged_at": "2026-02-16T18:27:09Z"
+  },
+  {
+    "number": 180398,
+    "title": "[libc++] Fix semaphore timed wait hanging on Windows",
+    "author": "huixie90",
+    "state": "closed",
+    "created_at": "2026-02-08T09:24:30Z",
+    "closed_at": "2026-02-13T18:51:25Z",
+    "merged_at": "2026-02-13T18:51:25Z"
+  },
+  {
+    "number": 180370,
+    "title": "release/22.x: workflows/release-asset-audit: Split workflow into two jobs (#179833)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-07T21:38:06Z",
+    "closed_at": "2026-02-09T09:56:21Z",
+    "merged_at": "2026-02-09T09:56:20Z"
+  },
+  {
+    "number": 180322,
+    "title": "[FastISel] Lower call instruction with illegal type returned",
+    "author": "LuoYuanke",
+    "state": "closed",
+    "created_at": "2026-02-07T06:04:51Z",
+    "closed_at": "2026-03-10T03:56:31Z",
+    "merged_at": "2026-03-10T03:56:31Z"
+  },
+  {
+    "number": 180299,
+    "title": "workflows/release-task: Use less privileged token for uploading release notes",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-02-06T23:10:29Z",
+    "closed_at": "2026-02-09T17:09:35Z",
+    "merged_at": "2026-02-09T17:09:35Z"
+  },
+  {
+    "number": 180240,
+    "title": "AMDGPU: Use promotion to f32 path for log/log10 for f16 by default",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2026-02-06T17:32:40Z",
+    "closed_at": "2026-02-16T19:25:45Z",
+    "merged_at": "2026-02-16T19:25:45Z"
+  },
+  {
+    "number": 180206,
+    "title": "release/22.x: [ubsan][test] Skip Misc/Posix/static-link.cpp on Solaris (#175464)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-06T15:01:12Z",
+    "closed_at": "2026-02-09T09:55:06Z",
+    "merged_at": "2026-02-09T09:55:06Z"
+  },
+  {
+    "number": 180203,
+    "title": "release/22.x: [flang][OpenMP] Leave local automatic variables alone (#178739)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-06T14:53:03Z",
+    "closed_at": "2026-02-11T09:58:18Z",
+    "merged_at": "2026-02-11T09:58:18Z"
+  },
+  {
+    "number": 180198,
+    "title": "release/22.x: [lldb-dap] Remove end line and column from disassemble response (#180037)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-06T14:28:06Z",
+    "closed_at": "2026-02-09T09:53:59Z",
+    "merged_at": "2026-02-09T09:53:58Z"
+  },
+  {
+    "number": 180194,
+    "title": "[ReleaseNotes] Announce ending support for FreeBSD 13 and below in 23",
+    "author": "mchoo7",
+    "state": "closed",
+    "created_at": "2026-02-06T14:07:49Z",
+    "closed_at": "2026-02-11T10:02:53Z",
+    "merged_at": null
+  },
+  {
+    "number": 180110,
+    "title": "release/22.x: MIPS: readsWritesFloatRegister, inc Idx for continue (#179932)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-06T03:30:55Z",
+    "closed_at": "2026-02-19T08:14:11Z",
+    "merged_at": "2026-02-19T08:14:11Z"
+  },
+  {
+    "number": 180071,
+    "title": "release/22.x: [lldb] Backport FrameProviders fixes & improvements",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-05T23:38:36Z",
+    "closed_at": "2026-02-09T09:52:31Z",
+    "merged_at": "2026-02-09T09:52:31Z"
+  },
+  {
+    "number": 180037,
+    "title": "[lldb-dap] Remove end line and column from disassemble response",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-02-05T21:38:32Z",
+    "closed_at": "2026-02-06T12:04:23Z",
+    "merged_at": "2026-02-06T12:04:23Z"
+  },
+  {
+    "number": 180031,
+    "title": "release/22.x: lldb-dap: Stop using replicated variable ids (#124232)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-05T20:55:03Z",
+    "closed_at": "2026-02-06T09:30:55Z",
+    "merged_at": "2026-02-06T09:30:54Z"
+  },
+  {
+    "number": 179932,
+    "title": "MIPS: readsWritesFloatRegister, inc Idx for continue",
+    "author": "wzssyqa",
+    "state": "closed",
+    "created_at": "2026-02-05T12:18:29Z",
+    "closed_at": "2026-02-06T00:15:02Z",
+    "merged_at": "2026-02-06T00:15:02Z"
+  },
+  {
+    "number": 179893,
+    "title": "release/22.x: MIPS: Fix unsigned compare with zero in MipsSEInstrInfo::copyPhysReg (#179866)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-05T09:22:56Z",
+    "closed_at": "2026-02-09T09:51:11Z",
+    "merged_at": "2026-02-09T09:51:10Z"
+  },
+  {
+    "number": 179890,
+    "title": "release/22.x: [AArch64][SME] Add missing ZT0 transition (#179193)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-05T09:05:09Z",
+    "closed_at": "2026-02-06T09:27:35Z",
+    "merged_at": "2026-02-06T09:27:34Z"
+  },
+  {
+    "number": 179877,
+    "title": "release/22.x: [VPlan] Create edge mask for single-destination switch (#179107)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-05T07:58:21Z",
+    "closed_at": "2026-02-06T09:22:52Z",
+    "merged_at": "2026-02-06T09:22:51Z"
+  },
+  {
+    "number": 179867,
+    "title": "release/22.x: [ELF] Fix IRELATIVE addend if the resolver address is updated by linker relaxation (#179063)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-05T05:50:57Z",
+    "closed_at": "2026-02-12T07:55:53Z",
+    "merged_at": "2026-02-12T07:55:53Z"
+  },
+  {
+    "number": 179866,
+    "title": "MIPS: Fix unsigned compare with zero in MipsSEInstrInfo::copyPhysReg",
+    "author": "wzssyqa",
+    "state": "closed",
+    "created_at": "2026-02-05T05:41:13Z",
+    "closed_at": "2026-02-05T09:09:22Z",
+    "merged_at": "2026-02-05T09:09:22Z"
+  },
+  {
+    "number": 179833,
+    "title": "workflows/release-asset-audit: Split workflow into two jobs",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-02-05T01:41:21Z",
+    "closed_at": "2026-02-05T15:06:16Z",
+    "merged_at": "2026-02-05T15:06:16Z"
+  },
+  {
+    "number": 179816,
+    "title": "workflows/release-binaries: Add support for Windows ARM builds (#177609)",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-02-04T23:39:51Z",
+    "closed_at": "2026-02-10T07:47:45Z",
+    "merged_at": "2026-02-10T07:47:45Z"
+  },
+  {
+    "number": 179804,
+    "title": "release/22.x: workflows/release-binaries: Fix typo (#178732)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-04T22:33:56Z",
+    "closed_at": "2026-02-05T08:05:41Z",
+    "merged_at": "2026-02-05T08:05:41Z"
+  },
+  {
+    "number": 179688,
+    "title": "[AArch64][PAC] Emit `!dbg` locations in `*_vfpthunk_` functions",
+    "author": "atrosinenko",
+    "state": "closed",
+    "created_at": "2026-02-04T15:32:57Z",
+    "closed_at": "2026-02-28T11:35:10Z",
+    "merged_at": "2026-02-28T11:35:10Z"
+  },
+  {
+    "number": 179661,
+    "title": "[Backport][Clang] Rename uinc_wrap and add normal atomic builtin",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2026-02-04T13:52:24Z",
+    "closed_at": "2026-02-05T08:04:24Z",
+    "merged_at": "2026-02-05T08:04:24Z"
+  },
+  {
+    "number": 179657,
+    "title": "release/22.x: [HEXAGON] Extend/Truncate the shift amount into i32 (#179499)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-04T13:46:09Z",
+    "closed_at": "2026-02-09T09:50:07Z",
+    "merged_at": "2026-02-09T09:50:07Z"
+  },
+  {
+    "number": 179637,
+    "title": "release/22.x: [Sema] Fix ICE due to incorrect _Bool handling in format string checking",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-02-04T10:40:28Z",
+    "closed_at": "2026-02-05T08:02:02Z",
+    "merged_at": "2026-02-05T08:02:02Z"
+  },
+  {
+    "number": 179631,
+    "title": "release/22.x: [PowerPC] Only set QualName symbol on first section switch (#179253)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-04T09:28:19Z",
+    "closed_at": "2026-02-20T08:33:57Z",
+    "merged_at": "2026-02-20T08:33:57Z"
+  },
+  {
+    "number": 179535,
+    "title": "[Polly][ScopInfo] Lazy Scop instantiation",
+    "author": "Meinersbur",
+    "state": "closed",
+    "created_at": "2026-02-03T19:37:50Z",
+    "closed_at": "2026-02-16T22:28:52Z",
+    "merged_at": "2026-02-16T22:28:52Z"
+  },
+  {
+    "number": 179507,
+    "title": "Revert \"[SeparateConstOffsetFromGEP] Decompose constant xor operand if possible (#150438)\"",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2026-02-03T17:38:15Z",
+    "closed_at": "2026-02-04T09:35:46Z",
+    "merged_at": "2026-02-04T09:35:46Z"
+  },
+  {
+    "number": 179502,
+    "title": "release/22.x: [lldb] Add conversions for SBValueList and SBValue to the python bridge. (#178574)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-03T17:10:26Z",
+    "closed_at": "2026-02-05T23:28:54Z",
+    "merged_at": null
+  },
+  {
+    "number": 179500,
+    "title": "release/22.x: [lldb] Move ValueImpl and ValueLocker to ValueObject, NFC. (#178573)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-03T17:09:05Z",
+    "closed_at": "2026-02-04T08:18:05Z",
+    "merged_at": null
+  },
+  {
+    "number": 179496,
+    "title": "release/22.x: [libc] Tweak the runtimes cross-build for GPU (#178548)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-03T16:42:30Z",
+    "closed_at": "2026-02-04T09:34:15Z",
+    "merged_at": "2026-02-04T09:34:15Z"
+  },
+  {
+    "number": 179473,
+    "title": " release/22.x: [AArch64][SME] Limit where SME ABI optimizations apply (#179273)",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2026-02-03T14:24:58Z",
+    "closed_at": "2026-02-04T09:30:50Z",
+    "merged_at": "2026-02-04T09:30:50Z"
+  },
+  {
+    "number": 179457,
+    "title": "release/22.x: [libc++] Short-cut constraints of single-argument `any` constructor (#177082)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-03T13:39:45Z",
+    "closed_at": "2026-02-06T09:20:08Z",
+    "merged_at": "2026-02-06T09:20:08Z"
+  },
+  {
+    "number": 179453,
+    "title": "[libc++] Only make comparators transparent in __tree if they don't cause a conversion",
+    "author": "philnik777",
+    "state": "closed",
+    "created_at": "2026-02-03T12:47:00Z",
+    "closed_at": "2026-02-10T12:26:56Z",
+    "merged_at": "2026-02-10T12:26:55Z"
+  },
+  {
+    "number": 179445,
+    "title": "Backport \"Fix crash when copying uninitialized data in function named \"swap\"\"",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2026-02-03T12:07:45Z",
+    "closed_at": "2026-02-04T09:14:58Z",
+    "merged_at": null
+  },
+  {
+    "number": 179424,
+    "title": "Attributor: Use anchor scope for SimplifyQuery context (#178958)",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2026-02-03T10:27:05Z",
+    "closed_at": "2026-02-04T09:10:59Z",
+    "merged_at": "2026-02-04T09:10:59Z"
+  },
+  {
+    "number": 179421,
+    "title": "release/22.x: [SelectionDAG] Use promoted types when creating nodes after type legalization (#178617)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-03T10:07:08Z",
+    "closed_at": "2026-02-04T10:01:41Z",
+    "merged_at": "2026-02-04T10:01:41Z"
+  },
+  {
+    "number": 179404,
+    "title": "release/22.x: [X86][APX] Disable PP2/PPX generation on Windows (#178122)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-03T06:49:14Z",
+    "closed_at": "2026-02-03T09:22:22Z",
+    "merged_at": "2026-02-03T09:22:22Z"
+  },
+  {
+    "number": 179339,
+    "title": "Revert \"[SeparateConstOffsetFromGEP] Decompose constant xor operand if possible\"",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2026-02-02T21:36:03Z",
+    "closed_at": "2026-02-03T11:33:15Z",
+    "merged_at": "2026-02-03T11:33:15Z"
+  },
+  {
+    "number": 179273,
+    "title": "[AArch64][SME] Limit where SME ABI optimizations apply",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2026-02-02T16:16:42Z",
+    "closed_at": "2026-02-03T11:19:08Z",
+    "merged_at": "2026-02-03T11:19:08Z"
+  },
+  {
+    "number": 179259,
+    "title": "[flang][OpenMP] Add source range to construct scopes",
+    "author": "kparzysz",
+    "state": "closed",
+    "created_at": "2026-02-02T15:39:16Z",
+    "closed_at": "2026-02-03T15:01:30Z",
+    "merged_at": "2026-02-03T15:01:30Z"
+  },
+  {
+    "number": 179253,
+    "title": "[PowerPC] Only set QualName symbol on first section switch",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-02-02T15:19:20Z",
+    "closed_at": "2026-02-04T09:21:07Z",
+    "merged_at": "2026-02-04T09:21:07Z"
+  },
+  {
+    "number": 179199,
+    "title": "release/22.x: [lldb] Fix memory monitor shutdown on Linux using eventfd (#178083)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-02T10:26:06Z",
+    "closed_at": "2026-02-10T07:30:00Z",
+    "merged_at": "2026-02-10T07:30:00Z"
+  },
+  {
+    "number": 179196,
+    "title": "release/22.x: [lldb] Fix SBBreakpointName::SetEnabled to propagate changes to breakpoints (#178734)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-02T10:22:03Z",
+    "closed_at": "2026-02-03T09:19:36Z",
+    "merged_at": "2026-02-03T09:19:36Z"
+  },
+  {
+    "number": 179193,
+    "title": "[AArch64][SME] Add missing ZT0 transition",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2026-02-02T10:00:04Z",
+    "closed_at": "2026-02-05T08:57:23Z",
+    "merged_at": "2026-02-05T08:57:23Z"
+  },
+  {
+    "number": 179188,
+    "title": "release/22.x: [AArch64][GlobalISel] Do no skip zext in getTestBitReg. (#177991)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-02T09:30:34Z",
+    "closed_at": "2026-02-03T09:17:06Z",
+    "merged_at": "2026-02-03T09:17:06Z"
+  },
+  {
+    "number": 179181,
+    "title": "release/22.x: [PowerPC] Fix miscompilation when using 32-bit ucmp on 64-bit PowerPC (#178979)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-02T08:30:48Z",
+    "closed_at": "2026-02-04T09:02:39Z",
+    "merged_at": "2026-02-04T09:02:39Z"
+  },
+  {
+    "number": 179153,
+    "title": "release/22.x: [Clang] Fix the normalization of fold constraints (#177531)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-02T02:05:30Z",
+    "closed_at": "2026-02-24T07:08:41Z",
+    "merged_at": "2026-02-24T07:08:41Z"
+  },
+  {
+    "number": 179117,
+    "title": "release/22.x: [X86] getScalarMaskingNode - FIXUPIMM scalar ops take upper elements from second operand (#179101)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-02-01T16:10:09Z",
+    "closed_at": "2026-02-03T09:15:34Z",
+    "merged_at": "2026-02-03T09:15:34Z"
+  },
+  {
+    "number": 179107,
+    "title": "[VPlan] Create edge mask for single-destination switch",
+    "author": "Noratrieb",
+    "state": "closed",
+    "created_at": "2026-02-01T13:31:09Z",
+    "closed_at": "2026-02-05T07:50:57Z",
+    "merged_at": "2026-02-05T07:50:57Z"
+  },
+  {
+    "number": 179063,
+    "title": "[ELF] Fix IRELATIVE addend if the resolver address is updated by linker relaxation",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2026-01-31T18:55:54Z",
+    "closed_at": "2026-01-31T21:51:03Z",
+    "merged_at": "2026-01-31T21:51:03Z"
+  },
+  {
+    "number": 178979,
+    "title": "[PowerPC] Fix miscompilation when using 32-bit ucmp on 64-bit PowerPC",
+    "author": "SiliconA-Z",
+    "state": "closed",
+    "created_at": "2026-01-30T22:20:50Z",
+    "closed_at": "2026-02-02T08:00:40Z",
+    "merged_at": "2026-02-02T08:00:40Z"
+  },
+  {
+    "number": 178970,
+    "title": "release/22.x: Attributor: Use anchor scope for SimplifyQuery context (#178958)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-30T21:44:53Z",
+    "closed_at": "2026-02-03T10:27:21Z",
+    "merged_at": null
+  },
+  {
+    "number": 178961,
+    "title": "release/22.x: [SystemZ] Bugfix: Add VLR16 to SystemZInstrInfo::copyPhysReg(). (#178932)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-30T21:05:03Z",
+    "closed_at": "2026-02-02T09:07:21Z",
+    "merged_at": "2026-02-02T09:07:21Z"
+  },
+  {
+    "number": 178958,
+    "title": "Attributor: Use anchor scope for SimplifyQuery context",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2026-01-30T20:44:26Z",
+    "closed_at": "2026-01-30T21:38:07Z",
+    "merged_at": "2026-01-30T21:38:07Z"
+  },
+  {
+    "number": 178947,
+    "title": "release/22.x: [ELFDebugObjectPlugin] Do not wait for std::future in post-fixup phase in the absent of debug info (#178541)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-30T19:25:52Z",
+    "closed_at": "2026-02-02T09:05:52Z",
+    "merged_at": "2026-02-02T09:05:52Z"
+  },
+  {
+    "number": 178932,
+    "title": "[SystemZ] Add VLR16 to SystemZInstrInfo::copyPhysReg().",
+    "author": "JonPsson1",
+    "state": "closed",
+    "created_at": "2026-01-30T18:08:11Z",
+    "closed_at": "2026-01-30T20:55:07Z",
+    "merged_at": "2026-01-30T20:55:07Z"
+  },
+  {
+    "number": 178924,
+    "title": "release/22.x: [DOC][DTLTO] Update DTLTO documentation for the LLVM 22 release (#177368)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-30T17:28:07Z",
+    "closed_at": "2026-02-02T09:04:19Z",
+    "merged_at": "2026-02-02T09:04:19Z"
+  },
+  {
+    "number": 178866,
+    "title": "ValueTracking: Revert noundef checks in computeKnownFPClass for fmul/fma",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2026-01-30T11:11:42Z",
+    "closed_at": "2026-02-03T09:14:20Z",
+    "merged_at": "2026-02-03T09:14:20Z"
+  },
+  {
+    "number": 178859,
+    "title": "release/22.x: [DTLTO] support distributing bitcode from FatLTO objects (#176928)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-30T10:24:07Z",
+    "closed_at": "2026-02-02T08:59:50Z",
+    "merged_at": "2026-02-02T08:59:50Z"
+  },
+  {
+    "number": 178857,
+    "title": "release/22.x: [SimplifyCFG] Fix null pointer dereference in foldCondBranchOnValueKnownInPredecessorImpl (#178835)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-30T10:12:59Z",
+    "closed_at": "2026-02-02T08:57:22Z",
+    "merged_at": "2026-02-02T08:57:22Z"
+  },
+  {
+    "number": 178850,
+    "title": "ValueTracking: Revert noundef checks in computeKnownFPClass for fmul/fma",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2026-01-30T09:28:10Z",
+    "closed_at": "2026-01-30T10:48:36Z",
+    "merged_at": "2026-01-30T10:48:36Z"
+  },
+  {
+    "number": 178835,
+    "title": "[SimplifyCFG] Fix null pointer dereference in foldCondBranchOnValueKnownInPredecessorImpl",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2026-01-30T05:13:39Z",
+    "closed_at": "2026-01-30T10:04:51Z",
+    "merged_at": "2026-01-30T10:04:51Z"
+  },
+  {
+    "number": 178823,
+    "title": "[lldb] Fix variable access in old SBFrames after inferior function calls",
+    "author": "medismailben",
+    "state": "closed",
+    "created_at": "2026-01-30T03:28:23Z",
+    "closed_at": "2026-02-03T03:12:35Z",
+    "merged_at": "2026-02-03T03:12:35Z"
+  },
+  {
+    "number": 178753,
+    "title": "release/22.x: [lldb-dap] Fix the completion provided to the DAP client. (#177151)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T21:01:55Z",
+    "closed_at": "2026-01-30T08:36:34Z",
+    "merged_at": "2026-01-30T08:36:34Z"
+  },
+  {
+    "number": 178748,
+    "title": "[AMDGPU] Fix DEALLOC_VGPRS in the presence of spills to scratch (#178461)",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2026-01-29T20:33:36Z",
+    "closed_at": "2026-01-30T08:34:35Z",
+    "merged_at": "2026-01-30T08:34:35Z"
+  },
+  {
+    "number": 178739,
+    "title": "[flang][OpenMP] Leave local automatic variables alone",
+    "author": "kparzysz",
+    "state": "closed",
+    "created_at": "2026-01-29T19:43:22Z",
+    "closed_at": "2026-02-04T13:20:21Z",
+    "merged_at": "2026-02-04T13:20:20Z"
+  },
+  {
+    "number": 178737,
+    "title": "release/22.x: [InlineSpiller] Hoist spills only when all of its subranges are available (#177703)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T19:35:50Z",
+    "closed_at": "2026-01-30T08:31:03Z",
+    "merged_at": "2026-01-30T08:31:03Z"
+  },
+  {
+    "number": 178734,
+    "title": "[lldb] Fix SBBreakpointName::SetEnabled to propagate changes to breakpoints",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-29T19:17:18Z",
+    "closed_at": "2026-01-30T10:20:46Z",
+    "merged_at": "2026-01-30T10:20:46Z"
+  },
+  {
+    "number": 178732,
+    "title": "workflows/release-binaries: Fix typo",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-29T19:14:37Z",
+    "closed_at": "2026-02-04T22:26:43Z",
+    "merged_at": "2026-02-04T22:26:43Z"
+  },
+  {
+    "number": 178701,
+    "title": "release/22.x: [SystemZ][z/OS] Handle labels for parts (#175665)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T17:17:18Z",
+    "closed_at": "2026-02-19T21:43:25Z",
+    "merged_at": null
+  },
+  {
+    "number": 178698,
+    "title": "release/22.x: [SystemZ] Implement ctor/dtor emission via @@SQINIT and .xtor sections (#171476)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T16:58:19Z",
+    "closed_at": "2026-01-30T08:29:19Z",
+    "merged_at": "2026-01-30T08:29:18Z"
+  },
+  {
+    "number": 178693,
+    "title": "release/22.x: Revert \"[RISCV] Support RISCV BitInt larger than 128 (#175515)\" (#178311)",
+    "author": "topperc",
+    "state": "closed",
+    "created_at": "2026-01-29T16:11:39Z",
+    "closed_at": "2026-01-30T08:26:38Z",
+    "merged_at": "2026-01-30T08:26:38Z"
+  },
+  {
+    "number": 178679,
+    "title": "release/22.x: Fix insert DBG_VALUE after terminator Failure for Hexagon (#173401)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T15:28:33Z",
+    "closed_at": "2026-01-30T08:25:09Z",
+    "merged_at": "2026-01-30T08:25:08Z"
+  },
+  {
+    "number": 178672,
+    "title": "release/22.x: [AArch64][SME2] Allow lowering to whilelo.x2 in non-streaming mode (#178399)",
+    "author": "kmclaughlin-arm",
+    "state": "closed",
+    "created_at": "2026-01-29T15:16:40Z",
+    "closed_at": "2026-02-02T08:56:08Z",
+    "merged_at": "2026-02-02T08:56:08Z"
+  },
+  {
+    "number": 178646,
+    "title": "release/22.x: [lldb-dap][windows] allow STDIN to be a console (#178642)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T12:27:48Z",
+    "closed_at": "2026-01-30T08:22:56Z",
+    "merged_at": "2026-01-30T08:22:56Z"
+  },
+  {
+    "number": 178642,
+    "title": "[lldb-dap][windows] allow STDIN to be a console",
+    "author": "charles-zablit",
+    "state": "closed",
+    "created_at": "2026-01-29T11:56:45Z",
+    "closed_at": "2026-01-29T12:20:51Z",
+    "merged_at": "2026-01-29T12:20:51Z"
+  },
+  {
+    "number": 178640,
+    "title": "release/22.x: [LoongArch][DAG] Custom lowering for vector SETCC operations (#177904)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T11:39:36Z",
+    "closed_at": "2026-01-30T08:20:27Z",
+    "merged_at": "2026-01-30T08:20:27Z"
+  },
+  {
+    "number": 178633,
+    "title": "release/22.x: [lldb-dap][windows] allow STDIN to be a console (#178409)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T11:06:28Z",
+    "closed_at": "2026-01-29T11:42:26Z",
+    "merged_at": null
+  },
+  {
+    "number": 178617,
+    "title": "[SelectionDAG] Use promoted types when creating nodes after type legalization",
+    "author": "zhaoqi5",
+    "state": "closed",
+    "created_at": "2026-01-29T08:37:40Z",
+    "closed_at": "2026-02-03T09:56:20Z",
+    "merged_at": "2026-02-03T09:56:20Z"
+  },
+  {
+    "number": 178592,
+    "title": "release/22.x: workflows/release-tasks: Add missing needs tag to release-lit job (#178224)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-29T04:47:17Z",
+    "closed_at": "2026-01-29T08:52:25Z",
+    "merged_at": "2026-01-29T08:52:25Z"
+  },
+  {
+    "number": 178575,
+    "title": "[lldb] Add support for ScriptedFrame to provide values/variables.",
+    "author": "bzcheeseman",
+    "state": "closed",
+    "created_at": "2026-01-29T03:00:31Z",
+    "closed_at": "2026-01-30T05:24:18Z",
+    "merged_at": "2026-01-30T05:24:18Z"
+  },
+  {
+    "number": 178574,
+    "title": "[lldb] Add conversions for SBValueList and SBValue to the python bridge.",
+    "author": "bzcheeseman",
+    "state": "closed",
+    "created_at": "2026-01-29T03:00:30Z",
+    "closed_at": "2026-01-29T19:38:51Z",
+    "merged_at": "2026-01-29T19:38:50Z"
+  },
+  {
+    "number": 178573,
+    "title": "[lldb] Move ValueImpl and ValueLocker to ValueObject, NFC.",
+    "author": "bzcheeseman",
+    "state": "closed",
+    "created_at": "2026-01-29T03:00:28Z",
+    "closed_at": "2026-01-29T19:12:21Z",
+    "merged_at": "2026-01-29T19:12:21Z"
+  },
+  {
+    "number": 178548,
+    "title": "[libc] Tweak the runtimes cross-build for GPU",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2026-01-29T00:02:56Z",
+    "closed_at": "2026-02-03T16:35:18Z",
+    "merged_at": "2026-02-03T16:35:18Z"
+  },
+  {
+    "number": 178541,
+    "title": "[ELFDebugObjectPlugin] Do not wait for std::future in post-fixup phase in the absent of debug info",
+    "author": "mshockwave",
+    "state": "closed",
+    "created_at": "2026-01-28T23:38:20Z",
+    "closed_at": "2026-01-29T18:24:26Z",
+    "merged_at": "2026-01-29T18:24:26Z"
+  },
+  {
+    "number": 178501,
+    "title": "release/22.x: [WebAssembly] Fix crash in ReplaceNodeResults for ANY_EXTEND_VECTOR_INREG (#178374)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T20:02:32Z",
+    "closed_at": "2026-01-29T08:54:32Z",
+    "merged_at": "2026-01-29T08:54:32Z"
+  },
+  {
+    "number": 178497,
+    "title": "release/22.x: [clang] Check that first modular_format argument is an identifier (#178322)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T19:30:32Z",
+    "closed_at": "2026-01-30T08:17:30Z",
+    "merged_at": "2026-01-30T08:17:30Z"
+  },
+  {
+    "number": 178485,
+    "title": "release/22.x: [flang] Remove `AmbiguousStructureConstructor` warnings (#178088)",
+    "author": "ktras",
+    "state": "closed",
+    "created_at": "2026-01-28T19:00:37Z",
+    "closed_at": "2026-01-29T08:51:04Z",
+    "merged_at": null
+  },
+  {
+    "number": 178480,
+    "title": "[Windows][Support] Add helper to expand short 8.3 form paths",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-28T18:27:05Z",
+    "closed_at": "2026-02-10T16:44:02Z",
+    "merged_at": "2026-02-10T16:44:02Z"
+  },
+  {
+    "number": 178478,
+    "title": "release/22.x: [flang] Document experimental support for multi-image features (#178011)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T18:20:50Z",
+    "closed_at": "2026-01-29T08:45:17Z",
+    "merged_at": "2026-01-29T08:45:16Z"
+  },
+  {
+    "number": 178466,
+    "title": "release/22.x: [lldb-dap] Fix debugger initialisation order in DAP::InitializeDebugger (#178022)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T16:59:07Z",
+    "closed_at": "2026-01-29T08:42:33Z",
+    "merged_at": "2026-01-29T08:42:33Z"
+  },
+  {
+    "number": 178461,
+    "title": "[AMDGPU] Fix DEALLOC_VGPRS in the presence of spills to scratch",
+    "author": "jayfoad",
+    "state": "closed",
+    "created_at": "2026-01-28T16:33:09Z",
+    "closed_at": "2026-01-29T19:57:16Z",
+    "merged_at": "2026-01-29T19:57:16Z"
+  },
+  {
+    "number": 178442,
+    "title": "release/22.x: [Hexagon] Fix PIC crash when lowering HVX vector constants (#175413)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T15:14:26Z",
+    "closed_at": "2026-02-05T08:00:17Z",
+    "merged_at": "2026-02-05T08:00:17Z"
+  },
+  {
+    "number": 178433,
+    "title": "release/22.x: [ShrinkWrap] Ensure we do not crash on unreachable blocks. (#178009)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T14:24:25Z",
+    "closed_at": "2026-01-29T08:40:08Z",
+    "merged_at": "2026-01-29T08:40:08Z"
+  },
+  {
+    "number": 178431,
+    "title": "release/22.x: [Support] Move loadSystemModuleSecure into Process.inc. NFC. (#177598)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T14:17:02Z",
+    "closed_at": "2026-02-02T08:54:59Z",
+    "merged_at": "2026-02-02T08:54:58Z"
+  },
+  {
+    "number": 178399,
+    "title": "[AArch64][SME2] Allow lowering to whilelo.x2 in non-streaming mode",
+    "author": "kmclaughlin-arm",
+    "state": "closed",
+    "created_at": "2026-01-28T11:09:13Z",
+    "closed_at": "2026-01-29T13:58:25Z",
+    "merged_at": "2026-01-29T13:58:25Z"
+  },
+  {
+    "number": 178378,
+    "title": "release/22.x: [IRMover] Use signature for exact definition (#177381)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T08:24:57Z",
+    "closed_at": "2026-01-29T08:35:37Z",
+    "merged_at": "2026-01-29T08:35:37Z"
+  },
+  {
+    "number": 178374,
+    "title": "[WebAssembly] Fix crash in ReplaceNodeResults for ANY_EXTEND_VECTOR_INREG",
+    "author": "ParkHanbum",
+    "state": "closed",
+    "created_at": "2026-01-28T08:07:50Z",
+    "closed_at": "2026-01-28T11:45:05Z",
+    "merged_at": "2026-01-28T11:45:04Z"
+  },
+  {
+    "number": 178334,
+    "title": "release/22.x: [hexagon] Add dylib cmake + toolchain_only (#177247)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-28T01:42:01Z",
+    "closed_at": "2026-02-18T08:14:45Z",
+    "merged_at": null
+  },
+  {
+    "number": 178322,
+    "title": "[clang] Check that first modular_format argument is an identifier",
+    "author": "mysterymath",
+    "state": "closed",
+    "created_at": "2026-01-27T23:54:20Z",
+    "closed_at": "2026-01-28T19:20:56Z",
+    "merged_at": "2026-01-28T19:20:56Z"
+  },
+  {
+    "number": 178305,
+    "title": "[DTLTO][release/22.x] Add DTLTO LLVM release note",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-27T22:12:31Z",
+    "closed_at": "2026-01-30T08:14:25Z",
+    "merged_at": null
+  },
+  {
+    "number": 178303,
+    "title": "[DTLTO][Windows] Expand short 8.3 form paths in ThinLTO module IDs",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-27T21:43:46Z",
+    "closed_at": "2026-02-11T21:20:26Z",
+    "merged_at": "2026-02-11T21:20:26Z"
+  },
+  {
+    "number": 178300,
+    "title": "release/22.x: [SystemZ] Support fp16 vector ABI and basic codegen. (#171066)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T21:31:47Z",
+    "closed_at": "2026-01-29T08:15:31Z",
+    "merged_at": "2026-01-29T08:15:31Z"
+  },
+  {
+    "number": 178297,
+    "title": "release/22.x: [SystemZ] Precommit for moving some functions around. (#177441)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T21:28:21Z",
+    "closed_at": "2026-01-28T08:57:32Z",
+    "merged_at": null
+  },
+  {
+    "number": 178280,
+    "title": "release/22.x: [MIPS][ISel] Fix musttail (#161860)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T19:27:11Z",
+    "closed_at": "2026-01-29T07:43:17Z",
+    "merged_at": null
+  },
+  {
+    "number": 178231,
+    "title": "release/22.x: [RISCV] Run combineOrToBitfieldInsert after DAG legalize (#177830)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T15:25:54Z",
+    "closed_at": "2026-01-28T09:29:52Z",
+    "merged_at": "2026-01-28T09:29:52Z"
+  },
+  {
+    "number": 178224,
+    "title": "workflows/release-tasks: Add missing needs tag to release-lit job",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-27T15:06:10Z",
+    "closed_at": "2026-01-29T04:39:37Z",
+    "merged_at": "2026-01-29T04:39:36Z"
+  },
+  {
+    "number": 178197,
+    "title": "release/22.x: [ARM] Count register copies when estimating function size (#175763)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T12:53:04Z",
+    "closed_at": "2026-01-28T09:28:29Z",
+    "merged_at": "2026-01-28T09:28:29Z"
+  },
+  {
+    "number": 178193,
+    "title": "release/22.x: [Clang] prevent assertion in __has_embed parameter recovery at end-of-directive",
+    "author": "a-tarasyuk",
+    "state": "closed",
+    "created_at": "2026-01-27T12:46:36Z",
+    "closed_at": "2026-01-28T09:31:19Z",
+    "merged_at": "2026-01-28T09:31:19Z"
+  },
+  {
+    "number": 178171,
+    "title": "[flang] propagate IVDEP in array expressions optimization",
+    "author": "jeanPerier",
+    "state": "closed",
+    "created_at": "2026-01-27T11:53:50Z",
+    "closed_at": "2026-01-27T14:19:14Z",
+    "merged_at": "2026-01-27T14:19:14Z"
+  },
+  {
+    "number": 178162,
+    "title": "release/22.x: [lldb][windows] do not attach to a PseudoConsole if it is not opened (#177934)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T11:04:32Z",
+    "closed_at": "2026-01-28T09:27:22Z",
+    "merged_at": "2026-01-28T09:27:22Z"
+  },
+  {
+    "number": 178152,
+    "title": "release/22.x: [flang] fix DIR IVDEP for array assignments inside loops (#177940)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T10:25:15Z",
+    "closed_at": "2026-01-29T08:12:44Z",
+    "merged_at": "2026-01-29T08:12:44Z"
+  },
+  {
+    "number": 178133,
+    "title": "release/22.x: [Sema] Fix ICE due to incorrect _Bool handling in format string checking (#174684)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-27T07:59:38Z",
+    "closed_at": "2026-02-04T10:30:09Z",
+    "merged_at": null
+  },
+  {
+    "number": 178122,
+    "title": "[X86][APX] Disable PP2/PPX generation on Windows",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2026-01-27T06:36:19Z",
+    "closed_at": "2026-02-02T10:01:45Z",
+    "merged_at": "2026-02-02T10:01:45Z"
+  },
+  {
+    "number": 178088,
+    "title": "[flang] Remove `AmbiguousStructureConstructor` warnings",
+    "author": "ktras",
+    "state": "closed",
+    "created_at": "2026-01-27T00:28:59Z",
+    "closed_at": "2026-01-28T18:32:41Z",
+    "merged_at": "2026-01-28T18:32:41Z"
+  },
+  {
+    "number": 178083,
+    "title": "[lldb] Fix memory monitor shutdown on Linux using eventfd",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-26T23:40:56Z",
+    "closed_at": "2026-01-29T10:01:17Z",
+    "merged_at": "2026-01-29T10:01:17Z"
+  },
+  {
+    "number": 178035,
+    "title": "release/22.x: [DTLTO] Make temporary file handling consistent (#176807)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-26T19:39:10Z",
+    "closed_at": "2026-01-30T08:11:46Z",
+    "merged_at": "2026-01-30T08:11:46Z"
+  },
+  {
+    "number": 178022,
+    "title": "[lldb-dap] Fix debugger initialisation order in DAP::InitializeDebugger",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-26T19:15:46Z",
+    "closed_at": "2026-01-28T16:51:12Z",
+    "merged_at": "2026-01-28T16:51:12Z"
+  },
+  {
+    "number": 178011,
+    "title": "[flang] Document experimental support for multi-image features",
+    "author": "bonachea",
+    "state": "closed",
+    "created_at": "2026-01-26T18:11:33Z",
+    "closed_at": "2026-01-28T18:11:36Z",
+    "merged_at": "2026-01-28T18:11:36Z"
+  },
+  {
+    "number": 177976,
+    "title": "[AArch64] Fix sign-extend-inreg combine for i1 types",
+    "author": "sdesmalen-arm",
+    "state": "closed",
+    "created_at": "2026-01-26T15:16:19Z",
+    "closed_at": "2026-01-30T08:26:36Z",
+    "merged_at": "2026-01-30T08:26:36Z"
+  },
+  {
+    "number": 177974,
+    "title": "release/22.x: [ARM] Fix inlining issue in ARM (#169337)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-26T15:07:19Z",
+    "closed_at": "2026-01-29T08:08:09Z",
+    "merged_at": "2026-01-29T08:08:08Z"
+  },
+  {
+    "number": 177965,
+    "title": "release/22.x: [flang][Lower] Fix UB in location handling (#177944)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-26T14:14:04Z",
+    "closed_at": "2026-01-27T08:05:27Z",
+    "merged_at": "2026-01-27T08:05:27Z"
+  },
+  {
+    "number": 177958,
+    "title": "release/22.x: [clang][LoongArch] Update release notes for LoongArch32 support",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2026-01-26T13:26:00Z",
+    "closed_at": "2026-01-27T08:08:25Z",
+    "merged_at": "2026-01-27T08:08:25Z"
+  },
+  {
+    "number": 177957,
+    "title": "release/22.x: [lld][LoongArch] Update release notes for LoongArch32 support",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2026-01-26T13:25:27Z",
+    "closed_at": "2026-01-26T23:22:04Z",
+    "merged_at": null
+  },
+  {
+    "number": 177956,
+    "title": "release/22.x: [LoongArch] Update release notes for LoongArch32 support",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2026-01-26T13:24:10Z",
+    "closed_at": "2026-01-27T08:07:11Z",
+    "merged_at": "2026-01-27T08:07:11Z"
+  },
+  {
+    "number": 177944,
+    "title": "[flang][Lower] Fix UB in location handling",
+    "author": "tblah",
+    "state": "closed",
+    "created_at": "2026-01-26T12:43:52Z",
+    "closed_at": "2026-01-26T14:06:50Z",
+    "merged_at": "2026-01-26T14:06:50Z"
+  },
+  {
+    "number": 177940,
+    "title": "[flang] fix DIR IVDEP for array assignments inside loops",
+    "author": "jeanPerier",
+    "state": "closed",
+    "created_at": "2026-01-26T12:18:34Z",
+    "closed_at": "2026-01-27T09:18:41Z",
+    "merged_at": "2026-01-27T09:18:41Z"
+  },
+  {
+    "number": 177934,
+    "title": "[lldb][windows] do not attach to a PseudoConsole if it is not opened",
+    "author": "charles-zablit",
+    "state": "closed",
+    "created_at": "2026-01-26T12:02:14Z",
+    "closed_at": "2026-01-26T18:56:23Z",
+    "merged_at": "2026-01-26T18:56:23Z"
+  },
+  {
+    "number": 177907,
+    "title": "release/22.x: [MC] Try to fix ubsan bot",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-26T08:29:50Z",
+    "closed_at": "2026-02-03T09:23:09Z",
+    "merged_at": "2026-02-03T09:23:09Z"
+  },
+  {
+    "number": 177904,
+    "title": "[LoongArch][DAG] Custom lowering for vector SETCC operations",
+    "author": "woruyu",
+    "state": "closed",
+    "created_at": "2026-01-26T07:25:23Z",
+    "closed_at": "2026-01-29T05:48:21Z",
+    "merged_at": "2026-01-29T05:48:21Z"
+  },
+  {
+    "number": 177830,
+    "title": "[RISCV] Run combineOrToBitfieldInsert after DAG legalize",
+    "author": "svs-quic",
+    "state": "closed",
+    "created_at": "2026-01-25T05:12:31Z",
+    "closed_at": "2026-01-26T10:13:00Z",
+    "merged_at": "2026-01-26T10:13:00Z"
+  },
+  {
+    "number": 177774,
+    "title": "release/22.x: [SLPVectorizer] Check std::optional coming out of getPointersDiff (#175784)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-24T15:32:03Z",
+    "closed_at": "2026-01-26T09:41:57Z",
+    "merged_at": null
+  },
+  {
+    "number": 177703,
+    "title": "[InlineSpiller] Hoist spills only when all of its subranges are available",
+    "author": "mshockwave",
+    "state": "closed",
+    "created_at": "2026-01-23T23:29:28Z",
+    "closed_at": "2026-01-29T19:27:02Z",
+    "merged_at": "2026-01-29T19:27:02Z"
+  },
+  {
+    "number": 177685,
+    "title": "release/22.x: [AMDGPU][Test][AIX] use tr instead of sed for line split (#175557)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-23T21:52:51Z",
+    "closed_at": "2026-01-26T09:39:29Z",
+    "merged_at": null
+  },
+  {
+    "number": 177675,
+    "title": "release/22.x: [Clang] Fix rewrite-includes-bom.c to use POSIX-compliant regex (#176043)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-23T20:23:41Z",
+    "closed_at": "2026-01-28T09:25:16Z",
+    "merged_at": "2026-01-28T09:25:16Z"
+  },
+  {
+    "number": 177668,
+    "title": "[lldb] Fix test_chained_frame_providers on 32-bit Arm",
+    "author": "luporl",
+    "state": "closed",
+    "created_at": "2026-01-23T19:59:30Z",
+    "closed_at": "2026-01-23T21:04:57Z",
+    "merged_at": "2026-01-23T21:04:57Z"
+  },
+  {
+    "number": 177619,
+    "title": "release/22.x: [PowerPC] Fix instruction sizes / branch relaxation (#175556)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-23T17:16:01Z",
+    "closed_at": "2026-01-27T08:03:07Z",
+    "merged_at": "2026-01-27T08:03:07Z"
+  },
+  {
+    "number": 177609,
+    "title": "workflows/release-binaries: Add support for Windows ARM builds",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-23T16:27:56Z",
+    "closed_at": "2026-02-04T22:36:42Z",
+    "merged_at": "2026-02-04T22:36:42Z"
+  },
+  {
+    "number": 177598,
+    "title": "[Support] Move loadSystemModuleSecure into Process.inc. NFC.",
+    "author": "aganea",
+    "state": "closed",
+    "created_at": "2026-01-23T15:01:44Z",
+    "closed_at": "2026-01-23T15:58:42Z",
+    "merged_at": "2026-01-23T15:58:42Z"
+  },
+  {
+    "number": 177531,
+    "title": "[Clang] Fix the normalization of fold constraints",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-01-23T06:03:12Z",
+    "closed_at": "2026-01-23T09:16:42Z",
+    "merged_at": "2026-01-23T09:16:42Z"
+  },
+  {
+    "number": 177494,
+    "title": "release/22.x: [llvm-exegesis] Add -mtriple to AArch64 test (#177485)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T23:51:28Z",
+    "closed_at": "2026-01-23T08:53:46Z",
+    "merged_at": "2026-01-23T08:53:46Z"
+  },
+  {
+    "number": 177485,
+    "title": "[llvm-exegesis] Add -mtriple to AArch64 test",
+    "author": "UsmanNadeem",
+    "state": "closed",
+    "created_at": "2026-01-22T22:47:42Z",
+    "closed_at": "2026-01-22T23:40:27Z",
+    "merged_at": "2026-01-22T23:40:27Z"
+  },
+  {
+    "number": 177475,
+    "title": "release/22.x: [DTLTO][NFC] Minor cleanups and improvements to DTLTO tests (#177282)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T21:27:21Z",
+    "closed_at": "2026-01-26T09:25:27Z",
+    "merged_at": null
+  },
+  {
+    "number": 177460,
+    "title": "release/22.x: [flang][ReleaseNotes] Mention experimental multi-image feature",
+    "author": "bonachea",
+    "state": "closed",
+    "created_at": "2026-01-22T20:44:00Z",
+    "closed_at": "2026-01-23T07:57:53Z",
+    "merged_at": null
+  },
+  {
+    "number": 177443,
+    "title": "release/22.x: [AArch64] Don't skip storing stack arguments in case of size mismatch (#177360)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T19:29:13Z",
+    "closed_at": "2026-01-27T08:01:40Z",
+    "merged_at": "2026-01-27T08:01:40Z"
+  },
+  {
+    "number": 177441,
+    "title": "[SystemZ] Precommit for moving some functions around.",
+    "author": "JonPsson1",
+    "state": "closed",
+    "created_at": "2026-01-22T19:14:22Z",
+    "closed_at": "2026-01-22T19:18:37Z",
+    "merged_at": "2026-01-22T19:18:37Z"
+  },
+  {
+    "number": 177383,
+    "title": "release/22.x: [clang][modules] Read PCM validation timestamp earlier (#177062)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T15:48:19Z",
+    "closed_at": "2026-01-26T09:30:12Z",
+    "merged_at": "2026-01-26T09:30:12Z"
+  },
+  {
+    "number": 177381,
+    "title": "[IRMover] Use signature for exact definition",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-01-22T15:32:21Z",
+    "closed_at": "2026-01-26T08:47:30Z",
+    "merged_at": "2026-01-26T08:47:30Z"
+  },
+  {
+    "number": 177368,
+    "title": "[DOC][DTLTO] Update DTLTO documentation for the LLVM 22 release",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-22T14:24:29Z",
+    "closed_at": "2026-01-30T16:17:20Z",
+    "merged_at": "2026-01-30T16:17:20Z"
+  },
+  {
+    "number": 177365,
+    "title": "release/22.x: [AMDGPU] Fix inline constant encoding for `v_pk_fmac_f16` (#176659)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T14:18:20Z",
+    "closed_at": "2026-01-23T07:50:55Z",
+    "merged_at": "2026-01-23T07:50:55Z"
+  },
+  {
+    "number": 177360,
+    "title": "[AArch64] Don't skip storing stack arguments in case of size mismatch",
+    "author": "eleviant",
+    "state": "closed",
+    "created_at": "2026-01-22T13:33:16Z",
+    "closed_at": "2026-01-22T16:39:05Z",
+    "merged_at": "2026-01-22T16:39:04Z"
+  },
+  {
+    "number": 177351,
+    "title": "release/22.x: [lldb] Fix crash when there is no compile unit. (#177278)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T12:37:01Z",
+    "closed_at": "2026-01-27T08:00:30Z",
+    "merged_at": "2026-01-27T08:00:30Z"
+  },
+  {
+    "number": 177331,
+    "title": "release/22.x: [RISCV]Remove experimental from Zalasr (#177120)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T10:13:19Z",
+    "closed_at": "2026-01-23T07:47:46Z",
+    "merged_at": "2026-01-23T07:47:45Z"
+  },
+  {
+    "number": 177324,
+    "title": "release/22.x: [AArch64] Fix partial_reduce v16i8 -> v2i32 (#177119)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T09:20:02Z",
+    "closed_at": "2026-01-23T07:46:32Z",
+    "merged_at": null
+  },
+  {
+    "number": 177320,
+    "title": "release/22.x: [MC] Explicitly use memcpy in emitBytes() (NFC) (#177187)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T08:32:31Z",
+    "closed_at": "2026-01-23T07:41:14Z",
+    "merged_at": "2026-01-23T07:41:14Z"
+  },
+  {
+    "number": 177319,
+    "title": "release/22.x: [TargetParser] Fix fp16 feature name for ARM64 Windows feature detection (#176925)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T08:30:17Z",
+    "closed_at": "2026-01-23T07:38:55Z",
+    "merged_at": "2026-01-23T07:38:55Z"
+  },
+  {
+    "number": 177313,
+    "title": "release/22.x: [RISCV] Add ZZZ_ to some inline assembly vector register classes to sort them after VR/VRNoV0 in regclass enum. (#177087)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T07:19:15Z",
+    "closed_at": "2026-01-27T08:04:12Z",
+    "merged_at": "2026-01-27T08:04:12Z"
+  },
+  {
+    "number": 177306,
+    "title": "release/22.x: [ELF] --why-live: Skip symbol at index 0 and section symbols, handle .eh_frame symbols (#177099)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-22T04:42:15Z",
+    "closed_at": "2026-01-22T09:02:18Z",
+    "merged_at": "2026-01-22T09:02:17Z"
+  },
+  {
+    "number": 177282,
+    "title": "[DTLTO][NFC] Minor cleanups and improvements to DTLTO tests",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-22T00:22:54Z",
+    "closed_at": "2026-01-22T00:48:32Z",
+    "merged_at": "2026-01-22T00:48:32Z"
+  },
+  {
+    "number": 177278,
+    "title": "[lldb] Fix crash when there is no compile unit.",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-22T00:12:43Z",
+    "closed_at": "2026-01-22T12:29:53Z",
+    "merged_at": "2026-01-22T12:29:53Z"
+  },
+  {
+    "number": 177253,
+    "title": "[Clang] Rename `uinc_wrap` and add normal atomic builtin",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2026-01-21T22:02:40Z",
+    "closed_at": "2026-01-22T14:02:46Z",
+    "merged_at": "2026-01-22T14:02:45Z"
+  },
+  {
+    "number": 177247,
+    "title": "[hexagon] Add dylib cmake + toolchain_only",
+    "author": "androm3da",
+    "state": "closed",
+    "created_at": "2026-01-21T21:34:56Z",
+    "closed_at": "2026-01-28T01:34:44Z",
+    "merged_at": "2026-01-28T01:34:44Z"
+  },
+  {
+    "number": 177227,
+    "title": "release/22.x: [flang-rt] Fix system_clock scaling on MacOS (#176753)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T20:05:12Z",
+    "closed_at": "2026-01-23T07:36:15Z",
+    "merged_at": "2026-01-23T07:36:15Z"
+  },
+  {
+    "number": 177187,
+    "title": "[MC] Explicitly use memcpy in emitBytes() (NFC)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-01-21T15:56:58Z",
+    "closed_at": "2026-01-22T08:24:05Z",
+    "merged_at": "2026-01-22T08:24:05Z"
+  },
+  {
+    "number": 177171,
+    "title": "release/22.x: [AArch64][Driver] Allow runtime detection to override default features. (#176340)",
+    "author": "rj-jesus",
+    "state": "closed",
+    "created_at": "2026-01-21T14:00:55Z",
+    "closed_at": "2026-01-26T09:28:32Z",
+    "merged_at": null
+  },
+  {
+    "number": 177169,
+    "title": "release/22.x: [AArch64][SME] Disable tail calls in new ZA/ZT0 functions (#177152)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T13:45:49Z",
+    "closed_at": "2026-01-22T08:48:23Z",
+    "merged_at": "2026-01-22T08:48:23Z"
+  },
+  {
+    "number": 177152,
+    "title": "[AArch64][SME] Disable tail calls in new ZA/ZT0 functions",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2026-01-21T12:35:56Z",
+    "closed_at": "2026-01-21T13:38:07Z",
+    "merged_at": "2026-01-21T13:38:07Z"
+  },
+  {
+    "number": 177151,
+    "title": "[lldb-dap] Fix the completion provided to the DAP client.",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-21T12:25:33Z",
+    "closed_at": "2026-01-26T12:06:55Z",
+    "merged_at": "2026-01-26T12:06:55Z"
+  },
+  {
+    "number": 177139,
+    "title": "release/22.x: [AArch64] Disable FEAT_RNG on Grace. (#166387)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T10:24:32Z",
+    "closed_at": "2026-01-23T07:35:09Z",
+    "merged_at": "2026-01-23T07:35:09Z"
+  },
+  {
+    "number": 177138,
+    "title": "release/22.x: [AArch64] Protect against unexpected SIGN_EXTEND_INREG in performBuildShuffleExtendCombine (#176733)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T10:22:00Z",
+    "closed_at": "2026-01-23T07:33:55Z",
+    "merged_at": "2026-01-23T07:33:54Z"
+  },
+  {
+    "number": 177121,
+    "title": "release/22.x: [Clang][AArch64] Add ACLE macros to support Armv9.6 (#176755)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T09:03:10Z",
+    "closed_at": "2026-02-09T09:46:18Z",
+    "merged_at": "2026-02-09T09:46:18Z"
+  },
+  {
+    "number": 177120,
+    "title": "[RISCV]Remove experimental from Zalasr",
+    "author": "ChunyuLiao",
+    "state": "closed",
+    "created_at": "2026-01-21T09:01:18Z",
+    "closed_at": "2026-01-22T09:30:38Z",
+    "merged_at": "2026-01-22T09:30:38Z"
+  },
+  {
+    "number": 177119,
+    "title": "[AArch64] Fix partial_reduce v16i8 -> v2i32",
+    "author": "sdesmalen-arm",
+    "state": "closed",
+    "created_at": "2026-01-21T08:54:06Z",
+    "closed_at": "2026-01-22T09:11:13Z",
+    "merged_at": "2026-01-22T09:11:13Z"
+  },
+  {
+    "number": 177111,
+    "title": "release/22.x: [llvm][utils] Remove source owner check from merge-release-pr script (#176949)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T07:52:48Z",
+    "closed_at": "2026-01-22T08:20:48Z",
+    "merged_at": "2026-01-22T08:20:48Z"
+  },
+  {
+    "number": 177104,
+    "title": "release/22.x: [LoongArch] Remove DAG combination for extractelement (#177083)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T06:50:10Z",
+    "closed_at": "2026-01-22T08:33:07Z",
+    "merged_at": "2026-01-22T08:33:07Z"
+  },
+  {
+    "number": 177101,
+    "title": "release/22.x: [RISCV][llvm] Correct code generation of fma on zvfbfa (#176716)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-21T06:38:18Z",
+    "closed_at": "2026-01-21T08:10:55Z",
+    "merged_at": "2026-01-21T08:10:55Z"
+  },
+  {
+    "number": 177099,
+    "title": "[ELF] --why-live: Skip symbol at index 0 and section symbols, handle .eh_frame symbols",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2026-01-21T06:24:34Z",
+    "closed_at": "2026-01-22T02:58:36Z",
+    "merged_at": "2026-01-22T02:58:35Z"
+  },
+  {
+    "number": 177088,
+    "title": "release/22.x: Add release notes for lld",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2026-01-21T04:06:47Z",
+    "closed_at": "2026-01-27T07:58:51Z",
+    "merged_at": null
+  },
+  {
+    "number": 177087,
+    "title": "[RISCV] Add ZZZ_ to some inline assembly vector register classes to sort them after VR/VRNoV0 in regclass enum.",
+    "author": "topperc",
+    "state": "closed",
+    "created_at": "2026-01-21T03:49:46Z",
+    "closed_at": "2026-01-22T05:23:07Z",
+    "merged_at": "2026-01-22T05:23:07Z"
+  },
+  {
+    "number": 177085,
+    "title": "[clangd] Add clangd 22 release notes",
+    "author": "HighCommander4",
+    "state": "closed",
+    "created_at": "2026-01-21T02:56:34Z",
+    "closed_at": "2026-01-22T08:59:38Z",
+    "merged_at": null
+  },
+  {
+    "number": 177083,
+    "title": "[LoongArch] Remove DAG combination for extractelement",
+    "author": "zhaoqi5",
+    "state": "closed",
+    "created_at": "2026-01-21T02:39:46Z",
+    "closed_at": "2026-01-21T06:42:18Z",
+    "merged_at": "2026-01-21T06:42:18Z"
+  },
+  {
+    "number": 177082,
+    "title": "[libc++] Short-cut constraints of single-argument `any` constructor",
+    "author": "frederick-vs-ja",
+    "state": "closed",
+    "created_at": "2026-01-21T02:09:55Z",
+    "closed_at": "2026-02-02T16:48:55Z",
+    "merged_at": "2026-02-02T16:48:55Z"
+  },
+  {
+    "number": 177062,
+    "title": "[clang][modules] Read PCM validation timestamp earlier",
+    "author": "jansvoboda11",
+    "state": "closed",
+    "created_at": "2026-01-20T23:59:23Z",
+    "closed_at": "2026-01-22T15:15:26Z",
+    "merged_at": "2026-01-22T15:15:26Z"
+  },
+  {
+    "number": 177047,
+    "title": "release/22.x: [SPARC] Prevent RESTORE from sourcing from %o7 in call delay slots (#172593)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T22:48:38Z",
+    "closed_at": "2026-01-21T08:07:04Z",
+    "merged_at": "2026-01-21T08:07:04Z"
+  },
+  {
+    "number": 176949,
+    "title": "[llvm][utils] Remove source owner check from merge-release-pr script",
+    "author": "c-rhodes",
+    "state": "closed",
+    "created_at": "2026-01-20T15:52:51Z",
+    "closed_at": "2026-01-21T07:08:37Z",
+    "merged_at": "2026-01-21T07:08:37Z"
+  },
+  {
+    "number": 176943,
+    "title": "release/22.x: [flang][OpenMP] Allow assumed-size arrays on USE_DEVICE_ADDR clause (#176815)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T15:25:57Z",
+    "closed_at": "2026-01-21T08:04:09Z",
+    "merged_at": "2026-01-21T08:04:09Z"
+  },
+  {
+    "number": 176942,
+    "title": "release/22.x: [flang][OpenMP] Allow ALLOC/RELEASE in place of STORAGE in 6.0 (#176810)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T15:25:40Z",
+    "closed_at": "2026-01-23T07:29:46Z",
+    "merged_at": "2026-01-23T07:29:46Z"
+  },
+  {
+    "number": 176939,
+    "title": "release/22.x: [libc++] Introduce a native timed wait in the synchronization library (#172214)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T15:08:02Z",
+    "closed_at": "2026-01-21T08:02:46Z",
+    "merged_at": "2026-01-21T08:02:45Z"
+  },
+  {
+    "number": 176928,
+    "title": "[DTLTO] support distributing bitcode from FatLTO objects",
+    "author": "rosefromthedead",
+    "state": "closed",
+    "created_at": "2026-01-20T14:21:50Z",
+    "closed_at": "2026-01-28T17:45:59Z",
+    "merged_at": "2026-01-28T17:45:59Z"
+  },
+  {
+    "number": 176925,
+    "title": "[TargetParser] Fix fp16 feature name for ARM64 Windows feature detection",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-01-20T13:39:59Z",
+    "closed_at": "2026-01-22T08:23:10Z",
+    "merged_at": "2026-01-22T08:23:10Z"
+  },
+  {
+    "number": 176899,
+    "title": "release/22.x: [RISCV] Fix i64 gather/scatter cost on rv32 (#176105)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T11:27:18Z",
+    "closed_at": "2026-01-28T09:23:20Z",
+    "merged_at": "2026-01-28T09:23:20Z"
+  },
+  {
+    "number": 176888,
+    "title": "release/22.x: [BranchFolding][WinEH] Do not remove EH pads (#176735)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T10:13:51Z",
+    "closed_at": "2026-01-26T09:17:51Z",
+    "merged_at": "2026-01-26T09:17:51Z"
+  },
+  {
+    "number": 176887,
+    "title": "release/22.x: [X86][WinEH] Insert nop after unwinding inline assembly (#176393)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T10:12:42Z",
+    "closed_at": "2026-01-26T09:16:44Z",
+    "merged_at": "2026-01-26T09:16:44Z"
+  },
+  {
+    "number": 176876,
+    "title": "[-Wunsafe-buffer-usage] Separate flag for format-attributed functions (#175749)",
+    "author": "zmodem",
+    "state": "closed",
+    "created_at": "2026-01-20T09:10:25Z",
+    "closed_at": "2026-01-21T08:00:14Z",
+    "merged_at": null
+  },
+  {
+    "number": 176874,
+    "title": "release/22.x: Revert \"[LoongArch] Lowering flog2 to flogb (#162978)\"",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T08:18:31Z",
+    "closed_at": "2026-01-20T15:44:38Z",
+    "merged_at": "2026-01-20T15:44:38Z"
+  },
+  {
+    "number": 176850,
+    "title": "Revert \"[LoongArch] Lowering flog2 to flogb (#162978)\"",
+    "author": "wangleiat",
+    "state": "closed",
+    "created_at": "2026-01-20T03:13:14Z",
+    "closed_at": "2026-01-20T06:53:14Z",
+    "merged_at": "2026-01-20T06:53:14Z"
+  },
+  {
+    "number": 176848,
+    "title": "release/22.x: [Clang] Ensure a lambda DeclContext in BuildLambdaExpr (#176319)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T02:03:24Z",
+    "closed_at": "2026-01-20T15:41:41Z",
+    "merged_at": "2026-01-20T15:41:41Z"
+  },
+  {
+    "number": 176846,
+    "title": "release/22.x: workflows/release-lit: Update workflow and enable trusted publishing with pypi (#174907)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T01:18:46Z",
+    "closed_at": "2026-01-20T15:38:14Z",
+    "merged_at": "2026-01-20T15:38:14Z"
+  },
+  {
+    "number": 176843,
+    "title": "release/22.x: workflows/release-binaries: Fix digest generation on macOS (#176440)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-20T00:08:58Z",
+    "closed_at": "2026-01-20T15:28:35Z",
+    "merged_at": "2026-01-20T15:28:35Z"
+  },
+  {
+    "number": 176815,
+    "title": "[flang][OpenMP] Allow assumed-size arrays on USE_DEVICE_ADDR clause",
+    "author": "kparzysz",
+    "state": "closed",
+    "created_at": "2026-01-19T20:35:36Z",
+    "closed_at": "2026-01-20T14:04:04Z",
+    "merged_at": "2026-01-20T14:04:04Z"
+  },
+  {
+    "number": 176814,
+    "title": "release/22.x: [libc++] Update `__cpp_lib_flat_set` to `202511L` according to P3567R2 (#176297)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-19T20:34:51Z",
+    "closed_at": "2026-01-20T15:46:38Z",
+    "merged_at": "2026-01-20T15:46:38Z"
+  },
+  {
+    "number": 176813,
+    "title": "release/22.x: [libc++] define FTM __cpp_lib_ranges_zip (#176569)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-19T20:33:03Z",
+    "closed_at": "2026-01-20T15:13:33Z",
+    "merged_at": "2026-01-20T15:13:33Z"
+  },
+  {
+    "number": 176811,
+    "title": "[libc++][22.x] Target the release runners for the LLVM 22 release branch",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2026-01-19T20:24:21Z",
+    "closed_at": "2026-01-22T09:05:43Z",
+    "merged_at": null
+  },
+  {
+    "number": 176810,
+    "title": "[flang][OpenMP] Allow ALLOC/RELEASE in place of STORAGE in 6.0",
+    "author": "kparzysz",
+    "state": "closed",
+    "created_at": "2026-01-19T20:23:10Z",
+    "closed_at": "2026-01-19T20:36:46Z",
+    "merged_at": "2026-01-19T20:36:46Z"
+  },
+  {
+    "number": 176807,
+    "title": "[DTLTO] Make temporary file handling consistent",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-19T19:57:25Z",
+    "closed_at": "2026-01-26T17:55:49Z",
+    "merged_at": "2026-01-26T17:55:49Z"
+  },
+  {
+    "number": 176796,
+    "title": "release/22.x: [lldb-dap] Fix Completions Request crash (#176211)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-19T18:18:44Z",
+    "closed_at": "2026-01-21T07:50:31Z",
+    "merged_at": "2026-01-21T07:50:31Z"
+  },
+  {
+    "number": 176773,
+    "title": "release/22.x: [CGP][AArch64] Do not sink instructions that might read/write memory. (#176182)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-19T16:07:46Z",
+    "closed_at": "2026-01-20T15:06:40Z",
+    "merged_at": "2026-01-20T15:06:40Z"
+  },
+  {
+    "number": 176768,
+    "title": "release/22.x: [LLDB][Windows] Store PTY in `ProcessWindows` (#175837)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-19T15:40:44Z",
+    "closed_at": "2026-01-20T12:57:54Z",
+    "merged_at": "2026-01-20T12:57:54Z"
+  },
+  {
+    "number": 176758,
+    "title": "release/22.x: [DTLTO] Add DTLTO-specific LTO input handling time-trace scopes (#175799)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-19T14:37:13Z",
+    "closed_at": "2026-01-20T12:55:38Z",
+    "merged_at": "2026-01-20T12:55:37Z"
+  },
+  {
+    "number": 176755,
+    "title": "[Clang][AArch64] Add ACLE macros to support Armv9.6",
+    "author": "CarolineConcatto",
+    "state": "closed",
+    "created_at": "2026-01-19T13:58:51Z",
+    "closed_at": "2026-01-21T08:41:54Z",
+    "merged_at": "2026-01-21T08:41:54Z"
+  },
+  {
+    "number": 176753,
+    "title": "[flang-rt] Fix system_clock scaling on MacOS",
+    "author": "tblah",
+    "state": "closed",
+    "created_at": "2026-01-19T13:36:38Z",
+    "closed_at": "2026-01-19T17:54:15Z",
+    "merged_at": "2026-01-19T17:54:15Z"
+  },
+  {
+    "number": 176716,
+    "title": "[RISCV][llvm] Correct code generation of fma on zvfbfa",
+    "author": "4vtomat",
+    "state": "closed",
+    "created_at": "2026-01-19T09:58:40Z",
+    "closed_at": "2026-01-21T06:26:20Z",
+    "merged_at": "2026-01-21T06:26:20Z"
+  },
+  {
+    "number": 176700,
+    "title": "release/22.x: [LoongArch] Add support for LA32R/LA32S",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2026-01-19T07:42:36Z",
+    "closed_at": "2026-01-22T08:27:43Z",
+    "merged_at": "2026-01-22T08:27:43Z"
+  },
+  {
+    "number": 176659,
+    "title": "[AMDGPU] Fix inline constant encoding for `v_pk_fmac_f16`",
+    "author": "shiltian",
+    "state": "closed",
+    "created_at": "2026-01-18T17:21:01Z",
+    "closed_at": "2026-01-21T00:15:00Z",
+    "merged_at": "2026-01-21T00:15:00Z"
+  },
+  {
+    "number": 176626,
+    "title": "release/22.x: [SCCP] Correct range calculation for get.vector.length to use getUnsignedMax instead of getUpper. (#176493)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-18T05:40:26Z",
+    "closed_at": "2026-01-19T10:30:06Z",
+    "merged_at": null
+  },
+  {
+    "number": 176618,
+    "title": "release/22.x: workflows/release-binaries: Fix attestation artifact name (#176417)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-18T01:08:17Z",
+    "closed_at": "2026-01-19T10:26:53Z",
+    "merged_at": null
+  },
+  {
+    "number": 176614,
+    "title": "release/22.x: workflows/upload-release-artifact: Fix spelling error in yaml tag (#176447)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-18T00:17:58Z",
+    "closed_at": "2026-01-19T10:24:07Z",
+    "merged_at": "2026-01-19T10:24:07Z"
+  },
+  {
+    "number": 176613,
+    "title": "release/22.x: workflows/release-binaries: Pass user-token to upload-release-artifact (#176410)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-18T00:17:27Z",
+    "closed_at": "2026-01-19T10:22:56Z",
+    "merged_at": "2026-01-19T10:22:56Z"
+  },
+  {
+    "number": 176569,
+    "title": "[libc++] define FTM __cpp_lib_ranges_zip",
+    "author": "huixie90",
+    "state": "closed",
+    "created_at": "2026-01-17T14:33:34Z",
+    "closed_at": "2026-01-19T20:18:57Z",
+    "merged_at": "2026-01-19T20:18:57Z"
+  },
+  {
+    "number": 176487,
+    "title": "release/22.x: Make sure that driver-provided __CUDA_ARCH_LIST__ can be overridden by user-supplied arguments. (#176301)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T22:40:35Z",
+    "closed_at": "2026-01-19T10:22:03Z",
+    "merged_at": "2026-01-19T10:22:03Z"
+  },
+  {
+    "number": 176470,
+    "title": "release/22.x: x86: fix musttail sibcall miscompilation (#168956)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T20:50:02Z",
+    "closed_at": "2026-01-20T12:32:49Z",
+    "merged_at": "2026-01-20T12:32:49Z"
+  },
+  {
+    "number": 176447,
+    "title": "workflows/upload-release-artifact: Fix spelling error in yaml tag",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-16T18:11:09Z",
+    "closed_at": "2026-01-17T16:58:41Z",
+    "merged_at": "2026-01-17T16:58:41Z"
+  },
+  {
+    "number": 176440,
+    "title": "workflows/release-binaries: Fix digest generation on macOS",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-16T17:42:35Z",
+    "closed_at": "2026-01-20T00:01:54Z",
+    "merged_at": "2026-01-20T00:01:54Z"
+  },
+  {
+    "number": 176437,
+    "title": "release/22.x: [IR] Use alloc markers for operator delete variants (#138261)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T17:31:59Z",
+    "closed_at": "2026-01-22T08:24:50Z",
+    "merged_at": "2026-01-22T08:24:49Z"
+  },
+  {
+    "number": 176432,
+    "title": "release/22.x: [RISCV] Add missing COPY elimination when folding vmerge into mask (#176077)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T17:18:46Z",
+    "closed_at": "2026-01-27T07:55:49Z",
+    "merged_at": "2026-01-27T07:55:49Z"
+  },
+  {
+    "number": 176417,
+    "title": "workflows/release-binaries: Fix attestation artifact name",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-16T16:05:33Z",
+    "closed_at": "2026-01-18T01:01:10Z",
+    "merged_at": "2026-01-18T01:01:10Z"
+  },
+  {
+    "number": 176410,
+    "title": "workflows/release-binaries: Pass user-token to upload-release-artifact",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-16T15:53:57Z",
+    "closed_at": "2026-01-17T16:40:07Z",
+    "merged_at": "2026-01-17T16:40:07Z"
+  },
+  {
+    "number": 176401,
+    "title": "release/22.x: [github] Fix release parameter to uncomment download links step (#176386)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T15:14:04Z",
+    "closed_at": "2026-01-19T09:36:37Z",
+    "merged_at": "2026-01-19T09:36:37Z"
+  },
+  {
+    "number": 176387,
+    "title": "[lldb][windows] switch to Python 3.11 for the non ARM64 release builds (#175796)",
+    "author": "charles-zablit",
+    "state": "closed",
+    "created_at": "2026-01-16T14:12:11Z",
+    "closed_at": "2026-01-26T09:33:52Z",
+    "merged_at": null
+  },
+  {
+    "number": 176386,
+    "title": "[github] Fix release parameter to uncomment download links step",
+    "author": "DavidSpickett",
+    "state": "closed",
+    "created_at": "2026-01-16T14:08:58Z",
+    "closed_at": "2026-01-16T15:06:51Z",
+    "merged_at": "2026-01-16T15:06:51Z"
+  },
+  {
+    "number": 176385,
+    "title": "release/22.x: [llvm][utils][release] Remove mention of sub-project source archives (#176348)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T14:05:35Z",
+    "closed_at": "2026-01-19T09:34:06Z",
+    "merged_at": "2026-01-19T09:34:06Z"
+  },
+  {
+    "number": 176372,
+    "title": "[lldb] Change bitfield range character from '-' to ':' in DIL",
+    "author": "kuilpd",
+    "state": "closed",
+    "created_at": "2026-01-16T13:24:13Z",
+    "closed_at": "2026-01-22T08:23:52Z",
+    "merged_at": null
+  },
+  {
+    "number": 176348,
+    "title": "[llvm][utils][release] Remove mention of sub-project source archives",
+    "author": "DavidSpickett",
+    "state": "closed",
+    "created_at": "2026-01-16T11:48:03Z",
+    "closed_at": "2026-01-16T13:58:11Z",
+    "merged_at": "2026-01-16T13:58:11Z"
+  },
+  {
+    "number": 176340,
+    "title": "[AArch64][Driver] Allow runtime detection to override default features.",
+    "author": "rj-jesus",
+    "state": "closed",
+    "created_at": "2026-01-16T11:04:55Z",
+    "closed_at": "2026-01-20T13:09:18Z",
+    "merged_at": "2026-01-20T13:09:18Z"
+  },
+  {
+    "number": 176338,
+    "title": "release/22.x: [clang] Fix options handling in ClangExtDefMapGen.cpp (#176116)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T10:23:18Z",
+    "closed_at": "2026-01-19T10:07:57Z",
+    "merged_at": "2026-01-19T10:07:57Z"
+  },
+  {
+    "number": 176329,
+    "title": "release/22.x: [CodeGen] Check BlockAddress users before marking block as taken (#174480)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T09:29:54Z",
+    "closed_at": "2026-01-19T10:04:03Z",
+    "merged_at": "2026-01-19T10:04:03Z"
+  },
+  {
+    "number": 176328,
+    "title": "release/22.x: [cmake] Restore exception flags in llvm-config --cxxflags (#176195)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T09:20:19Z",
+    "closed_at": "2026-01-19T10:00:52Z",
+    "merged_at": "2026-01-19T10:00:52Z"
+  },
+  {
+    "number": 176326,
+    "title": "release/22.x: [SLP]Do not throttle nodes with split parents, if any of scalars is used in more than one split nodes",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-16T09:19:01Z",
+    "closed_at": "2026-01-19T09:47:15Z",
+    "merged_at": "2026-01-19T09:47:15Z"
+  },
+  {
+    "number": 176319,
+    "title": "[Clang] Ensure a lambda DeclContext in BuildLambdaExpr",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-01-16T07:49:13Z",
+    "closed_at": "2026-01-20T01:56:05Z",
+    "merged_at": "2026-01-20T01:56:05Z"
+  },
+  {
+    "number": 176306,
+    "title": "[LoongArch] Summary clang22 release notes",
+    "author": "SixWeining",
+    "state": "closed",
+    "created_at": "2026-01-16T03:10:21Z",
+    "closed_at": "2026-01-19T09:43:49Z",
+    "merged_at": null
+  },
+  {
+    "number": 176305,
+    "title": "[LoongArch] Summary llvm22 release notes",
+    "author": "SixWeining",
+    "state": "closed",
+    "created_at": "2026-01-16T03:08:02Z",
+    "closed_at": "2026-01-19T09:42:07Z",
+    "merged_at": null
+  },
+  {
+    "number": 176301,
+    "title": "Make sure that driver-provided __CUDA_ARCH_LIST__ can be overridden by user-supplied arguments.",
+    "author": "Artem-B",
+    "state": "closed",
+    "created_at": "2026-01-16T02:36:57Z",
+    "closed_at": "2026-01-16T17:32:48Z",
+    "merged_at": "2026-01-16T17:32:48Z"
+  },
+  {
+    "number": 176297,
+    "title": "[libc++] Update `__cpp_lib_flat_set` to `202511L` according to P3567R2",
+    "author": "frederick-vs-ja",
+    "state": "closed",
+    "created_at": "2026-01-16T02:03:50Z",
+    "closed_at": "2026-01-19T20:27:56Z",
+    "merged_at": "2026-01-19T20:27:56Z"
+  },
+  {
+    "number": 176229,
+    "title": "release/22.x: [ARM] Add size to `tLDRLIT_ga_pcrel|abs` Pseudo Instructions (#175663)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T19:38:24Z",
+    "closed_at": "2026-01-20T12:31:41Z",
+    "merged_at": "2026-01-20T12:31:41Z"
+  },
+  {
+    "number": 176228,
+    "title": "release/22.x: Revert \"[llvm-readobj] Dump callgraph section info for ELF\" (#176221)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T19:34:27Z",
+    "closed_at": "2026-01-16T07:33:11Z",
+    "merged_at": "2026-01-16T07:33:11Z"
+  },
+  {
+    "number": 176224,
+    "title": "release/22.x: [LLDB] Prevent division by zero in MSVC deque formatter (#175842)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T19:00:46Z",
+    "closed_at": "2026-01-19T09:38:22Z",
+    "merged_at": "2026-01-19T09:38:21Z"
+  },
+  {
+    "number": 176221,
+    "title": "Revert \"[llvm-readobj] Dump callgraph section info for ELF\"",
+    "author": "Prabhuk",
+    "state": "closed",
+    "created_at": "2026-01-15T18:49:45Z",
+    "closed_at": "2026-01-15T19:24:20Z",
+    "merged_at": "2026-01-15T19:24:20Z"
+  },
+  {
+    "number": 176211,
+    "title": "[lldb-dap] Fix Completions Request crash",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-15T18:21:53Z",
+    "closed_at": "2026-01-19T12:57:03Z",
+    "merged_at": "2026-01-19T12:57:03Z"
+  },
+  {
+    "number": 176207,
+    "title": "release/22.x: [flang] Fix crash with coarray teams #171048 (#172259)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T18:07:17Z",
+    "closed_at": "2026-01-16T07:30:18Z",
+    "merged_at": "2026-01-16T07:30:18Z"
+  },
+  {
+    "number": 176197,
+    "title": "release/22.x: [AArch64] Add new pass after VirtRegRewriter to add implicit-defs (#174188)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T16:25:21Z",
+    "closed_at": "2026-01-20T11:43:58Z",
+    "merged_at": null
+  },
+  {
+    "number": 176196,
+    "title": "release/22.x: [CI] Make premerge jobs support GHA postcommit (#176180)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T16:24:26Z",
+    "closed_at": "2026-01-15T19:27:10Z",
+    "merged_at": "2026-01-15T19:27:10Z"
+  },
+  {
+    "number": 176195,
+    "title": "[cmake] Restore exception flags in llvm-config --cxxflags",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-01-15T16:04:58Z",
+    "closed_at": "2026-01-16T08:33:26Z",
+    "merged_at": "2026-01-16T08:33:26Z"
+  },
+  {
+    "number": 176186,
+    "title": "release/22.x: [clang-tidy] Fix performance-move-const-arg for trivially copyable types with private copy constructor (#175449)",
+    "author": "zeyi2",
+    "state": "closed",
+    "created_at": "2026-01-15T15:38:22Z",
+    "closed_at": "2026-01-15T19:48:47Z",
+    "merged_at": "2026-01-15T19:48:47Z"
+  },
+  {
+    "number": 176180,
+    "title": "[CI] Make premerge jobs support GHA postcommit",
+    "author": "boomanaiden154",
+    "state": "closed",
+    "created_at": "2026-01-15T15:24:54Z",
+    "closed_at": "2026-01-15T16:16:40Z",
+    "merged_at": "2026-01-15T16:16:40Z"
+  },
+  {
+    "number": 176174,
+    "title": "release/22.x: [lldb-dap] Move targetId and debuggerId into a session property (#175930)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T14:26:12Z",
+    "closed_at": "2026-01-16T07:28:28Z",
+    "merged_at": "2026-01-16T07:28:27Z"
+  },
+  {
+    "number": 176139,
+    "title": "[LIT][LLVM-STRINGS]Make stdin tests shell-consistent",
+    "author": "midhuncodes7",
+    "state": "closed",
+    "created_at": "2026-01-15T11:52:38Z",
+    "closed_at": "2026-01-16T10:21:30Z",
+    "merged_at": "2026-01-16T10:21:30Z"
+  },
+  {
+    "number": 176133,
+    "title": "release/22.x: [llvm-readobj][offload] Fix llvm-readobj --all on MachO (#175912)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T11:02:57Z",
+    "closed_at": "2026-01-15T19:38:16Z",
+    "merged_at": "2026-01-15T19:38:16Z"
+  },
+  {
+    "number": 176127,
+    "title": "release/22.x: [clang][ReleaseNotes] Fix indentation in Arm/AArch64 section",
+    "author": "c-rhodes",
+    "state": "closed",
+    "created_at": "2026-01-15T10:37:04Z",
+    "closed_at": "2026-01-15T10:59:51Z",
+    "merged_at": "2026-01-15T10:59:51Z"
+  },
+  {
+    "number": 176117,
+    "title": "[BOLT][AArch64] Release notes for llvm 22",
+    "author": "paschalis-mpeis",
+    "state": "closed",
+    "created_at": "2026-01-15T10:04:12Z",
+    "closed_at": "2026-01-22T08:22:19Z",
+    "merged_at": "2026-01-22T08:22:19Z"
+  },
+  {
+    "number": 176116,
+    "title": "[clang] Fix options handling in ClangExtDefMapGen.cpp",
+    "author": "capitan-davide",
+    "state": "closed",
+    "created_at": "2026-01-15T10:03:29Z",
+    "closed_at": "2026-01-16T10:15:19Z",
+    "merged_at": "2026-01-16T10:15:19Z"
+  },
+  {
+    "number": 176107,
+    "title": "release/22.x: [X86] Fix TC_RETURN selection failure for Win+Thunk combination (#175977)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T08:35:30Z",
+    "closed_at": "2026-01-15T19:36:47Z",
+    "merged_at": "2026-01-15T19:36:46Z"
+  },
+  {
+    "number": 176094,
+    "title": "[libc++] increase minimum deployment target on macOS to 11.0",
+    "author": "h-vetinari",
+    "state": "closed",
+    "created_at": "2026-01-15T06:32:39Z",
+    "closed_at": "2026-02-13T22:03:41Z",
+    "merged_at": "2026-02-13T22:03:41Z"
+  },
+  {
+    "number": 176077,
+    "title": "[RISCV] Add missing COPY elimination when folding vmerge into mask",
+    "author": "mshockwave",
+    "state": "closed",
+    "created_at": "2026-01-15T02:01:51Z",
+    "closed_at": "2026-01-16T17:07:22Z",
+    "merged_at": "2026-01-16T17:07:22Z"
+  },
+  {
+    "number": 176066,
+    "title": "release/22.x: [DTLTO] Fix handling of multi-module bitcode inputs (#174624)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-15T00:28:11Z",
+    "closed_at": "2026-01-20T12:30:40Z",
+    "merged_at": "2026-01-20T12:30:40Z"
+  },
+  {
+    "number": 176052,
+    "title": "release/22.x: [PAC][ELF] Place AUTH constants in .data.rel.ro for position dependent code (#150418)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-14T22:39:41Z",
+    "closed_at": "2026-01-15T19:35:20Z",
+    "merged_at": "2026-01-15T19:35:20Z"
+  },
+  {
+    "number": 176049,
+    "title": "release/22.x: worklows/release-tasks: Remove the release-lit workflow (#174644)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-14T22:35:12Z",
+    "closed_at": "2026-01-15T09:23:13Z",
+    "merged_at": null
+  },
+  {
+    "number": 176043,
+    "title": "[Clang] Fix rewrite-includes-bom.c to use POSIX-compliant regex",
+    "author": "azhan92",
+    "state": "closed",
+    "created_at": "2026-01-14T22:06:54Z",
+    "closed_at": "2026-01-14T22:44:31Z",
+    "merged_at": "2026-01-14T22:44:31Z"
+  },
+  {
+    "number": 175960,
+    "title": "release/22.x: [clang][c23] Avoid assertion on an invalid static constexpr variable (#175927)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-14T14:45:45Z",
+    "closed_at": "2026-01-15T09:48:08Z",
+    "merged_at": null
+  },
+  {
+    "number": 175944,
+    "title": "release/22.x: [analyzer] Invalidate the object in opaque ctor calls regardless if an arg refers to it",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2026-01-14T13:02:58Z",
+    "closed_at": "2026-01-15T09:33:02Z",
+    "merged_at": null
+  },
+  {
+    "number": 175933,
+    "title": "[MLIR][SCFToOpenMP] Fix crash when lowering vector reductions (#173978)",
+    "author": "tblah",
+    "state": "closed",
+    "created_at": "2026-01-14T12:02:15Z",
+    "closed_at": "2026-01-15T09:50:30Z",
+    "merged_at": null
+  },
+  {
+    "number": 175930,
+    "title": "[lldb-dap] Move targetId and debuggerId into a session property",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2026-01-14T11:44:00Z",
+    "closed_at": "2026-01-15T12:37:37Z",
+    "merged_at": "2026-01-15T12:37:37Z"
+  },
+  {
+    "number": 175927,
+    "title": "[clang][c23] Avoid assertion on an invalid static constexpr variable",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2026-01-14T11:31:00Z",
+    "closed_at": "2026-01-14T14:37:54Z",
+    "merged_at": "2026-01-14T14:37:54Z"
+  },
+  {
+    "number": 175923,
+    "title": "release/22.x: [FMV][AArch64] Release notes for clang/llvm 22",
+    "author": "labrinea",
+    "state": "closed",
+    "created_at": "2026-01-14T11:16:30Z",
+    "closed_at": "2026-01-15T09:14:48Z",
+    "merged_at": null
+  },
+  {
+    "number": 175916,
+    "title": "release/22.x: [clang-repl] Use more precise search to find the orc runtime. (#175805)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-14T10:47:12Z",
+    "closed_at": "2026-01-15T09:06:48Z",
+    "merged_at": null
+  },
+  {
+    "number": 175912,
+    "title": "[llvm-readobj][offload] Fix llvm-readobj --all on MachO",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-01-14T10:08:56Z",
+    "closed_at": "2026-01-15T10:55:52Z",
+    "merged_at": "2026-01-15T10:55:52Z"
+  },
+  {
+    "number": 175908,
+    "title": "release/22.x: Revert \"[ci] Add ids workflow for checking llvm apis have been annotated with LLVM_ABI (#172673)\"",
+    "author": "c-rhodes",
+    "state": "closed",
+    "created_at": "2026-01-14T09:46:59Z",
+    "closed_at": "2026-01-15T08:53:43Z",
+    "merged_at": "2026-01-15T08:53:43Z"
+  },
+  {
+    "number": 175897,
+    "title": "release/22.x: [clang-tidy] Fix false positive from `readability-redundant-typename` on partially specialized variables (#175473)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-14T07:23:29Z",
+    "closed_at": "2026-02-24T07:10:24Z",
+    "merged_at": "2026-02-24T07:10:24Z"
+  },
+  {
+    "number": 175858,
+    "title": "release/22.x: [clang] Restore diagnostic for certain jumps into VLA(ish) scopes. (#175833)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-13T22:28:41Z",
+    "closed_at": "2026-01-14T09:10:04Z",
+    "merged_at": "2026-01-14T09:10:04Z"
+  },
+  {
+    "number": 175842,
+    "title": "[LLDB] Prevent division by zero in MSVC deque formatter",
+    "author": "Nerixyz",
+    "state": "closed",
+    "created_at": "2026-01-13T21:34:48Z",
+    "closed_at": "2026-01-14T18:11:35Z",
+    "merged_at": "2026-01-14T18:11:35Z"
+  },
+  {
+    "number": 175837,
+    "title": "[LLDB][Windows] Store PTY in `ProcessWindows`",
+    "author": "Nerixyz",
+    "state": "closed",
+    "created_at": "2026-01-13T21:13:08Z",
+    "closed_at": "2026-01-16T09:07:11Z",
+    "merged_at": "2026-01-16T09:07:11Z"
+  },
+  {
+    "number": 175833,
+    "title": "[clang] Restore diagnostic for certain jumps into VLA(ish) scopes.",
+    "author": "keinflue",
+    "state": "closed",
+    "created_at": "2026-01-13T20:59:37Z",
+    "closed_at": "2026-01-13T22:05:13Z",
+    "merged_at": "2026-01-13T22:05:13Z"
+  },
+  {
+    "number": 175805,
+    "title": "[clang-repl] Use more precise search to find the orc runtime.",
+    "author": "vgvassilev",
+    "state": "closed",
+    "created_at": "2026-01-13T18:04:12Z",
+    "closed_at": "2026-01-14T06:06:04Z",
+    "merged_at": "2026-01-14T06:06:04Z"
+  },
+  {
+    "number": 175799,
+    "title": "[DTLTO] Add DTLTO-specific LTO input handling time-trace scopes",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-13T17:28:17Z",
+    "closed_at": "2026-01-19T14:06:59Z",
+    "merged_at": "2026-01-19T14:06:59Z"
+  },
+  {
+    "number": 175766,
+    "title": "release/22.x: [LoongArch][Driver] Allow `-gsplit-dwarf` and `-mrelax` to be used together (#175727)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-01-13T14:38:21Z",
+    "closed_at": "2026-01-14T09:06:27Z",
+    "merged_at": "2026-01-14T09:06:27Z"
+  },
+  {
+    "number": 175763,
+    "title": "[ARM] Count register copies when estimating function size",
+    "author": "statham-arm",
+    "state": "closed",
+    "created_at": "2026-01-13T14:15:52Z",
+    "closed_at": "2026-01-26T09:28:39Z",
+    "merged_at": "2026-01-26T09:28:39Z"
+  },
+  {
+    "number": 175749,
+    "title": "[-Wunsafe-buffer-usage] Separate flag for format-attributed functions",
+    "author": "zmodem",
+    "state": "closed",
+    "created_at": "2026-01-13T11:48:25Z",
+    "closed_at": "2026-01-19T10:11:34Z",
+    "merged_at": "2026-01-19T10:11:34Z"
+  },
+  {
+    "number": 175743,
+    "title": "release/22.x: Revert ConstantInt constructor assertion",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2026-01-13T11:16:12Z",
+    "closed_at": "2026-01-14T08:57:49Z",
+    "merged_at": "2026-01-14T08:57:49Z"
+  },
+  {
+    "number": 175727,
+    "title": "[LoongArch][Driver] Allow `-gsplit-dwarf` and `-mrelax` to be used together",
+    "author": "zhaoqi5",
+    "state": "closed",
+    "created_at": "2026-01-13T09:28:36Z",
+    "closed_at": "2026-01-13T12:05:49Z",
+    "merged_at": "2026-01-13T12:05:49Z"
+  },
+  {
+    "number": 175714,
+    "title": "Fix Valgrind false-positive in Value::getPointerAlignment for Functions",
+    "author": "vgvassilev",
+    "state": "closed",
+    "created_at": "2026-01-13T06:34:14Z",
+    "closed_at": "2026-01-23T09:57:02Z",
+    "merged_at": null
+  },
+  {
+    "number": 175665,
+    "title": "[SystemZ][z/OS] Handle labels for parts",
+    "author": "redstar",
+    "state": "closed",
+    "created_at": "2026-01-12T22:52:12Z",
+    "closed_at": "2026-01-13T14:15:27Z",
+    "merged_at": "2026-01-13T14:15:27Z"
+  },
+  {
+    "number": 175663,
+    "title": "[ARM] Add size to `tLDRLIT_ga_pcrel|abs` Pseudo Instructions",
+    "author": "UsmanNadeem",
+    "state": "closed",
+    "created_at": "2026-01-12T22:39:43Z",
+    "closed_at": "2026-01-15T19:27:14Z",
+    "merged_at": "2026-01-15T19:27:14Z"
+  },
+  {
+    "number": 175557,
+    "title": "[AMDGPU][Test][AIX] use tr instead of sed for line split",
+    "author": "grigornik",
+    "state": "closed",
+    "created_at": "2026-01-12T15:13:40Z",
+    "closed_at": "2026-01-13T19:47:28Z",
+    "merged_at": "2026-01-13T19:47:28Z"
+  },
+  {
+    "number": 175473,
+    "title": "[clang-tidy] Fix false positive from `readability-redundant-typename` on partially specialized variables",
+    "author": "localspook",
+    "state": "closed",
+    "created_at": "2026-01-12T00:59:46Z",
+    "closed_at": "2026-01-14T07:09:22Z",
+    "merged_at": "2026-01-14T07:09:22Z"
+  },
+  {
+    "number": 175466,
+    "title": "[OpenMP] Allow libomp.so to link in Debug build with GCC 15 libstdc++",
+    "author": "rorth",
+    "state": "closed",
+    "created_at": "2026-01-11T22:04:03Z",
+    "closed_at": "2026-01-12T14:41:07Z",
+    "merged_at": null
+  },
+  {
+    "number": 175464,
+    "title": "[ubsan][test] Skip Misc/Posix/static-link.cpp on Solaris",
+    "author": "rorth",
+    "state": "closed",
+    "created_at": "2026-01-11T21:47:13Z",
+    "closed_at": "2026-02-06T04:07:18Z",
+    "merged_at": "2026-02-06T04:07:18Z"
+  },
+  {
+    "number": 175463,
+    "title": "[OpenMP] Allow libomp.so to link in Debug build with GCC 15 libstdc++",
+    "author": "rorth",
+    "state": "closed",
+    "created_at": "2026-01-11T21:37:49Z",
+    "closed_at": "2026-01-11T21:40:13Z",
+    "merged_at": null
+  },
+  {
+    "number": 175462,
+    "title": "[ubsan][test] Skip Misc/Posix/static-link.cpp on Solaris",
+    "author": "rorth",
+    "state": "closed",
+    "created_at": "2026-01-11T21:23:41Z",
+    "closed_at": "2026-01-11T21:41:09Z",
+    "merged_at": null
+  },
+  {
+    "number": 175449,
+    "title": "[clang-tidy] Fix performance-move-const-arg for trivially copyable types with private copy constructor",
+    "author": "zeyi2",
+    "state": "closed",
+    "created_at": "2026-01-11T17:57:58Z",
+    "closed_at": "2026-01-15T15:13:15Z",
+    "merged_at": "2026-01-15T15:13:15Z"
+  },
+  {
+    "number": 175442,
+    "title": "[Aarch64] Add support for Ampere1C core",
+    "author": "ptomsich",
+    "state": "closed",
+    "created_at": "2026-01-11T16:26:04Z",
+    "closed_at": "2026-01-12T08:52:24Z",
+    "merged_at": "2026-01-12T08:52:24Z"
+  },
+  {
+    "number": 175182,
+    "title": "[AMDGPU] Ignore unused VALU src0/1/2 fields when disassembling",
+    "author": "jayfoad",
+    "state": "closed",
+    "created_at": "2026-01-09T15:11:04Z",
+    "closed_at": "2026-01-14T16:27:22Z",
+    "merged_at": "2026-01-14T16:27:22Z"
+  },
+  {
+    "number": 175104,
+    "title": "[Clang] prevent assertion in __has_embed parameter recovery at end-of-directive",
+    "author": "a-tarasyuk",
+    "state": "closed",
+    "created_at": "2026-01-09T01:09:04Z",
+    "closed_at": "2026-01-26T12:39:10Z",
+    "merged_at": "2026-01-26T12:39:10Z"
+  },
+  {
+    "number": 174907,
+    "title": "workflows/release-lit: Update workflow and enable trusted publishing with pypi",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-08T04:13:57Z",
+    "closed_at": "2026-01-20T01:11:17Z",
+    "merged_at": "2026-01-20T01:11:17Z"
+  },
+  {
+    "number": 174684,
+    "title": "[Sema] Fix ICE due to incorrect _Bool handling in format string checking",
+    "author": "YexuanXiao",
+    "state": "closed",
+    "created_at": "2026-01-07T02:37:39Z",
+    "closed_at": "2026-01-27T07:50:31Z",
+    "merged_at": "2026-01-27T07:50:31Z"
+  },
+  {
+    "number": 174644,
+    "title": "worklows/release-tasks: Remove the release-lit workflow",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2026-01-06T20:40:31Z",
+    "closed_at": "2026-01-14T22:28:08Z",
+    "merged_at": "2026-01-14T22:28:08Z"
+  },
+  {
+    "number": 174624,
+    "title": "[DTLTO] Fix handling of multi-module bitcode inputs",
+    "author": "bd1976bris",
+    "state": "closed",
+    "created_at": "2026-01-06T17:18:59Z",
+    "closed_at": "2026-01-15T00:21:01Z",
+    "merged_at": "2026-01-15T00:21:01Z"
+  },
+  {
+    "number": 174480,
+    "title": "[CodeGen] Check BlockAddress users before marking block as taken",
+    "author": "JustinStitt",
+    "state": "closed",
+    "created_at": "2026-01-05T21:06:55Z",
+    "closed_at": "2026-01-15T19:17:16Z",
+    "merged_at": "2026-01-15T19:17:16Z"
+  },
+  {
+    "number": 174188,
+    "title": "[AArch64] Add new pass after VirtRegRewriter to add implicit-defs",
+    "author": "sdesmalen-arm",
+    "state": "closed",
+    "created_at": "2026-01-02T08:39:38Z",
+    "closed_at": "2026-01-14T16:42:16Z",
+    "merged_at": "2026-01-14T16:42:16Z"
+  },
+  {
+    "number": 173999,
+    "title": "[AArch64][PAC] Mark $Scratch operand of AUTxMxN as earlyclobber",
+    "author": "atrosinenko",
+    "state": "closed",
+    "created_at": "2025-12-30T15:39:21Z",
+    "closed_at": "2026-02-03T14:18:56Z",
+    "merged_at": "2026-02-03T14:18:56Z"
+  },
+  {
+    "number": 173978,
+    "title": "[MLIR][SCFToOpenMP] Fix crash when lowering vector reductions",
+    "author": "Aniketsingh54",
+    "state": "closed",
+    "created_at": "2025-12-30T11:16:47Z",
+    "closed_at": "2026-01-13T10:06:29Z",
+    "merged_at": "2026-01-13T10:06:29Z"
+  },
+  {
+    "number": 172849,
+    "title": "[lldb] Enable chaining multiple scripted frame providers per thread",
+    "author": "medismailben",
+    "state": "closed",
+    "created_at": "2025-12-18T13:08:41Z",
+    "closed_at": "2026-01-17T04:10:49Z",
+    "merged_at": "2026-01-17T04:10:49Z"
+  },
+  {
+    "number": 172259,
+    "title": "[flang] Fix crash with coarray teams #171048",
+    "author": "JDPailleux",
+    "state": "closed",
+    "created_at": "2025-12-15T07:58:48Z",
+    "closed_at": "2026-01-15T17:02:08Z",
+    "merged_at": "2026-01-15T17:02:08Z"
+  },
+  {
+    "number": 172234,
+    "title": "[IndVarSimplify] Add safety check for getTruncateExpr in genLoopLimit",
+    "author": "gandhi56",
+    "state": "closed",
+    "created_at": "2025-12-14T22:43:53Z",
+    "closed_at": "2026-02-11T10:08:41Z",
+    "merged_at": "2026-02-11T10:08:41Z"
+  },
+  {
+    "number": 172214,
+    "title": "[libc++] Introduce a native timed wait in the synchronization library",
+    "author": "huixie90",
+    "state": "closed",
+    "created_at": "2025-12-14T15:11:52Z",
+    "closed_at": "2026-01-20T14:59:57Z",
+    "merged_at": "2026-01-20T14:59:57Z"
+  },
+  {
+    "number": 171482,
+    "title": "[lldb] Broadcast `eBroadcastBitStackChanged` when frame providers change",
+    "author": "vogelsgesang",
+    "state": "closed",
+    "created_at": "2025-12-09T17:52:51Z",
+    "closed_at": "2026-02-05T20:00:24Z",
+    "merged_at": "2026-02-05T20:00:24Z"
+  },
+  {
+    "number": 171476,
+    "title": "[SystemZ] Implement ctor/dtor emission via @@SQINIT and .xtor sections",
+    "author": "amy-kwan",
+    "state": "closed",
+    "created_at": "2025-12-09T17:07:35Z",
+    "closed_at": "2026-01-23T18:29:08Z",
+    "merged_at": "2026-01-23T18:29:08Z"
+  },
+  {
+    "number": 171066,
+    "title": "[SystemZ] Support fp16 vector ABI and basic codegen.",
+    "author": "JonPsson1",
+    "state": "closed",
+    "created_at": "2025-12-08T00:21:50Z",
+    "closed_at": "2026-01-26T19:42:25Z",
+    "merged_at": "2026-01-26T19:42:25Z"
+  },
+  {
+    "number": 170953,
+    "title": "[clang] Add missing support for traversal kind in addMatcher overloads",
+    "author": "ilovepi",
+    "state": "closed",
+    "created_at": "2025-12-06T00:03:36Z",
+    "closed_at": "2026-02-19T23:54:20Z",
+    "merged_at": "2026-02-19T23:54:20Z"
+  },
+  {
+    "number": 169337,
+    "title": "[ARM] Fix inlining issue in ARM",
+    "author": "CrooseGit",
+    "state": "closed",
+    "created_at": "2025-11-24T15:16:13Z",
+    "closed_at": "2026-01-16T12:06:21Z",
+    "merged_at": "2026-01-16T12:06:21Z"
+  },
+  {
+    "number": 166387,
+    "title": "[AArch64] Disable FEAT_RNG on Grace.",
+    "author": "rj-jesus",
+    "state": "closed",
+    "created_at": "2025-11-04T15:48:55Z",
+    "closed_at": "2026-01-20T08:23:29Z",
+    "merged_at": "2026-01-20T08:23:29Z"
+  },
+  {
+    "number": 159416,
+    "title": "[OpenMP][omptest] Improve CMake and address review comments",
+    "author": "mhalk",
+    "state": "closed",
+    "created_at": "2025-09-17T18:14:14Z",
+    "closed_at": "2026-01-19T17:40:32Z",
+    "merged_at": "2026-01-19T17:40:32Z"
+  },
+  {
+    "number": 157059,
+    "title": "[clang] Restrict -Wnrvo to C++ code only.",
+    "author": "javiermunozkirschberg",
+    "state": "open",
+    "created_at": "2025-09-05T09:18:38Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 150418,
+    "title": "[PAC][ELF] Place AUTH constants in .data.rel.ro for position dependent code",
+    "author": "kovdan01",
+    "state": "closed",
+    "created_at": "2025-07-24T13:32:08Z",
+    "closed_at": "2026-01-14T21:58:29Z",
+    "merged_at": "2026-01-14T21:58:29Z"
+  },
+  {
+    "number": 138261,
+    "title": "[IR] Use alloc markers for operator delete variants",
+    "author": "marcauberer",
+    "state": "closed",
+    "created_at": "2025-05-02T12:32:50Z",
+    "closed_at": "2026-01-16T16:46:52Z",
+    "merged_at": "2026-01-16T16:46:52Z"
+  },
+  {
+    "number": 124232,
+    "title": "lldb-dap: Stop using replicated variable ids",
+    "author": "Anthony-Eid",
+    "state": "closed",
+    "created_at": "2025-01-24T06:14:10Z",
+    "closed_at": "2026-01-30T20:51:47Z",
+    "merged_at": "2026-01-30T20:51:47Z"
+  }
+]

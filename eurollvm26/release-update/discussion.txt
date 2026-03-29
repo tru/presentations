@@ -1,0 +1,30 @@
+
+
+but as I see it - we have a few problems with the current process, and I think they should be highlighted in the presentation and we solicit feedback for the roundtable
+
+The dates - january is a bad date to start a release.
+The criteria for inclusion is a bit vague
+The "oops is there a release now?" flood of PR's during the RC period. makes it hard to be really diligent with the reviews.
+Some people pinged by the release system is not responding, we never get a PR approved or disapproved for inclusion in the release.
+The CI being flaky we can't get the binary releases out.
+Mutable releases - we need the binaries before they can be done.
+The LTS question
+
+
+finally spending a bit of time on this before i go away tomorrow.. is this the sort of thing you had in mind?
+@@ -34,6 +35,17 @@ Here is the agenda.
+
+ # Current process
+
++* Major release every 6 months
++  * Even releases branch on the 2nd Tue in January
++  * Odd releases branch on the 2nd Tue in July
++* Pre-release testing lasts 6 weeks
++  * Before RC1 patches should be limited to bug fixes, important optimization improvements, or completion of features that were started before the branch was created
++  * Before RC2/RC3 patches should be limited to bug fixes or backend-specific improvements that are determined to be very safe
++  * Before final (X.1.0) patches should be limited to critical bugs or regressions
++* Final release X.1.0
++* Bug-fix releases every two weeks until X.1.9 (if necessary)
++  * Patches should be limited to bug fixes or very safe and critical performance improvements and must maintain both API and ABI compatibility with the X.1.0 release
++
+ <!-- I think we want to inserts some graphs around here -->

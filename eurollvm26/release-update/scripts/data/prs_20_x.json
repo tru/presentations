@@ -1,0 +1,5825 @@
+[
+  {
+    "number": 170231,
+    "title": "[Clang] Support __bf16 type for SPIR/SPIR-V (#169012)",
+    "author": "wenju-he",
+    "state": "closed",
+    "created_at": "2025-12-02T01:06:25Z",
+    "closed_at": "2025-12-02T10:56:22Z",
+    "merged_at": null
+  },
+  {
+    "number": 154961,
+    "title": "[libc++] Add tests for the ABI break introduced by switching to _LIBCPP_COMPRESSED_PAIR (#154559)",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-08-22T14:39:18Z",
+    "closed_at": "2025-09-17T20:53:00Z",
+    "merged_at": null
+  },
+  {
+    "number": 148878,
+    "title": "[lldb-dap] fix crash if disconnect request is not sent.",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2025-07-15T16:02:01Z",
+    "closed_at": "2025-08-08T08:09:21Z",
+    "merged_at": null
+  },
+  {
+    "number": 147554,
+    "title": "release/20.x: [libc++] Fix std::make_exception_ptr interaction with ObjC (#135386)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-07-08T15:42:28Z",
+    "closed_at": "2025-08-08T08:08:59Z",
+    "merged_at": null
+  },
+  {
+    "number": 147448,
+    "title": "release/20.x: [CoroSplit] Always erase lifetime intrinsics for spilled allocas (#142551)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-07-08T02:12:22Z",
+    "closed_at": "2025-08-08T08:08:37Z",
+    "merged_at": null
+  },
+  {
+    "number": 147409,
+    "title": "release/20.x: [WebAssembly] Fix inline assembly with vector types (#146574)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-07-07T21:54:06Z",
+    "closed_at": "2025-07-07T23:53:36Z",
+    "merged_at": "2025-07-07T23:53:36Z"
+  },
+  {
+    "number": 147171,
+    "title": "release/20.x: [AArch64] Ensure the LR is preserved if we must call __arm_get_current_vg (#145760)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-07-06T01:52:48Z",
+    "closed_at": "2025-07-07T23:59:54Z",
+    "merged_at": "2025-07-07T23:59:53Z"
+  },
+  {
+    "number": 147034,
+    "title": "release/20.x: [X86] Ignore NSW when DstSVT is i32 (#131755)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-07-04T10:27:11Z",
+    "closed_at": "2025-07-08T00:27:56Z",
+    "merged_at": "2025-07-08T00:27:56Z"
+  },
+  {
+    "number": 146699,
+    "title": "release/20.x: Backport [LLD][COFF] Disallow importing DllMain from import libraries (#146610)",
+    "author": "aganea",
+    "state": "closed",
+    "created_at": "2025-07-02T14:13:50Z",
+    "closed_at": "2025-07-27T18:05:14Z",
+    "merged_at": null
+  },
+  {
+    "number": 146574,
+    "title": "[WebAssembly] Fix inline assembly with vector types",
+    "author": "alexcrichton",
+    "state": "closed",
+    "created_at": "2025-07-01T17:22:40Z",
+    "closed_at": "2025-07-02T03:26:31Z",
+    "merged_at": "2025-07-02T03:26:31Z"
+  },
+  {
+    "number": 146191,
+    "title": "release/20.x: [RelLookupTableConverter] Drop unnamed_addr for GVs in entries to avoid generating GOTPCREL relocations (#146068)",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2025-06-28T02:11:24Z",
+    "closed_at": "2025-07-08T18:38:20Z",
+    "merged_at": "2025-07-08T18:38:20Z"
+  },
+  {
+    "number": 146155,
+    "title": "release/20.x: [gtest] Fix building on OpenBSD/sparc64 (#145225)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-27T21:04:45Z",
+    "closed_at": "2025-07-08T00:25:17Z",
+    "merged_at": "2025-07-08T00:25:17Z"
+  },
+  {
+    "number": 146068,
+    "title": "[RelLookupTableConverter] Drop unnamed_addr for GVs in entries to avoid generating GOTPCREL relocations",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2025-06-27T12:45:01Z",
+    "closed_at": "2025-06-27T22:42:43Z",
+    "merged_at": "2025-06-27T22:42:43Z"
+  },
+  {
+    "number": 146004,
+    "title": "release/20.x: [LoongArch] Fix xvshuf instructions lowering (#145868)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-27T02:51:17Z",
+    "closed_at": "2025-07-08T00:17:33Z",
+    "merged_at": "2025-07-08T00:17:32Z"
+  },
+  {
+    "number": 145760,
+    "title": "[AArch64] Ensure the LR is preserved if we must call __arm_get_current_vg",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-06-25T18:23:58Z",
+    "closed_at": "2025-06-26T12:26:33Z",
+    "merged_at": "2025-06-26T12:26:33Z"
+  },
+  {
+    "number": 145690,
+    "title": "release/20.x: [AsmPrinter] Always emit global equivalents if there is non-global uses (#145648)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-25T12:27:51Z",
+    "closed_at": "2025-07-08T18:27:52Z",
+    "merged_at": "2025-07-08T18:27:52Z"
+  },
+  {
+    "number": 145648,
+    "title": "[AsmPrinter] Always emit global equivalents if there is non-global uses",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2025-06-25T07:30:55Z",
+    "closed_at": "2025-06-25T10:39:36Z",
+    "merged_at": "2025-06-25T10:39:36Z"
+  },
+  {
+    "number": 145149,
+    "title": "[PowerPC] Fix handling of undefs in the PPC::isSplatShuffleMask query",
+    "author": "w2yehia",
+    "state": "closed",
+    "created_at": "2025-06-21T04:46:25Z",
+    "closed_at": "2025-06-23T17:22:33Z",
+    "merged_at": "2025-06-23T17:22:33Z"
+  },
+  {
+    "number": 144693,
+    "title": "release/20.x: [AArch64][SME] Fix restoring callee-saves from FP with hazard padding",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-06-18T12:58:05Z",
+    "closed_at": "2025-07-08T18:32:04Z",
+    "merged_at": "2025-07-08T18:32:03Z"
+  },
+  {
+    "number": 144459,
+    "title": "release/20.x: [LoongArch] Pass OptLevel to LoongArchDAGToDAGISel correctly",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-17T02:00:02Z",
+    "closed_at": "2025-07-08T00:21:58Z",
+    "merged_at": "2025-07-08T00:21:58Z"
+  },
+  {
+    "number": 144449,
+    "title": "release/20.x: [objcopy][MachO] Revert special handling of encryptable binaries (#144058)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-16T22:46:19Z",
+    "closed_at": "2025-07-08T18:00:32Z",
+    "merged_at": "2025-07-08T18:00:32Z"
+  },
+  {
+    "number": 144322,
+    "title": "release/20.x: [InstCombine] Avoid folding select(umin(X, Y), X) with min/max values in false arm (#143020)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-06-16T09:54:07Z",
+    "closed_at": "2025-07-08T23:13:41Z",
+    "merged_at": null
+  },
+  {
+    "number": 144299,
+    "title": "Backport 90a52f494296 to release/20.x",
+    "author": "leecheechen",
+    "state": "closed",
+    "created_at": "2025-06-16T06:15:27Z",
+    "closed_at": "2025-06-17T02:12:24Z",
+    "merged_at": null
+  },
+  {
+    "number": 144296,
+    "title": "release/20.x: [LoongArch] Precommit test case to show bug in LoongArchISelDagToDag",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-16T05:42:11Z",
+    "closed_at": "2025-06-16T06:24:17Z",
+    "merged_at": null
+  },
+  {
+    "number": 144058,
+    "title": "[objcopy][MachO] Revert special handling of encryptable binaries",
+    "author": "drodriguez",
+    "state": "closed",
+    "created_at": "2025-06-13T11:57:18Z",
+    "closed_at": "2025-06-16T19:06:25Z",
+    "merged_at": "2025-06-16T19:06:25Z"
+  },
+  {
+    "number": 143893,
+    "title": "[clan-reply] Backport PTU error recovery to 20.x",
+    "author": "DavidSpickett",
+    "state": "closed",
+    "created_at": "2025-06-12T13:26:12Z",
+    "closed_at": "2025-06-13T00:23:07Z",
+    "merged_at": "2025-06-13T00:23:07Z"
+  },
+  {
+    "number": 143882,
+    "title": "release/20.x: [LoongArch] Fix '-mno-lsx' option not disabling LASX feature (#143821)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-12T12:19:06Z",
+    "closed_at": "2025-06-13T04:54:47Z",
+    "merged_at": "2025-06-13T04:54:46Z"
+  },
+  {
+    "number": 143851,
+    "title": "release/20.x: [clang][Interpreter] Disable part of lambda test on Windows",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-12T08:14:34Z",
+    "closed_at": "2025-06-12T13:27:46Z",
+    "merged_at": null
+  },
+  {
+    "number": 143821,
+    "title": "[LoongArch] Fix '-mno-lsx' option not disabling LASX feature",
+    "author": "Ami-zhang",
+    "state": "closed",
+    "created_at": "2025-06-12T01:27:27Z",
+    "closed_at": "2025-06-12T12:11:14Z",
+    "merged_at": "2025-06-12T12:11:14Z"
+  },
+  {
+    "number": 143647,
+    "title": "Release/20.x clangd modules",
+    "author": "ChuanqiXu9",
+    "state": "closed",
+    "created_at": "2025-06-11T01:58:07Z",
+    "closed_at": "2025-06-12T18:46:26Z",
+    "merged_at": "2025-06-12T18:46:26Z"
+  },
+  {
+    "number": 143496,
+    "title": "release/20.x: [llvm-rc] Allow ALT on non-virtkey accelerators (#143374)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-10T09:20:03Z",
+    "closed_at": "2025-06-12T18:43:24Z",
+    "merged_at": "2025-06-12T18:43:24Z"
+  },
+  {
+    "number": 143374,
+    "title": "[llvm-rc] Allow ALT on non-virtkey accelerators",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-06-09T12:21:34Z",
+    "closed_at": "2025-06-10T07:23:19Z",
+    "merged_at": "2025-06-10T07:23:19Z"
+  },
+  {
+    "number": 143371,
+    "title": "[AArch64][SME] Fix restoring callee-saves from FP with hazard padding",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-06-09T11:49:05Z",
+    "closed_at": "2025-06-18T11:58:17Z",
+    "merged_at": "2025-06-18T11:58:17Z"
+  },
+  {
+    "number": 143344,
+    "title": "release/20.x: [clangd] Guard against trivial FunctionProtoTypeLoc when creating inlay hints (#143087)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-09T04:46:13Z",
+    "closed_at": "2025-06-11T22:36:37Z",
+    "merged_at": "2025-06-11T22:36:37Z"
+  },
+  {
+    "number": 143163,
+    "title": "release/20.x: [AArch64] Handle XAR with v1i64 operand types (#141754)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-06-06T15:38:40Z",
+    "closed_at": "2025-06-11T22:44:24Z",
+    "merged_at": null
+  },
+  {
+    "number": 142909,
+    "title": "release/20.x: [clang-repl] Ensure clang-repl accepts all C keywords supported in all language models (#142749)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-05T06:42:18Z",
+    "closed_at": "2025-08-08T08:08:23Z",
+    "merged_at": null
+  },
+  {
+    "number": 142828,
+    "title": "[clangd] [Modules] Fix to correctly handle module dependencies",
+    "author": "fleeting-xx",
+    "state": "closed",
+    "created_at": "2025-06-04T18:25:22Z",
+    "closed_at": "2025-06-06T01:33:11Z",
+    "merged_at": "2025-06-06T01:33:11Z"
+  },
+  {
+    "number": 142749,
+    "title": "[clang-repl] Ensure clang-repl accepts all C keywords supported in all language models",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-06-04T09:15:25Z",
+    "closed_at": "2025-06-05T05:53:50Z",
+    "merged_at": "2025-06-05T05:53:50Z"
+  },
+  {
+    "number": 142741,
+    "title": "release/20.x: [AArch64][SME] Fix accessing the emergency spill slot with hazard padding (#142190)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-04T08:42:11Z",
+    "closed_at": "2025-06-11T22:49:19Z",
+    "merged_at": "2025-06-11T22:49:18Z"
+  },
+  {
+    "number": 142730,
+    "title": "release/20.x: [CVP] Keep `ReachableCaseCount` in sync with range of condition (#142302)",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-06-04T07:16:40Z",
+    "closed_at": "2025-06-11T22:56:22Z",
+    "merged_at": "2025-06-11T22:56:22Z"
+  },
+  {
+    "number": 142648,
+    "title": "release/20.x: [clang] Don't evaluate the initializer of constexpr-unknown parameters. (#142498)",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2025-06-03T17:49:34Z",
+    "closed_at": "2025-06-12T18:42:10Z",
+    "merged_at": "2025-06-12T18:42:10Z"
+  },
+  {
+    "number": 142551,
+    "title": "[CoroSplit] Always erase lifetime intrinsics for spilled allocas",
+    "author": "NewSigma",
+    "state": "closed",
+    "created_at": "2025-06-03T07:22:12Z",
+    "closed_at": "2025-06-03T10:52:42Z",
+    "merged_at": "2025-06-03T10:52:41Z"
+  },
+  {
+    "number": 142498,
+    "title": "[clang] Don't evaluate the initializer of constexpr-unknown parameters.",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2025-06-02T22:51:21Z",
+    "closed_at": "2025-06-03T16:51:38Z",
+    "merged_at": "2025-06-03T16:51:37Z"
+  },
+  {
+    "number": 142482,
+    "title": "release/20.x: [clang-format] Correctly annotate token-pasted function decl names (#142337)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-02T20:42:34Z",
+    "closed_at": "2025-06-03T22:39:29Z",
+    "merged_at": "2025-06-03T22:39:29Z"
+  },
+  {
+    "number": 142445,
+    "title": "release/20.x: [clang-repl] Fix error recovery while PTU cleanup (#127467)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-06-02T17:46:10Z",
+    "closed_at": "2025-06-12T08:43:33Z",
+    "merged_at": null
+  },
+  {
+    "number": 142337,
+    "title": "[clang-format] Correctly annotate token-pasted function decl names",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-06-02T06:58:47Z",
+    "closed_at": "2025-06-02T20:35:27Z",
+    "merged_at": "2025-06-02T20:35:27Z"
+  },
+  {
+    "number": 142311,
+    "title": "release/20.x: [RelLookupTableConverter] Drop unnamed_addr to avoid generating GOTPCREL relocations (#142304)",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2025-06-01T14:49:05Z",
+    "closed_at": "2025-06-03T21:49:45Z",
+    "merged_at": "2025-06-03T21:49:44Z"
+  },
+  {
+    "number": 142282,
+    "title": "release/20.x: [clang-format] Handle token-pasted function decl names (#142251)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-31T18:19:27Z",
+    "closed_at": "2025-06-02T06:39:29Z",
+    "merged_at": null
+  },
+  {
+    "number": 142251,
+    "title": "[clang-format] Handle token-pasted function decl names",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-31T04:50:14Z",
+    "closed_at": "2025-05-31T18:11:01Z",
+    "merged_at": "2025-05-31T18:11:00Z"
+  },
+  {
+    "number": 142190,
+    "title": "[AArch64][SME] Fix accessing the emergency spill slot with hazard padding",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-05-30T17:45:59Z",
+    "closed_at": "2025-06-02T09:52:10Z",
+    "merged_at": "2025-06-02T09:52:10Z"
+  },
+  {
+    "number": 141957,
+    "title": "Backport: [clang] Serialization: support hashing null template arguments",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-05-29T14:44:50Z",
+    "closed_at": "2025-06-03T21:39:23Z",
+    "merged_at": "2025-06-03T21:39:23Z"
+  },
+  {
+    "number": 141890,
+    "title": "[clang] Serialization: support hashing null template arguments",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-05-29T03:39:51Z",
+    "closed_at": "2025-05-29T05:08:12Z",
+    "merged_at": "2025-05-29T05:08:11Z"
+  },
+  {
+    "number": 141461,
+    "title": "release/20.x: [MachO] Improve bounds check (#141083)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-26T07:59:59Z",
+    "closed_at": "2025-05-27T22:26:34Z",
+    "merged_at": "2025-05-27T22:26:34Z"
+  },
+  {
+    "number": 141433,
+    "title": "release/20.x: [clang-format] Handle Java text blocks (#141334)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-25T22:47:57Z",
+    "closed_at": "2025-05-27T22:30:10Z",
+    "merged_at": "2025-05-27T22:30:10Z"
+  },
+  {
+    "number": 141334,
+    "title": "[clang-format] Handle Java text blocks",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-24T06:22:54Z",
+    "closed_at": "2025-05-25T22:40:46Z",
+    "merged_at": "2025-05-25T22:40:46Z"
+  },
+  {
+    "number": 141194,
+    "title": "release/20.x: [LoongArch] Prevent R0/R1 allocation for rj operand of [G]CSRXCHG (#140862)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-23T03:25:40Z",
+    "closed_at": "2025-05-24T04:11:52Z",
+    "merged_at": "2025-05-24T04:11:52Z"
+  },
+  {
+    "number": 141193,
+    "title": "release/20.x: [LoongArch] Fix assertion failure for annotate tablejump (#140907)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-23T03:23:40Z",
+    "closed_at": "2025-05-24T04:10:55Z",
+    "merged_at": "2025-05-24T04:10:55Z"
+  },
+  {
+    "number": 141083,
+    "title": "[MachO] Improve bounds check",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-05-22T14:59:42Z",
+    "closed_at": "2025-05-26T07:43:00Z",
+    "merged_at": "2025-05-26T07:43:00Z"
+  },
+  {
+    "number": 141004,
+    "title": "release/20.x: [clang-format] Fix the indent of StartOfName after Attr\u2026",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-22T04:41:06Z",
+    "closed_at": "2025-05-24T04:09:03Z",
+    "merged_at": "2025-05-24T04:09:03Z"
+  },
+  {
+    "number": 141002,
+    "title": "release/20.x: [clang-format] Handle raw string literals containing JSON code (#140666)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-22T04:11:22Z",
+    "closed_at": "2025-05-24T04:06:27Z",
+    "merged_at": "2025-05-24T04:06:26Z"
+  },
+  {
+    "number": 140907,
+    "title": "[LoongArch] Fix assertion failure for annotate tablejump",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2025-05-21T14:31:09Z",
+    "closed_at": "2025-05-22T10:50:41Z",
+    "merged_at": "2025-05-22T10:50:41Z"
+  },
+  {
+    "number": 140902,
+    "title": "release/20.x: [libclc] Include isnan implementation for SPIR-V targets",
+    "author": "karolherbst",
+    "state": "closed",
+    "created_at": "2025-05-21T14:05:52Z",
+    "closed_at": "2025-05-27T22:34:39Z",
+    "merged_at": "2025-05-27T22:34:39Z"
+  },
+  {
+    "number": 140862,
+    "title": "[LoongArch] Prevent R0/R1 allocation for rj operand of [G]CSRXCHG",
+    "author": "heiher",
+    "state": "closed",
+    "created_at": "2025-05-21T07:36:38Z",
+    "closed_at": "2025-05-22T10:49:28Z",
+    "merged_at": "2025-05-22T10:49:28Z"
+  },
+  {
+    "number": 140703,
+    "title": "release/20.x: [SDAG] Ensure load is included in output chain of sincos expansion (#140525)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-20T10:02:10Z",
+    "closed_at": "2025-05-24T04:05:33Z",
+    "merged_at": "2025-05-24T04:05:33Z"
+  },
+  {
+    "number": 140666,
+    "title": "[clang-format] Handle raw string literals containing JSON code",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-20T03:22:16Z",
+    "closed_at": "2025-05-21T02:15:57Z",
+    "merged_at": "2025-05-21T02:15:57Z"
+  },
+  {
+    "number": 140525,
+    "title": "[SDAG] Ensure load is included in output chain of sincos expansion",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-05-19T10:29:57Z",
+    "closed_at": "2025-05-20T09:43:50Z",
+    "merged_at": "2025-05-20T09:43:50Z"
+  },
+  {
+    "number": 140361,
+    "title": "[clang-format] Fix the indent of StartOfName after AttributeMacro",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-17T07:28:37Z",
+    "closed_at": "2025-05-19T08:29:16Z",
+    "merged_at": "2025-05-19T08:29:16Z"
+  },
+  {
+    "number": 140246,
+    "title": "release/20.x: [Clang][AST] Fix HandleLValueBase to deal with references (#140105)",
+    "author": "frederick-vs-ja",
+    "state": "closed",
+    "created_at": "2025-05-16T12:14:16Z",
+    "closed_at": "2025-05-16T23:55:05Z",
+    "merged_at": "2025-05-16T23:55:05Z"
+  },
+  {
+    "number": 140176,
+    "title": "release/20.x: Fix test pfalse-v4i1.ll added in #138712 to require asserts.",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-16T02:41:03Z",
+    "closed_at": "2025-05-25T09:56:35Z",
+    "merged_at": null
+  },
+  {
+    "number": 140105,
+    "title": "[Clang][AST] Fix HandleLValueBase to deal with references",
+    "author": "shafik",
+    "state": "closed",
+    "created_at": "2025-05-15T17:09:57Z",
+    "closed_at": "2025-05-15T23:04:37Z",
+    "merged_at": "2025-05-15T23:04:37Z"
+  },
+  {
+    "number": 140060,
+    "title": "[release/20.x] Update release notes for SystemZ changes",
+    "author": "uweigand",
+    "state": "closed",
+    "created_at": "2025-05-15T14:02:31Z",
+    "closed_at": "2025-06-12T00:18:22Z",
+    "merged_at": "2025-06-12T00:18:22Z"
+  },
+  {
+    "number": 140051,
+    "title": "release/20.x: [LLD][COFF] Allow -arm64xsameaddress in ARM64EC directives (#139631)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-15T12:56:22Z",
+    "closed_at": "2025-05-16T23:47:50Z",
+    "merged_at": "2025-05-16T23:47:50Z"
+  },
+  {
+    "number": 140044,
+    "title": "release/20.x: [Driver] Fix _XOPEN_SOURCE definition on Solaris (#137141)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-15T11:51:25Z",
+    "closed_at": "2025-05-27T22:28:00Z",
+    "merged_at": "2025-05-27T22:28:00Z"
+  },
+  {
+    "number": 139909,
+    "title": "[clang][analyzer] Handle CXXParenInitListExpr alongside InitListExpr",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2025-05-14T14:33:57Z",
+    "closed_at": "2025-05-24T04:03:50Z",
+    "merged_at": "2025-05-24T04:03:50Z"
+  },
+  {
+    "number": 139851,
+    "title": "release/20.x: [LoongArch] Fix fp_to_uint/fp_to_sint conversion errors for lasx (#137129)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-14T06:35:00Z",
+    "closed_at": "2025-05-16T23:43:25Z",
+    "merged_at": "2025-05-16T23:43:25Z"
+  },
+  {
+    "number": 139822,
+    "title": "Fix test pfalse-v4i1.ll added in #138712 to require asserts.",
+    "author": "dyung",
+    "state": "closed",
+    "created_at": "2025-05-14T01:29:28Z",
+    "closed_at": "2025-05-16T23:36:45Z",
+    "merged_at": "2025-05-16T23:36:45Z"
+  },
+  {
+    "number": 139631,
+    "title": "[LLD][COFF] Allow -arm64xsameaddress in ARM64EC directives",
+    "author": "cjacek",
+    "state": "closed",
+    "created_at": "2025-05-12T22:05:12Z",
+    "closed_at": "2025-05-15T10:28:18Z",
+    "merged_at": "2025-05-15T10:28:18Z"
+  },
+  {
+    "number": 139597,
+    "title": "[analyzer] Workaround for slowdown spikes (unintended scope increase) (#136720)",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2025-05-12T17:57:05Z",
+    "closed_at": "2025-05-13T22:19:02Z",
+    "merged_at": "2025-05-13T22:19:02Z"
+  },
+  {
+    "number": 139591,
+    "title": "[clang][analysis] Fix flaky clang/test/Analysis/live-stmts.cpp test (2nd attempt) (#127406)",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2025-05-12T17:41:50Z",
+    "closed_at": "2025-05-13T21:37:49Z",
+    "merged_at": "2025-05-13T21:37:49Z"
+  },
+  {
+    "number": 139579,
+    "title": "[Clang][Backport] Fix handling of reference types in tryEvaluateBuiltinObjectSize (#138247)",
+    "author": "cor3ntin",
+    "state": "closed",
+    "created_at": "2025-05-12T16:59:40Z",
+    "closed_at": "2025-05-13T21:36:20Z",
+    "merged_at": "2025-05-13T21:36:20Z"
+  },
+  {
+    "number": 139468,
+    "title": "release/20.x: [libcxx] Provide locale conversions to tests through lit substitution (#105651)",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-05-11T20:24:14Z",
+    "closed_at": "2025-05-27T14:10:50Z",
+    "merged_at": null
+  },
+  {
+    "number": 139396,
+    "title": "[Clang][Backport] Demote mixed enumeration arithmetic error to a warning (#131811)",
+    "author": "cor3ntin",
+    "state": "closed",
+    "created_at": "2025-05-10T17:22:09Z",
+    "closed_at": "2025-05-24T04:01:26Z",
+    "merged_at": "2025-05-24T04:01:26Z"
+  },
+  {
+    "number": 139389,
+    "title": "release/20.x: [sanitizer_common] Fix build on ppc64+musl (#120036)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-10T16:13:43Z",
+    "closed_at": "2025-05-13T21:32:32Z",
+    "merged_at": "2025-05-13T21:32:32Z"
+  },
+  {
+    "number": 139388,
+    "title": "release/20.x: [RISCV] Fix assertion failure when using -fstack-clash-protection (#135248)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-10T15:40:34Z",
+    "closed_at": "2025-07-08T21:31:54Z",
+    "merged_at": "2025-07-08T21:31:54Z"
+  },
+  {
+    "number": 139356,
+    "title": "release/20.x: [X86][TargetLowering] Avoid deleting temporary nodes in `getNegatedExpression` (#139029)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-10T05:20:25Z",
+    "closed_at": "2025-05-13T21:27:28Z",
+    "merged_at": "2025-05-13T21:27:28Z"
+  },
+  {
+    "number": 139345,
+    "title": "release/20.x: [clang-format] Fix a crash on formatting missing r_pare\u2026",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-10T01:00:18Z",
+    "closed_at": "2025-05-13T21:30:12Z",
+    "merged_at": "2025-05-13T21:30:11Z"
+  },
+  {
+    "number": 139222,
+    "title": "release/20.x: [AArch64] Fix feature list for FUJITSU-MONAKA processor (#139212)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-09T08:14:36Z",
+    "closed_at": "2025-05-13T20:22:50Z",
+    "merged_at": "2025-05-13T20:22:50Z"
+  },
+  {
+    "number": 139212,
+    "title": "[AArch64] Fix feature list for FUJITSU-MONAKA processor",
+    "author": "ytmukai",
+    "state": "closed",
+    "created_at": "2025-05-09T06:49:13Z",
+    "closed_at": "2025-05-09T08:07:19Z",
+    "merged_at": "2025-05-09T08:07:19Z"
+  },
+  {
+    "number": 139029,
+    "title": "[X86][TargetLowering] Avoid deleting temporary nodes in `getNegatedExpression`",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-05-08T05:56:22Z",
+    "closed_at": "2025-05-10T05:14:01Z",
+    "merged_at": "2025-05-10T05:14:01Z"
+  },
+  {
+    "number": 138880,
+    "title": "release/20.x: [libc++] Add _LIBCPP_NO_UNIQUE_ADDRESS to flat_{,multi}map::value_compare (#137594)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-07T14:16:25Z",
+    "closed_at": "2025-06-12T18:31:30Z",
+    "merged_at": "2025-06-12T18:31:30Z"
+  },
+  {
+    "number": 138770,
+    "title": "release/20.x: [Hexagon] Add missing patterns to select PFALSE and PTRUE (#138712)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-06T21:59:11Z",
+    "closed_at": "2025-05-09T20:40:03Z",
+    "merged_at": "2025-05-09T20:40:03Z"
+  },
+  {
+    "number": 138712,
+    "title": "[Hexagon] Add missing patterns to select PFALSE and PTRUE",
+    "author": "iajbar",
+    "state": "closed",
+    "created_at": "2025-05-06T16:00:53Z",
+    "closed_at": "2025-05-06T21:47:25Z",
+    "merged_at": "2025-05-06T21:47:25Z"
+  },
+  {
+    "number": 138681,
+    "title": "release/20.x: [BasicAA] Gracefully handle large LocationSize (#138528)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-06T12:26:10Z",
+    "closed_at": "2025-05-09T20:37:55Z",
+    "merged_at": "2025-05-09T20:37:55Z"
+  },
+  {
+    "number": 138680,
+    "title": "release/20.x: [clang-repl] Fix destructor for interpreter for the cuda negation case (#138091)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-06T12:13:04Z",
+    "closed_at": "2025-05-09T20:40:54Z",
+    "merged_at": "2025-05-09T20:40:54Z"
+  },
+  {
+    "number": 138674,
+    "title": "release/20.x: [libc++] Re-introduce _LIBCPP_DISABLE_AVAILABILITY (#134158)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-06T11:15:57Z",
+    "closed_at": "2025-05-09T20:42:09Z",
+    "merged_at": "2025-05-09T20:42:09Z"
+  },
+  {
+    "number": 138652,
+    "title": "release/20.x: [clang] Add support for Debian 14 Forky and Debian 15 Duke (#138460)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-06T08:35:14Z",
+    "closed_at": "2025-05-09T20:43:45Z",
+    "merged_at": "2025-05-09T20:43:45Z"
+  },
+  {
+    "number": 138626,
+    "title": "release/20.x: [OpenMP] Add pre sm_70 load hack back in (#138589)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-06T03:18:29Z",
+    "closed_at": "2025-05-09T20:36:13Z",
+    "merged_at": "2025-05-09T20:36:13Z"
+  },
+  {
+    "number": 138589,
+    "title": "[OpenMP] Add pre sm_70 load hack back in",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-05-05T21:21:45Z",
+    "closed_at": "2025-05-05T21:33:42Z",
+    "merged_at": "2025-05-05T21:33:42Z"
+  },
+  {
+    "number": 138528,
+    "title": "[BasicAA] Gracefully handle large LocationSize",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-05-05T13:17:01Z",
+    "closed_at": "2025-05-06T12:19:47Z",
+    "merged_at": "2025-05-06T12:19:47Z"
+  },
+  {
+    "number": 138460,
+    "title": "[clang] Add support for Debian 14 Forky and Debian 15 Duke",
+    "author": "tambry",
+    "state": "closed",
+    "created_at": "2025-05-04T16:50:09Z",
+    "closed_at": "2025-05-04T17:55:49Z",
+    "merged_at": "2025-05-04T17:55:49Z"
+  },
+  {
+    "number": 138380,
+    "title": "release/20.x: [clang-format] RemoveParentheses shouldn't remove empty\u2026",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-05-03T06:23:42Z",
+    "closed_at": "2025-05-09T20:46:17Z",
+    "merged_at": "2025-05-09T20:46:17Z"
+  },
+  {
+    "number": 138354,
+    "title": "[LLD][COFF] Don't dllimport from static libraries (#134443)",
+    "author": "aganea",
+    "state": "closed",
+    "created_at": "2025-05-02T22:30:28Z",
+    "closed_at": "2025-05-09T20:34:36Z",
+    "merged_at": "2025-05-09T20:34:36Z"
+  },
+  {
+    "number": 138247,
+    "title": "[Clang] Fix handling of reference types in tryEvaluateBuiltinObjectSize",
+    "author": "cor3ntin",
+    "state": "closed",
+    "created_at": "2025-05-02T10:02:28Z",
+    "closed_at": "2025-05-02T16:45:24Z",
+    "merged_at": "2025-05-02T16:45:24Z"
+  },
+  {
+    "number": 138142,
+    "title": "release/20.x: [InstCombine] Do not combine shuffle+bitcast if the bitcast is eliminable. (#135769)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-05-01T14:31:36Z",
+    "closed_at": "2025-05-09T20:31:31Z",
+    "merged_at": "2025-05-09T20:31:31Z"
+  },
+  {
+    "number": 138091,
+    "title": "[clang-repl] Fix destructor for interpreter for the cuda negation case",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-05-01T07:03:45Z",
+    "closed_at": "2025-05-05T08:02:33Z",
+    "merged_at": "2025-05-05T08:02:33Z"
+  },
+  {
+    "number": 138017,
+    "title": "release/20.x: [Clang][MicrosoftMangle] Implement mangling for ConstantMatrixType (#134930)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-30T19:44:45Z",
+    "closed_at": "2025-05-10T20:06:12Z",
+    "merged_at": "2025-05-10T20:06:12Z"
+  },
+  {
+    "number": 137806,
+    "title": "release/20.x: [clang] Forward TPL of NestedNameSpecifier",
+    "author": "hahnjo",
+    "state": "closed",
+    "created_at": "2025-04-29T13:14:11Z",
+    "closed_at": "2025-05-10T17:10:43Z",
+    "merged_at": "2025-05-10T17:10:43Z"
+  },
+  {
+    "number": 137800,
+    "title": "[AArch64] Correct position of CFI Instruction for Pointer Authentication",
+    "author": "DanielKristofKiss",
+    "state": "closed",
+    "created_at": "2025-04-29T12:38:57Z",
+    "closed_at": "2025-05-24T01:15:42Z",
+    "merged_at": null
+  },
+  {
+    "number": 137775,
+    "title": "release/20.x: [clang-tidy] Do not pass any file when listing checks in run_clang_ti\u2026 (#137286)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-29T09:22:22Z",
+    "closed_at": "2025-05-09T20:26:31Z",
+    "merged_at": "2025-05-09T20:26:31Z"
+  },
+  {
+    "number": 137752,
+    "title": "release/20.x: [flang] Exempt construct entities from SAVE check for PURE (#131383)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-29T04:24:49Z",
+    "closed_at": "2025-05-09T20:23:07Z",
+    "merged_at": "2025-05-09T20:23:07Z"
+  },
+  {
+    "number": 137707,
+    "title": "release/20.x: [sanitizer_common] Remove interceptors for deprecated struct termio (#137403)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T20:53:43Z",
+    "closed_at": "2025-05-25T10:15:14Z",
+    "merged_at": "2025-05-25T10:15:14Z"
+  },
+  {
+    "number": 137683,
+    "title": "release/20.x: [AArch64][SME] Prevent spills of ZT0 when ZA is not enabled ",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-04-28T18:32:05Z",
+    "closed_at": "2025-05-09T20:18:43Z",
+    "merged_at": "2025-05-09T20:18:43Z"
+  },
+  {
+    "number": 137628,
+    "title": "release/20.x: [SystemZ] Fix compile time regression in adjustInliningThreshold(). (#137527)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T13:13:38Z",
+    "closed_at": "2025-04-29T22:42:47Z",
+    "merged_at": "2025-04-29T22:42:46Z"
+  },
+  {
+    "number": 137620,
+    "title": "release/20.x: [wasm-ld] Refactor WasmSym from static globals to per-link context (#134970)",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-04-28T11:42:28Z",
+    "closed_at": "2025-05-10T20:02:00Z",
+    "merged_at": "2025-05-10T20:02:00Z"
+  },
+  {
+    "number": 137616,
+    "title": "release/20.x: [clang-repl] Implement LoadDynamicLibrary for clang-repl wasm use cases (#133037)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T11:00:30Z",
+    "closed_at": "2025-04-29T22:54:41Z",
+    "merged_at": "2025-04-29T22:54:41Z"
+  },
+  {
+    "number": 137615,
+    "title": "release/20.x: [clang-repl] : Fix clang-repl crash with --cuda flag (#136404)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T10:58:49Z",
+    "closed_at": "2025-04-29T22:41:16Z",
+    "merged_at": "2025-04-29T22:41:16Z"
+  },
+  {
+    "number": 137608,
+    "title": "release/20.x: [InstCombine] Preserve signbit semantics of NaN with fold to fabs (#136648)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T09:43:44Z",
+    "closed_at": "2025-04-29T22:33:46Z",
+    "merged_at": "2025-04-29T22:33:46Z"
+  },
+  {
+    "number": 137606,
+    "title": "release/20.x: [InstCombine] Do not fold logical is_finite test (#136851)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T09:33:26Z",
+    "closed_at": "2025-04-29T22:32:07Z",
+    "merged_at": "2025-04-29T22:32:06Z"
+  },
+  {
+    "number": 137605,
+    "title": "release/20.x: [InstCombine] Fix ninf propagation for fcmp+sel -> minmax (#136433)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-28T09:32:23Z",
+    "closed_at": "2025-08-08T08:08:16Z",
+    "merged_at": null
+  },
+  {
+    "number": 137594,
+    "title": "[libc++] Add _LIBCPP_NO_UNIQUE_ADDRESS to flat_{,multi}map::value_compare",
+    "author": "philnik777",
+    "state": "closed",
+    "created_at": "2025-04-28T08:26:43Z",
+    "closed_at": "2025-05-07T14:09:41Z",
+    "merged_at": "2025-05-07T14:09:41Z"
+  },
+  {
+    "number": 137527,
+    "title": "[SystemZ] Fix compile time regression in adjustInliningThreshold().",
+    "author": "JonPsson1",
+    "state": "closed",
+    "created_at": "2025-04-27T16:25:28Z",
+    "closed_at": "2025-04-28T13:04:08Z",
+    "merged_at": "2025-04-28T13:04:08Z"
+  },
+  {
+    "number": 137490,
+    "title": "release/20.x: [RISCV] Allow `Zicsr`/`Zifencei` to duplicate with `g` (#136842)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-27T03:20:39Z",
+    "closed_at": "2025-05-13T22:03:01Z",
+    "merged_at": "2025-05-13T22:03:01Z"
+  },
+  {
+    "number": 137403,
+    "title": "[sanitizer_common] Remove interceptors for deprecated struct termio",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-04-25T21:52:31Z",
+    "closed_at": "2025-04-28T20:45:11Z",
+    "merged_at": "2025-04-28T20:45:11Z"
+  },
+  {
+    "number": 137353,
+    "title": "[RTSan] Cherry pick rtsan osspinlock fix to release/20.x",
+    "author": "thetruestblue",
+    "state": "closed",
+    "created_at": "2025-04-25T16:05:44Z",
+    "closed_at": "2025-05-10T18:03:04Z",
+    "merged_at": "2025-05-10T18:03:04Z"
+  },
+  {
+    "number": 137286,
+    "title": "[clang-tidy] Do not pass any file when listing checks in run_clang_ti\u2026",
+    "author": "carlosgalvezp",
+    "state": "closed",
+    "created_at": "2025-04-25T06:20:41Z",
+    "closed_at": "2025-04-29T09:13:30Z",
+    "merged_at": "2025-04-29T09:13:30Z"
+  },
+  {
+    "number": 137179,
+    "title": "release/20.x: [GlobalOpt] Do not promote malloc if there are atomic loads/stores (#137158)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-24T13:22:08Z",
+    "closed_at": "2025-04-29T22:22:46Z",
+    "merged_at": "2025-04-29T22:22:46Z"
+  },
+  {
+    "number": 137141,
+    "title": "[Driver] Fix _XOPEN_SOURCE definition on Solaris",
+    "author": "rorth",
+    "state": "closed",
+    "created_at": "2025-04-24T08:44:53Z",
+    "closed_at": "2025-04-26T15:06:04Z",
+    "merged_at": "2025-04-26T15:06:04Z"
+  },
+  {
+    "number": 137129,
+    "title": "[LoongArch] Fix fp_to_uint/fp_to_sint conversion errors for lasx",
+    "author": "tangaac",
+    "state": "closed",
+    "created_at": "2025-04-24T07:45:18Z",
+    "closed_at": "2025-05-07T01:29:35Z",
+    "merged_at": "2025-05-07T01:29:35Z"
+  },
+  {
+    "number": 136863,
+    "title": "release/20.x: [LV] Fix crash when building partial reductions using types that aren't known scale factors (#136680)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-23T13:26:28Z",
+    "closed_at": "2025-08-08T08:08:10Z",
+    "merged_at": null
+  },
+  {
+    "number": 136851,
+    "title": "[InstCombine] Do not fold logical is_finite test",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-04-23T11:50:46Z",
+    "closed_at": "2025-04-23T16:12:31Z",
+    "merged_at": "2025-04-23T16:12:31Z"
+  },
+  {
+    "number": 136842,
+    "title": "[RISCV] Allow `Zicsr`/`Zifencei` to duplicate with `g`",
+    "author": "wangpc-pp",
+    "state": "closed",
+    "created_at": "2025-04-23T10:21:58Z",
+    "closed_at": "2025-04-27T03:12:47Z",
+    "merged_at": "2025-04-27T03:12:47Z"
+  },
+  {
+    "number": 136808,
+    "title": "release/20.x: [clang-format] Correctly annotate kw_operator in using decls (#136545)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-23T04:17:40Z",
+    "closed_at": "2025-04-25T23:50:00Z",
+    "merged_at": "2025-04-25T23:50:00Z"
+  },
+  {
+    "number": 136752,
+    "title": "release/20.x: [libcxx] [test] Extend mingw workarounds for armv7/aarch64 too (#136419)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-22T19:48:16Z",
+    "closed_at": "2025-04-29T23:05:37Z",
+    "merged_at": "2025-04-29T23:05:37Z"
+  },
+  {
+    "number": 136688,
+    "title": "release/20.x: [RISCV] Handle scalarized reductions in getArithmeticReductionCost",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-22T11:30:04Z",
+    "closed_at": "2025-04-25T23:46:48Z",
+    "merged_at": "2025-04-25T23:46:47Z"
+  },
+  {
+    "number": 136680,
+    "title": "[LV] Fix crash when building partial reductions using types that aren't known scale factors",
+    "author": "NickGuy-Arm",
+    "state": "closed",
+    "created_at": "2025-04-22T10:19:28Z",
+    "closed_at": "2025-04-23T12:19:18Z",
+    "merged_at": "2025-04-23T12:19:18Z"
+  },
+  {
+    "number": 136648,
+    "title": "[InstCombine] Preserve signbit semantics of NaN with fold to fabs",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-04-22T03:24:12Z",
+    "closed_at": "2025-04-26T06:03:13Z",
+    "merged_at": "2025-04-26T06:03:13Z"
+  },
+  {
+    "number": 136589,
+    "title": "Backport to 20.x \"[clang][analyzer] Fix error path of builtin overflow (#136345)\"",
+    "author": "pskrgag",
+    "state": "closed",
+    "created_at": "2025-04-21T17:58:02Z",
+    "closed_at": "2025-04-25T23:43:40Z",
+    "merged_at": "2025-04-25T23:43:40Z"
+  },
+  {
+    "number": 136546,
+    "title": "[Hexagon] Handle Call Operand vxi1 in Hexagon without HVX Enabled",
+    "author": "pkarveti",
+    "state": "closed",
+    "created_at": "2025-04-21T08:42:17Z",
+    "closed_at": "2025-07-08T16:43:15Z",
+    "merged_at": "2025-07-08T16:43:15Z"
+  },
+  {
+    "number": 136545,
+    "title": "[clang-format] Correctly annotate kw_operator in using decls",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-04-21T08:29:37Z",
+    "closed_at": "2025-04-23T04:08:57Z",
+    "merged_at": "2025-04-23T04:08:56Z"
+  },
+  {
+    "number": 136458,
+    "title": "release/20.x: Fix crash lowering stack guard on OpenBSD/aarch64. (#125416)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-19T20:11:35Z",
+    "closed_at": "2025-05-09T20:11:38Z",
+    "merged_at": "2025-05-09T20:11:38Z"
+  },
+  {
+    "number": 136449,
+    "title": "release/20.x: [libcxx] Provide locale conversions to tests through lit substitution (#105651)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-19T19:24:54Z",
+    "closed_at": "2025-06-12T00:27:02Z",
+    "merged_at": "2025-06-12T00:27:01Z"
+  },
+  {
+    "number": 136433,
+    "title": "[InstCombine] Fix ninf propagation for fcmp+sel -> minmax",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-04-19T14:22:22Z",
+    "closed_at": "2025-04-28T09:24:49Z",
+    "merged_at": "2025-04-28T09:24:49Z"
+  },
+  {
+    "number": 136419,
+    "title": "[libcxx] [test] Extend mingw workarounds for armv7/aarch64 too",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-04-19T08:59:00Z",
+    "closed_at": "2025-04-22T19:41:56Z",
+    "merged_at": "2025-04-22T19:41:56Z"
+  },
+  {
+    "number": 136404,
+    "title": "[clang-repl] : Fix clang-repl crash with --cuda flag",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-04-19T04:33:49Z",
+    "closed_at": "2025-04-26T06:46:27Z",
+    "merged_at": "2025-04-26T06:46:27Z"
+  },
+  {
+    "number": 136283,
+    "title": "release/20.x: [Clang] Fix the trailing comma regression (#136273)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-18T08:34:00Z",
+    "closed_at": "2025-05-09T20:09:10Z",
+    "merged_at": "2025-05-09T20:09:10Z"
+  },
+  {
+    "number": 136273,
+    "title": "[Clang] Fix the trailing comma regression",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-04-18T07:13:00Z",
+    "closed_at": "2025-04-18T08:27:28Z",
+    "merged_at": "2025-04-18T08:27:28Z"
+  },
+  {
+    "number": 136238,
+    "title": "release/20.x: [clang-format] Fix mismatched break in BlockIndent (#124998)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-18T01:48:34Z",
+    "closed_at": "2025-04-25T23:39:58Z",
+    "merged_at": "2025-04-25T23:39:58Z"
+  },
+  {
+    "number": 136034,
+    "title": "[lldb] Fix SBTarget::ReadInstruction with flavor",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2025-04-16T21:15:47Z",
+    "closed_at": "2025-04-25T23:36:31Z",
+    "merged_at": "2025-04-25T23:36:30Z"
+  },
+  {
+    "number": 135957,
+    "title": "[clang] Implement StmtPrinter for EmbedExpr",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2025-04-16T13:04:11Z",
+    "closed_at": "2025-04-17T13:15:07Z",
+    "merged_at": "2025-04-17T13:15:07Z"
+  },
+  {
+    "number": 135927,
+    "title": "release/20.x: [clang][AST] Handle implicit first argument in CallExpr::getBeginLoc()",
+    "author": "HighCommander4",
+    "state": "closed",
+    "created_at": "2025-04-16T07:49:46Z",
+    "closed_at": "2025-04-25T23:29:49Z",
+    "merged_at": "2025-04-25T23:29:49Z"
+  },
+  {
+    "number": 135923,
+    "title": "release/20.x: [LoongArch] Don't crash on instruction prefetch intrinsics (#135760)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-16T07:07:53Z",
+    "closed_at": "2025-04-25T23:26:03Z",
+    "merged_at": "2025-04-25T23:26:03Z"
+  },
+  {
+    "number": 135850,
+    "title": "release/20x: Revert \"[ARM][ConstantIslands] Correct MinNoSplitDisp calculation (#114590)\"",
+    "author": "alexrp",
+    "state": "closed",
+    "created_at": "2025-04-15T20:33:49Z",
+    "closed_at": "2025-04-16T00:24:26Z",
+    "merged_at": "2025-04-16T00:24:26Z"
+  },
+  {
+    "number": 135798,
+    "title": "Silence -Wcast-function-type warnings on idiomatic Windows code (#135\u2026",
+    "author": "AaronBallman",
+    "state": "closed",
+    "created_at": "2025-04-15T15:53:32Z",
+    "closed_at": "2025-04-15T21:34:28Z",
+    "merged_at": "2025-04-15T21:34:28Z"
+  },
+  {
+    "number": 135769,
+    "title": "[InstCombine] Do not combine shuffle+bitcast if the bitcast is eliminable.",
+    "author": "rj-jesus",
+    "state": "closed",
+    "created_at": "2025-04-15T09:58:47Z",
+    "closed_at": "2025-04-30T07:22:38Z",
+    "merged_at": "2025-04-30T07:22:38Z"
+  },
+  {
+    "number": 135666,
+    "title": "[LV] Disable epilogue vectorization for FindLastIV if start is poison.",
+    "author": "fhahn",
+    "state": "closed",
+    "created_at": "2025-04-14T19:51:05Z",
+    "closed_at": "2025-04-15T21:15:36Z",
+    "merged_at": null
+  },
+  {
+    "number": 135660,
+    "title": "Silence -Wcast-function-type warnings on idiomatic Windows code",
+    "author": "AaronBallman",
+    "state": "closed",
+    "created_at": "2025-04-14T19:22:54Z",
+    "closed_at": "2025-04-15T15:19:19Z",
+    "merged_at": "2025-04-15T15:19:19Z"
+  },
+  {
+    "number": 135657,
+    "title": "release/20.x: [HEXAGON] Fix corner cases for hwloops pass (#135439)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-14T18:49:04Z",
+    "closed_at": "2025-04-25T23:22:50Z",
+    "merged_at": "2025-04-25T23:22:50Z"
+  },
+  {
+    "number": 135615,
+    "title": "release/20.x: [LLVM][MemCpyOpt] Unify alias tags if we optimize allocas (#129537)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-04-14T10:50:47Z",
+    "closed_at": "2025-04-15T20:18:38Z",
+    "merged_at": null
+  },
+  {
+    "number": 135577,
+    "title": "release/20.x: [X86][AVX10] Remove VAES and VPCLMULQDQ feature from AVX10.1 (#135489)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-14T01:00:35Z",
+    "closed_at": "2025-04-14T19:45:54Z",
+    "merged_at": "2025-04-14T19:45:54Z"
+  },
+  {
+    "number": 135549,
+    "title": "[X86] Backport saturate-convert intrinsics renaming & YMM rounding intrinsics removal in AVX10.2",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2025-04-13T14:48:09Z",
+    "closed_at": "2025-04-14T19:44:18Z",
+    "merged_at": "2025-04-14T19:44:18Z"
+  },
+  {
+    "number": 135543,
+    "title": "release/20.x: [SCEV] Use ashr to adjust constant multipliers (#135534)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-13T12:29:15Z",
+    "closed_at": "2025-04-14T19:38:33Z",
+    "merged_at": "2025-04-14T19:38:33Z"
+  },
+  {
+    "number": 135534,
+    "title": "[SCEV] Use ashr to adjust constant multipliers",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-04-13T09:10:51Z",
+    "closed_at": "2025-04-13T12:22:48Z",
+    "merged_at": "2025-04-13T12:22:48Z"
+  },
+  {
+    "number": 135489,
+    "title": "[X86][AVX10] Remove VAES and VPCLMULQDQ feature from AVX10.1",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2025-04-12T10:01:37Z",
+    "closed_at": "2025-04-14T00:54:10Z",
+    "merged_at": "2025-04-14T00:54:10Z"
+  },
+  {
+    "number": 135461,
+    "title": "release/20.x: [llvm][Hexagon] Promote operand v2i1 to v2i32 (#135409)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-12T00:20:05Z",
+    "closed_at": "2025-04-16T00:22:47Z",
+    "merged_at": "2025-04-16T00:22:46Z"
+  },
+  {
+    "number": 135413,
+    "title": "[release/20.x] Support z17 processor name and scheduler description",
+    "author": "uweigand",
+    "state": "closed",
+    "created_at": "2025-04-11T18:08:23Z",
+    "closed_at": "2025-05-10T17:07:25Z",
+    "merged_at": "2025-05-10T17:07:25Z"
+  },
+  {
+    "number": 135409,
+    "title": "[llvm][Hexagon] Promote operand v2i1 to v2i32",
+    "author": "iajbar",
+    "state": "closed",
+    "created_at": "2025-04-11T17:37:04Z",
+    "closed_at": "2025-04-11T19:25:50Z",
+    "merged_at": "2025-04-11T19:25:50Z"
+  },
+  {
+    "number": 135386,
+    "title": "[libc++] Fix std::make_exception_ptr interaction with ObjC",
+    "author": "itrofimow",
+    "state": "closed",
+    "created_at": "2025-04-11T15:25:19Z",
+    "closed_at": "2025-07-08T15:34:42Z",
+    "merged_at": "2025-07-08T15:34:42Z"
+  },
+  {
+    "number": 135291,
+    "title": "release/20.x: [IndVarSimplify] Handle the case where both operands are the same when widening IV (#135207)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-11T01:09:32Z",
+    "closed_at": "2025-04-11T18:51:17Z",
+    "merged_at": "2025-04-11T18:51:17Z"
+  },
+  {
+    "number": 135254,
+    "title": "Support z17 processor name and scheduler description",
+    "author": "uweigand",
+    "state": "closed",
+    "created_at": "2025-04-10T20:48:03Z",
+    "closed_at": "2025-04-10T22:20:58Z",
+    "merged_at": "2025-04-10T22:20:58Z"
+  },
+  {
+    "number": 135231,
+    "title": "[LV] An attempt to cherry-pick the fix PR #132691 (cherry-pick from the main branch to the release/20.x branch)",
+    "author": "pawosm-arm",
+    "state": "closed",
+    "created_at": "2025-04-10T18:42:40Z",
+    "closed_at": "2025-04-14T20:35:38Z",
+    "merged_at": null
+  },
+  {
+    "number": 135207,
+    "title": "[IndVarSimplify] Handle the case where both operands are the same when widening IV",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-04-10T16:45:09Z",
+    "closed_at": "2025-04-11T01:03:06Z",
+    "merged_at": "2025-04-11T01:03:06Z"
+  },
+  {
+    "number": 135191,
+    "title": "release/20.x: [X86][SSE] Don't emit SSE2 load instructions in SSE1-only mode (#134547)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-10T14:41:00Z",
+    "closed_at": "2025-04-11T18:38:20Z",
+    "merged_at": "2025-04-11T18:38:20Z"
+  },
+  {
+    "number": 135118,
+    "title": "release/20.x: [clang-format] Keep the space between `not` and a unary operator (#135035)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-10T02:20:42Z",
+    "closed_at": "2025-04-11T18:33:40Z",
+    "merged_at": "2025-04-11T18:33:40Z"
+  },
+  {
+    "number": 135035,
+    "title": "[clang-format] Keep the space between `not` and a unary operator",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-04-09T14:51:10Z",
+    "closed_at": "2025-04-10T00:52:12Z",
+    "merged_at": "2025-04-10T00:52:12Z"
+  },
+  {
+    "number": 134970,
+    "title": "[wasm-ld] Refactor WasmSym from static globals to per-link context",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-04-09T06:17:41Z",
+    "closed_at": "2025-04-25T14:35:00Z",
+    "merged_at": "2025-04-25T14:35:00Z"
+  },
+  {
+    "number": 134930,
+    "title": "[Clang][MicrosoftMangle] Implement mangling for ConstantMatrixType",
+    "author": "Losy001",
+    "state": "closed",
+    "created_at": "2025-04-08T20:53:41Z",
+    "closed_at": "2025-04-26T16:04:12Z",
+    "merged_at": "2025-04-26T16:04:12Z"
+  },
+  {
+    "number": 134895,
+    "title": "release/20.x: [libc++] Fix misplaced _LIBCPP_POP_MACROS (#134874)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-08T17:50:54Z",
+    "closed_at": "2025-04-16T00:21:25Z",
+    "merged_at": "2025-04-16T00:21:25Z"
+  },
+  {
+    "number": 134874,
+    "title": "[libc++] Fix misplaced _LIBCPP_POP_MACROS",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-04-08T16:21:00Z",
+    "closed_at": "2025-04-08T17:44:03Z",
+    "merged_at": "2025-04-08T17:44:03Z"
+  },
+  {
+    "number": 134775,
+    "title": "release/20.x: [llvm][CodeGen] avoid repeated interval calculation in window scheduler (#132352)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-08T03:37:15Z",
+    "closed_at": "2025-04-14T19:35:17Z",
+    "merged_at": "2025-04-14T19:35:17Z"
+  },
+  {
+    "number": 134711,
+    "title": "release/20.x: [fatlto] Add coroutine passes when using FatLTO with ThinLTO (#134434)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-07T19:18:51Z",
+    "closed_at": "2025-04-11T18:30:40Z",
+    "merged_at": "2025-04-11T18:30:40Z"
+  },
+  {
+    "number": 134626,
+    "title": "[lldb] Fix  SBTarget::ReadInstruction  with flavor",
+    "author": "da-viper",
+    "state": "closed",
+    "created_at": "2025-04-07T13:28:03Z",
+    "closed_at": "2025-04-11T12:45:19Z",
+    "merged_at": "2025-04-11T12:45:19Z"
+  },
+  {
+    "number": 134514,
+    "title": "Release/20.x: [clang-format] Set C11 instead of C17 for LK_C",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-04-05T23:34:21Z",
+    "closed_at": "2025-04-11T18:18:37Z",
+    "merged_at": "2025-04-11T18:18:37Z"
+  },
+  {
+    "number": 134479,
+    "title": "release/20.x: [LLDB][LoongArch] Fix build errors about NT_LOONGARCH_HW_{BREAK,WATCH} (#126020)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-05T04:02:31Z",
+    "closed_at": "2025-04-11T18:16:11Z",
+    "merged_at": "2025-04-11T18:16:10Z"
+  },
+  {
+    "number": 134435,
+    "title": "release/20.x: [libc++] Fix deployment targets that were incorrectly bumped (#134278)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-04T19:03:35Z",
+    "closed_at": "2025-04-15T20:16:14Z",
+    "merged_at": "2025-04-15T20:16:14Z"
+  },
+  {
+    "number": 134434,
+    "title": "[fatlto] Add coroutine passes when using FatLTO with ThinLTO",
+    "author": "ilovepi",
+    "state": "closed",
+    "created_at": "2025-04-04T18:55:08Z",
+    "closed_at": "2025-04-07T15:41:49Z",
+    "merged_at": "2025-04-07T15:41:49Z"
+  },
+  {
+    "number": 134407,
+    "title": "Revert \"[clang] [ARM] Explicitly enable NEON for Windows/Darwin targets (#122095)\"",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-04-04T16:04:08Z",
+    "closed_at": "2025-04-11T18:10:10Z",
+    "merged_at": "2025-04-11T18:10:10Z"
+  },
+  {
+    "number": 134406,
+    "title": "[libc++] Guard additional headers with _LIBCPP_HAS_LOCALIZATION (#131921)",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-04-04T16:03:18Z",
+    "closed_at": "2025-04-15T20:15:00Z",
+    "merged_at": "2025-04-15T20:15:00Z"
+  },
+  {
+    "number": 134331,
+    "title": "release/20.x: [X86] When expanding LCMPXCHG16B_SAVE_RBX, substitute RBX in base (#134109)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-04T01:30:00Z",
+    "closed_at": "2025-04-11T18:07:12Z",
+    "merged_at": "2025-04-11T18:07:12Z"
+  },
+  {
+    "number": 134313,
+    "title": "release/20.x: [libc++] Add missing release note for LLVM 20 about zip_view (#134144)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-03T22:41:05Z",
+    "closed_at": "2025-04-11T18:00:31Z",
+    "merged_at": "2025-04-11T18:00:31Z"
+  },
+  {
+    "number": 134295,
+    "title": "release/20.x: cuda clang: Fix argument order for __reduce_max_sync (#132881)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-03T19:24:40Z",
+    "closed_at": "2025-04-11T17:59:04Z",
+    "merged_at": "2025-04-11T17:59:04Z"
+  },
+  {
+    "number": 134278,
+    "title": "[libc++] Fix deployment targets that were incorrectly bumped",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-04-03T17:09:32Z",
+    "closed_at": "2025-04-04T18:56:26Z",
+    "merged_at": "2025-04-04T18:56:26Z"
+  },
+  {
+    "number": 134232,
+    "title": "release/20.x: [modules] Handle friend function that was a definition but became only a declaration during AST deserialization (#132214)",
+    "author": "dmpolukhin",
+    "state": "closed",
+    "created_at": "2025-04-03T11:14:13Z",
+    "closed_at": "2025-04-14T15:21:06Z",
+    "merged_at": null
+  },
+  {
+    "number": 134215,
+    "title": "release/20.x: [clang-tidy] Fix broken HeaderFilterRegex when read from config file (#133582)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-03T08:15:09Z",
+    "closed_at": "2025-04-11T16:45:23Z",
+    "merged_at": "2025-04-11T16:45:23Z"
+  },
+  {
+    "number": 134194,
+    "title": "release/20.x: [Clang] Fix a lambda pattern comparison mismatch after ecc7e6ce4 (#133863)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-03T03:47:31Z",
+    "closed_at": "2025-04-15T22:54:16Z",
+    "merged_at": "2025-04-15T22:54:16Z"
+  },
+  {
+    "number": 134158,
+    "title": "[libc++] Re-introduce _LIBCPP_DISABLE_AVAILABILITY",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-04-02T21:43:42Z",
+    "closed_at": "2025-05-05T21:19:13Z",
+    "merged_at": "2025-05-05T21:19:13Z"
+  },
+  {
+    "number": 134144,
+    "title": "[libc++] Add missing release note for LLVM 20 about zip_view",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-04-02T19:36:57Z",
+    "closed_at": "2025-04-03T22:34:49Z",
+    "merged_at": "2025-04-03T22:34:49Z"
+  },
+  {
+    "number": 134109,
+    "title": "[X86] When expanding LCMPXCHG16B_SAVE_RBX, substitute RBX in base",
+    "author": "aaronpuchert",
+    "state": "closed",
+    "created_at": "2025-04-02T16:29:38Z",
+    "closed_at": "2025-04-03T13:56:53Z",
+    "merged_at": "2025-04-03T13:56:53Z"
+  },
+  {
+    "number": 134079,
+    "title": "release/20.x: [lldb] Respect LaunchInfo::SetExecutable in ProcessLauncherPosixFork (#133093)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-02T13:13:54Z",
+    "closed_at": "2025-04-15T20:12:26Z",
+    "merged_at": "2025-04-15T20:12:26Z"
+  },
+  {
+    "number": 134072,
+    "title": "release/20.x: [lldb] Use correct path for lldb-server executable (#131519)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-02T12:16:29Z",
+    "closed_at": "2025-04-29T22:19:23Z",
+    "merged_at": "2025-04-29T22:19:23Z"
+  },
+  {
+    "number": 134058,
+    "title": "release/20.x: Avoid a race condition in opt-viewer/optrecord (#131214)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-02T10:00:06Z",
+    "closed_at": "2025-04-11T19:30:13Z",
+    "merged_at": "2025-04-11T19:30:13Z"
+  },
+  {
+    "number": 134052,
+    "title": "release/20.x: [GlobalMerge][PPC] Don't merge globals in llvm.metadata section (#131801)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-02T08:48:50Z",
+    "closed_at": "2025-04-25T23:19:59Z",
+    "merged_at": "2025-04-25T23:19:59Z"
+  },
+  {
+    "number": 134014,
+    "title": "release/20.x: [LoongArch] Move fix-tle-le-sym-type test to test/MC. NFC (#133839)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-02T01:22:30Z",
+    "closed_at": "2025-04-15T20:11:04Z",
+    "merged_at": "2025-04-15T20:11:04Z"
+  },
+  {
+    "number": 133998,
+    "title": "release/20.x: [clang] Do not infer lifetimebound for functions with void return type (#131997)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-01T22:33:20Z",
+    "closed_at": "2025-04-01T22:35:21Z",
+    "merged_at": null
+  },
+  {
+    "number": 133997,
+    "title": "release/20.x: [clang] Do not infer lifetimebound for functions with void return type (#131997)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-01T22:32:43Z",
+    "closed_at": "2025-04-11T16:37:40Z",
+    "merged_at": "2025-04-11T16:37:40Z"
+  },
+  {
+    "number": 133996,
+    "title": "release/20.x: Define LLVM_ABI and CLANG_ABI for __EMSCRIPTEN__ builds (#131578)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-01T22:26:22Z",
+    "closed_at": "2025-04-01T23:44:30Z",
+    "merged_at": "2025-04-01T23:44:30Z"
+  },
+  {
+    "number": 133863,
+    "title": "[Clang] Fix a lambda pattern comparison mismatch after ecc7e6ce4",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-04-01T05:32:05Z",
+    "closed_at": "2025-04-03T03:15:43Z",
+    "merged_at": "2025-04-03T03:15:43Z"
+  },
+  {
+    "number": 133839,
+    "title": "[LoongArch] Move fix-tle-le-sym-type test to test/MC. NFC",
+    "author": "zhaoqi5",
+    "state": "closed",
+    "created_at": "2025-04-01T02:14:25Z",
+    "closed_at": "2025-04-02T01:11:20Z",
+    "merged_at": "2025-04-02T01:11:20Z"
+  },
+  {
+    "number": 133836,
+    "title": "release/20.x: [LoongArch][MC] Add relocation support for fld fst [x]vld [x]vst",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-04-01T01:06:00Z",
+    "closed_at": "2025-04-01T23:07:28Z",
+    "merged_at": "2025-04-01T23:07:28Z"
+  },
+  {
+    "number": 133832,
+    "title": "release/20.x: [Sanitizers][Darwin][Test] XFAIL malloc_zone.cpp",
+    "author": "wrotki",
+    "state": "closed",
+    "created_at": "2025-04-01T00:47:22Z",
+    "closed_at": "2025-04-11T16:42:38Z",
+    "merged_at": "2025-04-11T16:42:38Z"
+  },
+  {
+    "number": 133813,
+    "title": "release/20.x: [workflows] Add missing -y option to apt-get for abi tests (#133337)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-31T22:36:23Z",
+    "closed_at": "2025-04-01T20:05:15Z",
+    "merged_at": "2025-04-01T20:05:15Z"
+  },
+  {
+    "number": 133591,
+    "title": "release/20.x: [MC,COFF] .safeseh: avoid changeSection (#132624)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-29T17:32:11Z",
+    "closed_at": "2025-03-29T23:38:30Z",
+    "merged_at": "2025-03-29T23:38:30Z"
+  },
+  {
+    "number": 133582,
+    "title": "[clang-tidy] Fix broken HeaderFilterRegex when read from config file",
+    "author": "carlosgalvezp",
+    "state": "closed",
+    "created_at": "2025-03-29T12:47:14Z",
+    "closed_at": "2025-04-03T07:28:34Z",
+    "merged_at": "2025-04-03T07:28:34Z"
+  },
+  {
+    "number": 133460,
+    "title": "release/20.x: [clang] Introduce \"binary\" StringLiteral for #embed data (#127629) ",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2025-03-28T16:04:36Z",
+    "closed_at": "2025-04-14T19:27:26Z",
+    "merged_at": "2025-04-14T19:27:26Z"
+  },
+  {
+    "number": 133348,
+    "title": "release/20.x: Revert \"[MC] Explicitly mark MCSymbol for MO_ExternalSymbol\" (#133291)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-28T00:53:10Z",
+    "closed_at": "2025-03-29T05:43:03Z",
+    "merged_at": "2025-03-29T05:43:03Z"
+  },
+  {
+    "number": 133337,
+    "title": "[workflows] Add missing -y option to apt-get for abi tests",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-03-27T23:11:04Z",
+    "closed_at": "2025-03-31T22:30:06Z",
+    "merged_at": "2025-03-31T22:30:06Z"
+  },
+  {
+    "number": 133336,
+    "title": "release/20.x: workflows: Add missing apt-get update to abi tests (#133264)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-27T23:07:57Z",
+    "closed_at": "2025-03-28T00:37:42Z",
+    "merged_at": "2025-03-28T00:37:42Z"
+  },
+  {
+    "number": 133291,
+    "title": "Revert \"[MC] Explicitly mark MCSymbol for MO_ExternalSymbol\"",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2025-03-27T18:20:49Z",
+    "closed_at": "2025-03-28T00:46:43Z",
+    "merged_at": "2025-03-28T00:46:43Z"
+  },
+  {
+    "number": 133279,
+    "title": "[PowerPC] Support conversion between f16 and f128 (#130158)",
+    "author": "lei137",
+    "state": "closed",
+    "created_at": "2025-03-27T17:17:56Z",
+    "closed_at": "2025-03-31T19:52:12Z",
+    "merged_at": "2025-03-31T19:52:12Z"
+  },
+  {
+    "number": 133264,
+    "title": "workflows: Add missing apt-get update to abi tests",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-03-27T15:13:04Z",
+    "closed_at": "2025-03-27T23:01:35Z",
+    "merged_at": "2025-03-27T23:01:35Z"
+  },
+  {
+    "number": 133225,
+    "title": "[LoongArch][MC] Add relocation support for fld fst [x]vld [x]vst",
+    "author": "wangleiat",
+    "state": "closed",
+    "created_at": "2025-03-27T09:44:56Z",
+    "closed_at": "2025-03-28T03:20:17Z",
+    "merged_at": "2025-03-28T03:20:17Z"
+  },
+  {
+    "number": 133223,
+    "title": "release/20.x: [flang] Fix missed case of symbol renaming in module file generation (#132475)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-27T09:35:45Z",
+    "closed_at": "2025-08-08T08:07:47Z",
+    "merged_at": null
+  },
+  {
+    "number": 133219,
+    "title": "[X86] Backport new intrinsic and instruction changes in AVX10.2",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2025-03-27T08:26:48Z",
+    "closed_at": "2025-04-13T14:49:08Z",
+    "merged_at": null
+  },
+  {
+    "number": 133216,
+    "title": "release/20.x: [clang-format] Allow `Language: Cpp` for C files (#133033)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-27T08:07:47Z",
+    "closed_at": "2025-03-29T06:15:38Z",
+    "merged_at": "2025-03-29T06:15:38Z"
+  },
+  {
+    "number": 133198,
+    "title": "release/20.x: [PATCH] [clang][modules] Fix serialization and de-serialization of PCH module file refs  (#105994) (#132802)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-27T02:43:45Z",
+    "closed_at": "2025-04-01T20:12:43Z",
+    "merged_at": "2025-04-01T20:12:43Z"
+  },
+  {
+    "number": 133153,
+    "title": "release/20.x: [libcxx] [test] Fix restoring LLVM_DIR and Clang_DIR (#132838)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-26T20:19:41Z",
+    "closed_at": "2025-03-29T06:19:51Z",
+    "merged_at": "2025-03-29T06:19:51Z"
+  },
+  {
+    "number": 133093,
+    "title": "[lldb] Respect LaunchInfo::SetExecutable in ProcessLauncherPosixFork",
+    "author": "labath",
+    "state": "closed",
+    "created_at": "2025-03-26T14:30:00Z",
+    "closed_at": "2025-03-27T11:44:56Z",
+    "merged_at": "2025-03-27T11:44:56Z"
+  },
+  {
+    "number": 133082,
+    "title": "release/20.x: [TailDuplicator] Determine if computed gotos using `blockaddress` (#132536)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-26T13:34:45Z",
+    "closed_at": "2025-04-11T16:36:30Z",
+    "merged_at": "2025-04-11T16:36:30Z"
+  },
+  {
+    "number": 133037,
+    "title": "[clang-repl] Implement LoadDynamicLibrary for clang-repl wasm use cases",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-03-26T05:24:30Z",
+    "closed_at": "2025-04-01T12:33:45Z",
+    "merged_at": "2025-04-01T12:33:45Z"
+  },
+  {
+    "number": 133033,
+    "title": "[clang-format] Allow `Language: Cpp` for C files",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-03-26T04:47:29Z",
+    "closed_at": "2025-03-27T08:00:02Z",
+    "merged_at": "2025-03-27T08:00:02Z"
+  },
+  {
+    "number": 133027,
+    "title": "Backport/20.x: [LoongArch] Fix the type of tls-le symbols",
+    "author": "zhaoqi5",
+    "state": "closed",
+    "created_at": "2025-03-26T01:27:03Z",
+    "closed_at": "2025-04-01T22:59:29Z",
+    "merged_at": "2025-04-01T22:59:29Z"
+  },
+  {
+    "number": 133006,
+    "title": "release/20.x: XFAIL malloc_zone.cpp for darwin/lsan (#131234)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-25T21:58:06Z",
+    "closed_at": "2025-04-01T00:55:44Z",
+    "merged_at": null
+  },
+  {
+    "number": 132997,
+    "title": "release/20.x: [rtsan][Apple] Add interceptor for _os_nospin_lock_lock (#131034)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-25T21:24:01Z",
+    "closed_at": "2025-03-25T21:42:14Z",
+    "merged_at": null
+  },
+  {
+    "number": 132932,
+    "title": "release/20.x: [X86][AVX10.2] Include changes for COMX and VGETEXP from rev. 2 (#132824)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-25T13:22:43Z",
+    "closed_at": "2025-03-25T20:12:49Z",
+    "merged_at": "2025-03-25T20:12:49Z"
+  },
+  {
+    "number": 132838,
+    "title": "[libcxx] [test] Fix restoring LLVM_DIR and Clang_DIR",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-03-24T22:16:46Z",
+    "closed_at": "2025-03-26T20:13:28Z",
+    "merged_at": "2025-03-26T20:13:28Z"
+  },
+  {
+    "number": 132824,
+    "title": "[X86][AVX10.2] Include changes for COMX and VGETEXP from rev. 2",
+    "author": "e-kud",
+    "state": "closed",
+    "created_at": "2025-03-24T20:30:59Z",
+    "closed_at": "2025-03-25T12:26:14Z",
+    "merged_at": "2025-03-25T12:26:13Z"
+  },
+  {
+    "number": 132802,
+    "title": "[PATCH] [clang][modules] Fix serialization and de-serialization of PCH module file refs  (#105994)",
+    "author": "koplas",
+    "state": "closed",
+    "created_at": "2025-03-24T18:26:06Z",
+    "closed_at": "2025-03-25T05:24:21Z",
+    "merged_at": "2025-03-25T05:24:21Z"
+  },
+  {
+    "number": 132697,
+    "title": "release/20.x: [Clang] Fix various bugs in alias CTAD transform",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-03-24T09:13:43Z",
+    "closed_at": "2025-03-25T23:38:10Z",
+    "merged_at": "2025-03-25T23:38:09Z"
+  },
+  {
+    "number": 132624,
+    "title": "[MC,COFF] .safeseh: avoid changeSection",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2025-03-23T17:32:07Z",
+    "closed_at": "2025-03-26T04:17:37Z",
+    "merged_at": "2025-03-26T04:17:37Z"
+  },
+  {
+    "number": 132536,
+    "title": "[TailDuplicator] Determine if computed gotos using `blockaddress`",
+    "author": "dianqk",
+    "state": "closed",
+    "created_at": "2025-03-22T10:07:23Z",
+    "closed_at": "2025-03-26T13:27:43Z",
+    "merged_at": "2025-03-26T13:27:43Z"
+  },
+  {
+    "number": 132506,
+    "title": "release/20.x: [compiler-rt][Darwin][x86] Fix instrprof-darwin-exports test (#131425)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-22T03:26:35Z",
+    "closed_at": "2025-03-25T23:13:27Z",
+    "merged_at": "2025-03-25T23:13:27Z"
+  },
+  {
+    "number": 132499,
+    "title": "release/20.x: [hexagon] Bump the default version to v68 (#132304)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-22T01:47:04Z",
+    "closed_at": "2025-03-27T23:38:31Z",
+    "merged_at": "2025-03-27T23:38:31Z"
+  },
+  {
+    "number": 132483,
+    "title": "release/20.x: [llvm-dlltool] Implement the --identify option",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-21T22:57:57Z",
+    "closed_at": "2025-03-25T23:35:25Z",
+    "merged_at": "2025-03-25T23:35:25Z"
+  },
+  {
+    "number": 132478,
+    "title": "release/20.x: [LLD] [COFF] Add a few more mingw libs to skip autoexports for (#132289)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-21T21:59:21Z",
+    "closed_at": "2025-03-25T20:15:29Z",
+    "merged_at": "2025-03-25T20:15:29Z"
+  },
+  {
+    "number": 132475,
+    "title": "[flang] Fix missed case of symbol renaming in module file generation",
+    "author": "klausler",
+    "state": "closed",
+    "created_at": "2025-03-21T21:39:49Z",
+    "closed_at": "2025-03-26T19:09:39Z",
+    "merged_at": "2025-03-26T19:09:39Z"
+  },
+  {
+    "number": 132367,
+    "title": "release/20.x: [clang][docs] Move -Wnontrivial-memcall to added flags.",
+    "author": "R-Goc",
+    "state": "closed",
+    "created_at": "2025-03-21T10:12:18Z",
+    "closed_at": "2025-03-29T06:27:50Z",
+    "merged_at": "2025-03-29T06:27:50Z"
+  },
+  {
+    "number": 132361,
+    "title": "release/20.x: [LoongArch] Pre-commit test for fixing tls-le symbol type",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-21T09:36:45Z",
+    "closed_at": "2025-03-25T23:32:34Z",
+    "merged_at": "2025-03-25T23:32:34Z"
+  },
+  {
+    "number": 132336,
+    "title": "release/20.x: [hexagon] Prevent alignment search beyond a label (#130631)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-21T04:45:41Z",
+    "closed_at": "2025-03-25T23:14:43Z",
+    "merged_at": "2025-03-25T23:14:43Z"
+  },
+  {
+    "number": 132324,
+    "title": "[LoongArch] Fix the type of tls-le symbols",
+    "author": "zhaoqi5",
+    "state": "closed",
+    "created_at": "2025-03-21T03:39:31Z",
+    "closed_at": "2025-03-21T08:05:45Z",
+    "merged_at": "2025-03-21T08:05:45Z"
+  },
+  {
+    "number": 132289,
+    "title": "[LLD] [COFF] Add a few more mingw libs to skip autoexports for",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-03-20T21:26:29Z",
+    "closed_at": "2025-03-21T13:33:25Z",
+    "merged_at": "2025-03-21T13:33:25Z"
+  },
+  {
+    "number": 132138,
+    "title": "release/20.x: [HEXAGON] Add support to lower \"FREEZE a half(f16)\" instruction on Hexagon and fix the isel-buildvector-v2f16.ll assertion (#130977)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-20T03:19:07Z",
+    "closed_at": "2025-03-25T23:26:21Z",
+    "merged_at": "2025-03-25T23:26:21Z"
+  },
+  {
+    "number": 132049,
+    "title": "release/20.x: [PowerPC] Support conversion between f16 and f128 (#130158)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-19T15:31:21Z",
+    "closed_at": "2025-03-27T14:55:22Z",
+    "merged_at": null
+  },
+  {
+    "number": 132031,
+    "title": "release/20.x: [llvm] Fix crash when complex deinterleaving operates on an unrolled loop (#129735)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-19T13:55:11Z",
+    "closed_at": "2025-03-25T23:09:28Z",
+    "merged_at": "2025-03-25T23:09:28Z"
+  },
+  {
+    "number": 131997,
+    "title": "[clang] Do not infer lifetimebound for functions with void return type",
+    "author": "usx95",
+    "state": "closed",
+    "created_at": "2025-03-19T10:25:35Z",
+    "closed_at": "2025-03-24T16:42:34Z",
+    "merged_at": "2025-03-24T16:42:34Z"
+  },
+  {
+    "number": 131921,
+    "title": "[libc++] Guard additional headers with _LIBCPP_HAS_LOCALIZATION",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-03-18T21:37:29Z",
+    "closed_at": "2025-04-04T15:48:46Z",
+    "merged_at": "2025-04-04T15:48:46Z"
+  },
+  {
+    "number": 131853,
+    "title": "[Clang][Backport] Demote mixed enumeration arithmetic error to a warning",
+    "author": "cor3ntin",
+    "state": "closed",
+    "created_at": "2025-03-18T16:37:02Z",
+    "closed_at": "2025-03-19T12:55:04Z",
+    "merged_at": null
+  },
+  {
+    "number": 131811,
+    "title": "[Clang] Demote mixed enumeration arithmetic error to a warning",
+    "author": "cor3ntin",
+    "state": "closed",
+    "created_at": "2025-03-18T14:38:33Z",
+    "closed_at": "2025-03-18T15:45:37Z",
+    "merged_at": "2025-03-18T15:45:37Z"
+  },
+  {
+    "number": 131801,
+    "title": "[GlobalMerge][PPC] Don't merge globals in llvm.metadata section",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-03-18T13:37:57Z",
+    "closed_at": "2025-04-02T08:40:54Z",
+    "merged_at": "2025-04-02T08:40:54Z"
+  },
+  {
+    "number": 131729,
+    "title": "Backport/20.x: [Clang] Fix an incorrect assumption on getTemplatedDecl()",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-03-18T04:55:45Z",
+    "closed_at": "2025-03-18T20:13:03Z",
+    "merged_at": "2025-03-18T20:13:02Z"
+  },
+  {
+    "number": 131691,
+    "title": "[BPF] Add default cpu change in ReleaseNotes",
+    "author": "yonghong-song",
+    "state": "closed",
+    "created_at": "2025-03-17T23:14:05Z",
+    "closed_at": "2025-03-18T22:41:30Z",
+    "merged_at": "2025-03-18T22:41:30Z"
+  },
+  {
+    "number": 131578,
+    "title": "Define LLVM_ABI and CLANG_ABI for __EMSCRIPTEN__ builds",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-03-17T07:56:36Z",
+    "closed_at": "2025-03-17T11:14:49Z",
+    "merged_at": "2025-03-17T11:14:49Z"
+  },
+  {
+    "number": 131568,
+    "title": "release/20.x: [SCEV] Check whether the start is non-zero in `ScalarEvolution::howFarToZero` (#131522)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-17T06:05:18Z",
+    "closed_at": "2025-03-18T23:00:11Z",
+    "merged_at": "2025-03-18T23:00:11Z"
+  },
+  {
+    "number": 131522,
+    "title": "[SCEV] Check whether the start is non-zero in `ScalarEvolution::howFarToZero`",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-03-16T14:46:53Z",
+    "closed_at": "2025-03-17T05:59:17Z",
+    "merged_at": "2025-03-17T05:59:16Z"
+  },
+  {
+    "number": 131519,
+    "title": "[lldb] Use correct path for lldb-server executable",
+    "author": "yuvald-sweet-security",
+    "state": "closed",
+    "created_at": "2025-03-16T14:18:22Z",
+    "closed_at": "2025-03-31T15:20:40Z",
+    "merged_at": "2025-03-31T15:20:40Z"
+  },
+  {
+    "number": 131506,
+    "title": "release/20.x: [libc++][test] Backport test skipping for Apple Clang 17",
+    "author": "frederick-vs-ja",
+    "state": "closed",
+    "created_at": "2025-03-16T09:25:15Z",
+    "closed_at": "2025-03-18T20:55:35Z",
+    "merged_at": "2025-03-18T20:55:35Z"
+  },
+  {
+    "number": 131474,
+    "title": "release/20.x: [Clang] Do not emit nodiscard warnings for the base expr of static member access (#131450)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-15T21:35:07Z",
+    "closed_at": "2025-03-18T22:40:11Z",
+    "merged_at": "2025-03-18T22:40:11Z"
+  },
+  {
+    "number": 131450,
+    "title": "[Clang] Do not emit nodiscard warnings for the base expr of static member access",
+    "author": "cor3ntin",
+    "state": "closed",
+    "created_at": "2025-03-15T10:16:18Z",
+    "closed_at": "2025-03-15T21:27:08Z",
+    "merged_at": "2025-03-15T21:27:08Z"
+  },
+  {
+    "number": 131398,
+    "title": "release/20.x: [llvm-objcopy] Apply encryptable offset to first segment, not section (#130517)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-14T21:45:20Z",
+    "closed_at": "2025-03-17T18:45:00Z",
+    "merged_at": "2025-03-17T18:44:59Z"
+  },
+  {
+    "number": 131382,
+    "title": "release/20.x: [libcxx] Add a missing include for __bit_iterator (#127015)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-14T19:38:51Z",
+    "closed_at": "2025-03-18T23:15:35Z",
+    "merged_at": "2025-03-18T23:15:35Z"
+  },
+  {
+    "number": 131270,
+    "title": "release/20.x: [HEXAGON] Fix semantics of ordered FP compares (#131089)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-14T04:09:18Z",
+    "closed_at": "2025-03-27T23:26:51Z",
+    "merged_at": "2025-03-27T23:26:51Z"
+  },
+  {
+    "number": 131234,
+    "title": "XFAIL malloc_zone.cpp for darwin/lsan",
+    "author": "wrotki",
+    "state": "closed",
+    "created_at": "2025-03-13T22:49:00Z",
+    "closed_at": "2025-03-13T23:01:33Z",
+    "merged_at": "2025-03-13T23:01:33Z"
+  },
+  {
+    "number": 131214,
+    "title": "Avoid a race condition in opt-viewer/optrecord",
+    "author": "hroncok",
+    "state": "closed",
+    "created_at": "2025-03-13T20:57:22Z",
+    "closed_at": "2025-04-02T09:52:41Z",
+    "merged_at": "2025-04-02T09:52:41Z"
+  },
+  {
+    "number": 131209,
+    "title": "release/20.x: Reduce memory usage in AST parent map generation by lazily checking if nodes have been seen (#129934)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-13T20:23:50Z",
+    "closed_at": "2025-03-17T21:47:56Z",
+    "merged_at": "2025-03-17T21:47:56Z"
+  },
+  {
+    "number": 131034,
+    "title": "[rtsan][Apple] Add interceptor for _os_nospin_lock_lock",
+    "author": "davidtrevelyan",
+    "state": "closed",
+    "created_at": "2025-03-12T21:25:58Z",
+    "closed_at": "2025-03-13T10:18:26Z",
+    "merged_at": "2025-03-13T10:18:26Z"
+  },
+  {
+    "number": 130998,
+    "title": "release/20.x: [SystemZ]  Move disabling of arg verification to before isFullyInternal(). (#130693)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-12T17:50:37Z",
+    "closed_at": "2025-03-13T17:21:53Z",
+    "merged_at": "2025-03-13T17:21:53Z"
+  },
+  {
+    "number": 130995,
+    "title": "Backport: [BPF] Fix BitCast Assertion with NonZero AddrSpace",
+    "author": "yonghong-song",
+    "state": "closed",
+    "created_at": "2025-03-12T17:16:40Z",
+    "closed_at": "2025-03-17T23:20:49Z",
+    "merged_at": "2025-03-17T23:20:49Z"
+  },
+  {
+    "number": 130977,
+    "title": "[HEXAGON] Add support to lower \"FREEZE a half(f16)\" instruction on Hexagon and fix the isel-buildvector-v2f16.ll assertion",
+    "author": "quic-asaravan",
+    "state": "closed",
+    "created_at": "2025-03-12T15:26:06Z",
+    "closed_at": "2025-03-12T21:58:26Z",
+    "merged_at": "2025-03-12T21:58:26Z"
+  },
+  {
+    "number": 130964,
+    "title": "release/20.x: [MemCpyOpt] Fix clobber check in fca2memcpy optimization",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-12T14:00:17Z",
+    "closed_at": "2025-03-13T17:23:59Z",
+    "merged_at": "2025-03-13T17:23:59Z"
+  },
+  {
+    "number": 130950,
+    "title": "Backport: [clang] fix matching of nested template template parameters",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-03-12T12:17:45Z",
+    "closed_at": "2025-03-25T23:57:41Z",
+    "merged_at": "2025-03-25T23:57:41Z"
+  },
+  {
+    "number": 130774,
+    "title": "release/20.x: [X86][AVX10.2] Fix unexpected larger scope (#130767)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-11T13:26:48Z",
+    "closed_at": "2025-03-11T20:50:22Z",
+    "merged_at": "2025-03-11T20:50:22Z"
+  },
+  {
+    "number": 130767,
+    "title": "[X86][AVX10.2] Fix unexpected larger scope",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2025-03-11T12:54:59Z",
+    "closed_at": "2025-03-11T13:20:28Z",
+    "merged_at": "2025-03-11T13:20:28Z"
+  },
+  {
+    "number": 130702,
+    "title": "release/20.x: [clang-format] Don't remove parentheses separated from ellipsis by comma (#130471)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-11T03:03:01Z",
+    "closed_at": "2025-03-11T20:47:39Z",
+    "merged_at": "2025-03-11T20:47:38Z"
+  },
+  {
+    "number": 130693,
+    "title": "[SystemZ, ArgExt verification] Cache results of isFullyInternal().",
+    "author": "JonPsson1",
+    "state": "closed",
+    "created_at": "2025-03-11T01:11:55Z",
+    "closed_at": "2025-03-12T17:33:13Z",
+    "merged_at": "2025-03-12T17:33:13Z"
+  },
+  {
+    "number": 130678,
+    "title": "release/20.x: [hexagon] Enable --eh-frame-hdr (#130225)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-10T22:41:31Z",
+    "closed_at": "2025-03-27T23:24:41Z",
+    "merged_at": "2025-03-27T23:24:41Z"
+  },
+  {
+    "number": 130658,
+    "title": "release/20.x: [clang] Reject constexpr-unknown values as constant expressions more consistently",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2025-03-10T19:15:41Z",
+    "closed_at": "2025-03-11T21:02:13Z",
+    "merged_at": "2025-03-11T21:02:13Z"
+  },
+  {
+    "number": 130585,
+    "title": "release/20.x: [TailDuplicator] Do not restrict the computed gotos (#114990)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-10T11:40:42Z",
+    "closed_at": "2025-03-11T21:03:07Z",
+    "merged_at": "2025-03-11T21:03:07Z"
+  },
+  {
+    "number": 130580,
+    "title": "release/20.x: [IR] Fix assertion error in User new/delete edge case (#129914)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-10T11:04:01Z",
+    "closed_at": "2025-04-11T20:05:27Z",
+    "merged_at": "2025-04-11T20:05:27Z"
+  },
+  {
+    "number": 130489,
+    "title": "release/20.x: [ValueTracking] Bail out on x86_fp80 when computing fpclass with knownbits (#130477)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-09T13:16:40Z",
+    "closed_at": "2025-03-11T20:51:22Z",
+    "merged_at": "2025-03-11T20:51:22Z"
+  },
+  {
+    "number": 130477,
+    "title": "[ValueTracking] Bail out on x86_fp80 when computing fpclass with knownbits",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-03-09T09:53:23Z",
+    "closed_at": "2025-03-09T13:10:36Z",
+    "merged_at": "2025-03-09T13:10:36Z"
+  },
+  {
+    "number": 130474,
+    "title": "release/20.x: [ValueTracking] Skip incoming values that are the same as the phi in `isGuaranteedNotToBeUndefOrPoison` (#130111)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-09T08:04:10Z",
+    "closed_at": "2025-03-12T00:09:28Z",
+    "merged_at": "2025-03-12T00:09:28Z"
+  },
+  {
+    "number": 130471,
+    "title": "[clang-format] Don't remove parentheses separated from ellipsis by comma",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-03-09T06:50:27Z",
+    "closed_at": "2025-03-11T02:42:54Z",
+    "merged_at": "2025-03-11T02:42:54Z"
+  },
+  {
+    "number": 130215,
+    "title": "release/20.x: [HEXAGON] Fix hvx-isel for extract_subvector op (#129672)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-07T01:11:58Z",
+    "closed_at": "2025-03-12T00:08:25Z",
+    "merged_at": "2025-03-12T00:08:25Z"
+  },
+  {
+    "number": 130158,
+    "title": "[PowerPC] Support conversion between f16 and f128",
+    "author": "lei137",
+    "state": "closed",
+    "created_at": "2025-03-06T18:32:49Z",
+    "closed_at": "2025-03-19T14:19:58Z",
+    "merged_at": "2025-03-19T14:19:58Z"
+  },
+  {
+    "number": 130126,
+    "title": "[CUDA][HIP] fix virtual dtor host/device attr",
+    "author": "yxsamliu",
+    "state": "closed",
+    "created_at": "2025-03-06T15:58:39Z",
+    "closed_at": "2025-03-18T21:15:31Z",
+    "merged_at": "2025-03-18T21:15:31Z"
+  },
+  {
+    "number": 130035,
+    "title": "release/20.x: [ARM] Speedups for CombineBaseUpdate. (#129725)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-06T09:41:29Z",
+    "closed_at": "2025-03-31T19:48:00Z",
+    "merged_at": "2025-03-31T19:48:00Z"
+  },
+  {
+    "number": 130017,
+    "title": "release/20.x: [libclc] Stop installing CLC headers (#126908)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-06T09:01:05Z",
+    "closed_at": "2025-04-11T17:56:29Z",
+    "merged_at": null
+  },
+  {
+    "number": 130009,
+    "title": "release/20.x: [LoongArch] Relax the restrictions of inlineasm operand modifier 'u' and 'w' (#129864)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-06T08:26:35Z",
+    "closed_at": "2025-03-12T00:10:15Z",
+    "merged_at": "2025-03-12T00:10:15Z"
+  },
+  {
+    "number": 129997,
+    "title": "release/20.x: [AArch64] Fix SVE scalar fcopysign lowering without neon. (#129787)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-06T06:47:32Z",
+    "closed_at": "2025-03-25T22:53:03Z",
+    "merged_at": "2025-03-25T22:53:03Z"
+  },
+  {
+    "number": 129996,
+    "title": "release/20.x: [AArch64] Fix BE popcount casts. (#129879)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-06T06:47:11Z",
+    "closed_at": "2025-03-11T20:52:24Z",
+    "merged_at": "2025-03-11T20:52:24Z"
+  },
+  {
+    "number": 129952,
+    "title": "[clang] Reject constexpr-unknown values as constant expressions more consistently",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2025-03-05T22:47:33Z",
+    "closed_at": "2025-03-10T01:38:55Z",
+    "merged_at": "2025-03-10T01:38:55Z"
+  },
+  {
+    "number": 129934,
+    "title": "Reduce memory usage in AST parent map generation by lazily checking if nodes have been seen",
+    "author": "higher-performance",
+    "state": "closed",
+    "created_at": "2025-03-05T20:54:07Z",
+    "closed_at": "2025-03-13T20:02:40Z",
+    "merged_at": "2025-03-13T20:02:40Z"
+  },
+  {
+    "number": 129914,
+    "title": "[IR] Fix assertion error in User new/delete edge case",
+    "author": "marcauberer",
+    "state": "closed",
+    "created_at": "2025-03-05T19:12:28Z",
+    "closed_at": "2025-03-10T10:53:45Z",
+    "merged_at": "2025-03-10T10:53:45Z"
+  },
+  {
+    "number": 129864,
+    "title": "[LoongArch] Relax the restrictions of inlineasm operand modifier 'u' and 'w'",
+    "author": "SixWeining",
+    "state": "closed",
+    "created_at": "2025-03-05T10:36:26Z",
+    "closed_at": "2025-03-06T08:17:12Z",
+    "merged_at": "2025-03-06T08:17:12Z"
+  },
+  {
+    "number": 129836,
+    "title": "release/20.x: [Clang] Treat constexpr-unknown value as invalid in `EvaluateAsInitializer` (#128409)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-05T06:27:29Z",
+    "closed_at": "2025-03-10T19:16:40Z",
+    "merged_at": null
+  },
+  {
+    "number": 129787,
+    "title": "[AArch64] Fix SVE scalar fcopysign lowering without neon.",
+    "author": "davemgreen",
+    "state": "closed",
+    "created_at": "2025-03-04T22:22:10Z",
+    "closed_at": "2025-03-05T17:18:08Z",
+    "merged_at": "2025-03-05T17:18:08Z"
+  },
+  {
+    "number": 129762,
+    "title": "release/20.x: [lld][WebAssembly] Support for the custom-page-sizes WebAssembly proposal (#128942)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-04T19:07:49Z",
+    "closed_at": "2025-06-19T16:47:15Z",
+    "merged_at": null
+  },
+  {
+    "number": 129735,
+    "title": "[llvm] Fix crash when complex deinterleaving operates on an unrolled loop",
+    "author": "NickGuy-Arm",
+    "state": "closed",
+    "created_at": "2025-03-04T16:27:06Z",
+    "closed_at": "2025-03-19T13:44:04Z",
+    "merged_at": "2025-03-19T13:44:04Z"
+  },
+  {
+    "number": 129686,
+    "title": " AMDGPU: Fix broken broken negative test for gfx950 assembler (#129667)",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-03-04T11:08:35Z",
+    "closed_at": "2025-03-17T19:50:18Z",
+    "merged_at": "2025-03-17T19:50:18Z"
+  },
+  {
+    "number": 129667,
+    "title": "AMDGPU: Fix broken broken negative test for gfx950 assembler",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-03-04T08:16:22Z",
+    "closed_at": "2025-03-04T09:56:45Z",
+    "merged_at": "2025-03-04T09:56:45Z"
+  },
+  {
+    "number": 129595,
+    "title": "release/20.x: [VectorCombine] scalarizeLoadExtract - don't create scalar loads if any extract is waiting to be erased (#129375)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-03T21:44:37Z",
+    "closed_at": "2025-03-12T00:14:57Z",
+    "merged_at": "2025-03-12T00:14:57Z"
+  },
+  {
+    "number": 129587,
+    "title": "release/20.x: [Clang] Fix GPU intrinsic helpers incorrectly sign extending (#129560)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-03T20:32:26Z",
+    "closed_at": "2025-03-12T00:14:04Z",
+    "merged_at": "2025-03-12T00:14:04Z"
+  },
+  {
+    "number": 129566,
+    "title": "release/20.x: [libc++][test] extend XFAIL clauses to cover Amazon Linux too (#129377)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-03T18:18:26Z",
+    "closed_at": "2025-03-12T00:13:11Z",
+    "merged_at": "2025-03-12T00:13:11Z"
+  },
+  {
+    "number": 129560,
+    "title": "[Clang] Fix GPU intrinsic helpers incorrectly sign extending",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-03-03T17:23:18Z",
+    "closed_at": "2025-03-03T20:26:43Z",
+    "merged_at": "2025-03-03T20:26:43Z"
+  },
+  {
+    "number": 129546,
+    "title": "release/20.x: [AArch64] Don't try to custom lower fp16 selects with nofp (#129492)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-03T15:57:13Z",
+    "closed_at": "2025-03-11T20:45:06Z",
+    "merged_at": "2025-03-11T20:45:06Z"
+  },
+  {
+    "number": 129383,
+    "title": "release/20.x: [DAGCombiner] Don't ignore N2's undef elements in `foldVSelectOfConstants` (#129272)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-01T12:51:48Z",
+    "closed_at": "2025-03-11T20:42:48Z",
+    "merged_at": "2025-03-11T20:42:48Z"
+  },
+  {
+    "number": 129377,
+    "title": "[libc++][test] extend XFAIL clauses to cover Amazon Linux too",
+    "author": "pawosm-arm",
+    "state": "closed",
+    "created_at": "2025-03-01T10:50:21Z",
+    "closed_at": "2025-03-03T18:10:36Z",
+    "merged_at": "2025-03-03T18:10:36Z"
+  },
+  {
+    "number": 129342,
+    "title": "release/20.x: [lldb] Fix manual CURSES_LIBRARIES tinfo finding (#128245)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-03-01T00:21:45Z",
+    "closed_at": "2025-03-11T20:41:35Z",
+    "merged_at": "2025-03-11T20:41:35Z"
+  },
+  {
+    "number": 129317,
+    "title": "release/20.x:  [LAA] Consider accessed addrspace when mapping underlying obj to access. (#129087)",
+    "author": "fhahn",
+    "state": "closed",
+    "created_at": "2025-02-28T21:26:57Z",
+    "closed_at": "2025-03-18T20:48:39Z",
+    "merged_at": null
+  },
+  {
+    "number": 129311,
+    "title": "release/20.x: [Hexagon] Handle Call Operand vxi1 in Hexagon Backend (#128027)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-28T21:17:36Z",
+    "closed_at": "2025-03-11T20:37:30Z",
+    "merged_at": "2025-03-11T20:37:30Z"
+  },
+  {
+    "number": 129305,
+    "title": "release/20.x: [libc++] Guard <codecvt> contents on _LIBCPP_HAS_LOCALIZATION (#129112)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-28T20:47:33Z",
+    "closed_at": "2025-03-11T20:26:26Z",
+    "merged_at": "2025-03-11T20:26:26Z"
+  },
+  {
+    "number": 129303,
+    "title": "release/20.x: [libc++][ci] Update the Windows toolchains to Clang 19 (#129232)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-28T20:29:19Z",
+    "closed_at": "2025-03-11T20:00:40Z",
+    "merged_at": "2025-03-11T20:00:40Z"
+  },
+  {
+    "number": 129286,
+    "title": "release/20.x: [SystemZ] Add header guard macros to vecintrin.h (#129170)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-28T18:52:40Z",
+    "closed_at": "2025-03-11T20:24:53Z",
+    "merged_at": "2025-03-11T20:24:53Z"
+  },
+  {
+    "number": 129272,
+    "title": "[DAGCombiner] Don't ignore N2's undef elements in `foldVSelectOfConstants`",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-02-28T17:14:55Z",
+    "closed_at": "2025-03-01T12:21:29Z",
+    "merged_at": "2025-03-01T12:21:28Z"
+  },
+  {
+    "number": 129232,
+    "title": "[libc++] [ci] Update the Windows toolchains to Clang 19",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-02-28T11:55:40Z",
+    "closed_at": "2025-02-28T14:56:17Z",
+    "merged_at": "2025-02-28T14:56:17Z"
+  },
+  {
+    "number": 129225,
+    "title": "release/20.x: [libc++][test] extend -linux-gnu XFAIL to cover all of the -linux targets (#129140)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-28T11:01:42Z",
+    "closed_at": "2025-02-28T16:12:48Z",
+    "merged_at": null
+  },
+  {
+    "number": 129170,
+    "title": "[SystemZ] Add header guard macros to vecintrin.h",
+    "author": "jonathan-albrecht-ibm",
+    "state": "closed",
+    "created_at": "2025-02-28T01:33:42Z",
+    "closed_at": "2025-02-28T09:16:19Z",
+    "merged_at": "2025-02-28T09:16:19Z"
+  },
+  {
+    "number": 129112,
+    "title": "[libc++] Guard <codecvt> contents on _LIBCPP_HAS_LOCALIZATION",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-02-27T20:24:19Z",
+    "closed_at": "2025-02-28T20:41:44Z",
+    "merged_at": "2025-02-28T20:41:44Z"
+  },
+  {
+    "number": 129088,
+    "title": "[PAC] Make ValueMapper handle ConstantPtrAuth values",
+    "author": "atrosinenko",
+    "state": "closed",
+    "created_at": "2025-02-27T17:43:38Z",
+    "closed_at": "2025-02-28T20:48:01Z",
+    "merged_at": "2025-02-28T20:48:01Z"
+  },
+  {
+    "number": 128996,
+    "title": "[clang-format] Fix a bug that changes keyword `or` to an identifier",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-02-27T04:37:40Z",
+    "closed_at": "2025-03-04T15:00:00Z",
+    "merged_at": "2025-03-04T15:00:00Z"
+  },
+  {
+    "number": 128945,
+    "title": "release/20.x: workflows/release-binaries: Fix macos-14 build (#127157)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-26T21:37:12Z",
+    "closed_at": "2025-03-04T14:58:24Z",
+    "merged_at": "2025-03-04T14:58:24Z"
+  },
+  {
+    "number": 128942,
+    "title": "[lld][WebAssembly] Support for the custom-page-sizes WebAssembly proposal",
+    "author": "fitzgen",
+    "state": "closed",
+    "created_at": "2025-02-26T20:36:29Z",
+    "closed_at": "2025-03-04T17:39:30Z",
+    "merged_at": "2025-03-04T17:39:30Z"
+  },
+  {
+    "number": 128884,
+    "title": "release/20.x: workflows/release-binaries-all: Add missing secret input (#126921)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-26T14:50:46Z",
+    "closed_at": "2025-03-04T14:57:49Z",
+    "merged_at": "2025-03-04T14:57:49Z"
+  },
+  {
+    "number": 128879,
+    "title": "release/20.x: [LV][VPlan] Prevent calculate cost for skiped instructions in precomputeCosts(). (#127966)",
+    "author": "fhahn",
+    "state": "closed",
+    "created_at": "2025-02-26T14:13:46Z",
+    "closed_at": "2025-03-11T20:16:19Z",
+    "merged_at": null
+  },
+  {
+    "number": 128845,
+    "title": "release/20.x: [Clang] Fix an integer overflow issue in computing CTAD's parameter depth",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-02-26T09:04:19Z",
+    "closed_at": "2025-03-13T17:26:37Z",
+    "merged_at": "2025-03-13T17:26:37Z"
+  },
+  {
+    "number": 128841,
+    "title": "release/20.x: [clangd] [C++20] [Modules] Add scanning cache (#125988)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-26T08:09:25Z",
+    "closed_at": "2025-03-04T05:07:39Z",
+    "merged_at": null
+  },
+  {
+    "number": 128793,
+    "title": "release/20.x: [CMake][Release] Statically link ZSTD on all OSes (#128554)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-26T00:16:07Z",
+    "closed_at": "2025-02-26T01:08:56Z",
+    "merged_at": "2025-02-26T01:08:56Z"
+  },
+  {
+    "number": 128764,
+    "title": "[PowerPC] Update LLVM 20.1.0 Release Notes",
+    "author": "amy-kwan",
+    "state": "closed",
+    "created_at": "2025-02-25T19:24:02Z",
+    "closed_at": "2025-02-25T23:01:32Z",
+    "merged_at": "2025-02-25T23:01:32Z"
+  },
+  {
+    "number": 128738,
+    "title": "release/20.x: [Hexagon] Add a case to BitTracker for new register class (#128580)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T16:28:41Z",
+    "closed_at": "2025-02-25T19:45:35Z",
+    "merged_at": "2025-02-25T19:45:35Z"
+  },
+  {
+    "number": 128734,
+    "title": "release/20.x: Do not treat llvm.fake.use as a debug instruction (#128684)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T16:26:29Z",
+    "closed_at": "2025-02-25T19:57:57Z",
+    "merged_at": "2025-02-25T19:57:57Z"
+  },
+  {
+    "number": 128730,
+    "title": "release/20.x: [CMake][Release] Enable bolt optimization for clang on Linux (#128090)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T15:41:39Z",
+    "closed_at": "2025-02-26T00:21:11Z",
+    "merged_at": "2025-02-26T00:21:11Z"
+  },
+  {
+    "number": 128720,
+    "title": "release/20.x: On Windows, remove the UCRT libraries from the release script (#128378)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T14:37:40Z",
+    "closed_at": "2025-02-25T19:40:21Z",
+    "merged_at": "2025-02-25T19:40:21Z"
+  },
+  {
+    "number": 128717,
+    "title": "release/20.x: [X86][DAGCombiner] Skip x87 fp80 values in `combineFMulOrFDivWithIntPow2` (#128618)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T14:10:26Z",
+    "closed_at": "2025-02-25T16:32:41Z",
+    "merged_at": "2025-02-25T16:32:40Z"
+  },
+  {
+    "number": 128694,
+    "title": "release/20.x: [LV][VPlan] Prevent calculate cost for skiped instructions in precomputeCosts(). (#127966)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T10:53:39Z",
+    "closed_at": "2025-03-11T20:11:52Z",
+    "merged_at": null
+  },
+  {
+    "number": 128690,
+    "title": "release/20.x: [Serialization] Update DECL_LAST",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T10:27:19Z",
+    "closed_at": "2025-02-25T16:31:31Z",
+    "merged_at": "2025-02-25T16:31:31Z"
+  },
+  {
+    "number": 128686,
+    "title": "release/20.x: [Support] Ensure complete type DelimitedScope (#127459)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T10:01:32Z",
+    "closed_at": "2025-02-25T19:39:00Z",
+    "merged_at": "2025-02-25T19:39:00Z"
+  },
+  {
+    "number": 128684,
+    "title": "Do not treat llvm.fake.use as a debug instruction",
+    "author": "SLTozer",
+    "state": "closed",
+    "created_at": "2025-02-25T09:42:56Z",
+    "closed_at": "2025-02-25T14:49:59Z",
+    "merged_at": "2025-02-25T14:49:59Z"
+  },
+  {
+    "number": 128639,
+    "title": "release/20.x: [Clang] Handle instantiating captures in addInstantiatedCapturesToScope() (#128478)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-25T06:41:19Z",
+    "closed_at": "2025-02-25T16:30:34Z",
+    "merged_at": "2025-02-25T16:30:34Z"
+  },
+  {
+    "number": 128618,
+    "title": "[X86][DAGCombiner] Skip x87 fp80 values in `combineFMulOrFDivWithIntPow2`",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-02-25T02:48:00Z",
+    "closed_at": "2025-02-25T14:03:17Z",
+    "merged_at": "2025-02-25T14:03:17Z"
+  },
+  {
+    "number": 128597,
+    "title": "release/20.x: [Hexagon] Set the default compilation target to V68 (#125239)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-24T23:11:26Z",
+    "closed_at": "2025-03-22T01:47:08Z",
+    "merged_at": null
+  },
+  {
+    "number": 128554,
+    "title": "[CMake][Release] Statically link ZSTD on all OSes",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-24T19:18:47Z",
+    "closed_at": "2025-02-26T00:10:20Z",
+    "merged_at": "2025-02-26T00:10:20Z"
+  },
+  {
+    "number": 128539,
+    "title": "release/20.x: [PPC][MC] Restore support for case-insensitive register names (#128525)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-24T17:30:19Z",
+    "closed_at": "2025-02-26T00:13:56Z",
+    "merged_at": "2025-02-26T00:13:56Z"
+  },
+  {
+    "number": 128518,
+    "title": "release/20.x: [flang] fix AArch64 PCS for struct following pointer (#127802)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-24T14:23:43Z",
+    "closed_at": "2025-02-25T16:27:30Z",
+    "merged_at": "2025-02-25T16:27:30Z"
+  },
+  {
+    "number": 128478,
+    "title": "[Clang] Handle instantiating captures in addInstantiatedCapturesToScope()",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-02-24T07:39:33Z",
+    "closed_at": "2025-02-25T06:35:07Z",
+    "merged_at": "2025-02-25T06:35:07Z"
+  },
+  {
+    "number": 128409,
+    "title": "[Clang] Treat constexpr-unknown value as invalid in `EvaluateAsInitializer`",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-02-23T09:07:09Z",
+    "closed_at": "2025-03-05T06:01:25Z",
+    "merged_at": "2025-03-05T06:01:25Z"
+  },
+  {
+    "number": 128389,
+    "title": "release/20.x: Reland \"[LV]: Teach LV to recursively (de)interleave.\" (#125094)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-23T03:06:33Z",
+    "closed_at": "2025-03-05T10:25:46Z",
+    "merged_at": null
+  },
+  {
+    "number": 128378,
+    "title": "On Windows, remove the UCRT libraries from the release script",
+    "author": "aganea",
+    "state": "closed",
+    "created_at": "2025-02-22T23:23:57Z",
+    "closed_at": "2025-02-24T13:53:45Z",
+    "merged_at": "2025-02-24T13:53:44Z"
+  },
+  {
+    "number": 128371,
+    "title": "release/20.x: [SLP] Check for PHI nodes (potentially cycles!) when checking dependencies: Backport Attempt 3",
+    "author": "Zentrik",
+    "state": "closed",
+    "created_at": "2025-02-22T21:02:20Z",
+    "closed_at": "2025-02-25T05:00:05Z",
+    "merged_at": "2025-02-25T05:00:05Z"
+  },
+  {
+    "number": 128283,
+    "title": "release/20.x: [DAGCombiner] visitFREEZE: Early exit when N is deleted (#128161)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-22T04:12:29Z",
+    "closed_at": "2025-02-25T16:25:25Z",
+    "merged_at": "2025-02-25T16:25:25Z"
+  },
+  {
+    "number": 128166,
+    "title": "[clang][CodeGen] Additional fixes for #114062",
+    "author": "AlexVlx",
+    "state": "closed",
+    "created_at": "2025-02-21T11:57:55Z",
+    "closed_at": "2025-02-27T02:03:17Z",
+    "merged_at": "2025-02-27T02:03:17Z"
+  },
+  {
+    "number": 128161,
+    "title": "[DAGCombiner] visitFREEZE: Early exit when N is deleted",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-02-21T10:54:24Z",
+    "closed_at": "2025-02-22T04:06:34Z",
+    "merged_at": "2025-02-22T04:06:34Z"
+  },
+  {
+    "number": 128146,
+    "title": "release/20.x: [RISCV] [MachineOutliner] Analyze all candidates (#127659)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-21T08:01:10Z",
+    "closed_at": "2025-02-21T18:57:04Z",
+    "merged_at": "2025-02-21T18:57:04Z"
+  },
+  {
+    "number": 128136,
+    "title": "AMDGPU: Add some release 20 notes",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-02-21T05:51:43Z",
+    "closed_at": "2025-02-21T19:23:06Z",
+    "merged_at": "2025-02-21T19:23:06Z"
+  },
+  {
+    "number": 128132,
+    "title": "release/20.x: AMDGPU: Widen f16 minimum/maximum to v2f16 on gfx950 (#128121)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-21T05:31:48Z",
+    "closed_at": "2025-02-21T22:14:43Z",
+    "merged_at": "2025-02-21T22:14:42Z"
+  },
+  {
+    "number": 128123,
+    "title": "AMDGPU: Form v2f16 minimum3/maximum3 on gfx950",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-02-21T04:11:12Z",
+    "closed_at": "2025-02-21T05:11:51Z",
+    "merged_at": "2025-02-21T05:11:51Z"
+  },
+  {
+    "number": 128121,
+    "title": "AMDGPU: Widen f16 minimum/maximum to v2f16 on gfx950",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-02-21T03:59:46Z",
+    "closed_at": "2025-02-21T05:08:50Z",
+    "merged_at": "2025-02-21T05:08:50Z"
+  },
+  {
+    "number": 128114,
+    "title": "release/20.x: [C++20] [Modules] handling selectAny attribute for vardecl",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-21T02:55:04Z",
+    "closed_at": "2025-02-25T16:16:15Z",
+    "merged_at": "2025-02-25T16:16:15Z"
+  },
+  {
+    "number": 128090,
+    "title": "[CMake][Release] Enable bolt optimization for clang on Linux",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-20T23:41:34Z",
+    "closed_at": "2025-02-25T15:33:42Z",
+    "merged_at": "2025-02-25T15:33:42Z"
+  },
+  {
+    "number": 128085,
+    "title": "release/20.x: [Clang] Fix cross-lane scan when given divergent lanes (#127703)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-20T23:11:27Z",
+    "closed_at": "2025-02-21T22:10:36Z",
+    "merged_at": "2025-02-21T22:10:36Z"
+  },
+  {
+    "number": 128009,
+    "title": "release/20.x: [libc++] Reduce the dependency of the locale base API on the base system from the headers (#117764)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-20T14:32:48Z",
+    "closed_at": "2025-02-21T22:09:11Z",
+    "merged_at": "2025-02-21T22:09:11Z"
+  },
+  {
+    "number": 128001,
+    "title": "release/20.x: [GlobalISel][AArch64] Fix fptoi.sat lowering. (#127901)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-20T12:28:48Z",
+    "closed_at": "2025-02-20T21:09:17Z",
+    "merged_at": "2025-02-20T21:09:17Z"
+  },
+  {
+    "number": 127982,
+    "title": "release/20.x: Add Wasm, RISC-V, BPF, and NVPTX targets back to Windows release packaging (#127794)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-20T10:08:54Z",
+    "closed_at": "2025-02-21T22:03:54Z",
+    "merged_at": "2025-02-21T22:03:54Z"
+  },
+  {
+    "number": 127951,
+    "title": "release/20.x: workflows/release-binaries: Disable Flang on x86_64 macOS (#127216)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-20T03:22:39Z",
+    "closed_at": "2025-02-20T21:02:07Z",
+    "merged_at": "2025-02-20T21:02:07Z"
+  },
+  {
+    "number": 127949,
+    "title": "release/20.x: [CMake][Release] Statically link clang with stage1 runtimes (#127268)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-20T03:20:13Z",
+    "closed_at": "2025-02-21T17:40:03Z",
+    "merged_at": "2025-02-21T17:40:03Z"
+  },
+  {
+    "number": 127918,
+    "title": "release/20.x: [CUDA] Add support for sm101 and sm120 target architectures (#127187)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-19T22:50:11Z",
+    "closed_at": "2025-02-21T22:07:14Z",
+    "merged_at": "2025-02-21T22:07:14Z"
+  },
+  {
+    "number": 127842,
+    "title": "release/20.x: [libc++] Guard include of <features.h> with __has_include (#127691)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-19T18:23:58Z",
+    "closed_at": "2025-02-20T23:26:29Z",
+    "merged_at": "2025-02-20T23:26:29Z"
+  },
+  {
+    "number": 127831,
+    "title": "Backport: [clang] fix P3310 overload resolution flag propagation (#125791)",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-02-19T17:11:29Z",
+    "closed_at": "2025-02-20T23:23:16Z",
+    "merged_at": "2025-02-20T23:23:16Z"
+  },
+  {
+    "number": 127805,
+    "title": "release/20.x: flang: Fix build with latest libc++ (#127362)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-19T14:59:24Z",
+    "closed_at": "2025-02-20T03:13:24Z",
+    "merged_at": "2025-02-20T03:13:24Z"
+  },
+  {
+    "number": 127802,
+    "title": "[flang] fix AArch64 PCS for struct following pointer",
+    "author": "DavidTruby",
+    "state": "closed",
+    "created_at": "2025-02-19T14:27:55Z",
+    "closed_at": "2025-02-21T18:50:53Z",
+    "merged_at": "2025-02-21T18:50:53Z"
+  },
+  {
+    "number": 127794,
+    "title": "Add Wasm, RISC-V, BPF, and NVPTX targets back to Windows release packaging",
+    "author": "zmodem",
+    "state": "closed",
+    "created_at": "2025-02-19T13:16:43Z",
+    "closed_at": "2025-02-20T10:02:34Z",
+    "merged_at": "2025-02-20T10:02:34Z"
+  },
+  {
+    "number": 127779,
+    "title": "release/20.x: Reland: [clang] fix P3310 overload resolution flag propagation (#125791)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-19T10:47:12Z",
+    "closed_at": "2025-02-19T17:03:33Z",
+    "merged_at": null
+  },
+  {
+    "number": 127777,
+    "title": "Backport: [clang] Track function template instantiation from definition (#125266)",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-02-19T10:30:46Z",
+    "closed_at": "2025-02-21T18:49:10Z",
+    "merged_at": "2025-02-21T18:49:10Z"
+  },
+  {
+    "number": 127771,
+    "title": "release/20.x: Revert Do not use `private` as the default AS for when `generic` is available (#112442)\"",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-02-19T09:17:22Z",
+    "closed_at": "2025-02-25T16:44:22Z",
+    "merged_at": "2025-02-25T16:44:22Z"
+  },
+  {
+    "number": 127751,
+    "title": "release/20.x: AMDGPU: Stop emitting an error on illegal addrspacecasts",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-02-19T06:08:17Z",
+    "closed_at": "2025-02-21T17:35:52Z",
+    "merged_at": "2025-02-21T17:35:52Z"
+  },
+  {
+    "number": 127732,
+    "title": "release/20.x: [libc++] Set feature-test macro `__cpp_lib_atomic_float` (#127559)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-19T01:12:42Z",
+    "closed_at": "2025-02-20T21:05:44Z",
+    "merged_at": "2025-02-20T21:05:44Z"
+  },
+  {
+    "number": 127704,
+    "title": "release/20.x: [Clang] Add handlers for 'match_any' and 'match_all' to `gpuintrin.h` (#127504)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T22:06:14Z",
+    "closed_at": "2025-03-01T22:54:54Z",
+    "merged_at": null
+  },
+  {
+    "number": 127703,
+    "title": "[Clang] Fix cross-lane scan when given divergent lanes",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-18T21:57:38Z",
+    "closed_at": "2025-02-19T22:47:00Z",
+    "merged_at": "2025-02-19T22:47:00Z"
+  },
+  {
+    "number": 127691,
+    "title": "[libc++] Guard include of <features.h> with __has_include",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-02-18T19:40:44Z",
+    "closed_at": "2025-02-19T13:21:56Z",
+    "merged_at": "2025-02-19T13:21:56Z"
+  },
+  {
+    "number": 127677,
+    "title": "release/20.x: Revert \"[libc++] Reduce std::conjunction overhead (#124259)\"",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T18:19:41Z",
+    "closed_at": "2025-02-19T05:57:29Z",
+    "merged_at": "2025-02-19T05:57:29Z"
+  },
+  {
+    "number": 127659,
+    "title": "[RISCV] [MachineOutliner] Analyze all candidates",
+    "author": "svs-quic",
+    "state": "closed",
+    "created_at": "2025-02-18T16:02:50Z",
+    "closed_at": "2025-02-21T07:23:13Z",
+    "merged_at": "2025-02-21T07:23:13Z"
+  },
+  {
+    "number": 127618,
+    "title": "release/20.x: [clang] Fix false positive regression for lifetime analysis warning. (#127460)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T11:40:32Z",
+    "closed_at": "2025-02-18T23:20:48Z",
+    "merged_at": "2025-02-18T23:20:48Z"
+  },
+  {
+    "number": 127597,
+    "title": "release/20.x: [libclc] Disable external-calls testing for clspv targets (#127529)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T09:22:47Z",
+    "closed_at": "2025-02-18T23:15:09Z",
+    "merged_at": "2025-02-18T23:15:09Z"
+  },
+  {
+    "number": 127591,
+    "title": "release/20.x: [clang-format] Fix a bug in annotating StartOfName (#127545)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T08:23:50Z",
+    "closed_at": "2025-02-18T23:12:40Z",
+    "merged_at": "2025-02-18T23:12:40Z"
+  },
+  {
+    "number": 127589,
+    "title": "release/20.x: [mlir][cmake] Do not export MLIR_MAIN_SRC_DIR and MLIR_INCLUDE_DIR (#125842)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T08:14:44Z",
+    "closed_at": "2025-02-25T16:06:50Z",
+    "merged_at": "2025-02-25T16:06:49Z"
+  },
+  {
+    "number": 127559,
+    "title": "[libc++] Set feature-test macro `__cpp_lib_atomic_float`",
+    "author": "frederick-vs-ja",
+    "state": "closed",
+    "created_at": "2025-02-18T02:55:18Z",
+    "closed_at": "2025-02-19T01:06:51Z",
+    "merged_at": "2025-02-19T01:06:51Z"
+  },
+  {
+    "number": 127552,
+    "title": "release/20.x: [clang][CodeGen] `sret` args should always point to the `alloca` AS, so use that (#114062)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-18T01:26:19Z",
+    "closed_at": "2025-02-25T16:45:26Z",
+    "merged_at": null
+  },
+  {
+    "number": 127548,
+    "title": "release/20.x: [OpenMP][libomp] Add OpenBSD, NetBSD and DragonFly stdarg handling (#126182)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-17T22:52:32Z",
+    "closed_at": "2025-02-18T01:08:28Z",
+    "merged_at": "2025-02-18T01:08:28Z"
+  },
+  {
+    "number": 127531,
+    "title": "release/20.x: [libc++][TZDB] Fixes mapping of nonexisting time. (#127330)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-17T18:14:37Z",
+    "closed_at": "2025-02-20T20:57:11Z",
+    "merged_at": "2025-02-20T20:57:11Z"
+  },
+  {
+    "number": 127528,
+    "title": "[NFC][Clang][CodeGen] Remove vestigial assertion",
+    "author": "AlexVlx",
+    "state": "closed",
+    "created_at": "2025-02-17T17:45:12Z",
+    "closed_at": "2025-02-17T20:05:22Z",
+    "merged_at": "2025-02-17T20:05:22Z"
+  },
+  {
+    "number": 127527,
+    "title": "release/20.x: [Hexagon] Explicitly truncate constant in UAddSubO (#127360)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-17T17:36:36Z",
+    "closed_at": "2025-02-18T23:11:17Z",
+    "merged_at": "2025-02-18T23:11:17Z"
+  },
+  {
+    "number": 127504,
+    "title": "[Clang] Add handlers for 'match_any' and 'match_all' to `gpuintrin.h`",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-17T15:08:43Z",
+    "closed_at": "2025-02-17T20:06:24Z",
+    "merged_at": "2025-02-17T20:06:24Z"
+  },
+  {
+    "number": 127496,
+    "title": "release/20.x: AMDGPU: Stop emitting an error on illegal addrspacecasts (#127487)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-17T14:11:40Z",
+    "closed_at": "2025-05-10T16:09:52Z",
+    "merged_at": null
+  },
+  {
+    "number": 127493,
+    "title": "[ReleaseNotes][RemoveDIs] Add release note for deprecated insertion methods",
+    "author": "jmorse",
+    "state": "closed",
+    "created_at": "2025-02-17T13:42:19Z",
+    "closed_at": "2025-02-18T01:04:28Z",
+    "merged_at": "2025-02-18T01:04:28Z"
+  },
+  {
+    "number": 127487,
+    "title": "AMDGPU: Stop emitting an error on illegal addrspacecasts",
+    "author": "arsenm",
+    "state": "closed",
+    "created_at": "2025-02-17T13:02:41Z",
+    "closed_at": "2025-02-17T14:03:51Z",
+    "merged_at": "2025-02-17T14:03:51Z"
+  },
+  {
+    "number": 127467,
+    "title": "[clang-repl] Fix error recovery while PTU cleanup",
+    "author": "anutosh491",
+    "state": "closed",
+    "created_at": "2025-02-17T10:08:01Z",
+    "closed_at": "2025-06-02T14:44:29Z",
+    "merged_at": "2025-06-02T14:44:29Z"
+  },
+  {
+    "number": 127465,
+    "title": "[llvm-dlltool] Implement the --identify option",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-02-17T10:04:47Z",
+    "closed_at": "2025-02-20T22:49:19Z",
+    "merged_at": "2025-02-20T22:49:19Z"
+  },
+  {
+    "number": 127460,
+    "title": "[clang] Fix false positive regression for lifetime analysis warning.",
+    "author": "hokein",
+    "state": "closed",
+    "created_at": "2025-02-17T09:20:24Z",
+    "closed_at": "2025-02-17T13:40:32Z",
+    "merged_at": "2025-02-17T13:40:32Z"
+  },
+  {
+    "number": 127459,
+    "title": "[Support] Ensure complete type DelimitedScope",
+    "author": "hahnjo",
+    "state": "closed",
+    "created_at": "2025-02-17T09:04:11Z",
+    "closed_at": "2025-02-21T20:19:56Z",
+    "merged_at": "2025-02-21T20:19:56Z"
+  },
+  {
+    "number": 127406,
+    "title": "[clang][analysis] Fix flaky clang/test/Analysis/live-stmts.cpp test (2nd attempt)",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2025-02-16T19:10:51Z",
+    "closed_at": "2025-02-17T10:12:55Z",
+    "merged_at": "2025-02-17T10:12:55Z"
+  },
+  {
+    "number": 127391,
+    "title": "release/20.x: [InstCombine] Do not keep samesign when speculatively executing icmps (#127007)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-16T12:24:38Z",
+    "closed_at": "2025-02-18T01:03:08Z",
+    "merged_at": "2025-02-18T01:03:08Z"
+  },
+  {
+    "number": 127362,
+    "title": "flang: Fix build with latest libc++",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-16T01:34:01Z",
+    "closed_at": "2025-02-19T14:53:31Z",
+    "merged_at": "2025-02-19T14:53:31Z"
+  },
+  {
+    "number": 127358,
+    "title": "[clangd] Add clangd 20 release notes",
+    "author": "HighCommander4",
+    "state": "closed",
+    "created_at": "2025-02-16T00:41:40Z",
+    "closed_at": "2025-03-04T15:01:18Z",
+    "merged_at": "2025-03-04T15:01:18Z"
+  },
+  {
+    "number": 127350,
+    "title": "release/20.x: [PowerPC] Use getSignedTargetConstant in SelectOptimalAddrMode. (#127305)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-15T22:20:13Z",
+    "closed_at": "2025-02-16T06:12:27Z",
+    "merged_at": "2025-02-16T06:12:27Z"
+  },
+  {
+    "number": 127342,
+    "title": "release/20.x: [libc++] Fixes (|multi)_set spaceship operator. (#127326)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-15T19:21:40Z",
+    "closed_at": "2025-02-18T23:09:04Z",
+    "merged_at": "2025-02-18T23:09:04Z"
+  },
+  {
+    "number": 127330,
+    "title": "[libc++][TZDB] Fixes mapping of nonexisting time.",
+    "author": "mordante",
+    "state": "closed",
+    "created_at": "2025-02-15T15:26:38Z",
+    "closed_at": "2025-02-17T18:08:07Z",
+    "merged_at": "2025-02-17T18:08:07Z"
+  },
+  {
+    "number": 127326,
+    "title": "[libc++] Fixes (|multi)_set spaceship operator.",
+    "author": "mordante",
+    "state": "closed",
+    "created_at": "2025-02-15T14:19:34Z",
+    "closed_at": "2025-02-15T19:15:32Z",
+    "merged_at": "2025-02-15T19:15:32Z"
+  },
+  {
+    "number": 127310,
+    "title": "release/20.x: [libc++] Avoid including <features.h> on arbitrary platforms (#125587)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-15T09:59:40Z",
+    "closed_at": "2025-02-19T14:27:19Z",
+    "merged_at": "2025-02-19T14:27:19Z"
+  },
+  {
+    "number": 127294,
+    "title": "release/20.x: [SLP] Check for PHI nodes (potentially cycles!) when checking dependencies",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-15T01:34:50Z",
+    "closed_at": "2025-02-22T22:02:31Z",
+    "merged_at": null
+  },
+  {
+    "number": 127268,
+    "title": "[CMake][Release] Statically link clang with stage1 runtimes",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-14T21:59:07Z",
+    "closed_at": "2025-02-20T01:46:31Z",
+    "merged_at": "2025-02-20T01:46:31Z"
+  },
+  {
+    "number": 127267,
+    "title": "release/20.x: [SLP] Check for PHI nodes (potentially cycles!) when checking dependencies",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-14T21:45:33Z",
+    "closed_at": "2025-02-14T22:32:54Z",
+    "merged_at": "2025-02-14T22:32:54Z"
+  },
+  {
+    "number": 127252,
+    "title": "release/20.x: Revert \"[C++20][Modules][Serialization] Delay marking pending incompl\u2026 (#127136)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-14T19:55:31Z",
+    "closed_at": "2025-02-20T23:12:14Z",
+    "merged_at": "2025-02-20T23:12:14Z"
+  },
+  {
+    "number": 127232,
+    "title": "release/20.x: [libc++][format] Disables the FTM on older MacOS versions. (#126547)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-14T17:41:03Z",
+    "closed_at": "2025-02-16T06:11:08Z",
+    "merged_at": "2025-02-16T06:11:07Z"
+  },
+  {
+    "number": 127222,
+    "title": "[clang] Fix preprocessor output from #embed (#126742)",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2025-02-14T16:28:59Z",
+    "closed_at": "2025-02-21T18:40:27Z",
+    "merged_at": "2025-02-21T18:40:27Z"
+  },
+  {
+    "number": 127216,
+    "title": "workflows/release-binaries: Disable Flang on x86_64 macOS",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-14T15:41:41Z",
+    "closed_at": "2025-02-20T03:16:30Z",
+    "merged_at": "2025-02-20T03:16:30Z"
+  },
+  {
+    "number": 127215,
+    "title": "release/20.x: Diagnose the code with trailing comma in the function call. (#125232)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-14T15:32:26Z",
+    "closed_at": "2025-02-14T22:16:11Z",
+    "merged_at": "2025-02-14T22:16:11Z"
+  },
+  {
+    "number": 127187,
+    "title": "[CUDA] Add support for sm101 and sm120 target architectures",
+    "author": "jodelek",
+    "state": "closed",
+    "created_at": "2025-02-14T09:59:52Z",
+    "closed_at": "2025-02-19T22:41:07Z",
+    "merged_at": "2025-02-19T22:41:07Z"
+  },
+  {
+    "number": 127174,
+    "title": "release/20.x: [Clang] Remove the PackExpansion restrictions for rewrite substitution",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2025-02-14T07:06:40Z",
+    "closed_at": "2025-02-20T23:08:46Z",
+    "merged_at": "2025-02-20T23:08:46Z"
+  },
+  {
+    "number": 127157,
+    "title": "workflows/release-binaries: Fix macos-14 build",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-14T02:22:31Z",
+    "closed_at": "2025-02-14T15:28:44Z",
+    "merged_at": "2025-02-14T15:28:44Z"
+  },
+  {
+    "number": 127148,
+    "title": "release/20.x: [clang][AST] Handle dependent representation of call to function with explicit object parameter in CallExpr::getBeginLoc() (#126868)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-13T23:42:04Z",
+    "closed_at": "2025-02-14T21:19:21Z",
+    "merged_at": "2025-02-14T21:19:21Z"
+  },
+  {
+    "number": 127144,
+    "title": "release/20.x: [ORC][unittests] Remove hard coded 16k page size (#127115)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-13T23:09:31Z",
+    "closed_at": "2025-02-14T20:29:00Z",
+    "merged_at": "2025-02-14T20:29:00Z"
+  },
+  {
+    "number": 127136,
+    "title": "Revert \"[C++20][Modules][Serialization] Delay marking pending incompl\u2026",
+    "author": "zixu-w",
+    "state": "closed",
+    "created_at": "2025-02-13T22:14:44Z",
+    "closed_at": "2025-02-14T00:12:22Z",
+    "merged_at": "2025-02-14T00:12:22Z"
+  },
+  {
+    "number": 127124,
+    "title": "release/20.x: [reland][DebugInfo] Update DIBuilder insertion to take InsertPosition (#126967)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-13T20:51:26Z",
+    "closed_at": "2025-02-14T21:35:58Z",
+    "merged_at": "2025-02-14T21:35:58Z"
+  },
+  {
+    "number": 127101,
+    "title": "release/20.x: [VPlan] Compute cost for binary op VPInstruction with underlying values.",
+    "author": "hassnaaHamdi",
+    "state": "closed",
+    "created_at": "2025-02-13T17:56:45Z",
+    "closed_at": "2025-02-21T18:45:00Z",
+    "merged_at": "2025-02-21T18:45:00Z"
+  },
+  {
+    "number": 127099,
+    "title": "release/20.x: libc/cmake: don't fail if LLVM_VERSION_SUFFIX isn't defined (#126359)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-13T17:50:06Z",
+    "closed_at": "2025-02-14T21:28:50Z",
+    "merged_at": "2025-02-14T21:28:50Z"
+  },
+  {
+    "number": 127084,
+    "title": "release/20.x: [LLVM][AArch64] Remove aliases of LSUI instructions (#126072)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-13T15:53:36Z",
+    "closed_at": "2025-02-20T20:50:47Z",
+    "merged_at": "2025-02-20T20:50:47Z"
+  },
+  {
+    "number": 127015,
+    "title": "[libcxx] Add a missing include for __bit_iterator",
+    "author": "atetubou",
+    "state": "closed",
+    "created_at": "2025-02-13T07:06:41Z",
+    "closed_at": "2025-02-13T07:54:43Z",
+    "merged_at": "2025-02-13T07:54:43Z"
+  },
+  {
+    "number": 127007,
+    "title": "[InstCombine] Do not keep samesign when speculatively executing icmps",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-02-13T04:13:34Z",
+    "closed_at": "2025-02-16T12:18:29Z",
+    "merged_at": "2025-02-16T12:18:29Z"
+  },
+  {
+    "number": 126960,
+    "title": "release/20.x: [libc] Move __LLVM_LIBC__ define to __llvm-libc-common.h (#126877)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T19:44:37Z",
+    "closed_at": "2025-02-14T21:43:41Z",
+    "merged_at": "2025-02-14T21:43:41Z"
+  },
+  {
+    "number": 126921,
+    "title": "workflows/release-binaries-all: Add missing secret input",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-12T14:53:31Z",
+    "closed_at": "2025-02-12T18:01:47Z",
+    "merged_at": "2025-02-12T18:01:47Z"
+  },
+  {
+    "number": 126908,
+    "title": "[libclc] Stop installing CLC headers",
+    "author": "frasercrmck",
+    "state": "closed",
+    "created_at": "2025-02-12T13:25:47Z",
+    "closed_at": "2025-03-06T08:52:23Z",
+    "merged_at": "2025-03-06T08:52:23Z"
+  },
+  {
+    "number": 126891,
+    "title": "release/20.x: [AArch64][DAG] Allow fptos/ui.sat to scalarized. (#126799)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T11:11:42Z",
+    "closed_at": "2025-02-13T03:37:25Z",
+    "merged_at": "2025-02-13T03:37:25Z"
+  },
+  {
+    "number": 126883,
+    "title": "release/20.x: [llvm] [cmake] Expose `LLVM_BUILD_TELEMETRY` in `LLVMConfig.cmake` (#126710)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T10:20:14Z",
+    "closed_at": "2025-02-13T03:39:24Z",
+    "merged_at": "2025-02-13T03:39:24Z"
+  },
+  {
+    "number": 126881,
+    "title": "release/20.x: [BOLT] Use getMainExecutable() (#126698)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T10:16:50Z",
+    "closed_at": "2025-02-13T03:41:22Z",
+    "merged_at": "2025-02-13T03:41:21Z"
+  },
+  {
+    "number": 126877,
+    "title": "[libc] Move __LLVM_LIBC__ define to __llvm-libc-common.h",
+    "author": "petrhosek",
+    "state": "closed",
+    "created_at": "2025-02-12T09:15:53Z",
+    "closed_at": "2025-02-12T19:37:08Z",
+    "merged_at": "2025-02-12T19:37:08Z"
+  },
+  {
+    "number": 126866,
+    "title": "release/20.x: [clang-format] Add ClassHeadName to help annotating StartOfName (#124891)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T07:28:29Z",
+    "closed_at": "2025-02-14T22:30:45Z",
+    "merged_at": "2025-02-14T22:30:45Z"
+  },
+  {
+    "number": 126848,
+    "title": "release/20.x: [ELF] Refine isExported/isPreemptible condition",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T04:08:08Z",
+    "closed_at": "2025-02-18T00:16:09Z",
+    "merged_at": "2025-02-18T00:16:09Z"
+  },
+  {
+    "number": 126847,
+    "title": "release/20.x: AMDGPU: Handle gfx950 XDL Write-VGPR-VALU-WAW wait state change (#126132)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T04:04:00Z",
+    "closed_at": "2025-02-19T05:55:29Z",
+    "merged_at": "2025-02-19T05:55:29Z"
+  },
+  {
+    "number": 126845,
+    "title": "release/20.x: [RISCV][compiler-rt] drop __riscv_vendor_feature_bits (#126460)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T03:50:08Z",
+    "closed_at": "2025-02-12T04:57:48Z",
+    "merged_at": "2025-02-12T04:57:48Z"
+  },
+  {
+    "number": 126843,
+    "title": "release/20.x: [clang-format] Fix a crash on parsing requires clause (#125021)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T03:41:51Z",
+    "closed_at": "2025-02-14T02:38:43Z",
+    "merged_at": "2025-02-14T02:38:43Z"
+  },
+  {
+    "number": 126839,
+    "title": "release/20.x: [clang-format] Hanlde qualified type name for `QualifierAlignment` (#125327)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T02:33:01Z",
+    "closed_at": "2025-02-14T02:34:10Z",
+    "merged_at": "2025-02-14T02:34:10Z"
+  },
+  {
+    "number": 126831,
+    "title": "release/20.x: [NFC] [clang] fixed unused variable warning",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-12T00:57:19Z",
+    "closed_at": "2025-02-16T02:25:30Z",
+    "merged_at": "2025-02-16T02:25:30Z"
+  },
+  {
+    "number": 126825,
+    "title": "release/20.x: [ORC] Switch to singleton pattern for UnwindInfoManager. (#126691)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T23:51:51Z",
+    "closed_at": "2025-02-12T00:49:01Z",
+    "merged_at": null
+  },
+  {
+    "number": 126810,
+    "title": "[lldb] Add terminfo dependency for ncurses support",
+    "author": "ajordanr-google",
+    "state": "closed",
+    "created_at": "2025-02-11T22:13:22Z",
+    "closed_at": "2025-02-15T05:37:39Z",
+    "merged_at": "2025-02-15T05:37:39Z"
+  },
+  {
+    "number": 126799,
+    "title": "[AArch64][DAG] Allow fptos/ui.sat to scalarized.",
+    "author": "davemgreen",
+    "state": "closed",
+    "created_at": "2025-02-11T21:32:30Z",
+    "closed_at": "2025-02-12T11:04:08Z",
+    "merged_at": "2025-02-12T11:04:08Z"
+  },
+  {
+    "number": 126795,
+    "title": "release/20.x: [Offload] Properly guard modifications to the RPC device array (#126790)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T21:03:19Z",
+    "closed_at": "2025-02-11T21:19:52Z",
+    "merged_at": "2025-02-11T21:19:52Z"
+  },
+  {
+    "number": 126790,
+    "title": "[Offload] Properly guard modifications to the RPC device array",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-11T20:08:10Z",
+    "closed_at": "2025-02-11T20:57:31Z",
+    "merged_at": "2025-02-11T20:57:31Z"
+  },
+  {
+    "number": 126776,
+    "title": "release/20.x: AMDGPU: Handle gfx950 XDL-write-VGPR-VALU-Mem-Exp wait state change (#126727)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T18:36:48Z",
+    "closed_at": "2025-02-11T22:41:16Z",
+    "merged_at": "2025-02-11T22:41:16Z"
+  },
+  {
+    "number": 126767,
+    "title": "release/20.x: Fix false positive of [[clang::require_explicit_initialization]] on copy/move constructors (#126553)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T17:19:07Z",
+    "closed_at": "2025-02-11T21:22:36Z",
+    "merged_at": "2025-02-11T21:22:36Z"
+  },
+  {
+    "number": 126744,
+    "title": "release/20.x: AMDGPU: Handle gfx950 XDL-write-VGPR-Overlap-Src-AB wait state (#126732)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T15:37:44Z",
+    "closed_at": "2025-02-11T22:40:06Z",
+    "merged_at": "2025-02-11T22:40:06Z"
+  },
+  {
+    "number": 126742,
+    "title": "[clang] Fix preprocessor output from #embed",
+    "author": "Fznamznon",
+    "state": "closed",
+    "created_at": "2025-02-11T15:23:03Z",
+    "closed_at": "2025-02-13T09:59:22Z",
+    "merged_at": "2025-02-13T09:59:22Z"
+  },
+  {
+    "number": 126732,
+    "title": "AMDGPU: Handle gfx950 XDL-write-VGPR-Overlap-Src-AB wait state",
+    "author": "VigneshwarJ",
+    "state": "closed",
+    "created_at": "2025-02-11T14:13:49Z",
+    "closed_at": "2025-02-11T15:30:16Z",
+    "merged_at": "2025-02-11T15:30:16Z"
+  },
+  {
+    "number": 126727,
+    "title": "AMDGPU: Handle gfx950 XDL-write-VGPR-VALU-Mem-Exp wait state change",
+    "author": "VigneshwarJ",
+    "state": "closed",
+    "created_at": "2025-02-11T13:17:48Z",
+    "closed_at": "2025-02-11T18:30:53Z",
+    "merged_at": "2025-02-11T18:30:53Z"
+  },
+  {
+    "number": 126718,
+    "title": "release/20.x: [VPlan] Only skip expansion for SCEVUnknown if it isn't an instruction. (#125235)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T12:10:02Z",
+    "closed_at": "2025-02-11T22:26:38Z",
+    "merged_at": "2025-02-11T22:26:38Z"
+  },
+  {
+    "number": 126698,
+    "title": "[BOLT] Use getMainExecutable()",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-11T08:57:07Z",
+    "closed_at": "2025-02-12T08:44:27Z",
+    "merged_at": "2025-02-12T08:44:27Z"
+  },
+  {
+    "number": 126687,
+    "title": "release/20.x: [AVX10.2] Fix wrong intrinsic names after rename  (#126390)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T06:48:50Z",
+    "closed_at": "2025-02-11T22:10:34Z",
+    "merged_at": "2025-02-11T22:10:34Z"
+  },
+  {
+    "number": 126685,
+    "title": "release/20.x: [C++20] [Modules] Don't diagnose duplicated declarations in different modules which is not in file scope",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T06:25:57Z",
+    "closed_at": "2025-02-11T22:05:52Z",
+    "merged_at": "2025-02-11T22:05:52Z"
+  },
+  {
+    "number": 126666,
+    "title": "release/20.x: [AVX10.2] Fix wrong mask casting in some convert intrinsics (#126627)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T05:19:38Z",
+    "closed_at": "2025-02-11T22:08:08Z",
+    "merged_at": "2025-02-11T22:08:08Z"
+  },
+  {
+    "number": 126659,
+    "title": "release/20.x: [clang] StmtPrinter: Handle DeclRefExpr to a Decomposition (#125001)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-11T03:15:34Z",
+    "closed_at": "2025-02-18T23:06:54Z",
+    "merged_at": "2025-02-18T23:06:54Z"
+  },
+  {
+    "number": 126627,
+    "title": "[AVX10.2] Fix wrong mask casting in some convert intrinsics",
+    "author": "mikolaj-pirog",
+    "state": "closed",
+    "created_at": "2025-02-11T00:03:13Z",
+    "closed_at": "2025-02-11T05:13:36Z",
+    "merged_at": "2025-02-11T05:13:36Z"
+  },
+  {
+    "number": 126607,
+    "title": "release/20.x: [llvm-objcopy][ReleaseNotes] Fix prints wrong path when dump-section output path doesn't exist #125345",
+    "author": "AmrDeveloper",
+    "state": "closed",
+    "created_at": "2025-02-10T22:06:34Z",
+    "closed_at": "2025-02-11T22:22:02Z",
+    "merged_at": "2025-02-11T22:22:02Z"
+  },
+  {
+    "number": 126589,
+    "title": "release/20.x: [PAC] Do not support some values of branch-protection with ptrauth-returns (#125280)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T19:57:10Z",
+    "closed_at": "2025-02-11T01:32:35Z",
+    "merged_at": "2025-02-11T01:32:35Z"
+  },
+  {
+    "number": 126553,
+    "title": "Fix false positive of [[clang::require_explicit_initialization]] on copy/move constructors",
+    "author": "higher-performance",
+    "state": "closed",
+    "created_at": "2025-02-10T17:35:39Z",
+    "closed_at": "2025-02-11T06:52:13Z",
+    "merged_at": "2025-02-11T06:52:13Z"
+  },
+  {
+    "number": 126549,
+    "title": "release/20.x: [ELF] --package-metadata: support %[0-9a-fA-F][0-9a-fA-F]",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T17:28:36Z",
+    "closed_at": "2025-02-10T22:09:40Z",
+    "merged_at": "2025-02-10T22:09:40Z"
+  },
+  {
+    "number": 126547,
+    "title": "[libc++][format] Disables the FTM on older MacOS versions.",
+    "author": "mordante",
+    "state": "closed",
+    "created_at": "2025-02-10T17:27:59Z",
+    "closed_at": "2025-02-14T17:27:55Z",
+    "merged_at": "2025-02-14T17:27:55Z"
+  },
+  {
+    "number": 126542,
+    "title": "release/20.x: [LV] Forget LCSSA phi with new pred before other SCEV invalidation. (#119897)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T16:39:03Z",
+    "closed_at": "2025-02-10T22:02:58Z",
+    "merged_at": "2025-02-10T22:02:58Z"
+  },
+  {
+    "number": 126535,
+    "title": "release/20.x: [clang] Handle f(no-)strict-overflow, f(no-)wrapv, f(no-)wrapv-pointer like gcc (#126524)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T16:03:16Z",
+    "closed_at": "2025-02-11T01:30:58Z",
+    "merged_at": "2025-02-11T01:30:58Z"
+  },
+  {
+    "number": 126524,
+    "title": "[clang] Handle f(no-)strict-overflow, f(no-)wrapv, f(no-)wrapv-pointer like gcc",
+    "author": "nico",
+    "state": "closed",
+    "created_at": "2025-02-10T14:42:06Z",
+    "closed_at": "2025-02-10T15:57:22Z",
+    "merged_at": "2025-02-10T15:57:22Z"
+  },
+  {
+    "number": 126518,
+    "title": "release/20.x: [clang] Expose -f(no-)strict-overflow as a clang-cl option (#126512)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T14:09:04Z",
+    "closed_at": "2025-02-10T21:48:31Z",
+    "merged_at": "2025-02-10T21:48:30Z"
+  },
+  {
+    "number": 126513,
+    "title": "Add release note for Armv9.6 updates",
+    "author": "CarolineConcatto",
+    "state": "closed",
+    "created_at": "2025-02-10T13:17:37Z",
+    "closed_at": "2025-02-14T02:30:50Z",
+    "merged_at": "2025-02-14T02:30:50Z"
+  },
+  {
+    "number": 126512,
+    "title": "[clang] Expose -f(no-)strict-overflow as a clang-cl option",
+    "author": "nico",
+    "state": "closed",
+    "created_at": "2025-02-10T13:16:38Z",
+    "closed_at": "2025-02-10T14:00:31Z",
+    "merged_at": "2025-02-10T14:00:31Z"
+  },
+  {
+    "number": 126503,
+    "title": "release/20.x: [AArch64][SME] [AArch64][SME] Spill p-regs as z-regs when streaming hazards are possible",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-02-10T11:49:34Z",
+    "closed_at": "2025-02-11T01:10:40Z",
+    "merged_at": "2025-02-11T01:10:40Z"
+  },
+  {
+    "number": 126496,
+    "title": "release/20.x: [ValueTracking] Fix bit width handling in computeKnownBits() for GEPs (#125532)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T09:55:19Z",
+    "closed_at": "2025-02-11T22:17:48Z",
+    "merged_at": "2025-02-11T22:17:48Z"
+  },
+  {
+    "number": 126493,
+    "title": "release/20.x: [DSE] Don't use initializes on byval argument (#126259)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T09:39:46Z",
+    "closed_at": "2025-02-11T22:13:11Z",
+    "merged_at": "2025-02-11T22:13:11Z"
+  },
+  {
+    "number": 126492,
+    "title": "release/20.x: [ScalarEvolution] Handle addrec incoming value in isImpliedViaMerge() (#126236)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T09:38:10Z",
+    "closed_at": "2025-02-11T22:14:57Z",
+    "merged_at": "2025-02-11T22:14:57Z"
+  },
+  {
+    "number": 126487,
+    "title": "release/20.x: Revert \"[SLP] getSpillCost - fully populate IntrinsicCostAttributes to improve cost analysis.\" (#124962)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T09:17:09Z",
+    "closed_at": "2025-02-11T01:28:11Z",
+    "merged_at": "2025-02-11T01:28:11Z"
+  },
+  {
+    "number": 126479,
+    "title": "release/20.x: [clang-format] Handle C-style cast of member function pointer type (#126340)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-10T07:52:28Z",
+    "closed_at": "2025-02-11T22:20:56Z",
+    "merged_at": "2025-02-11T22:20:56Z"
+  },
+  {
+    "number": 126460,
+    "title": "[RISCV][compiler-rt] drop __riscv_vendor_feature_bits",
+    "author": "BeMg",
+    "state": "closed",
+    "created_at": "2025-02-10T05:07:57Z",
+    "closed_at": "2025-02-11T07:19:20Z",
+    "merged_at": "2025-02-11T07:19:20Z"
+  },
+  {
+    "number": 126436,
+    "title": "release/20.x: [CSKY] Default to unsigned char",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-09T20:33:17Z",
+    "closed_at": "2025-02-21T18:36:48Z",
+    "merged_at": "2025-02-21T18:36:47Z"
+  },
+  {
+    "number": 126396,
+    "title": "[ELF] --package-metadata: support %[0-9a-fA-F][0-9a-fA-F]",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2025-02-09T02:45:06Z",
+    "closed_at": "2025-02-10T17:21:31Z",
+    "merged_at": "2025-02-10T17:21:31Z"
+  },
+  {
+    "number": 126390,
+    "title": "[AVX10.2] Fix wrong intrinsic names after rename ",
+    "author": "mikolaj-pirog",
+    "state": "closed",
+    "created_at": "2025-02-09T00:16:38Z",
+    "closed_at": "2025-02-10T04:48:02Z",
+    "merged_at": "2025-02-10T04:48:02Z"
+  },
+  {
+    "number": 126367,
+    "title": "release/20.x: [llvm-objcopy] Fix prints wrong path when dump-section output path doesn't exist (#125345)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-08T13:20:42Z",
+    "closed_at": "2025-02-10T21:43:26Z",
+    "merged_at": "2025-02-10T21:43:26Z"
+  },
+  {
+    "number": 126361,
+    "title": "release/20.x: [ORC] Force eh-frame use for older Darwins on x86-64 in MachOPlatform, LLJIT.",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-08T09:09:55Z",
+    "closed_at": "2025-02-08T21:40:38Z",
+    "merged_at": "2025-02-08T21:40:38Z"
+  },
+  {
+    "number": 126359,
+    "title": "libc/cmake: don't fail if LLVM_VERSION_SUFFIX isn't defined",
+    "author": "sylvestre",
+    "state": "closed",
+    "created_at": "2025-02-08T08:22:42Z",
+    "closed_at": "2025-02-13T17:42:29Z",
+    "merged_at": "2025-02-13T17:42:29Z"
+  },
+  {
+    "number": 126351,
+    "title": "release/20.x: [BOLT,test] Link against a shared object to test PLT (#125625)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-08T05:49:46Z",
+    "closed_at": "2025-02-11T20:28:46Z",
+    "merged_at": "2025-02-11T20:28:46Z"
+  },
+  {
+    "number": 126340,
+    "title": "[clang-format] Handle C-style cast of member function pointer type",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-02-08T04:03:31Z",
+    "closed_at": "2025-02-09T07:22:34Z",
+    "merged_at": "2025-02-09T07:22:34Z"
+  },
+  {
+    "number": 126310,
+    "title": "release/20.x: workflows/premerge: Move concurrency definition to workflow level (#126308)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T21:15:52Z",
+    "closed_at": "2025-02-07T22:55:10Z",
+    "merged_at": "2025-02-07T22:55:10Z"
+  },
+  {
+    "number": 126308,
+    "title": "workflows/premerge: Move concurrency definition to workflow level",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-07T20:59:23Z",
+    "closed_at": "2025-02-07T21:09:58Z",
+    "merged_at": "2025-02-07T21:09:58Z"
+  },
+  {
+    "number": 126289,
+    "title": "release/20.x: [C++20][Modules][Serialization] Delay marking pending incomplete decl chains until the end of `finishPendingActions`. (#121245)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T19:14:44Z",
+    "closed_at": "2025-02-08T02:36:36Z",
+    "merged_at": "2025-02-08T02:36:36Z"
+  },
+  {
+    "number": 126284,
+    "title": "release/20.x: fix: removes invalid token from LLVM_VERSION_SUFFIX in LIBC namespace (#126193)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T18:27:45Z",
+    "closed_at": "2025-02-07T20:01:22Z",
+    "merged_at": "2025-02-07T20:01:22Z"
+  },
+  {
+    "number": 126269,
+    "title": "[OpenMP] Fix infinite loop on recursive initializers",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-07T17:23:54Z",
+    "closed_at": "2025-02-07T19:44:20Z",
+    "merged_at": "2025-02-07T19:44:20Z"
+  },
+  {
+    "number": 126263,
+    "title": "release/20.x: [AArch64] Fix op mask detection in performZExtDeinterleaveShuffleCombine (#126054)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T16:42:57Z",
+    "closed_at": "2025-02-10T21:57:07Z",
+    "merged_at": "2025-02-10T21:57:07Z"
+  },
+  {
+    "number": 126259,
+    "title": "[DSE] Don't use initializes on byval argument",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-07T16:32:22Z",
+    "closed_at": "2025-02-10T09:34:04Z",
+    "merged_at": "2025-02-10T09:34:04Z"
+  },
+  {
+    "number": 126253,
+    "title": "release/20.x: [AArch64] Enable AvoidLDAPUR for cpu=generic between armv8.4 and armv9.3. (#125261)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T15:34:31Z",
+    "closed_at": "2025-02-08T02:16:09Z",
+    "merged_at": "2025-02-08T02:16:09Z"
+  },
+  {
+    "number": 126236,
+    "title": "[ScalarEvolution] Handle addrec incoming value in isImpliedViaMerge()",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-07T11:58:39Z",
+    "closed_at": "2025-02-10T09:07:22Z",
+    "merged_at": "2025-02-10T09:07:22Z"
+  },
+  {
+    "number": 126215,
+    "title": "[lldb][TypeSystemClang] Initialize ClassTemplateSpecializationDecl's StrictPackMatch field",
+    "author": "Michael137",
+    "state": "closed",
+    "created_at": "2025-02-07T09:57:47Z",
+    "closed_at": "2025-02-07T11:10:10Z",
+    "merged_at": "2025-02-07T11:10:09Z"
+  },
+  {
+    "number": 126211,
+    "title": "release/20.x: [mlir][CMake] Fix dependency on MLIRTestDialect in Transforms tests (#125894)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T09:46:33Z",
+    "closed_at": "2025-02-08T02:20:29Z",
+    "merged_at": "2025-02-08T02:20:29Z"
+  },
+  {
+    "number": 126210,
+    "title": "[AArch64] Update feature dep. for Armv9.6 extensions (#125874)",
+    "author": "CarolineConcatto",
+    "state": "closed",
+    "created_at": "2025-02-07T09:46:18Z",
+    "closed_at": "2025-02-08T00:18:24Z",
+    "merged_at": "2025-02-08T00:18:24Z"
+  },
+  {
+    "number": 126209,
+    "title": "release/20.x: [LoopVectorize] Fix cost model assert when vectorising calls (#125716)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T09:44:15Z",
+    "closed_at": "2025-02-07T21:30:51Z",
+    "merged_at": "2025-02-07T21:30:51Z"
+  },
+  {
+    "number": 126201,
+    "title": "release/20.x: [libclc] Allow default path when looking for llvm-spirv (#126071)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-07T08:25:03Z",
+    "closed_at": "2025-02-07T22:51:11Z",
+    "merged_at": "2025-02-07T22:51:11Z"
+  },
+  {
+    "number": 126193,
+    "title": "fix: removes invalid token from LLVM_VERSION_SUFFIX in LIBC namespace",
+    "author": "samvangysegem",
+    "state": "closed",
+    "created_at": "2025-02-07T07:08:51Z",
+    "closed_at": "2025-02-07T17:45:39Z",
+    "merged_at": "2025-02-07T17:45:39Z"
+  },
+  {
+    "number": 126132,
+    "title": "AMDGPU: Handle gfx950 XDL Write-VGPR-VALU-WAW wait state change",
+    "author": "VigneshwarJ",
+    "state": "closed",
+    "created_at": "2025-02-06T21:27:31Z",
+    "closed_at": "2025-02-11T18:32:24Z",
+    "merged_at": "2025-02-11T18:32:24Z"
+  },
+  {
+    "number": 126121,
+    "title": "release/20.x: [OpenMP] Fix misspelled symbol name (#126120)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T20:24:10Z",
+    "closed_at": "2025-02-25T16:10:34Z",
+    "merged_at": "2025-02-25T16:10:34Z"
+  },
+  {
+    "number": 126120,
+    "title": "[OpenMP] Fix misspelled symbol name",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-06T20:10:28Z",
+    "closed_at": "2025-02-06T20:13:43Z",
+    "merged_at": "2025-02-06T20:13:43Z"
+  },
+  {
+    "number": 126083,
+    "title": "release/20.x: [Mips] Use getSignedConstant() in or combine",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T15:36:45Z",
+    "closed_at": "2025-02-08T22:02:38Z",
+    "merged_at": "2025-02-08T22:02:38Z"
+  },
+  {
+    "number": 126072,
+    "title": "[LLVM][AArch64] Remove aliases of LSUI instructions",
+    "author": "kmclaughlin-arm",
+    "state": "closed",
+    "created_at": "2025-02-06T14:05:19Z",
+    "closed_at": "2025-02-13T09:43:17Z",
+    "merged_at": "2025-02-13T09:43:17Z"
+  },
+  {
+    "number": 126071,
+    "title": "[libclc] Allow default path when looking for llvm-spirv",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-06T14:02:18Z",
+    "closed_at": "2025-02-07T08:18:18Z",
+    "merged_at": "2025-02-07T08:18:18Z"
+  },
+  {
+    "number": 126065,
+    "title": "release/20.x: [LLD][ELF][AArch64] Discard .ARM.attributes sections (#125838)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T13:35:39Z",
+    "closed_at": "2025-02-08T00:14:04Z",
+    "merged_at": "2025-02-08T00:14:03Z"
+  },
+  {
+    "number": 126062,
+    "title": "release/20.x: [flang] Use clang_target_link_libraries() for clang dependency (#126037)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T13:18:49Z",
+    "closed_at": "2025-02-10T22:14:38Z",
+    "merged_at": "2025-02-10T22:14:38Z"
+  },
+  {
+    "number": 126038,
+    "title": "release/20.x: [flang][Driver] When linking with the Fortran runtime also link with libexecinfo (#125998)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T09:44:00Z",
+    "closed_at": "2025-02-07T21:09:17Z",
+    "merged_at": "2025-02-07T21:09:16Z"
+  },
+  {
+    "number": 126037,
+    "title": "[flang] Use clang_target_link_libraries() for clang dependency",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-06T09:41:03Z",
+    "closed_at": "2025-02-06T13:11:22Z",
+    "merged_at": "2025-02-06T13:11:22Z"
+  },
+  {
+    "number": 126030,
+    "title": "release/20.x: [clang] Parse warning-suppression-mapping after setting up diagengine (#125714)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T09:24:26Z",
+    "closed_at": "2025-02-08T00:00:21Z",
+    "merged_at": "2025-02-08T00:00:21Z"
+  },
+  {
+    "number": 126029,
+    "title": "release/20.x: Fix `llvm/test/DebugInfo/Generic/discriminated-union.ll` on big-endian targets (#125849)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T09:24:25Z",
+    "closed_at": "2025-02-08T02:29:09Z",
+    "merged_at": "2025-02-08T02:29:09Z"
+  },
+  {
+    "number": 126027,
+    "title": "release/20.x: [clang] Stop parsing warning suppression mappings in driver (#125722)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T09:09:34Z",
+    "closed_at": "2025-02-07T20:50:45Z",
+    "merged_at": "2025-02-07T20:50:45Z"
+  },
+  {
+    "number": 126015,
+    "title": "release/20.x: [ORC-RT] Use templates to express deeply nested function calls in testcase.",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T06:47:40Z",
+    "closed_at": "2025-02-08T09:08:15Z",
+    "merged_at": null
+  },
+  {
+    "number": 125996,
+    "title": "release/20.x: [libc++] Replace __is_trivially_relocatable by is_trivially_copyable (#124970)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T03:49:11Z",
+    "closed_at": "2025-02-08T02:25:31Z",
+    "merged_at": "2025-02-08T02:25:31Z"
+  },
+  {
+    "number": 125995,
+    "title": "release/20.x: [X86] Do not combine LRINT and TRUNC (#125848)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T03:48:26Z",
+    "closed_at": "2025-02-07T23:44:33Z",
+    "merged_at": "2025-02-07T23:44:33Z"
+  },
+  {
+    "number": 125988,
+    "title": "[clangd] [C++20] [Modules] Add scanning cache",
+    "author": "ChuanqiXu9",
+    "state": "closed",
+    "created_at": "2025-02-06T03:24:34Z",
+    "closed_at": "2025-02-26T08:03:05Z",
+    "merged_at": "2025-02-26T08:03:05Z"
+  },
+  {
+    "number": 125985,
+    "title": "release/20.x: [Offload] Stop the RPC server faiilng with more than one GPU (#125982)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-06T02:59:16Z",
+    "closed_at": "2025-02-08T00:12:36Z",
+    "merged_at": "2025-02-08T00:12:36Z"
+  },
+  {
+    "number": 125982,
+    "title": "[Offload] Stop the RPC server faiilng with more than one GPU",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-06T02:47:43Z",
+    "closed_at": "2025-02-06T02:51:29Z",
+    "merged_at": "2025-02-06T02:51:29Z"
+  },
+  {
+    "number": 125956,
+    "title": "release/20.x: [clang] Support member function poiners in Decl::getFunctionType() (#125077)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T23:13:34Z",
+    "closed_at": "2025-02-06T00:30:37Z",
+    "merged_at": "2025-02-06T00:30:37Z"
+  },
+  {
+    "number": 125953,
+    "title": "release/20.x: [RISCV] Use getSignedConstant for negative values. (#125903)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T22:55:13Z",
+    "closed_at": "2025-02-06T05:00:57Z",
+    "merged_at": "2025-02-06T05:00:57Z"
+  },
+  {
+    "number": 125912,
+    "title": "release/20.x: [Clang] Fix test after new argument was added",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T19:10:06Z",
+    "closed_at": "2025-02-11T20:11:17Z",
+    "merged_at": "2025-02-11T20:11:17Z"
+  },
+  {
+    "number": 125910,
+    "title": "release/20.x: [CG][RISCV]Fix shuffling of odd number of input vectors",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T18:52:40Z",
+    "closed_at": "2025-02-11T01:02:34Z",
+    "merged_at": "2025-02-11T01:02:34Z"
+  },
+  {
+    "number": 125903,
+    "title": "[RISCV] Use getSignedConstant for negative values.",
+    "author": "topperc",
+    "state": "closed",
+    "created_at": "2025-02-05T18:20:34Z",
+    "closed_at": "2025-02-05T22:49:01Z",
+    "merged_at": "2025-02-05T22:49:01Z"
+  },
+  {
+    "number": 125896,
+    "title": "[Clang] Add width handling for <gpuintrin.h> shuffle helper",
+    "author": "jhuber6",
+    "state": "closed",
+    "created_at": "2025-02-05T17:49:21Z",
+    "closed_at": "2025-02-05T18:38:49Z",
+    "merged_at": "2025-02-05T18:38:49Z"
+  },
+  {
+    "number": 125894,
+    "title": "[mlir][CMake] Fix dependency on MLIRTestDialect in Transforms tests",
+    "author": "DavidSpickett",
+    "state": "closed",
+    "created_at": "2025-02-05T17:49:14Z",
+    "closed_at": "2025-02-05T17:49:53Z",
+    "merged_at": "2025-02-05T17:49:53Z"
+  },
+  {
+    "number": 125874,
+    "title": "[AArch64] Update feature dep. for Armv9.6 extensions",
+    "author": "CarolineConcatto",
+    "state": "closed",
+    "created_at": "2025-02-05T15:55:37Z",
+    "closed_at": "2025-02-06T17:13:31Z",
+    "merged_at": "2025-02-06T17:13:31Z"
+  },
+  {
+    "number": 125866,
+    "title": "release/20.x: [AArch64] Disallow vscale x 1  partial reductions (#125252)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T14:39:38Z",
+    "closed_at": "2025-02-05T21:31:16Z",
+    "merged_at": "2025-02-05T21:31:16Z"
+  },
+  {
+    "number": 125860,
+    "title": "release/20.x: [libc++] Also provide an alignment assumption for vector in C++03 mode (#124839)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T14:06:16Z",
+    "closed_at": "2025-02-11T01:00:11Z",
+    "merged_at": "2025-02-11T01:00:11Z"
+  },
+  {
+    "number": 125858,
+    "title": "release/20.x: [InstCombine] Check nowrap flags when folding comparison of GEPs with the same base pointer (#121892)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-05T14:01:39Z",
+    "closed_at": "2025-02-11T23:18:13Z",
+    "merged_at": "2025-02-11T23:18:13Z"
+  },
+  {
+    "number": 125848,
+    "title": "[X86] Do not combine LRINT and TRUNC",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2025-02-05T12:49:43Z",
+    "closed_at": "2025-02-06T02:58:37Z",
+    "merged_at": "2025-02-06T02:58:37Z"
+  },
+  {
+    "number": 125842,
+    "title": "[mlir][cmake] Do not export MLIR_MAIN_SRC_DIR and MLIR_INCLUDE_DIR",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-05T11:37:08Z",
+    "closed_at": "2025-02-11T13:32:31Z",
+    "merged_at": "2025-02-11T13:32:31Z"
+  },
+  {
+    "number": 125838,
+    "title": "[LLD][ELF][AArch64] Discard .ARM.attributes sections",
+    "author": "smithp35",
+    "state": "closed",
+    "created_at": "2025-02-05T11:02:06Z",
+    "closed_at": "2025-02-05T19:04:22Z",
+    "merged_at": "2025-02-05T19:04:21Z"
+  },
+  {
+    "number": 125837,
+    "title": "release/20.x: Fixes for flang/mlir dependencies",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-05T11:01:26Z",
+    "closed_at": "2025-02-11T15:48:52Z",
+    "merged_at": "2025-02-11T15:48:52Z"
+  },
+  {
+    "number": 125834,
+    "title": "release/20.x: [mlir][cmake] Fix build race condition in Pass Manager tests",
+    "author": "DavidSpickett",
+    "state": "closed",
+    "created_at": "2025-02-05T10:46:24Z",
+    "closed_at": "2025-02-10T21:26:12Z",
+    "merged_at": "2025-02-10T21:26:12Z"
+  },
+  {
+    "number": 125809,
+    "title": "release/20.x: [C++20] [Modules] Don't diagnose duplicated friend declarations between modules incorrectly",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-05T06:21:47Z",
+    "closed_at": "2025-02-10T21:22:36Z",
+    "merged_at": "2025-02-10T21:22:36Z"
+  },
+  {
+    "number": 125791,
+    "title": "Reland: [clang] fix P3310 overload resolution flag propagation",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-02-05T00:42:01Z",
+    "closed_at": "2025-02-05T15:02:25Z",
+    "merged_at": "2025-02-05T15:02:25Z"
+  },
+  {
+    "number": 125775,
+    "title": "release/20.x: workflows/release-binaries: Enable PGO (#124442)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-04T22:49:14Z",
+    "closed_at": "2025-02-05T21:40:57Z",
+    "merged_at": "2025-02-05T21:40:57Z"
+  },
+  {
+    "number": 125730,
+    "title": "release/20.x: [libc++][TZDB] Fixes %z escaping. (#125399)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-04T17:39:33Z",
+    "closed_at": "2025-02-07T06:55:58Z",
+    "merged_at": "2025-02-07T06:55:58Z"
+  },
+  {
+    "number": 125722,
+    "title": "[clang] Stop parsing warning suppression mappings in driver",
+    "author": "kadircet",
+    "state": "closed",
+    "created_at": "2025-02-04T17:06:34Z",
+    "closed_at": "2025-02-06T09:02:43Z",
+    "merged_at": "2025-02-06T09:02:43Z"
+  },
+  {
+    "number": 125716,
+    "title": "[LoopVectorize] Fix cost model assert when vectorising calls",
+    "author": "david-arm",
+    "state": "closed",
+    "created_at": "2025-02-04T16:48:14Z",
+    "closed_at": "2025-02-07T09:36:52Z",
+    "merged_at": "2025-02-07T09:36:52Z"
+  },
+  {
+    "number": 125714,
+    "title": "[clang] Parse warning-suppression-mapping after setting up diagengine",
+    "author": "kadircet",
+    "state": "closed",
+    "created_at": "2025-02-04T16:33:32Z",
+    "closed_at": "2025-02-06T09:18:39Z",
+    "merged_at": "2025-02-06T09:18:39Z"
+  },
+  {
+    "number": 125693,
+    "title": "[CG][RISCV]Fix shuffling of odd number of input vectors",
+    "author": "alexey-bataev",
+    "state": "closed",
+    "created_at": "2025-02-04T14:39:27Z",
+    "closed_at": "2025-02-05T12:13:33Z",
+    "merged_at": "2025-02-05T12:13:33Z"
+  },
+  {
+    "number": 125680,
+    "title": "Add info about the gdb x packet into the release notes",
+    "author": "labath",
+    "state": "closed",
+    "created_at": "2025-02-04T13:03:55Z",
+    "closed_at": "2025-02-07T06:52:24Z",
+    "merged_at": "2025-02-07T06:52:24Z"
+  },
+  {
+    "number": 125669,
+    "title": "release/20.x: [benchmark] Get number of CPUs with sysconf() on Linux (#125603)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-04T10:51:04Z",
+    "closed_at": "2025-02-08T21:22:30Z",
+    "merged_at": null
+  },
+  {
+    "number": 125659,
+    "title": "release/20.x: [VPlan] Only use SCEV for live-ins in tryToWiden. (#125436)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-04T09:37:41Z",
+    "closed_at": "2025-02-05T21:37:59Z",
+    "merged_at": "2025-02-05T21:37:59Z"
+  },
+  {
+    "number": 125653,
+    "title": "release/20.x: [lldb] Add support for gdb-style 'x' packet (#124733)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-04T09:04:38Z",
+    "closed_at": "2025-02-07T01:14:40Z",
+    "merged_at": "2025-02-07T01:14:40Z"
+  },
+  {
+    "number": 125625,
+    "title": "[BOLT,test] Link against a shared object to test PLT",
+    "author": "MaskRay",
+    "state": "closed",
+    "created_at": "2025-02-04T04:19:01Z",
+    "closed_at": "2025-02-05T17:31:58Z",
+    "merged_at": "2025-02-05T17:31:58Z"
+  },
+  {
+    "number": 125624,
+    "title": "release/20.x: [benchmark] Get number of CPUs with sysconf() on Linux (#125603)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-04T03:53:16Z",
+    "closed_at": "2025-02-11T00:58:39Z",
+    "merged_at": "2025-02-11T00:58:39Z"
+  },
+  {
+    "number": 125603,
+    "title": "[benchmark] Get number of CPUs with sysconf() on Linux",
+    "author": "brad0",
+    "state": "closed",
+    "created_at": "2025-02-04T00:12:23Z",
+    "closed_at": "2025-02-04T03:43:44Z",
+    "merged_at": "2025-02-04T03:43:44Z"
+  },
+  {
+    "number": 125590,
+    "title": "release/20.x: [RISCV] Check isFixedLengthVector before calling getVectorNumElements in getSingleShuffleSrc. (#125455)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-03T21:56:09Z",
+    "closed_at": "2025-02-10T21:18:26Z",
+    "merged_at": "2025-02-10T21:18:26Z"
+  },
+  {
+    "number": 125588,
+    "title": "workflows/premerge: Cancel in progress jobs when a PR is merged (#125329)",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-03T21:45:14Z",
+    "closed_at": "2025-02-04T00:28:24Z",
+    "merged_at": "2025-02-04T00:28:24Z"
+  },
+  {
+    "number": 125587,
+    "title": "[libc++] Avoid including <features.h> on arbitrary platforms",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-02-03T21:26:22Z",
+    "closed_at": "2025-02-15T09:54:01Z",
+    "merged_at": "2025-02-15T09:54:01Z"
+  },
+  {
+    "number": 125585,
+    "title": "release/20.x: workflows/release-tasks: Re-use release-binaries-all workflow (#125378)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-03T21:20:00Z",
+    "closed_at": "2025-02-04T01:25:50Z",
+    "merged_at": null
+  },
+  {
+    "number": 125583,
+    "title": "release/20.x: [asan][test] Disable suppressions-alloc-dealloc-mismatch.cpp on Darwin",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-03T21:17:53Z",
+    "closed_at": "2025-02-05T21:36:22Z",
+    "merged_at": "2025-02-05T21:36:22Z"
+  },
+  {
+    "number": 125578,
+    "title": "Allow 128-bit discriminants in DWARF variants",
+    "author": "tromey",
+    "state": "closed",
+    "created_at": "2025-02-03T21:02:01Z",
+    "closed_at": "2025-02-04T21:36:23Z",
+    "merged_at": "2025-02-04T21:36:23Z"
+  },
+  {
+    "number": 125555,
+    "title": "release/20.x: [llvm] Add CMake flag to compile out the telemetry framework (#124850)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-03T18:47:57Z",
+    "closed_at": "2025-02-07T01:06:48Z",
+    "merged_at": "2025-02-07T01:06:48Z"
+  },
+  {
+    "number": 125532,
+    "title": "[ValueTracking] Fix bit width handling in computeKnownBits() for GEPs",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-02-03T16:55:44Z",
+    "closed_at": "2025-02-04T13:29:58Z",
+    "merged_at": "2025-02-04T13:29:58Z"
+  },
+  {
+    "number": 125525,
+    "title": "[FMV][AArch64] Release notes for LLVM20.",
+    "author": "labrinea",
+    "state": "closed",
+    "created_at": "2025-02-03T16:07:22Z",
+    "closed_at": "2025-02-06T01:27:36Z",
+    "merged_at": "2025-02-06T01:27:36Z"
+  },
+  {
+    "number": 125515,
+    "title": "release/20.x: [flang][runtime] Make sure to link libexecinfo if it exists (#125344)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-03T15:10:49Z",
+    "closed_at": "2025-02-05T21:44:25Z",
+    "merged_at": "2025-02-05T21:44:25Z"
+  },
+  {
+    "number": 125498,
+    "title": "release/20.x: [offload] [test] Use test compiler ID rather than host (#124408)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-03T13:56:02Z",
+    "closed_at": "2025-02-05T21:33:06Z",
+    "merged_at": "2025-02-05T21:33:06Z"
+  },
+  {
+    "number": 125431,
+    "title": "release/20.x: [ORC][LLI] Remove redundant eh-frame registration plugin construction from lli.",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-02T20:23:18Z",
+    "closed_at": "2025-02-12T04:55:25Z",
+    "merged_at": "2025-02-12T04:55:25Z"
+  },
+  {
+    "number": 125399,
+    "title": "[libc++][TZDB] Fixes %z escaping.",
+    "author": "mordante",
+    "state": "closed",
+    "created_at": "2025-02-02T12:27:37Z",
+    "closed_at": "2025-02-04T16:36:31Z",
+    "merged_at": "2025-02-04T16:36:31Z"
+  },
+  {
+    "number": 125398,
+    "title": "release/20.x: [InstSimplify] Add additional checks when substituting pointers (#125385)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-02T11:10:45Z",
+    "closed_at": "2025-02-11T00:55:44Z",
+    "merged_at": "2025-02-11T00:55:44Z"
+  },
+  {
+    "number": 125386,
+    "title": "release/20.x: [AArch64] Enable vscale_range with +sme (#124466)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-02T07:19:11Z",
+    "closed_at": "2025-02-04T01:37:59Z",
+    "merged_at": "2025-02-04T01:37:59Z"
+  },
+  {
+    "number": 125385,
+    "title": "[InstSimplify] Add additional checks when substituting pointers",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-02-02T06:55:53Z",
+    "closed_at": "2025-02-02T11:04:23Z",
+    "merged_at": "2025-02-02T11:04:23Z"
+  },
+  {
+    "number": 125378,
+    "title": "workflows/release-tasks: Re-use release-binaries-all workflow",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-02T05:06:39Z",
+    "closed_at": "2025-02-03T21:13:11Z",
+    "merged_at": "2025-02-03T21:13:11Z"
+  },
+  {
+    "number": 125368,
+    "title": "release/20.x: [Clang][ReleaseNotes] Document -fclang-abi-compat=19 re: #110503",
+    "author": "hubert-reinterpretcast",
+    "state": "closed",
+    "created_at": "2025-02-01T23:56:11Z",
+    "closed_at": "2025-02-02T01:04:18Z",
+    "merged_at": "2025-02-02T01:04:18Z"
+  },
+  {
+    "number": 125363,
+    "title": "release/20.x: [VPlan] Check VPWidenIntrinsicSC in VPRecipeWithIRFlags::classof.",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-01T22:04:55Z",
+    "closed_at": "2025-02-10T21:13:56Z",
+    "merged_at": "2025-02-10T21:13:56Z"
+  },
+  {
+    "number": 125345,
+    "title": "[llvm-objcopy] Fix prints wrong path when dump-section output path doesn't exist",
+    "author": "AmrDeveloper",
+    "state": "closed",
+    "created_at": "2025-02-01T11:48:33Z",
+    "closed_at": "2025-02-08T13:14:16Z",
+    "merged_at": "2025-02-08T13:14:16Z"
+  },
+  {
+    "number": 125344,
+    "title": "[flang][runtime] Make sure to link libexecinfo if it exists",
+    "author": "brad0",
+    "state": "closed",
+    "created_at": "2025-02-01T09:32:27Z",
+    "closed_at": "2025-02-03T15:03:59Z",
+    "merged_at": "2025-02-03T15:03:59Z"
+  },
+  {
+    "number": 125338,
+    "title": "release/20.x: [InstCombine] Fix FMF propagation in `foldSelectWithFCmpToFabs` (#121580)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-01T07:23:24Z",
+    "closed_at": "2025-02-07T01:02:22Z",
+    "merged_at": "2025-02-07T01:02:22Z"
+  },
+  {
+    "number": 125334,
+    "title": "release/20.x: [ELF] Refine isExported/isPreemptible condition",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-02-01T04:56:38Z",
+    "closed_at": "2025-02-08T21:55:36Z",
+    "merged_at": null
+  },
+  {
+    "number": 125329,
+    "title": "workflows/premerge: Cancel in progress jobs when a PR is merged",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-02-01T03:10:53Z",
+    "closed_at": "2025-02-03T21:20:37Z",
+    "merged_at": "2025-02-03T21:20:37Z"
+  },
+  {
+    "number": 125327,
+    "title": "[clang-format] Hanlde qualified type name for `QualifierAlignment`",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-02-01T02:35:07Z",
+    "closed_at": "2025-02-04T09:33:44Z",
+    "merged_at": "2025-02-04T09:33:44Z"
+  },
+  {
+    "number": 125305,
+    "title": "release/20.x: workflows/premerge: Fix condition for macos job (#125237)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T21:53:57Z",
+    "closed_at": "2025-01-31T21:59:05Z",
+    "merged_at": "2025-01-31T21:59:05Z"
+  },
+  {
+    "number": 125287,
+    "title": "release/20.x: [TableGen] Don't use inline storage for ReferenceLocs (NFC) (#125231)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T20:36:03Z",
+    "closed_at": "2025-02-07T20:03:47Z",
+    "merged_at": "2025-02-07T20:03:47Z"
+  },
+  {
+    "number": 125280,
+    "title": "[PAC] Do not support some values of branch-protection with ptrauth-returns",
+    "author": "kovdan01",
+    "state": "closed",
+    "created_at": "2025-01-31T20:05:19Z",
+    "closed_at": "2025-02-05T08:39:27Z",
+    "merged_at": "2025-02-05T08:39:27Z"
+  },
+  {
+    "number": 125275,
+    "title": "Allow 'inline' on some declarations in MS compatibility mode (#125250)",
+    "author": "AaronBallman",
+    "state": "closed",
+    "created_at": "2025-01-31T19:50:40Z",
+    "closed_at": "2025-02-01T02:00:52Z",
+    "merged_at": "2025-02-01T02:00:52Z"
+  },
+  {
+    "number": 125266,
+    "title": "Reland: [clang] Track function template instantiation from definition",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2025-01-31T18:11:06Z",
+    "closed_at": "2025-02-05T17:12:12Z",
+    "merged_at": "2025-02-05T17:12:12Z"
+  },
+  {
+    "number": 125261,
+    "title": "[AArch64] Enable AvoidLDAPUR for cpu=generic between armv8.4 and armv9.3.",
+    "author": "davemgreen",
+    "state": "closed",
+    "created_at": "2025-01-31T17:51:05Z",
+    "closed_at": "2025-02-07T10:16:57Z",
+    "merged_at": "2025-02-07T10:16:57Z"
+  },
+  {
+    "number": 125254,
+    "title": "release/20.x: [flang] Fix building on aarch64 *BSD and musl libc after 9d8dc45d17088300e9e2086594ca581b119193c8 (#125183)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T17:09:27Z",
+    "closed_at": "2025-02-01T01:33:25Z",
+    "merged_at": "2025-02-01T01:33:25Z"
+  },
+  {
+    "number": 125252,
+    "title": "[AArch64] Disallow vscale x 1  partial reductions",
+    "author": "SamTebbs33",
+    "state": "closed",
+    "created_at": "2025-01-31T17:06:25Z",
+    "closed_at": "2025-02-05T13:34:43Z",
+    "merged_at": "2025-02-05T13:34:43Z"
+  },
+  {
+    "number": 125250,
+    "title": "Allow 'inline' on some declarations in MS compatibility mode",
+    "author": "AaronBallman",
+    "state": "closed",
+    "created_at": "2025-01-31T16:59:50Z",
+    "closed_at": "2025-01-31T18:50:01Z",
+    "merged_at": "2025-01-31T18:50:01Z"
+  },
+  {
+    "number": 125249,
+    "title": "release/20.x: Fix false negative when value initializing a field annotated with [[clang::require_field_initialization]] (#124329)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T16:50:03Z",
+    "closed_at": "2025-02-01T01:53:13Z",
+    "merged_at": "2025-02-01T01:53:13Z"
+  },
+  {
+    "number": 125239,
+    "title": "[Hexagon] Set the default compilation target to V68",
+    "author": "iajbar",
+    "state": "closed",
+    "created_at": "2025-01-31T15:31:47Z",
+    "closed_at": "2025-01-31T17:59:39Z",
+    "merged_at": "2025-01-31T17:59:39Z"
+  },
+  {
+    "number": 125237,
+    "title": "workflows/premerge: Fix condition for macos job",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-01-31T15:07:03Z",
+    "closed_at": "2025-01-31T21:45:08Z",
+    "merged_at": "2025-01-31T21:45:08Z"
+  },
+  {
+    "number": 125236,
+    "title": "release/20.x: [SystemZ] Replace SELRMux with COPY in case of identical operands. (#125108)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T14:43:04Z",
+    "closed_at": "2025-02-10T21:11:17Z",
+    "merged_at": "2025-02-10T21:11:17Z"
+  },
+  {
+    "number": 125232,
+    "title": "Diagnose the code with trailing comma in the function call.",
+    "author": "hokein",
+    "state": "closed",
+    "created_at": "2025-01-31T14:27:53Z",
+    "closed_at": "2025-02-14T15:21:54Z",
+    "merged_at": "2025-02-14T15:21:54Z"
+  },
+  {
+    "number": 125230,
+    "title": "release/20.x: [AArch64] PAUTH_PROLOGUE should not be duplicated with PAuthLR (#124775)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T14:22:53Z",
+    "closed_at": "2025-02-01T01:56:44Z",
+    "merged_at": "2025-02-01T01:56:44Z"
+  },
+  {
+    "number": 125221,
+    "title": "[TableGen] Reduce size of MatchTableRecord (NFC)",
+    "author": "nikic",
+    "state": "closed",
+    "created_at": "2025-01-31T13:52:25Z",
+    "closed_at": "2025-01-31T16:37:17Z",
+    "merged_at": "2025-01-31T16:37:17Z"
+  },
+  {
+    "number": 125213,
+    "title": "release/20.x: [flang] Build fix (#125087)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T12:10:16Z",
+    "closed_at": "2025-02-01T01:22:29Z",
+    "merged_at": "2025-02-01T01:22:29Z"
+  },
+  {
+    "number": 125212,
+    "title": "release/20.x: [Driver] Add DragonFly for handling of libdl and libexecinfo (#125179)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T12:07:27Z",
+    "closed_at": "2025-02-07T21:19:11Z",
+    "merged_at": null
+  },
+  {
+    "number": 125210,
+    "title": "release/20.x: [llvm][Support] Enable dl_iterate_phdr support on OpenBSD and DragonFly (#125186)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T12:03:46Z",
+    "closed_at": "2025-02-16T06:08:58Z",
+    "merged_at": "2025-02-16T06:08:58Z"
+  },
+  {
+    "number": 125206,
+    "title": "release/20.x: [TBAA] Don't emit pointer-tbaa for void pointers. (#122116)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T11:45:11Z",
+    "closed_at": "2025-02-18T23:05:28Z",
+    "merged_at": "2025-02-18T23:05:27Z"
+  },
+  {
+    "number": 125194,
+    "title": "release/20.x: [ARM] Empty structs are 1-byte for C++ ABI (#124762)",
+    "author": "ostannard",
+    "state": "closed",
+    "created_at": "2025-01-31T10:08:00Z",
+    "closed_at": "2025-02-10T21:32:15Z",
+    "merged_at": "2025-02-10T21:32:15Z"
+  },
+  {
+    "number": 125191,
+    "title": "release/20.x: [ARM] Empty structs are 1-byte for C++ ABI (#124762)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T09:45:50Z",
+    "closed_at": "2025-01-31T10:02:26Z",
+    "merged_at": null
+  },
+  {
+    "number": 125185,
+    "title": "[Clang] cherry-pick \"Fix __{add,remove}_pointer in Objective-C++\"",
+    "author": "philnik777",
+    "state": "closed",
+    "created_at": "2025-01-31T08:44:12Z",
+    "closed_at": "2025-02-11T20:04:58Z",
+    "merged_at": "2025-02-11T20:04:58Z"
+  },
+  {
+    "number": 125176,
+    "title": "workflows/premerge: Enable macos builds",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-01-31T06:33:08Z",
+    "closed_at": "2025-01-31T23:43:43Z",
+    "merged_at": "2025-01-31T23:43:43Z"
+  },
+  {
+    "number": 125161,
+    "title": "release/20.x: workflows/premerge: Add macOS testing for release branch (#124303)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-31T04:17:20Z",
+    "closed_at": "2025-01-31T06:30:47Z",
+    "merged_at": "2025-01-31T06:30:47Z"
+  },
+  {
+    "number": 125108,
+    "title": "[SystemZ] Replace SELRMux with COPY in case of identical operands.",
+    "author": "JonPsson1",
+    "state": "closed",
+    "created_at": "2025-01-30T19:42:00Z",
+    "closed_at": "2025-01-31T12:58:01Z",
+    "merged_at": "2025-01-31T12:58:01Z"
+  },
+  {
+    "number": 125094,
+    "title": "Reland \"[LV]: Teach LV to recursively (de)interleave.\"",
+    "author": "hassnaaHamdi",
+    "state": "closed",
+    "created_at": "2025-01-30T17:17:18Z",
+    "closed_at": "2025-02-09T19:21:54Z",
+    "merged_at": "2025-02-09T19:21:54Z"
+  },
+  {
+    "number": 125077,
+    "title": "[clang] Support member function poiners in Decl::getFunctionType()",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-01-30T15:57:02Z",
+    "closed_at": "2025-02-03T09:37:16Z",
+    "merged_at": "2025-02-03T09:37:16Z"
+  },
+  {
+    "number": 125067,
+    "title": "Bump version to 20.1.0git",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-01-30T15:09:40Z",
+    "closed_at": "2025-01-30T21:54:53Z",
+    "merged_at": "2025-01-30T21:54:53Z"
+  },
+  {
+    "number": 125066,
+    "title": "release/20.x: [AArch64] Add MSVC mangling for the __mfp8 type (#124968)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-30T15:07:55Z",
+    "closed_at": "2025-02-01T01:47:17Z",
+    "merged_at": "2025-02-01T01:47:17Z"
+  },
+  {
+    "number": 125057,
+    "title": "[X86][AVX10] Disable m[no-]avx10.1 and switch m[no-]avx10.2 to alias of 512 bit options (#124511)",
+    "author": "phoebewang",
+    "state": "closed",
+    "created_at": "2025-01-30T13:23:05Z",
+    "closed_at": "2025-02-07T00:56:14Z",
+    "merged_at": "2025-02-07T00:56:14Z"
+  },
+  {
+    "number": 125049,
+    "title": "release/20.x: [clang][SME] Account for C++ lambdas in SME builtin diagnostics (#124750)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-30T11:24:27Z",
+    "closed_at": "2025-02-01T05:00:53Z",
+    "merged_at": "2025-02-01T05:00:53Z"
+  },
+  {
+    "number": 125040,
+    "title": "release/20.x: [CodeGenPrepare] Replace deleted ext instr with the promoted value. (#71058)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-30T08:18:22Z",
+    "closed_at": "2025-02-01T01:50:15Z",
+    "merged_at": "2025-02-01T01:50:15Z"
+  },
+  {
+    "number": 125021,
+    "title": "[clang-format] Fix a crash on parsing requires clause",
+    "author": "owenca",
+    "state": "closed",
+    "created_at": "2025-01-30T04:12:04Z",
+    "closed_at": "2025-01-31T02:03:05Z",
+    "merged_at": "2025-01-31T02:03:05Z"
+  },
+  {
+    "number": 125009,
+    "title": "release/20.x: workflows/release-binaries: Stop using ccache (#124415)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-30T01:12:54Z",
+    "closed_at": "2025-01-31T04:17:41Z",
+    "merged_at": "2025-01-31T04:17:41Z"
+  },
+  {
+    "number": 124987,
+    "title": "[asan][test] Attempt to fix suppressions-alloc-dealloc-mismatch.cpp on Darwin",
+    "author": "benlangmuir",
+    "state": "closed",
+    "created_at": "2025-01-29T21:13:06Z",
+    "closed_at": "2025-01-30T00:07:15Z",
+    "merged_at": "2025-01-30T00:07:15Z"
+  },
+  {
+    "number": 124970,
+    "title": "[libc++] Replace __is_trivially_relocatable by is_trivially_copyable",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-01-29T18:43:58Z",
+    "closed_at": "2025-02-06T03:32:52Z",
+    "merged_at": "2025-02-06T03:32:51Z"
+  },
+  {
+    "number": 124968,
+    "title": "[AArch64] Add MSVC mangling for the __mfp8 type",
+    "author": "momchil-velikov",
+    "state": "closed",
+    "created_at": "2025-01-29T18:41:07Z",
+    "closed_at": "2025-01-30T10:42:12Z",
+    "merged_at": "2025-01-30T10:42:12Z"
+  },
+  {
+    "number": 124962,
+    "title": "Revert \"[SLP] getSpillCost - fully populate IntrinsicCostAttributes to improve cost analysis.\"",
+    "author": "RKSimon",
+    "state": "closed",
+    "created_at": "2025-01-29T18:00:06Z",
+    "closed_at": "2025-01-29T22:17:53Z",
+    "merged_at": "2025-01-29T22:17:53Z"
+  },
+  {
+    "number": 124922,
+    "title": "release/20.x: [libcxx] Use _ftelli64/_fseeki64 on Windows (#123128)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-29T13:31:46Z",
+    "closed_at": "2025-02-01T21:33:52Z",
+    "merged_at": "2025-02-01T21:33:52Z"
+  },
+  {
+    "number": 124917,
+    "title": "release/20.x: [GlobalISel] Do not run verifier after ResetMachineFunctionPass (#124799)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-29T13:00:43Z",
+    "closed_at": "2025-02-01T00:42:36Z",
+    "merged_at": "2025-02-01T00:42:35Z"
+  },
+  {
+    "number": 124898,
+    "title": "release/20.x: [lldb] Remove PATH workaround for Android (#124682)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-29T08:37:40Z",
+    "closed_at": "2025-02-01T01:55:26Z",
+    "merged_at": null
+  },
+  {
+    "number": 124895,
+    "title": "release/20.x: [SCEV] Check correct value for UB (#124302)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2025-01-29T08:14:59Z",
+    "closed_at": "2025-01-30T22:10:08Z",
+    "merged_at": "2025-01-30T22:10:08Z"
+  },
+  {
+    "number": 124839,
+    "title": "[libc++] Also provide an alignment assumption for vector in C++03 mode",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2025-01-28T21:13:58Z",
+    "closed_at": "2025-02-05T13:57:22Z",
+    "merged_at": "2025-02-05T13:57:22Z"
+  },
+  {
+    "number": 124799,
+    "title": "[GlobalISel] Do not run verifier after ResetMachineFunctionPass",
+    "author": "davemgreen",
+    "state": "closed",
+    "created_at": "2025-01-28T17:34:19Z",
+    "closed_at": "2025-01-29T12:48:11Z",
+    "merged_at": "2025-01-29T12:48:11Z"
+  },
+  {
+    "number": 124798,
+    "title": "[analyzer][docs] CSA release notes for clang-20",
+    "author": "steakhal",
+    "state": "closed",
+    "created_at": "2025-01-28T17:33:38Z",
+    "closed_at": "2025-02-01T01:35:08Z",
+    "merged_at": "2025-02-01T01:35:08Z"
+  },
+  {
+    "number": 124775,
+    "title": "[AArch64] PAUTH_PROLOGUE should not be duplicated with PAuthLR",
+    "author": "ostannard",
+    "state": "closed",
+    "created_at": "2025-01-28T15:57:56Z",
+    "closed_at": "2025-01-29T10:42:47Z",
+    "merged_at": "2025-01-29T10:42:47Z"
+  },
+  {
+    "number": 124762,
+    "title": "[ARM] Empty structs are 1-byte for C++ ABI",
+    "author": "ostannard",
+    "state": "closed",
+    "created_at": "2025-01-28T14:56:26Z",
+    "closed_at": "2025-01-31T09:03:05Z",
+    "merged_at": "2025-01-31T09:03:05Z"
+  },
+  {
+    "number": 124750,
+    "title": "[clang][SME] Account for C++ lambdas in SME builtin diagnostics",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2025-01-28T14:03:44Z",
+    "closed_at": "2025-01-30T08:55:35Z",
+    "merged_at": "2025-01-30T08:55:35Z"
+  },
+  {
+    "number": 124733,
+    "title": "[lldb] Add support for gdb-style 'x' packet",
+    "author": "labath",
+    "state": "closed",
+    "created_at": "2025-01-28T11:40:19Z",
+    "closed_at": "2025-01-31T08:07:12Z",
+    "merged_at": "2025-01-31T08:07:12Z"
+  },
+  {
+    "number": 124466,
+    "title": "[AArch64] Enable vscale_range with +sme",
+    "author": "davemgreen",
+    "state": "closed",
+    "created_at": "2025-01-26T13:50:44Z",
+    "closed_at": "2025-01-31T07:57:44Z",
+    "merged_at": "2025-01-31T07:57:44Z"
+  },
+  {
+    "number": 124442,
+    "title": "workflows/release-binaries: Enable PGO",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-01-26T04:05:36Z",
+    "closed_at": "2025-02-04T22:43:23Z",
+    "merged_at": "2025-02-04T22:43:23Z"
+  },
+  {
+    "number": 124415,
+    "title": "workflows/release-binaries: Stop using ccache",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-01-25T16:30:08Z",
+    "closed_at": "2025-01-30T00:51:20Z",
+    "merged_at": "2025-01-30T00:51:19Z"
+  },
+  {
+    "number": 124329,
+    "title": "Fix false negative when value initializing a field annotated with [[clang::require_field_initialization]]",
+    "author": "higher-performance",
+    "state": "closed",
+    "created_at": "2025-01-24T19:16:22Z",
+    "closed_at": "2025-01-30T20:34:09Z",
+    "merged_at": "2025-01-30T20:34:09Z"
+  },
+  {
+    "number": 124303,
+    "title": "workflows/premerge: Add macOS testing for release branch",
+    "author": "tstellar",
+    "state": "closed",
+    "created_at": "2025-01-24T16:31:24Z",
+    "closed_at": "2025-01-31T03:37:55Z",
+    "merged_at": "2025-01-31T03:37:54Z"
+  },
+  {
+    "number": 123678,
+    "title": "[Clang] Fix __{add,remove}_pointer in Objective-C++",
+    "author": "philnik777",
+    "state": "closed",
+    "created_at": "2025-01-21T01:24:07Z",
+    "closed_at": "2025-01-30T19:34:30Z",
+    "merged_at": "2025-01-30T19:34:30Z"
+  },
+  {
+    "number": 123128,
+    "title": "[libcxx] Use _ftelli64/_fseeki64 on Windows",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2025-01-15T22:22:15Z",
+    "closed_at": "2025-01-29T13:25:44Z",
+    "merged_at": "2025-01-29T13:25:44Z"
+  },
+  {
+    "number": 121892,
+    "title": "[InstCombine] Check nowrap flags when folding comparison of GEPs with the same base pointer",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-01-07T07:08:55Z",
+    "closed_at": "2025-02-01T12:41:16Z",
+    "merged_at": "2025-02-01T12:41:16Z"
+  },
+  {
+    "number": 121580,
+    "title": "[InstCombine] Fix FMF propagation in `foldSelectWithFCmpToFabs`",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2025-01-03T16:21:46Z",
+    "closed_at": "2025-02-01T07:14:17Z",
+    "merged_at": "2025-02-01T07:14:17Z"
+  },
+  {
+    "number": 121245,
+    "title": "[C++20][Modules][Serialization] Delay marking pending incomplete decl chains until the end of `finishPendingActions`.",
+    "author": "mpark",
+    "state": "closed",
+    "created_at": "2024-12-28T03:42:37Z",
+    "closed_at": "2025-02-03T19:22:02Z",
+    "merged_at": "2025-02-03T19:22:02Z"
+  },
+  {
+    "number": 117764,
+    "title": "[libc++] Reduce the dependency of the locale base API on the base system from the headers",
+    "author": "ldionne",
+    "state": "closed",
+    "created_at": "2024-11-26T18:52:59Z",
+    "closed_at": "2025-02-20T13:38:42Z",
+    "merged_at": "2025-02-20T13:38:42Z"
+  },
+  {
+    "number": 114062,
+    "title": "[clang][CodeGen] `sret` args should always point to the `alloca` AS, so use that",
+    "author": "AlexVlx",
+    "state": "closed",
+    "created_at": "2024-10-29T14:27:10Z",
+    "closed_at": "2025-02-14T11:20:45Z",
+    "merged_at": "2025-02-14T11:20:45Z"
+  },
+  {
+    "number": 105651,
+    "title": "[libcxx] Provide locale conversions to tests through lit substitution",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2024-08-22T12:47:29Z",
+    "closed_at": "2025-02-28T21:43:46Z",
+    "merged_at": "2025-02-28T21:43:46Z"
+  },
+  {
+    "number": 71058,
+    "title": "[CodeGenPrepare] Replace deleted ext instr with the promoted value.",
+    "author": "dtcxzyw",
+    "state": "closed",
+    "created_at": "2023-11-02T12:41:32Z",
+    "closed_at": "2025-01-30T00:58:23Z",
+    "merged_at": "2025-01-30T00:58:23Z"
+  }
+]
