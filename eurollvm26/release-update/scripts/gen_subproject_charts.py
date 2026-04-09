@@ -11,6 +11,7 @@ Outputs:
 """
 import json
 import collections
+from dedup import deduped_merged
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -72,10 +73,8 @@ def subproject_for_pr(paths: list[str]) -> str:
 
 def load_data(release: str):
     key = release.replace(".", "_")
-    prs   = json.load((DATA_DIR / f"prs_{key}.json").open())
     files = json.load((DATA_DIR / f"files_{key}.json").open())
-    # files keys are strings
-    merged = [pr for pr in prs if pr.get("merged_at")]
+    merged = deduped_merged(release)
     return merged, {int(k): v for k, v in files.items()}
 
 

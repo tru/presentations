@@ -3,6 +3,7 @@ Generate charts showing who merges and who reviews PRs into release branches.
 Infra-only PRs are excluded.
 """
 import json
+from dedup import deduped_merged
 import collections
 import matplotlib
 matplotlib.use("Agg")
@@ -28,10 +29,9 @@ def is_infra(num: int, files: dict) -> bool:
 
 def load(release: str):
     key = release.replace(".", "_")
-    prs     = json.load((DATA_DIR / f"prs_{key}.json").open())
     reviews = json.load((DATA_DIR / f"reviews_{key}.json").open())
     files   = json.load((DATA_DIR / f"files_{key}.json").open())
-    merged_nums = {str(p["number"]) for p in prs if p.get("merged_at")}
+    merged_nums = {str(p["number"]) for p in deduped_merged(release)}
     return merged_nums, reviews, files
 
 

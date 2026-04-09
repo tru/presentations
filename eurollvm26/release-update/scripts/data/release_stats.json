@@ -2,14 +2,14 @@
   "20.x": {
     "release": "20.x",
     "total_prs": 647,
-    "merged": 594,
+    "merged": 406,
     "rejected": 53,
     "phase_counts": {
-      "branch\u2192rc1": 41,
-      "rc1\u2192rc2": 131,
-      "rc2\u2192rc3": 118,
-      "rc3\u2192final": 16,
-      "post-final": 288
+      "branch\u2192rc1": 23,
+      "rc1\u2192rc2": 88,
+      "rc2\u2192rc3": 82,
+      "rc3\u2192final": 9,
+      "post-final": 204
     },
     "dates": {
       "branch": "2025-01-14T00:00:00Z",
@@ -22,14 +22,14 @@
   "21.x": {
     "release": "21.x",
     "total_prs": 582,
-    "merged": 514,
+    "merged": 343,
     "rejected": 68,
     "phase_counts": {
-      "branch\u2192rc1": 41,
-      "rc1\u2192rc2": 129,
-      "rc2\u2192rc3": 98,
-      "rc3\u2192final": 66,
-      "post-final": 176
+      "branch\u2192rc1": 25,
+      "rc1\u2192rc2": 75,
+      "rc2\u2192rc3": 66,
+      "rc3\u2192final": 46,
+      "post-final": 127
     },
     "dates": {
       "branch": "2025-07-08T00:00:00Z",
@@ -42,14 +42,14 @@
   "22.x": {
     "release": "22.x",
     "total_prs": 550,
-    "merged": 459,
+    "merged": 309,
     "rejected": 76,
     "phase_counts": {
-      "branch\u2192rc1": 38,
-      "rc1\u2192rc2": 115,
-      "rc2\u2192rc3": 116,
-      "rc3\u2192final": 62,
-      "post-final": 127
+      "branch\u2192rc1": 20,
+      "rc1\u2192rc2": 68,
+      "rc2\u2192rc3": 81,
+      "rc3\u2192final": 42,
+      "post-final": 97
     },
     "dates": {
       "branch": "2026-01-13T00:00:00Z",

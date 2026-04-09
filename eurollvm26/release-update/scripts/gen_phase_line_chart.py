@@ -4,6 +4,7 @@ X-axis = milestone (RC1, RC2, …, Final, 1.1, 1.2, …)
 Y-axis = PRs merged in the window *ending* at that milestone.
 """
 import json
+from dedup import deduped_merged
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -79,9 +80,7 @@ def parse_dt(s: str) -> datetime:
 
 def bucket_prs(release: str) -> dict[str, int]:
     """Return {label: count} for each window in this release."""
-    key   = release.replace(".", "_")
-    prs   = json.load((DATA_DIR / f"prs_{key}.json").open())
-    merged_prs = [pr for pr in prs if pr.get("merged_at")]
+    merged_prs = deduped_merged(release)
 
     milestones = MILESTONES[release]
     # Build list of (label, start_dt, end_dt)

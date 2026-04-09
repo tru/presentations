@@ -76,14 +76,14 @@ The docs are explicit that new features not completed by RC1 will be removed or 
 
 | Release | PRs Merged | PRs Rejected | Issues |
 |---------|-----------|--------------|--------|
-| 20.x    | 594       | 53           | 125    |
-| 21.x    | 514       | 68           | 122    |
-| 22.x    | 459       | 76           | 89     |
+| 20.x    | 406       | 53           | 125    |
+| 21.x    | 343       | 68           | 122    |
+| 22.x    | 309       | 76           | 89     |
 
-Rejection rate rising: **8%** → **12%** → **14%**
+Rejection rate rising: **12%** → **17%** → **20%**
 
 Note:
-These numbers are from the LLVM GitHub milestones, fetched fresh. Rejections have been climbing — 53 → 68 → 76 — which reflects us being stricter with the acceptance criteria over time. The merge counts going down is partly tighter gatekeeping; 22.x is through 1.2 point releases. Issues tracked under the milestone jumped in 22.x; hard to know if that's more problems being filed or more active milestone usage.
+These numbers are from the LLVM GitHub milestones, deduplicated so cherry-picks and their main-branch parents are counted only once. Rejections have been climbing — 53 → 68 → 76 — which reflects stricter acceptance criteria. Issues tracked under the milestone jumped in 22.x; hard to know if that's more problems being filed or more active milestone usage.
 
 ---
 
@@ -91,7 +91,7 @@ These numbers are from the LLVM GitHub milestones, fetched fresh. Rejections hav
 
 <img src="phase_line_chart.png" style="width:100%;max-height:55vh;object-fit:contain;" />
 
-RC1→RC2 always **3× busier** than Branch→RC1 &nbsp;·&nbsp; RC3→Final: **16 PRs** (20.x) vs **62–66** (21.x / 22.x)
+RC1→RC2 always **3× busier** than Branch→RC1 &nbsp;·&nbsp; RC3→Final: **9 PRs** (20.x) vs **42–46** (21.x / 22.x)
 
 Note:
 RC1→RC2 is the busiest window across all three releases — 115-131 PRs in roughly two weeks. The lines track closely until Final, where 20.x drops hard to just 16 PRs (we held the line). 21.x and 22.x both had 62-66 PRs in that final window — a lot of risk going in very late. The point release tail is interesting: 20.x stays elevated through 1.3 before fading, 21.x drops sharply after 1.1. 22.x through 1.3 is running at 38–44 PRs per point release — similar pace to 21.x early on.
@@ -144,7 +144,7 @@ Backends (llvm/lib/Target) completely dominate — the majority of LLVM Core bac
 
 <img src="approver_chart.png" style="width:100%;max-height:55vh;object-fit:contain;" />
 
-**nikic** alone: 89 PRs across 3 releases &nbsp;·&nbsp; top 5 reviewers handle the majority of all approvals
+**nikic** alone: 58 PRs across 3 releases &nbsp;·&nbsp; top 5 reviewers handle the majority of all approvals
 
 Note:
 These are the people leaving approving reviews — the actual technical gatekeepers deciding whether a patch is safe to backport. nikic leads by a wide margin across all three releases (89 total). arsenm, ldionne, HazardyKnusperkeks (clang-format), MaskRay, and cor3ntin are all consistently present. This group is different from the mergers — these are domain experts doing the substantive review work, while the RM handles the mechanics of merging. The overlap between the two lists is small, which is healthy, but it means the review pool and the merge pool are both narrow. If nikic is unavailable, a significant chunk of Clang and middle-end reviews stalls.
@@ -184,7 +184,7 @@ The 6-month rhythm is actually one of the strongest parts of the current process
 Note:
 These are the problems we as release managers actually feel every release.
 
-Inclusion criteria: The docs say "There are no official release qualification criteria." We invented "very safe" but that's not a spec — two RMs can reach different verdicts on the same patch. The rising rejection rate (8% → 14%) shows we're trying to enforce something, but contributors deserve a clearer answer than our gut feeling.
+Inclusion criteria: The docs say "There are no official release qualification criteria." We invented "very safe" but that's not a spec — two RMs can reach different verdicts on the same patch. The rising rejection rate (12% → 20%) shows we're trying to enforce something, but contributors deserve a clearer answer than our gut feeling.
 
 Flaky CI: We need passing binary builds before we can ship. When CI is unreliable the release slips even when the code is done. Binaries sometimes follow the tag by days, which creates "mutable releases" that downstream consumers can't rely on.
 
