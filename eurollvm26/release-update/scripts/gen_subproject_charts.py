@@ -25,9 +25,9 @@ RELEASES = ["20.x", "21.x", "22.x"]
 BACKGROUND = "#ffffff"
 TEXT_COLOR  = "#1a1a2e"
 RELEASE_COLORS = {
-    "20.x": "#b39ddb",
-    "21.x": "#7c4dbd",
-    "22.x": "#3b1f7a",
+    "20.x": "#e65100",
+    "21.x": "#1565c0",
+    "22.x": "#2e7d32",
 }
 
 # Map top-level repo directory → canonical subproject label

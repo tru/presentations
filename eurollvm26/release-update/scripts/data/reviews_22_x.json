@@ -1,14 +1,209 @@
 {
+  "190823": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "190802": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "RolandF77"
+    ]
+  },
+  "190745": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "190703": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "lukel97",
+      "wangpc-pp"
+    ]
+  },
+  "190701": {
+    "merged_by": "tuliom",
+    "approvers": [
+      "uweigand"
+    ]
+  },
+  "190624": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "190546": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "hvdijk"
+    ]
+  },
+  "190540": {
+    "merged_by": "RKSimon",
+    "approvers": [
+      "folkertdev",
+      "efriedma-quic",
+      "RKSimon"
+    ]
+  },
+  "190528": {
+    "merged_by": "devajithvs",
+    "approvers": [
+      "hvdijk",
+      "vgvassilev"
+    ]
+  },
+  "190492": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "cjacek"
+    ]
+  },
+  "190405": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "190312": {
+    "merged_by": "zyn0217",
+    "approvers": [
+      "cor3ntin"
+    ]
+  },
+  "190277": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "igorkudrin"
+    ]
+  },
+  "190252": {
+    "merged_by": "efriedma-quic",
+    "approvers": [
+      "arsenm"
+    ]
+  },
+  "190141": {
+    "merged_by": "MacDue",
+    "approvers": [
+      "sdesmalen-arm"
+    ]
+  },
+  "190133": {
+    "merged_by": "zmodem",
+    "approvers": [
+      "Nerixyz",
+      "nico",
+      "aganea"
+    ]
+  },
+  "190091": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "lenary"
+    ]
+  },
+  "190006": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "bonachea"
+    ]
+  },
+  "189927": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "wangleiat"
+    ]
+  },
+  "189774": {
+    "merged_by": "tclin914",
+    "approvers": [
+      "wangpc-pp",
+      "lenary"
+    ]
+  },
+  "189679": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "Lukacma"
+    ]
+  },
+  "189559": {
+    "merged_by": "mizvekov",
+    "approvers": [
+      "zyn0217"
+    ]
+  },
+  "189538": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "189432": {
+    "merged_by": "vgvassilev",
+    "approvers": [
+      "vgvassilev"
+    ]
+  },
+  "189375": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "HaohaiWen"
+    ]
+  },
+  "189139": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "phoebewang"
+    ]
+  },
+  "189057": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "JDevlieghere"
+    ]
+  },
+  "189009": {
+    "merged_by": "JDevlieghere",
+    "approvers": [
+      "igorkudrin"
+    ]
+  },
+  "188938": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "tgymnich",
+      "boomanaiden154"
+    ]
+  },
   "188915": {
     "merged_by": "MaskRay",
     "approvers": [
       "JDevlieghere"
     ]
   },
+  "188913": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "DanBlackwell",
+      "vitalybuka"
+    ]
+  },
   "188768": {
     "merged_by": "dyung",
     "approvers": [
       "JDevlieghere"
+    ]
+  },
+  "188672": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "heiher"
     ]
   },
   "188666": {
@@ -23,11 +218,36 @@
       "jroelofs"
     ]
   },
+  "188541": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
+  "188466": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "usha1830"
+    ]
+  },
+  "188398": {
+    "merged_by": "mstorsjo",
+    "approvers": [
+      "HaohaiWen",
+      "MaskRay"
+    ]
+  },
   "188161": {
     "merged_by": "JDevlieghere",
     "approvers": [
       "JDevlieghere",
       "bulbazord"
+    ]
+  },
+  "188088": {
+    "merged_by": "ktras",
+    "approvers": [
+      "bonachea"
     ]
   },
   "187991": {
@@ -72,6 +292,16 @@
       "alexey-bataev"
     ]
   },
+  "187651": {
+    "merged_by": "c-rhodes",
+    "approvers": []
+  },
+  "187649": {
+    "merged_by": "xgupta",
+    "approvers": [
+      "MaskRay"
+    ]
+  },
   "187638": {
     "merged_by": "dyung",
     "approvers": [
@@ -89,6 +319,12 @@
     "approvers": [
       "topperc",
       "lenary"
+    ]
+  },
+  "187484": {
+    "merged_by": "aheejin",
+    "approvers": [
+      "aheejin"
     ]
   },
   "187445": {
@@ -175,6 +411,12 @@
       "phoebewang"
     ]
   },
+  "186599": {
+    "merged_by": "xgupta",
+    "approvers": [
+      "smithp35"
+    ]
+  },
   "186203": {
     "merged_by": "mstorsjo",
     "approvers": [
@@ -230,6 +472,18 @@
     "merged_by": "dyung",
     "approvers": [
       "jhuber6"
+    ]
+  },
+  "185781": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "aankit-ca"
+    ]
+  },
+  "185779": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "aankit-ca"
     ]
   },
   "185701": {
@@ -290,6 +544,12 @@
       "paulwalker-arm"
     ]
   },
+  "185014": {
+    "merged_by": "c-rhodes",
+    "approvers": [
+      "quic-akaryaki"
+    ]
+  },
   "184916": {
     "merged_by": "dyung",
     "approvers": [
@@ -324,10 +584,25 @@
     "merged_by": "boomanaiden154",
     "approvers": []
   },
+  "184441": {
+    "merged_by": "QuantumSegfault",
+    "approvers": [
+      "dschuff",
+      "aheejin"
+    ]
+  },
   "184395": {
     "merged_by": "dyung",
     "approvers": [
       "zeyi2"
+    ]
+  },
+  "184342": {
+    "merged_by": "JDPailleux",
+    "approvers": [
+      "jeanPerier",
+      "jeanPerier",
+      "bonachea"
     ]
   },
   "184314": {
@@ -363,6 +638,12 @@
     "approvers": [
       "zyn0217",
       "cor3ntin"
+    ]
+  },
+  "183962": {
+    "merged_by": "xgupta",
+    "approvers": [
+      "MaskRay"
     ]
   },
   "183852": {
@@ -2558,6 +2839,13 @@
     "merged_by": "kovdan01",
     "approvers": [
       "pcc"
+    ]
+  },
+  "146572": {
+    "merged_by": "xgupta",
+    "approvers": [
+      "igorkudrin",
+      "MaskRay"
     ]
   },
   "138261": {

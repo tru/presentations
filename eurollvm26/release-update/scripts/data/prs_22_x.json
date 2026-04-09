@@ -1,12 +1,327 @@
 [
   {
+    "number": 191108,
+    "title": "[llvm-dwarfdump] Support R_AARCH64_TLS_DTPREL64 in Object/RelocationResolver.cpp (#187649)",
+    "author": "xgupta",
+    "state": "open",
+    "created_at": "2026-04-09T04:22:41Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 191106,
+    "title": "[AArch64] Support TLS variables in debug info (#146572)",
+    "author": "xgupta",
+    "state": "open",
+    "created_at": "2026-04-09T04:18:42Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 191105,
+    "title": "[LLD][AArch64] Handle R_AARCH64_TLS_DTPREL64 in non-alloc sections",
+    "author": "xgupta",
+    "state": "open",
+    "created_at": "2026-04-09T04:12:20Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 191021,
+    "title": "[AArch64][AsmParser] Add MC support for %dtprel() relocation (#186599)",
+    "author": "xgupta",
+    "state": "open",
+    "created_at": "2026-04-08T17:52:15Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 190996,
+    "title": "release/22.x: [WebAssembly] Fix: fixCallUnwindMismatches after fixCatchUnwindMismatches (#187484)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-04-08T15:51:15Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 190985,
+    "title": "release/22.x: [Hexagon]  Fix O(N^2) compile-time regression in HexagonOptAddrMode (#189531)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-04-08T14:55:47Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 190927,
+    "title": "release/22.x: [pdb] Fix public symbol hashing in GSIHashStreamBuilder::finalizeBuckets (#190133)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-04-08T08:31:41Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 190823,
+    "title": "release/22.x: [CodeGen] Preserve big-endian trunc in concat_vectors (#190701)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-07T17:08:50Z",
+    "closed_at": "2026-04-09T07:06:34Z",
+    "merged_at": "2026-04-09T07:06:34Z"
+  },
+  {
+    "number": 190802,
+    "title": "release/22.x: [PowerPC] Optimize bitcast(truncate) patterns using vbpermq (#181233)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-07T15:16:09Z",
+    "closed_at": "2026-04-09T07:05:04Z",
+    "merged_at": "2026-04-09T07:05:04Z"
+  },
+  {
+    "number": 190793,
+    "title": "release/22.x: [AArch64][SME] Preserve ZA in agnostic ZA functions without +sme",
+    "author": "MacDue",
+    "state": "open",
+    "created_at": "2026-04-07T14:20:25Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 190745,
+    "title": "release/22.x: [LLD] [COFF] Fix crashes for conflicting exports with -export-all-symbols (#190492)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-07T08:06:03Z",
+    "closed_at": "2026-04-09T07:02:53Z",
+    "merged_at": "2026-04-09T07:02:53Z"
+  },
+  {
+    "number": 190703,
+    "title": "release/22.x: [RISCV] Use a vector MemVT when converting store+extractelt into a vector store. (#190107)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-06T22:57:08Z",
+    "closed_at": "2026-04-07T07:25:43Z",
+    "merged_at": "2026-04-07T07:25:43Z"
+  },
+  {
+    "number": 190701,
+    "title": "[CodeGen] Preserve big-endian trunc in concat_vectors",
+    "author": "cuviper",
+    "state": "closed",
+    "created_at": "2026-04-06T22:52:08Z",
+    "closed_at": "2026-04-07T16:57:57Z",
+    "merged_at": "2026-04-07T16:57:57Z"
+  },
+  {
+    "number": 190624,
+    "title": "release/22.x: [TargetLowering] Speculative fix for a non-determinism issue between different compilers. (#190219)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-06T16:11:22Z",
+    "closed_at": "2026-04-06T18:47:07Z",
+    "merged_at": "2026-04-06T18:47:07Z"
+  },
+  {
+    "number": 190546,
+    "title": "release/22.x: [clang-repl] Use canonical types in QualTypeToString (#190528)",
+    "author": "devajithvs",
+    "state": "closed",
+    "created_at": "2026-04-05T18:26:35Z",
+    "closed_at": "2026-04-06T18:44:13Z",
+    "merged_at": "2026-04-06T18:44:13Z"
+  },
+  {
+    "number": 190540,
+    "title": "[X86] Fix missing ByValTemporaries update in CopyViaTemp path for musttail calls",
+    "author": "xiongzile",
+    "state": "closed",
+    "created_at": "2026-04-05T17:18:34Z",
+    "closed_at": "2026-04-08T15:11:32Z",
+    "merged_at": "2026-04-08T15:11:32Z"
+  },
+  {
+    "number": 190528,
+    "title": "[clang-repl] Use canonical types in QualTypeToString",
+    "author": "devajithvs",
+    "state": "closed",
+    "created_at": "2026-04-05T14:39:28Z",
+    "closed_at": "2026-04-05T16:09:40Z",
+    "merged_at": "2026-04-05T16:09:39Z"
+  },
+  {
+    "number": 190492,
+    "title": "[LLD] [COFF] Fix crashes for conflicting exports with -export-all-symbols",
+    "author": "mstorsjo",
+    "state": "closed",
+    "created_at": "2026-04-04T21:14:06Z",
+    "closed_at": "2026-04-07T07:57:52Z",
+    "merged_at": "2026-04-07T07:57:52Z"
+  },
+  {
+    "number": 190405,
+    "title": "release/22.x: [clang] Fix issues with const/pure on varargs function. (#190252)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-03T21:04:42Z",
+    "closed_at": "2026-04-06T18:40:41Z",
+    "merged_at": "2026-04-06T18:40:41Z"
+  },
+  {
+    "number": 190312,
+    "title": "[Clang] Fix concept cache for normalized fold expressions",
+    "author": "zyn0217",
+    "state": "closed",
+    "created_at": "2026-04-03T06:07:50Z",
+    "closed_at": "2026-04-05T02:36:51Z",
+    "merged_at": "2026-04-05T02:36:51Z"
+  },
+  {
+    "number": 190277,
+    "title": "release/22.x: [lldb] Iterate over a copy of the ModuleList in SearchFilter (#189009)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-02T22:45:49Z",
+    "closed_at": "2026-04-06T18:34:34Z",
+    "merged_at": "2026-04-06T18:34:34Z"
+  },
+  {
+    "number": 190252,
+    "title": "[clang] Fix issues with const/pure on varargs function.",
+    "author": "efriedma-quic",
+    "state": "closed",
+    "created_at": "2026-04-02T20:07:52Z",
+    "closed_at": "2026-04-03T20:57:36Z",
+    "merged_at": "2026-04-03T20:57:36Z"
+  },
+  {
+    "number": 190237,
+    "title": "release/22.x: [flang] Fix lowering failure for some constructs inside a CHANGE TEAM (#184342)",
+    "author": "bonachea",
+    "state": "closed",
+    "created_at": "2026-04-02T19:15:01Z",
+    "closed_at": "2026-04-06T18:31:10Z",
+    "merged_at": null
+  },
+  {
+    "number": 190141,
+    "title": "[AArch64][SME] Preserve ZA in agnostic ZA functions without +sme",
+    "author": "MacDue",
+    "state": "closed",
+    "created_at": "2026-04-02T10:04:20Z",
+    "closed_at": "2026-04-02T23:33:28Z",
+    "merged_at": "2026-04-02T23:33:28Z"
+  },
+  {
+    "number": 190133,
+    "title": "[pdb] Fix public symbol hashing in GSIHashStreamBuilder::finalizeBuckets",
+    "author": "zmodem",
+    "state": "closed",
+    "created_at": "2026-04-02T08:36:09Z",
+    "closed_at": "2026-04-07T14:16:31Z",
+    "merged_at": "2026-04-07T14:16:31Z"
+  },
+  {
+    "number": 190091,
+    "title": "release/22.x: [RISCV] Fix stackmap shadow trimming NOP size for compressed targets (#189774)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-02T00:29:24Z",
+    "closed_at": "2026-04-02T07:02:23Z",
+    "merged_at": "2026-04-02T07:02:23Z"
+  },
+  {
+    "number": 190006,
+    "title": "release/22.x: [flang] Update Flang Extension doc to reflect previous change (#188088)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-01T17:25:29Z",
+    "closed_at": "2026-04-02T07:00:47Z",
+    "merged_at": "2026-04-02T07:00:47Z"
+  },
+  {
+    "number": 189927,
+    "title": "release/22.x: [LoongArch] Implement canMergeStoresTo to avoid crash while NoImplicitFloat attribute is set (#188005)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-04-01T09:51:19Z",
+    "closed_at": "2026-04-02T06:58:44Z",
+    "merged_at": "2026-04-02T06:58:44Z"
+  },
+  {
+    "number": 189774,
+    "title": "[RISCV] Fix stackmap shadow trimming NOP size for compressed targets",
+    "author": "tclin914",
+    "state": "closed",
+    "created_at": "2026-04-01T00:19:37Z",
+    "closed_at": "2026-04-02T00:21:34Z",
+    "merged_at": "2026-04-02T00:21:34Z"
+  },
+  {
+    "number": 189679,
+    "title": "[AArch64][llvm] Fix encoding for `stshh` instruction (#189588)",
+    "author": "jthackray",
+    "state": "closed",
+    "created_at": "2026-03-31T14:23:13Z",
+    "closed_at": "2026-04-06T18:24:57Z",
+    "merged_at": "2026-04-06T18:24:57Z"
+  },
+  {
+    "number": 189596,
+    "title": "release/22.x: [clang] fix getReplacedTemplateParameter for function template specializations (#189559)",
+    "author": "llvmbot",
+    "state": "open",
+    "created_at": "2026-03-31T11:02:07Z",
+    "closed_at": null,
+    "merged_at": null
+  },
+  {
+    "number": 189559,
+    "title": "[clang] fix getReplacedTemplateParameter for function template specializations",
+    "author": "mizvekov",
+    "state": "closed",
+    "created_at": "2026-03-31T08:19:33Z",
+    "closed_at": "2026-03-31T10:41:42Z",
+    "merged_at": "2026-03-31T10:41:42Z"
+  },
+  {
+    "number": 189538,
+    "title": "release/22.x: [clang-repl] Fix C89 incompatible keywords (#189432)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-31T05:52:13Z",
+    "closed_at": "2026-03-31T08:42:48Z",
+    "merged_at": "2026-03-31T08:42:48Z"
+  },
+  {
+    "number": 189432,
+    "title": "[clang-repl] Fix C89 incompatible keywords",
+    "author": "keremsahn",
+    "state": "closed",
+    "created_at": "2026-03-30T17:13:02Z",
+    "closed_at": "2026-03-30T18:14:53Z",
+    "merged_at": "2026-03-30T18:14:53Z"
+  },
+  {
+    "number": 189375,
+    "title": "release/22.x: [lld][COFF] Restore `lto-embed-bitcode` and `-fembed-bitcode` Bitcode Embedding Features (#188398)",
+    "author": "llvmbot",
+    "state": "closed",
+    "created_at": "2026-03-30T13:14:50Z",
+    "closed_at": "2026-03-31T08:45:26Z",
+    "merged_at": "2026-03-31T08:45:26Z"
+  },
+  {
     "number": 189139,
     "title": "release/22.x: [X86] Improve illegal return type handling in FastISel (#186723)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-28T02:25:41Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T15:12:47Z",
+    "merged_at": "2026-03-30T15:12:46Z"
   },
   {
     "number": 189059,
@@ -21,19 +336,28 @@
     "number": 189057,
     "title": "release/22.x: [AccelTable] Pre-compute entry pool offsets for DW_IDX_parent. NFC (#188915)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-27T16:53:26Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T15:11:04Z",
+    "merged_at": "2026-03-30T15:11:04Z"
+  },
+  {
+    "number": 189009,
+    "title": "[lldb] Iterate over a copy of the ModuleList in SearchFilter",
+    "author": "JDevlieghere",
+    "state": "closed",
+    "created_at": "2026-03-27T14:28:54Z",
+    "closed_at": "2026-03-27T20:41:14Z",
+    "merged_at": "2026-03-27T20:41:14Z"
   },
   {
     "number": 188938,
     "title": "release/22.x: [lit] Explicitly unset timer to free thread stack (#188717)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-27T09:49:24Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T15:07:21Z",
+    "merged_at": "2026-03-30T15:07:21Z"
   },
   {
     "number": 188915,
@@ -48,10 +372,10 @@
     "number": 188913,
     "title": "release/22.x: [sanitizer_common] [Darwin] Adopt _dyld_get_dyld_header (#182943)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-27T06:29:48Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-31T08:27:16Z",
+    "merged_at": "2026-03-31T08:27:16Z"
   },
   {
     "number": 188768,
@@ -66,10 +390,10 @@
     "number": 188672,
     "title": "release/22.x: [LoongArch] Fix incorrect reciprocal sqrt estimate semantics (#187621)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-26T04:06:12Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T15:05:03Z",
+    "merged_at": "2026-03-30T15:05:03Z"
   },
   {
     "number": 188666,
@@ -93,19 +417,37 @@
     "number": 188541,
     "title": "[MC,clang] Fix -Wa,--noexecstack not emitting .note.GNU-stack",
     "author": "jtschuster",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-25T16:56:11Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T15:00:57Z",
+    "merged_at": "2026-03-30T15:00:57Z"
   },
   {
     "number": 188466,
     "title": "release/22.x: [ARM] Fix incorrect post increment from Or (#188036)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-25T11:38:11Z",
+    "closed_at": "2026-03-30T14:57:25Z",
+    "merged_at": "2026-03-30T14:57:25Z"
+  },
+  {
+    "number": 188422,
+    "title": "[clang] Adjust -pedantic-errors -WX/-Wno-error=X interaction (#184756)",
+    "author": "MaskRay",
+    "state": "open",
+    "created_at": "2026-03-25T07:16:10Z",
     "closed_at": null,
     "merged_at": null
+  },
+  {
+    "number": 188398,
+    "title": "[lld][COFF] Restore `lto-embed-bitcode` and `-fembed-bitcode` Bitcode Embedding Features",
+    "author": "realoriginal",
+    "state": "closed",
+    "created_at": "2026-03-25T02:22:53Z",
+    "closed_at": "2026-03-30T13:05:37Z",
+    "merged_at": "2026-03-30T13:05:37Z"
   },
   {
     "number": 188330,
@@ -124,6 +466,15 @@
     "created_at": "2026-03-24T02:29:50Z",
     "closed_at": "2026-03-24T22:49:10Z",
     "merged_at": "2026-03-24T22:49:10Z"
+  },
+  {
+    "number": 188088,
+    "title": "[flang] Update Flang Extension doc to reflect previous change",
+    "author": "ktras",
+    "state": "closed",
+    "created_at": "2026-03-23T17:45:40Z",
+    "closed_at": "2026-04-01T17:15:01Z",
+    "merged_at": "2026-04-01T17:15:01Z"
   },
   {
     "number": 187991,
@@ -192,10 +543,19 @@
     "number": 187651,
     "title": "release/22.x: [AArch64] Use an unknown size for memcpy ops with non-constant sizes. (#187445)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-20T07:39:16Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T14:53:23Z",
+    "merged_at": "2026-03-30T14:53:23Z"
+  },
+  {
+    "number": 187649,
+    "title": "[llvm-dwarfdump] Support R_AARCH64_TLS_DTPREL64 in Object/RelocationResolver.cpp",
+    "author": "xgupta",
+    "state": "closed",
+    "created_at": "2026-03-20T07:38:28Z",
+    "closed_at": "2026-03-31T07:44:09Z",
+    "merged_at": "2026-03-31T07:44:09Z"
   },
   {
     "number": 187638,
@@ -223,6 +583,15 @@
     "created_at": "2026-03-19T14:12:24Z",
     "closed_at": "2026-03-23T03:12:50Z",
     "merged_at": "2026-03-23T03:12:50Z"
+  },
+  {
+    "number": 187484,
+    "title": "[WebAssembly] Fix: fixCallUnwindMismatches after fixCatchUnwindMismatches",
+    "author": "hoodmane",
+    "state": "closed",
+    "created_at": "2026-03-19T11:47:19Z",
+    "closed_at": "2026-04-08T09:49:22Z",
+    "merged_at": "2026-04-08T09:49:22Z"
   },
   {
     "number": 187445,
@@ -342,6 +711,15 @@
     "merged_at": "2026-03-17T00:20:53Z"
   },
   {
+    "number": 186599,
+    "title": "[AArch64][AsmParser] Add MC support for %dtprel() relocation",
+    "author": "xgupta",
+    "state": "closed",
+    "created_at": "2026-03-14T14:48:48Z",
+    "closed_at": "2026-03-18T15:35:54Z",
+    "merged_at": "2026-03-18T15:35:54Z"
+  },
+  {
     "number": 186288,
     "title": "release/22.x: MIPS/expandAtomicBinOp: Remove tailing kill dead register operands (#186055)",
     "author": "llvmbot",
@@ -453,19 +831,19 @@
     "number": 185781,
     "title": "release/22.x: [Hexagon] Fix 64-bit funnel shift miscompilation with register shift amounts (#183669)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-11T00:37:10Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T14:45:57Z",
+    "merged_at": "2026-03-30T14:45:57Z"
   },
   {
     "number": 185779,
     "title": "release/22.x: [Hexagon] Fix B0 macro conflict between hexagon_types.h and termios.h (#184539)",
     "author": "llvmbot",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-11T00:09:11Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-03-30T14:30:36Z",
+    "merged_at": "2026-03-30T14:30:36Z"
   },
   {
     "number": 185701,
@@ -489,9 +867,9 @@
     "number": 185565,
     "title": "release/22.x: [Hexagon] Fix truncation to boolean vector that need widening",
     "author": "androm3da",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-10T03:30:00Z",
-    "closed_at": null,
+    "closed_at": "2026-03-30T14:51:27Z",
     "merged_at": null
   },
   {
@@ -561,10 +939,10 @@
     "number": 185014,
     "title": "release/22.x: [Hexagon] Define __HVX_IEEE_FP__ ; Use __HVX_IEEE_FP__ to guard protos",
     "author": "androm3da",
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-03-06T14:47:47Z",
-    "closed_at": null,
-    "merged_at": null
+    "closed_at": "2026-04-01T08:46:51Z",
+    "merged_at": "2026-04-01T08:46:51Z"
   },
   {
     "number": 184916,
@@ -675,6 +1053,15 @@
     "merged_at": "2026-03-04T01:39:16Z"
   },
   {
+    "number": 184441,
+    "title": "[WebAssembly] Reapply \"[WebAssembly] Incorporate SCCs into WebAssemblyFixIrreducibleControlFlow\" (#181755)",
+    "author": "QuantumSegfault",
+    "state": "closed",
+    "created_at": "2026-03-03T21:29:58Z",
+    "closed_at": "2026-03-05T19:13:44Z",
+    "merged_at": "2026-03-05T19:13:44Z"
+  },
+  {
     "number": 184395,
     "title": "release/22.x: [clang-tidy] Fix yet another false positive in `readability-redundant-typename` (#184301)",
     "author": "llvmbot",
@@ -682,6 +1069,15 @@
     "created_at": "2026-03-03T17:51:18Z",
     "closed_at": "2026-03-06T17:21:05Z",
     "merged_at": "2026-03-06T17:21:04Z"
+  },
+  {
+    "number": 184342,
+    "title": "[Flang] Fix lowering failure for some constructs inside a CHANGE TEAM",
+    "author": "JDPailleux",
+    "state": "closed",
+    "created_at": "2026-03-03T13:49:54Z",
+    "closed_at": "2026-04-02T13:54:14Z",
+    "merged_at": "2026-04-02T13:54:14Z"
   },
   {
     "number": 184320,
@@ -790,6 +1186,15 @@
     "created_at": "2026-02-28T23:24:22Z",
     "closed_at": "2026-03-05T13:54:27Z",
     "merged_at": "2026-03-05T13:54:27Z"
+  },
+  {
+    "number": 183962,
+    "title": "[LLD][AArch64] Handle R_AARCH64_TLS_DTPREL64 in non-alloc sections",
+    "author": "xgupta",
+    "state": "closed",
+    "created_at": "2026-02-28T22:32:58Z",
+    "closed_at": "2026-03-31T03:17:55Z",
+    "merged_at": "2026-03-31T03:17:55Z"
   },
   {
     "number": 183865,
@@ -4516,6 +4921,15 @@
     "created_at": "2025-07-24T13:32:08Z",
     "closed_at": "2026-01-14T21:58:29Z",
     "merged_at": "2026-01-14T21:58:29Z"
+  },
+  {
+    "number": 146572,
+    "title": "[AArch64] Support TLS variables in debug info",
+    "author": "xgupta",
+    "state": "closed",
+    "created_at": "2025-07-01T17:08:54Z",
+    "closed_at": "2026-03-31T03:20:43Z",
+    "merged_at": "2026-03-31T03:20:43Z"
   },
   {
     "number": 138261,

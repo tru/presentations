@@ -1,9 +1,143 @@
 {
+  "190823": [
+    "llvm/lib/CodeGen/SelectionDAG/DAGCombiner.cpp",
+    "llvm/test/CodeGen/SystemZ/vec-trunc-to-i16.ll"
+  ],
+  "190802": [
+    "llvm/lib/Target/PowerPC/PPCISelLowering.cpp",
+    "llvm/lib/Target/PowerPC/PPCISelLowering.h",
+    "llvm/test/CodeGen/PowerPC/bitcast-truncate-vec-i1.ll"
+  ],
+  "190745": [
+    "lld/COFF/Config.h",
+    "lld/COFF/Driver.cpp",
+    "lld/COFF/SymbolTable.cpp",
+    "lld/test/COFF/export-all-conflict.test"
+  ],
+  "190703": [
+    "llvm/lib/Target/RISCV/RISCVISelLowering.cpp",
+    "llvm/test/CodeGen/RISCV/rvv/pr189037.ll"
+  ],
+  "190701": [
+    "llvm/lib/CodeGen/SelectionDAG/DAGCombiner.cpp",
+    "llvm/test/CodeGen/SystemZ/vec-trunc-to-i16.ll"
+  ],
+  "190624": [
+    "llvm/lib/CodeGen/SelectionDAG/TargetLowering.cpp"
+  ],
+  "190546": [
+    "clang/lib/AST/QualTypeNames.cpp",
+    "clang/lib/Interpreter/InterpreterValuePrinter.cpp",
+    "clang/test/Interpreter/pretty-print.cpp"
+  ],
+  "190540": [
+    "llvm/lib/Target/X86/X86ISelLoweringCall.cpp",
+    "llvm/test/CodeGen/X86/musttail-struct.ll"
+  ],
+  "190528": [
+    "clang/lib/AST/QualTypeNames.cpp",
+    "clang/lib/Interpreter/InterpreterValuePrinter.cpp",
+    "clang/test/Interpreter/pretty-print.cpp"
+  ],
+  "190492": [
+    "lld/COFF/Config.h",
+    "lld/COFF/Driver.cpp",
+    "lld/COFF/SymbolTable.cpp",
+    "lld/test/COFF/export-all-conflict.test"
+  ],
+  "190405": [
+    "clang/lib/CodeGen/CGCall.cpp",
+    "clang/test/CodeGen/struct-passing.c"
+  ],
+  "190312": [
+    "clang/lib/Sema/SemaConcept.cpp",
+    "clang/test/SemaCXX/cxx2c-fold-exprs.cpp"
+  ],
+  "190277": [
+    "lldb/source/Core/SearchFilter.cpp",
+    "lldb/test/Shell/Breakpoint/Inputs/main.c",
+    "lldb/test/Shell/Breakpoint/source-regex-missing-source.test"
+  ],
+  "190252": [
+    "clang/lib/CodeGen/CGCall.cpp",
+    "clang/test/CodeGen/struct-passing.c"
+  ],
+  "190141": [
+    "llvm/lib/Target/AArch64/MachineSMEABIPass.cpp",
+    "llvm/test/CodeGen/AArch64/sme-agnostic-za-without-sme.ll"
+  ],
+  "190133": [
+    "lld/test/COFF/pdb-publics-hashes.s",
+    "llvm/lib/DebugInfo/PDB/Native/GSIStreamBuilder.cpp"
+  ],
+  "190091": [
+    "llvm/lib/Target/RISCV/RISCVAsmPrinter.cpp",
+    "llvm/test/CodeGen/RISCV/rv64-stackmap-nops.ll"
+  ],
+  "190006": [
+    "flang/docs/Extensions.md"
+  ],
+  "189927": [
+    "llvm/lib/Target/LoongArch/LoongArchISelLowering.cpp",
+    "llvm/lib/Target/LoongArch/LoongArchISelLowering.h",
+    "llvm/test/CodeGen/LoongArch/mergestores.ll"
+  ],
+  "189774": [
+    "llvm/lib/Target/RISCV/RISCVAsmPrinter.cpp",
+    "llvm/test/CodeGen/RISCV/rv64-stackmap-nops.ll"
+  ],
+  "189679": [
+    "llvm/lib/Target/AArch64/AArch64InstrFormats.td",
+    "llvm/test/MC/AArch64/armv9.6a-pcdphint.s"
+  ],
+  "189559": [
+    "clang/lib/AST/DeclTemplate.cpp",
+    "clang/test/SemaTemplate/GH188759.cpp"
+  ],
+  "189538": [
+    "clang/lib/Interpreter/Interpreter.cpp",
+    "clang/test/Interpreter/pretty-print.c"
+  ],
+  "189432": [
+    "clang/lib/Interpreter/Interpreter.cpp",
+    "clang/test/Interpreter/pretty-print.c"
+  ],
+  "189375": [
+    "lld/COFF/InputFiles.cpp",
+    "lld/test/COFF/embed-bitcode.test"
+  ],
+  "189139": [
+    "llvm/lib/Target/X86/X86FastISel.cpp",
+    "llvm/test/CodeGen/X86/i1-fast-isel.ll"
+  ],
+  "189057": [
+    "llvm/lib/CodeGen/AsmPrinter/AccelTable.cpp"
+  ],
+  "189009": [
+    "lldb/source/Core/SearchFilter.cpp",
+    "lldb/test/Shell/Breakpoint/Inputs/main.c",
+    "lldb/test/Shell/Breakpoint/source-regex-missing-source.test"
+  ],
+  "188938": [
+    "llvm/utils/lit/lit/TestRunner.py",
+    "llvm/utils/lit/lit/run.py"
+  ],
   "188915": [
     "llvm/lib/CodeGen/AsmPrinter/AccelTable.cpp"
   ],
+  "188913": [
+    "compiler-rt/lib/sanitizer_common/sanitizer_procmaps_mac.cpp",
+    "compiler-rt/lib/sanitizer_common/weak_symbols.txt",
+    "compiler-rt/lib/tsan/go/buildgo.sh"
+  ],
   "188768": [
     "lldb/bindings/python/python-wrapper.swig"
+  ],
+  "188672": [
+    "llvm/lib/Target/LoongArch/LoongArchISelLowering.cpp",
+    "llvm/test/CodeGen/LoongArch/fsqrt-reciprocal-estimate.ll",
+    "llvm/test/CodeGen/LoongArch/lasx/fsqrt-reciprocal-estimate.ll",
+    "llvm/test/CodeGen/LoongArch/lsx/fsqrt-reciprocal-estimate.ll"
   ],
   "188666": [
     "llvm/lib/Target/LoongArch/LoongArchISelLowering.cpp",
@@ -13,8 +147,27 @@
     "libunwind/CMakeLists.txt",
     "libunwind/src/Registers.hpp"
   ],
+  "188541": [
+    "clang/test/Misc/noexecstack.c",
+    "clang/tools/driver/cc1as_main.cpp",
+    "llvm/lib/MC/MCELFStreamer.cpp",
+    "llvm/test/MC/ELF/noexec.s",
+    "llvm/test/MC/ELF/noexecstack.s",
+    "llvm/tools/llvm-mc/llvm-mc.cpp"
+  ],
+  "188466": [
+    "llvm/lib/Target/ARM/ARMISelLowering.cpp",
+    "llvm/test/CodeGen/ARM/vld2.ll"
+  ],
+  "188398": [
+    "lld/COFF/InputFiles.cpp",
+    "lld/test/COFF/embed-bitcode.test"
+  ],
   "188161": [
     "lldb/bindings/python/python-wrapper.swig"
+  ],
+  "188088": [
+    "flang/docs/Extensions.md"
   ],
   "187991": [
     "clang/lib/Format/TokenAnnotator.cpp",
@@ -52,6 +205,14 @@
     "llvm/test/Transforms/SLPVectorizer/X86/reduction-extracted-value.ll",
     "llvm/test/Transforms/SLPVectorizer/X86/revec-reduced-value-vectorized-later.ll"
   ],
+  "187651": [
+    "llvm/lib/Target/AArch64/AArch64SelectionDAGInfo.cpp",
+    "llvm/test/CodeGen/AArch64/mops-mmo-size.ll"
+  ],
+  "187649": [
+    "llvm/lib/Object/RelocationResolver.cpp",
+    "llvm/test/DebugInfo/AArch64/tls-at-location.ll"
+  ],
   "187638": [
     "llvm/lib/Target/LoongArch/MCTargetDesc/LoongArchAsmBackend.cpp",
     "llvm/test/DebugInfo/LoongArch/dwo-no-relocations.ll"
@@ -67,6 +228,13 @@
     "llvm/lib/Target/RISCV/RISCVInstrInfoXqci.td",
     "llvm/lib/Target/RISCV/RISCVInstrInfoZibi.td",
     "llvm/test/MC/RISCV/zibi-long-conditional-jump.s"
+  ],
+  "187484": [
+    "llvm/lib/Target/WebAssembly/WebAssemblyCFGStackify.cpp",
+    "llvm/test/CodeGen/WebAssembly/cfg-stackify-eh-legacy.ll",
+    "llvm/test/CodeGen/WebAssembly/cfg-stackify-eh.ll",
+    "llvm/test/CodeGen/WebAssembly/exception-legacy.ll",
+    "llvm/test/CodeGen/WebAssembly/exception.ll"
   ],
   "187445": [
     "llvm/lib/Target/AArch64/AArch64SelectionDAGInfo.cpp",
@@ -132,6 +300,12 @@
     "llvm/lib/Target/X86/X86FastISel.cpp",
     "llvm/test/CodeGen/X86/i1-fast-isel.ll"
   ],
+  "186599": [
+    "llvm/lib/Target/AArch64/AsmParser/AArch64AsmParser.cpp",
+    "llvm/lib/Target/AArch64/MCTargetDesc/AArch64ELFObjectWriter.cpp",
+    "llvm/lib/Target/AArch64/MCTargetDesc/AArch64MCAsmInfo.cpp",
+    "llvm/test/MC/AArch64/tls-dtprel64.s"
+  ],
   "186203": [
     "lld/ELF/Driver.cpp",
     "lld/test/ELF/aarch64-feature-gcs.s"
@@ -183,6 +357,15 @@
   "185783": [
     "clang/lib/Headers/__clang_cuda_runtime_wrapper.h"
   ],
+  "185781": [
+    "llvm/lib/Target/Hexagon/HexagonPatterns.td",
+    "llvm/test/CodeGen/Hexagon/funnel-shift.ll",
+    "llvm/test/CodeGen/Hexagon/rotate.ll"
+  ],
+  "185779": [
+    "clang/lib/Headers/hexagon_types.h",
+    "clang/test/Headers/hexagon-types-b0-conflict.c"
+  ],
   "185701": [
     "clang/lib/Headers/__clang_cuda_runtime_wrapper.h"
   ],
@@ -223,6 +406,13 @@
     "llvm/lib/Target/AArch64/AArch64Features.td",
     "llvm/unittests/TargetParser/TargetParserTest.cpp"
   ],
+  "185014": [
+    "clang/lib/Basic/Targets/Hexagon.cpp",
+    "clang/lib/Basic/Targets/Hexagon.h",
+    "clang/lib/Headers/hvx_hexagon_protos.h",
+    "clang/test/Headers/hexagon-hvx-ieee-headers.c",
+    "clang/test/Preprocessor/hexagon-predefines.c"
+  ],
   "184916": [
     ".ci/green-dragon/clang-stage1-RA.groovy"
   ],
@@ -246,9 +436,20 @@
   "184524": [
     "third-party/benchmark/include/benchmark/benchmark.h"
   ],
+  "184441": [
+    "llvm/lib/Target/WebAssembly/WebAssemblyFixIrreducibleControlFlow.cpp",
+    "llvm/lib/Target/WebAssembly/WebAssemblyTargetMachine.cpp",
+    "llvm/test/CodeGen/WebAssembly/pr184441.ll"
+  ],
   "184395": [
     "clang-tools-extra/clang-tidy/readability/RedundantTypenameCheck.cpp",
     "clang-tools-extra/test/clang-tidy/checkers/readability/redundant-typename.cpp"
+  ],
+  "184342": [
+    "flang/include/flang/Optimizer/Transforms/Passes.td",
+    "flang/lib/Optimizer/Transforms/MIFOpConversion.cpp",
+    "flang/test/Fir/MIF/change_team2.mlir",
+    "flang/test/Lower/MIF/change_team2.f90"
   ],
   "184314": [
     "llvm/lib/Target/AArch64/AArch64FrameLowering.cpp",
@@ -273,6 +474,10 @@
     "clang/lib/Sema/SemaExpr.cpp",
     "clang/test/ParserOpenACC/parse-constructs.cpp",
     "clang/test/SemaCXX/GH175783.cpp"
+  ],
+  "183962": [
+    "lld/ELF/Arch/AArch64.cpp",
+    "lld/test/ELF/aarch64-tls-dtprel.s"
   ],
   "183852": [
     "llvm/lib/Analysis/BasicAliasAnalysis.cpp"
@@ -2431,6 +2636,12 @@
     "llvm/lib/Target/TargetLoweringObjectFile.cpp",
     "llvm/test/CodeGen/AArch64/ptrauth-global-no-pic.ll",
     "llvm/test/CodeGen/AArch64/ptrauth-irelative.ll"
+  ],
+  "146572": [
+    "llvm/docs/ReleaseNotes.md",
+    "llvm/lib/Target/AArch64/AArch64TargetObjectFile.cpp",
+    "llvm/lib/Target/AArch64/AArch64TargetObjectFile.h",
+    "llvm/test/DebugInfo/AArch64/tls-at-location.ll"
   ],
   "138261": [
     "llvm/include/llvm/Analysis/MemorySSA.h",

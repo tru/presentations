@@ -19,9 +19,9 @@ TEXT_COLOR  = "#1a1a2e"
 GRID_COLOR  = "#e8e0f5"
 
 RELEASE_STYLE = {
-    "20.x": {"color": "#9575cd", "lw": 2.5, "marker": "o", "ms": 7},
-    "21.x": {"color": "#512da8", "lw": 2.5, "marker": "s", "ms": 7},
-    "22.x": {"color": "#1a0050", "lw": 2.5, "marker": "^", "ms": 8},
+    "20.x": {"color": "#e65100", "lw": 2.5, "marker": "o", "ms": 7},   # deep orange
+    "21.x": {"color": "#1565c0", "lw": 2.5, "marker": "s", "ms": 7},   # strong blue
+    "22.x": {"color": "#2e7d32", "lw": 2.5, "marker": "^", "ms": 8},   # forest green
 }
 
 # Complete milestone dates per release, in order
@@ -64,6 +64,7 @@ MILESTONES = {
         ("Final",  "2026-02-24T07:36:08Z"),
         ("1.1",    "2026-03-11T00:33:19Z"),
         ("1.2",    "2026-03-24T20:04:07Z"),
+        ("1.3",    "2026-04-07T08:43:46Z"),
     ],
 }
 
@@ -147,13 +148,13 @@ for release, counts in release_data.items():
                     color=style["color"])
 
 # shaded RC region
-ax.axvspan(-0.5, 3.5, color="#f5f0ff", zorder=0, label="_nolegend_")
+ax.axvspan(-0.5, 3.5, color="#f0f4f8", zorder=0, label="_nolegend_")
 ax.text(1.5, ax.get_ylim()[1] if ax.get_ylim()[1] > 0 else 140,
         "← RC period →", ha="center", va="top",
-        fontsize=9, color="#7c4dbd", style="italic")
+        fontsize=9, color="#555555", style="italic")
 
 # vertical line at Final
-ax.axvline(3, color="#c0b0e0", linewidth=1, linestyle="--", zorder=1)
+ax.axvline(3, color="#aaaaaa", linewidth=1, linestyle="--", zorder=1)
 
 ax.set_xticks(range(len(X_LABELS)))
 ax.set_xticklabels(X_LABELS, fontsize=11, color=TEXT_COLOR)

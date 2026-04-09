@@ -14,7 +14,7 @@ Cullen Rhodes, Douglas Yung, Tobias Hieta
 # Introductions
 
 Note:
-Welcome to your boring "eat your vegetables" session of the conference. Here you won't learn about a cool new optimization, some crazy size reduction or a three layered MLIR cake. We will just talk about the release process for 20 minutes. But first some introductions:
+Welcome to your boring "eat your vegetables" session of the conference. Here you won't learn about a cool new optimization, some impressive size reduction or a three layered MLIR cake. We will just talk about the release process for 20 minutes. But first some introductions:
 
 Cullen: [Cullen intro]
 
@@ -24,15 +24,15 @@ Tobias: And I am Tobias Hieta, I have been involved in the release process since
 
 ---
 
-# Agenda
-* Current Process
-* Recent Changes
-* What Works?
-* What Doesn't Work?
-* Your Turn
+# Recent Changes
+
+* Two new Release Managers: **Cullen** and **Douglas**
+* Stricter enforcement of acceptance criteria
+* Automation updates
+* Dropped split source packages
 
 Note:
-Quick overview of what we'll cover. We want this to be interactive — especially toward the end. We have a roundtable slot and want to hear from you.
+Tom Stellard and Tobias have been running releases for years. We brought in Cullen and Douglas to grow the team and spread the load. The plan is continuity — not a handoff. On the process side: we've tried to hold the line more firmly on what gets into RCs. Automation improvements have helped with tagging, notifications and tracking. We dropped split source packages as very few people were using them and they added maintenance burden.
 
 ---
 
@@ -49,7 +49,9 @@ Even-numbered releases branch in January, odd-numbered in July. The RC schedule 
 
 # LLVM 21 Release Timeline
 
-<img src="release_timeline.png" style="width:100%;max-height:60vh;object-fit:contain;" />
+<img src="release_timeline.png" style="width:100%;max-height:55vh;object-fit:contain;" />
+
+20.x RC1: **16 days late** &nbsp;·&nbsp; 21.x RC1: **6 days late** &nbsp;·&nbsp; 22.x RC1: **on time**
 
 Note:
 This is what the 21.x release actually looked like. Branch on July 8, RC1 came out 9 days later (the schedule says 3 days — already slipping). RC2 and RC3 were each about 2 weeks apart, and the final shipped August 26. Total: 49 days from branch to final.
@@ -76,19 +78,23 @@ The docs are explicit that new features not completed by RC1 will be removed or 
 |---------|-----------|--------------|--------|
 | 20.x    | 594       | 53           | 125    |
 | 21.x    | 514       | 68           | 122    |
-| 22.x    | 413       | 74           | 50     |
+| 22.x    | 459       | 76           | 89     |
+
+Rejection rate rising: **8%** → **12%** → **14%**
 
 Note:
-These numbers are from the LLVM GitHub milestones, fetched fresh. Rejections have been climbing — 53 → 68 → 74 — which reflects us being stricter with the acceptance criteria over time. The merge counts going down is partly that 22.x is a complete release now, and partly tighter gatekeeping. Issues tracked under the milestone are trending down; hard to know if that's fewer problems or fewer people filing issues against the milestone.
+These numbers are from the LLVM GitHub milestones, fetched fresh. Rejections have been climbing — 53 → 68 → 76 — which reflects us being stricter with the acceptance criteria over time. The merge counts going down is partly tighter gatekeeping; 22.x is through 1.2 point releases. Issues tracked under the milestone jumped in 22.x; hard to know if that's more problems being filed or more active milestone usage.
 
 ---
 
 # PRs Merged by Phase
 
-<img src="phase_line_chart.png" style="width:100%;max-height:65vh;object-fit:contain;" />
+<img src="phase_line_chart.png" style="width:100%;max-height:55vh;object-fit:contain;" />
+
+RC1→RC2 always **3× busier** than Branch→RC1 &nbsp;·&nbsp; RC3→Final: **16 PRs** (20.x) vs **62–66** (21.x / 22.x)
 
 Note:
-RC1→RC2 is the busiest window across all three releases — 115-131 PRs in roughly two weeks. The lines track closely until Final, where 20.x drops hard to just 16 PRs (we held the line). 21.x and 22.x both had 62-66 PRs in that final window — a lot of risk going in very late. The point release tail is interesting: 20.x stays elevated through 1.3 before fading, 21.x drops sharply after 1.1. 22.x is still early but tracking similarly to 21.x so far.
+RC1→RC2 is the busiest window across all three releases — 115-131 PRs in roughly two weeks. The lines track closely until Final, where 20.x drops hard to just 16 PRs (we held the line). 21.x and 22.x both had 62-66 PRs in that final window — a lot of risk going in very late. The point release tail is interesting: 20.x stays elevated through 1.3 before fading, 21.x drops sharply after 1.1. 22.x through 1.3 is running at 38–44 PRs per point release — similar pace to 21.x early on.
 
 Two things to highlight from this chart that connect directly to the pain points raised:
 
@@ -105,7 +111,16 @@ Two things to highlight from this chart that connect directly to the pain points
 Note:
 Subproject attribution is based on which top-level directory has the most files changed in each PR — more honest than reading the PR title. LLVM Core and Clang dominate as expected, but Clang has dropped noticeably in 22.x. LLDB had a quiet 21.x but came back strongly in 22.x. libc++ is consistently active. Flang is modest but steady.
 
---
+---
+
+# Clang: Subsystems
+
+<img src="clang_subsystems.png" style="width:100%;max-height:65vh;object-fit:contain;" />
+
+Note:
+A PR is counted for a subsystem if it touches any file under that directory — so a PR fixing both Sema and AST counts in both. clang-format counts files under both clang/lib/Format and clang/tools/clang-format. clang-tidy and clangd come from clang-tools-extra. Sema dominates across all three releases. clang-format was very active in 20.x and 21.x but dropped sharply in 22.x. clang-tidy picked up in 22.x. clangd activity has faded — zero backports in 22.x.
+
+---
 
 # LLVM Core: Backends
 
@@ -114,7 +129,7 @@ Subproject attribution is based on which top-level directory has the most files 
 Note:
 A PR is counted for a backend if it touches any file under llvm/lib/Target/<Backend> — so a PR touching both AArch64 and CodeGen gets counted in both. AArch64 leads in 20.x and 22.x. RISC-V leads in 21.x and is consistently very active. Hexagon is surprisingly prominent — a dedicated team at Qualcomm does careful backport work. LoongArch is active in all three releases despite being a relatively new architecture — the team is clearly engaged. SystemZ jumps sharply in 22.x.
 
---
+---
 
 # LLVM Core: Subsystems
 
@@ -127,31 +142,23 @@ Backends (llvm/lib/Target) completely dominate — the majority of LLVM Core bac
 
 # Who Reviews PRs
 
-<img src="approver_chart.png" style="width:100%;max-height:65vh;object-fit:contain;" />
+<img src="approver_chart.png" style="width:100%;max-height:55vh;object-fit:contain;" />
+
+**nikic** alone: 89 PRs across 3 releases &nbsp;·&nbsp; top 5 reviewers handle the majority of all approvals
 
 Note:
 These are the people leaving approving reviews — the actual technical gatekeepers deciding whether a patch is safe to backport. nikic leads by a wide margin across all three releases (89 total). arsenm, ldionne, HazardyKnusperkeks (clang-format), MaskRay, and cor3ntin are all consistently present. This group is different from the mergers — these are domain experts doing the substantive review work, while the RM handles the mechanics of merging. The overlap between the two lists is small, which is healthy, but it means the review pool and the merge pool are both narrow. If nikic is unavailable, a significant chunk of Clang and middle-end reviews stalls.
 
---
+---
 
 # Who Submits PRs
 
-<img src="contributor_chart.png" style="width:100%;max-height:65vh;object-fit:contain;" />
+<img src="contributor_chart.png" style="width:100%;max-height:55vh;object-fit:contain;" />
+
+~40 people do repeated work &nbsp;·&nbsp; most contributors appear only once
 
 Note:
 For completeness: these are the people opening the cherry-pick PRs — the ones requesting backports. llvmbot and infra-only PRs excluded. owenca leads, followed by nikic, mstorsjo, dtcxzyw, and ldionne. Notably, several names appear in all three lists — nikic and ldionne are submitting backports, reviewing others' backports, and occasionally merging. That kind of engagement is valuable but also a concentration risk.
-
----
-
-# Recent Changes
-
-* Two new Release Managers: **Cullen** and **Douglas**
-* Stricter enforcement of acceptance criteria
-* Automation updates
-* Dropped split source packages
-
-Note:
-Tom Stellard and Tobias have been running releases for years. We brought in Cullen and Douglas to grow the team and spread the load. The plan is continuity — not a handoff. On the process side: we've tried to hold the line more firmly on what gets into RCs. Automation improvements have helped with tagging, notifications and tracking. We dropped split source packages as very few people were using them and they added maintenance burden.
 
 ---
 
@@ -167,106 +174,35 @@ The 6-month rhythm is actually one of the strongest parts of the current process
 
 ---
 
-# What the Data Says
-
-| Pain point | Data |
-|---|---|
-| PR flood | **3x spike** every release: ~40 PRs pre-RC1 → 115–131 in RC1→RC2 |
-| Late merges | RC3→Final: **16** (20.x) vs **66** (21.x) vs **62** (22.x) |
-| Rejection rate | Rising: **8%** → **12%** → **15%** across last three releases |
-| January slip | 20.x RC1 was **16 days late**; 22.x was on time; 21.x (July) 6 days late |
-| Contributor load | **~40 people** do repeated work; long tail of one-time contributors |
-| Reviewer concentration | **nikic alone reviewed 89 PRs** across 3 releases; top 5 reviewers cover the majority |
-
-Note:
-This is the data-backed version of the theories we started with. A few things stand out:
-
-The PR flood is not a theory — it's a 3x spike that shows up identically in every release. Branch→RC1 is always ~40 PRs. RC1→RC2 is always 115-131. The community is simply not paying attention until RC1 ships.
-
-The RC3→Final variance is the most interesting finding. 20.x had 16 PRs in that window — we held the line. 21.x and 22.x had 62-66. This is either criteria enforcement being inconsistent across releases, or the non-responsive reviewer problem causing patches to back up and arrive only in the last available window before final. Both explanations are bad.
-
-The rejection rate nearly doubling (8% → 15%) reflects us trying to be stricter, but it also means one in seven PRs is now being turned away. That's friction for contributors who spent time preparing a backport.
-
-The January theory is harder to prove. 20.x RC1 slipped 16 days, which is significant. But 22.x was right on time. And 21.x (a July release) also slipped 6 days. The problem may be less about the month and more about the process itself.
-
-The reviewer concentration is now quantified. nikic reviewed 89 PRs across three releases. The top 5 reviewers — nikic, arsenm, ldionne, HazardyKnusperkeks, MaskRay — together account for a large fraction of all approvals. This is the "non-responsive reviewer" problem made concrete: it's not that reviewers are ignoring patches, it's that the pool doing the work is small enough that when any one of them is unavailable, patches back up. That backlog is what shows up as RC3→Final pressure.
-
----
-
 # What Doesn't Work
 
-* **January** is a terrible time to start a release
-* PR flood during RC period
-* Non-responsive reviewers
-* Flaky CI blocks binary releases
-* **No official** qualification criteria
-* Vague inclusion criteria in practice
+1. **No defined inclusion criteria** — every PR is a judgement call
+2. **Flaky CI** blocks binary releases even when the code is ready
+3. **Accidental ABI breakage** slips through reviews
+4. **RC phase PR flood** — nobody looks until RC1 ships
 
 Note:
-January: The branch cuts right after the holidays. Fewer people are active, patches pile up, and we get a scramble. 20.x RC1 slipped 16 days past the scheduled +3 days, though 22.x was on time. The July release (21.x) also slipped 6 days — so the problem may not be uniquely January.
+These are the problems we as release managers actually feel every release.
 
-PR flood: Confirmed by the data. A consistent 3x jump from the pre-RC1 window to RC1→RC2 across all three releases. People notice only when RC1 ships. This makes careful review hard — we get a wave at every RC deadline.
+Inclusion criteria: The docs say "There are no official release qualification criteria." We invented "very safe" but that's not a spec — two RMs can reach different verdicts on the same patch. The rising rejection rate (8% → 14%) shows we're trying to enforce something, but contributors deserve a clearer answer than our gut feeling.
 
-Non-responsive reviewers: Now measurable. The top 5 reviewers (nikic, arsenm, ldionne, HazardyKnusperkeks, MaskRay) handled the majority of all approvals across three releases. The pool is narrow. When someone in that group is at a conference, on holiday, or just busy with their day job, patches stall. That stall is what shows up as 62-66 PRs in the RC3→Final window — not last-minute submissions, but patches that were waiting for a reviewer who finally had time in the last week.
+Flaky CI: We need passing binary builds before we can ship. When CI is unreliable the release slips even when the code is done. Binaries sometimes follow the tag by days, which creates "mutable releases" that downstream consumers can't rely on.
 
-Flaky CI: We need binary release artifacts before shipping. When CI is unreliable the final release slips even when the code is ready. This also contributes to "mutable releases" — the release is technically tagged but binaries follow days later.
+ABI breakage: Changes that break API or ABI do get backported occasionally, missed during review. These are the most painful to discover post-release because they affect every downstream user silently.
 
-No official criteria: The release docs literally say "There are no official release qualification criteria." The rejection rate rising from 8% to 15% shows we're trying to enforce something, but "very safe" is not a spec. The 20.x/21.x variance in RC3→Final (16 vs 66) shows the criteria is applied inconsistently across releases.
+PR flood: A consistent 3x spike from Branch→RC1 (~40 PRs) to RC1→RC2 (115–131) across every release. The rush makes careful review hard — we get a wave at every deadline instead of a steady stream.
 
 ---
 
-# The LTS Question
+# Join us at the Roundtable
 
-We discussed this at EuroLLVM 2025.
+### Right after this talk
 
-Note:
-This has been an active discussion. There was an RFC on Discourse in January 2025 (84049), a roundtable at EuroLLVM 2025, and a synthesis post in May 2025. We covered it there too — so this is a continuation, not a fresh start. Worth acknowledging that.
-
---
-
-# LTS: The Problem It Solves
-
-* Linux/BSD distros: **~4 year** release cycles
-* LLVM today: **6 months** community support
-* GCC offers 2 years community + 2 years internal support
-* Downstream vendors each maintaining forks independently
+What works? What should change? Come tell us.
 
 Note:
-The core argument from Linaro (maxim-kuvyrkov) and the distro maintainers: the gap between LLVM's 6-month support window and real-world distribution lifecycles is large. Gentoo's mgorny noted they currently maintain LLVM 15 through 19 simultaneously because important packages haven't caught up. FreeBSD's brooks carries 10+ versions. Everyone is doing the same backport work in isolation.
-
---
-
-# LTS: The Concerns
-
-* Chilling effect — will freeze ecosystem on old versions
-* Reviewer bandwidth is already stretched
-* "No official demand" — are distros actually asking?
-* Risk of divergence if fixes don't go to main first
-
-Note:
-nikic raised the chilling effect: if an LTS exists, distros will standardize on it, library consumers will follow, and projects like Rust that need bleeding-edge LLVM will face distribution compatibility pressure. jyknight made a related point — a vendor with a 2-year product cycle and 4-year support window would ship an old LTS even when a newer one exists. The two release managers (Tom and Tobias) were both skeptical and said they would not take on additional workload. Tom noted most vendors aren't even using release branches today.
-
---
-
-# LTS: Where We Left Off
-
-* "Designated every Nth release" — significant pushback
-* **Extend all releases from 6 → 24 months** gaining traction
-* Fixes must go to main first
-* Must not add overhead to mainline workflow
-* Requires committed infrastructure from interested parties
-
-Note:
-The May 2025 synthesis from maxim-kuvyrkov proposed a bootstrap phase: extend support for every release to 24 months (GCC parity), without picking a special LTS release. This got broader sympathy than the "every 4th release" model. No formal decision was reached. The key constraint everyone agreed on: this cannot add overhead to normal development. Any architecture claiming LTS support must provide testing infrastructure. Linaro offered AArch64 Linux CI at low marginal cost given the reduced change volume on stable branches.
+Hand off to the roundtable. We want to hear from people who are using the releases, maintaining downstream forks, doing backports, or just frustrated with something. This is the right room and the right moment.
 
 ---
 
-# Your Turn
-
-* Is January the right branch date?
-* How do we reduce the RC PR flood?
-* Extend all releases to 24 months — who commits to the work?
-* What else is broken?
-
-Note:
-Open it up. We have the roundtable slot for deeper discussion, but let's use the last few minutes here to surface the main topics people want to dig into. On LTS: the question has moved on from "should we" to "who does the work and on what model." If someone in the room is ready to commit, that changes the conversation.
+# Q&A

@@ -41,15 +41,15 @@
   },
   "22.x": {
     "release": "22.x",
-    "total_prs": 504,
-    "merged": 413,
-    "rejected": 74,
+    "total_prs": 550,
+    "merged": 459,
+    "rejected": 76,
     "phase_counts": {
       "branch\u2192rc1": 38,
       "rc1\u2192rc2": 115,
       "rc2\u2192rc3": 116,
       "rc3\u2192final": 62,
-      "post-final": 81
+      "post-final": 127
     },
     "dates": {
       "branch": "2026-01-13T00:00:00Z",
