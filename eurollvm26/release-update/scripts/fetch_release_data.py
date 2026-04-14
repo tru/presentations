@@ -164,7 +164,7 @@ def phase_for(merged_at: str | None, cfg: dict) -> str | None:
 
 def compute_stats(release: str, prs: list[dict], cfg: dict) -> dict:
     from dedup import deduped_merged
-    merged   = deduped_merged(release, prs)
+    merged   = deduped_merged(release)
     rejected = [pr for pr in prs if not pr["merged_at"] and pr["state"] == "closed"]
 
     phase_counts = {p: 0 for p in PHASES}
