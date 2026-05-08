@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;500;600&display=swap');
+@import url('./mkslides-assets/reveal-js/dist/theme/white.css');
+
+:root {
+  --r-background-color: #ffffff;
+  --r-main-font: 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
+  --r-main-font-size: 28px;
+  --r-main-color: #1a1a2e;
+  --r-heading-font: 'Press Start 2P', monospace;
+  --r-heading-color: #3b1f7a;
+  --r-heading-line-height: 1.4;
+  --r-heading-letter-spacing: -0.5px;
+  --r-heading-text-transform: none;
+  --r-heading-font-weight: 400;
+  --r-heading1-size: 1.4em;
+  --r-heading2-size: 1.1em;
+  --r-heading3-size: 0.85em;
+  --r-heading4-size: 0.7em;
+  --r-link-color: #5c35b0;
+  --r-link-color-hover: #3b1f7a;
+  --r-selection-background-color: #d0bfff;
+  --r-selection-color: #1a1a2e;
+  --r-block-margin: 12px;
+  --r-heading-margin: 0 0 16px 0;
+}
+
+.reveal-viewport {
+  background: #ffffff;
+}
+
+/* ── slide layout ── */
+.reveal .slides section {
+  padding: 20px 40px;
+  text-align: left;
+}
+
+/* ── title slide: centre everything ── */
+.reveal .slides section:first-child {
+  text-align: center;
+}
+
+/* ── headings ── */
+.reveal h1, .reveal h2 {
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #3b1f7a;
+}
+
+.reveal h3, .reveal h4 {
+  margin-bottom: 10px;
+}
+
+/* ── lists ── */
+.reveal ul, .reveal ol {
+  display: block;
+  margin-left: 1.2em;
+  line-height: 1.9;
+}
+
+.reveal ul li, .reveal ol li {
+  margin-bottom: 6px;
+}
+
+/* ── tables ── */
+.reveal table {
+  font-size: 0.72em;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reveal table th {
+  background: #3b1f7a;
+  color: #ffffff;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.75em;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.reveal table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid #e0d7f5;
+  color: #1a1a2e;
+  vertical-align: top;
+}
+
+.reveal table tr:nth-child(even) td {
+  background: #f5f0ff;
+}
+
+/* ── images: fill slide area, don't overflow ── */
+.reveal img {
+  max-width: 100%;
+  max-height: 62vh;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ── strong / emphasis ── */
+.reveal strong {
+  color: #3b1f7a;
+  font-weight: 600;
+}
+
+/* ── inline code ── */
+.reveal code {
+  background: #f0ebff;
+  color: #3b1f7a;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+/* ── slide number ── */
+.reveal .slide-number {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.45em;
+  color: #3b1f7a;
+  background: transparent;
+}
+
+/* ── progress bar ── */
+.reveal .progress {
+  color: #3b1f7a;
+  height: 4px;
+}
+
+/* ── controls ── */
+.reveal .controls {
+  color: #3b1f7a;
+}
