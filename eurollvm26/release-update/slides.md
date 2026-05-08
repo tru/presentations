@@ -28,15 +28,13 @@ Cullen Rhodes, Douglas Yung, Tobias Hieta
 
 * Major release every **6 months**
 * Branch: 2nd Tuesday in **January** (even) / **July** (odd)
-* Point releases every 2 weeks, typically through X.1.5 or X.1.6
+* Point releases every 2 weeks, typically through X.1.8 or X.1.9
 
 ---
 
 # LLVM 21 Release Timeline
 
 <img src="release_timeline.png" style="width:100%;max-height:55vh;object-fit:contain;" />
-
-20.x RC1: **16 days late** &nbsp;·&nbsp; 21.x RC1: **6 days late** &nbsp;·&nbsp; 22.x RC1: **on time**
 
 ---
 
@@ -53,11 +51,11 @@ Cullen Rhodes, Douglas Yung, Tobias Hieta
 
 # By the Numbers
 
-| Release | PRs Merged | PRs Rejected | Issues |
-|---------|-----------|--------------|--------|
-| 20.x    | 346       | 53           | 125    |
-| 21.x    | 287       | 68           | 122    |
-| 22.x    | 233       | 76           | 89     |
+| Release | PRs Merged | PRs Rejected |
+|---------|-----------|--------------|
+| 20.x    | 346       | 53           |
+| 21.x    | 287       | 68           |
+| 22.x    | 233       | 76           |
 
 Rejection rate rising: **13%** → **19%** → **25%**
 
