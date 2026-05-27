@@ -3,11 +3,27 @@ Title: A Brief Overview of the LLVM Architecture
 slides:
   theme: theme.css
   separator_vertical: "^\r?\n--\r?\n$"
+  highlight_theme: github
+revealjs:
+  width: 1920
+  height: 1080
 ---
 
 ## A Brief Overview of the LLVM Architecture
 
 tobias@hieta.se | Forge64 Consulting
+
+---
+
+## About Me
+
+**Tobias Hieta** `<tobias@hieta.se>`
+
+Forge64 Consulting, **Larian Studios**
+
+**LLVM Release Manager**, Kodsnack Podcast
+
+<img src="./images/larian-logo.png" style="max-height:25vh; float:right;"/>
 
 ---
 
@@ -23,7 +39,7 @@ tobias@hieta.se | Forge64 Consulting
 
 ---
 
-<img src="./images/diagram3.svg" alt="Full Diagram" style="max-height:80vh;"/>
+<img src="./images/diagram3.svg" alt="Full Diagram" style="max-height:98vh;"/>
 
 ---
 
@@ -45,6 +61,40 @@ int main() {
     return 0;
 }
 ```
+
+---
+
+## Lexer / Tokenizer
+
+```bash
+clang++ -Xclang -dump-tokens -fsyntax-only test.cpp
+```
+
+```text [1-3|4-8|9-13|14]
+inline 'inline'        [StartOfLine]   Loc=<test.cpp:1:1>
+int 'int'              [LeadingSpace]  Loc=<test.cpp:1:8>
+identifier 'add_one'   [LeadingSpace]  Loc=<test.cpp:1:12>
+l_paren '('            Loc=<test.cpp:1:19>
+int 'int'              Loc=<test.cpp:1:20>
+identifier 'x'         [LeadingSpace]  Loc=<test.cpp:1:24>
+r_paren ')'            Loc=<test.cpp:1:25>
+l_brace '{'            [LeadingSpace]  Loc=<test.cpp:1:27>
+return 'return'        [LeadingSpace]  Loc=<test.cpp:1:29>
+identifier 'x'         [LeadingSpace]  Loc=<test.cpp:1:36>
+plus '+'               [LeadingSpace]  Loc=<test.cpp:1:38>
+numeric_constant '1'   [LeadingSpace]  Loc=<test.cpp:1:40>
+semi ';'               Loc=<test.cpp:1:41>
+r_brace '}'            [LeadingSpace]  Loc=<test.cpp:1:43>
+eof ''                 Loc=<test.cpp:1:44>
+```
+
+---
+
+## Parser + Semantic Analysis (SEMA)
+
+- Parser and SEMA work **together, interleaved**
+- SEMA validates types, scopes and declarations
+- Output: the **AST**
 
 ---
 
@@ -74,6 +124,14 @@ inline int add_one(int x) { return x + 1; }
 |       | `-DeclRefExpr 0x141929200 <col:36> 'int' lvalue ParmVar 0x141929030 'x' 'int'
 |       `-IntegerLiteral 0x141929220 <col:40> 'int' 1
 ```
+
+---
+
+## Code Generation (CodeGen)
+
+- Lowers the AST to **LLVM IR**
+- IR is platform independent, typed, SSA form
+- Output handed to the **optimizer**
 
 ---
 
@@ -177,6 +235,14 @@ define linkonce_odr dso_local noundef i32 @"?add_one@@YAHH@Z"(i32 noundef %0) #0
 
 ## Optimization Pipeline
 
+- Series of **passes** over the IR
+- `-O0`, `-O2`, `-O3` = different pipeline configurations
+- Anyone can write a pass and plug it in
+
+---
+
+## Optimization Pipeline
+
 ![Optimization Pipeline](./images/opt.svg)
 
 ---
@@ -248,6 +314,34 @@ store i32 %5, ptr %3, align 4
 
 ---
 
+## The optimization pipeline rabbit hole
+
+- Alias analysis, SSA, vectorization, GVN, LICM...
+- Each of these is a talk in itself
+
+---
+
+## Reality is fuzzier than the diagrams
+
+- Passes run **multiple times**
+- Middle-end / backend boundary is blurry
+- **LTO/ThinLTO** adds a whole-program layer on top
+- Think **continuum**, not clean boxes
+
+---
+
+## Machine IR (MIR)
+
+- Target-specific IR — real registers, real instructions
+- Register allocation, instruction scheduling run here
+- Output goes to the **assembler**
+
+---
+
+## MIR != MLIR
+
+---
+
 ## MIR - Machine IR
 
 ![MIR Diagram](./images/mir.svg)
@@ -273,6 +367,13 @@ renamable $eax = MOV32rm %stack.0, 1, $noreg, 0, $noreg :: (load (s32) from %ir.
 renamable $eax = ADD32ri killed renamable $eax, 1, implicit-def dead $eflags
 RET64 implicit $eax
 ```
+
+---
+
+## Backend / Code Emission
+
+- Per-target: x86, ARM, RISC-V, ...
+- Translates MIR to **assembly** or object file
 
 ---
 
@@ -394,7 +495,7 @@ main:
 
 ---
 
-<img src="./images/diagram3.svg" alt="Full Diagram" style="max-height:80vh;"/>
+<img src="./images/diagram3.svg" alt="Full Diagram" style="max-height:98vh;"/>
 
 ---
 

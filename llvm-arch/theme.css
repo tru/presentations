@@ -4,7 +4,7 @@
 :root {
   --r-background-color: #ffffff;
   --r-main-font: 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
-  --r-main-font-size: 28px;
+  --r-main-font-size: 44px;
   --r-main-color: #1a1a2e;
   --r-heading-font: 'Press Start 2P', monospace;
   --r-heading-color: #3b1f7a;
@@ -92,7 +92,7 @@
 /* ── images: fill slide area, don't overflow ── */
 .reveal img {
   max-width: 100%;
-  max-height: 62vh;
+  max-height: 85vh;
   object-fit: contain;
   display: block;
   margin: 0 auto;
@@ -111,6 +111,17 @@
   padding: 1px 5px;
   border-radius: 3px;
   font-size: 0.85em;
+}
+
+/* ── code blocks ── */
+.reveal pre {
+  font-size: 0.6em;
+  width: 100%;
+}
+
+.reveal pre code {
+  font-size: 1em;
+  max-height: 75vh;
 }
 
 /* ── slide number ── */

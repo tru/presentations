@@ -7,16 +7,17 @@
 
 import { launch } from '/Users/thieta/.npm/_npx/cb02d645f7861450/node_modules/puppeteer/lib/esm/puppeteer/puppeteer.js';
 
-const [,, url, outputPath] = process.argv;
+const [,, url, outputPath, notesFlag] = process.argv;
 if (!url || !outputPath) {
-  console.error('Usage: node print-pdf.mjs <url> <output.pdf>');
+  console.error('Usage: node print-pdf.mjs <url> <output.pdf> [--with-notes]');
   process.exit(1);
 }
 
-// Append print-pdf and showNotes query params
 const printUrl = new URL(url);
 printUrl.searchParams.set('print-pdf', '');
-printUrl.searchParams.set('showNotes', 'separate-page');
+if (notesFlag === '--with-notes') {
+  printUrl.searchParams.set('showNotes', 'separate-page');
+}
 
 console.log(`Loading: ${printUrl}`);
 
