@@ -189,13 +189,13 @@
 		></rect>
 	</g>
 </svg>
-</g><g width="231.59px" height="113.6px"  transform="translate(193.58, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="37.22816366615517" y="61.12189190384514" width="145.77493286132812" textLength="145.77493286132812" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Ubisoft Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="25" 
-				fill="#1a1a1a" direction="ltr" font-weight="bold">Clang SEMA</text></g></g><g width="254.06px" height="0px"  transform="translate(431.43, 331.21) scale(1.027000268654827) rotate(0, 127.03, 0)"><path stroke-linecap="butt" 
+</g><g width="231.59px" height="113.6px"  transform="translate(193.58, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="35.115" y="61.12189190384514" width="150" textLength="150" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="25"
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Parser / SEMA</text></g></g><g width="254.06px" height="0px"  transform="translate(431.43, 331.21) scale(1.027000268654827) rotate(0, 127.03, 0)"><path stroke-linecap="butt" 
 			stroke="#333333" stroke-width="2" fill="transparent"
 			d="M 0 0 L 243.88239480802378 0" clip-path="url(#LineHeadMaskiKx2nm)"/> <use xlink:href="#LineHeadArrow2" fill="#333333"
 			 transform="translate(254.06421298984242, 0)  rotate(0) "  /> <clipPath id="LineHeadMaskiKx2nm">
 				<path d="M -2 -2 M 84.33182323932226 -2 L 150.61753752503654 -2 L 150.61753752503654 25.714285714285715 L 84.33182323932226 25.714285714285715 M -2 -2 L 1684 -2 L 1684 662.69 L -2 662.69" fill-rule="evenodd" clip-rule="evenodd" />
-			</clipPath><g width="25" height="20" transform="translate(86.33182323932226, -25.714285714285715) scale(2.5714285714285716) rotate(0)"><text xml:space="preserve" x="0.2920074462890625" y="14" width="24.415985107421875" textLength="24.415985107421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="14" 
+			</clipPath><g width="25" height="20" transform="translate(86.33182323932226, -25.714285714285715) scale(2.5714285714285716) rotate(0)"><text xml:space="preserve" x="0.2920074462890625" y="14" width="24.415985107421875" textLength="24.415985107421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="14" 
 				fill="#1a1a1a" direction="ltr" >AST</text></g></g><g width="231.59px" height="113.6px"  transform="translate(692.35, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><svg
 	width="231.59168061671517"
 	height="113.60420423076698"
@@ -235,11 +235,11 @@
 		></rect>
 	</g>
 </svg>
-</g><g width="231.59px" height="113.6px"  transform="translate(692.35, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="17.203185028459856" y="61.12189190384514" width="185.82489013671875" textLength="185.82489013671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Ubisoft Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="25" 
-				fill="#1a1a1a" direction="ltr" font-weight="bold">Clang CodeGen</text></g></g><g width="370.67px" height="0px"  transform="translate(930.19, 331.21) scale(1.027000268654827) rotate(0, 185.335, 0)"><path stroke-linecap="butt" 
+</g><g width="231.59px" height="113.6px"  transform="translate(692.35, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="60.115" y="61.12189190384514" width="100" textLength="100" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="25"
+				fill="#1a1a1a" direction="ltr" font-weight="bold">CodeGen</text></g></g><g width="370.67px" height="0px"  transform="translate(930.19, 331.21) scale(1.027000268654827) rotate(0, 185.335, 0)"><path stroke-linecap="butt" 
 			stroke="#333333" stroke-width="2" fill="transparent"
 			d="M 0 0 L 360.49054408885087 0" clip-path="url(#LineHeadMaskTFu6LG)"/> <use xlink:href="#LineHeadArrow2" fill="#333333"
 			 transform="translate(370.67236227066905, 0)  rotate(0) "  /> <clipPath id="LineHeadMaskTFu6LG">
 				<path d="M -2 -2 M 89.51068632841505 -2 L 276.6535434712722 -2 L 276.6535434712722 34.285714285714285 L 89.51068632841505 34.285714285714285 M -2 -2 L 1684 -2 L 1684 662.69 L -2 662.69" fill-rule="evenodd" clip-rule="evenodd" />
-			</clipPath><g width="54" height="20" transform="translate(91.51068632841505, -34.285714285714285) scale(3.4285714285714284) rotate(0)"><text xml:space="preserve" x="0.7080154418945312" y="14" width="52.58396911621094" textLength="52.58396911621094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="14" 
+			</clipPath><g width="54" height="20" transform="translate(91.51068632841505, -34.285714285714285) scale(3.4285714285714284) rotate(0)"><text xml:space="preserve" x="0.7080154418945312" y="14" width="52.58396911621094" textLength="52.58396911621094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="14" 
 				fill="#bd0a0a" direction="ltr" >LLVM IR</text></g></g></svg>

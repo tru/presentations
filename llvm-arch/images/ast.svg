@@ -189,8 +189,8 @@
 		></rect>
 	</g>
 </svg>
-</g><g width="231.59px" height="113.6px"  transform="translate(551.04, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="40.003172821428606" y="61.12189190384514" width="140.22491455078125" textLength="140.22491455078125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Ubisoft Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="25" 
-				fill="#1a1a1a" direction="ltr" font-weight="bold">Clang Lexer</text></g></g><g width="231.59px" height="113.6px"  transform="translate(1027.65, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><svg
+</g><g width="231.59px" height="113.6px"  transform="translate(551.04, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="77.615" y="61.12189190384514" width="65" textLength="65" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="25"
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Lexer</text></g></g><g width="231.59px" height="113.6px"  transform="translate(1027.65, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><svg
 	width="231.59168061671517"
 	height="113.60420423076698"
 	shape-border-width="shape-background"
@@ -229,19 +229,19 @@
 		></rect>
 	</g>
 </svg>
-</g><g width="231.59px" height="113.6px"  transform="translate(1027.65, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="37.22816366615517" y="61.12189190384514" width="145.77493286132812" textLength="145.77493286132812" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Ubisoft Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="25" 
-				fill="#1a1a1a" direction="ltr" font-weight="bold">Clang SEMA</text></g></g><g width="232.48px" height="0px"  transform="translate(788.89, 331.21) scale(1.027000268654827) rotate(0, 116.24, 0)"><path stroke-linecap="butt" 
+</g><g width="231.59px" height="113.6px"  transform="translate(1027.65, 272.87) scale(1.027000268654827) rotate(0, 115.795, 56.8)"><g transform="translate(5.680210211538349, 5.680210211538349)"><text xml:space="preserve" x="35.115" y="61.12189190384514" width="150" textLength="150" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="25"
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Parser / SEMA</text></g></g><g width="232.48px" height="0px"  transform="translate(788.89, 331.21) scale(1.027000268654827) rotate(0, 116.24, 0)"><path stroke-linecap="butt" 
 			stroke="#333333" stroke-width="2" fill="transparent"
 			d="M 222.29829777011838 0 L 0 0" clip-path="url(#LineHeadMask073ZYV)"/> <use xlink:href="#LineHeadArrow2" fill="#333333"
 			 transform="translate(232.48011595193748, 0)  rotate(0) "  /> <clipPath id="LineHeadMask073ZYV">
 				<path d="M -2 -2 M 48.72057745648776 -2 L 171.5777203136306 -2 L 171.5777203136306 25.714285714285715 L 48.72057745648776 25.714285714285715 M -2 -2 L 1684 -2 L 1684 662.69 L -2 662.69" fill-rule="evenodd" clip-rule="evenodd" />
-			</clipPath><g width="47" height="20" transform="translate(50.72057745648776, -25.714285714285715) scale(2.5714285714285716) rotate(0)"><text xml:space="preserve" x="0.498016357421875" y="14" width="46.00396728515625" textLength="46.00396728515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="14" 
+			</clipPath><g width="47" height="20" transform="translate(50.72057745648776, -25.714285714285715) scale(2.5714285714285716) rotate(0)"><text xml:space="preserve" x="0.498016357421875" y="14" width="46.00396728515625" textLength="46.00396728515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="14" 
 				fill="#333333" direction="ltr" >Tokens</text></g></g><g width="213.01px" height="0px"  transform="translate(1265.49, 331.21) scale(1.027000268654827) rotate(0, 106.505, 0)"><path stroke-linecap="butt" 
 			stroke="#333333" stroke-width="2" fill="transparent"
 			d="M 0 0 L 202.82451662923432 0" clip-path="url(#LineHeadMasklSb7RD)"/> <use xlink:href="#LineHeadArrow2" fill="#333333"
 			 transform="translate(213.0063348110525, 0)  rotate(0) "  /> <clipPath id="LineHeadMasklSb7RD">
 				<path d="M -2 -2 M 53.67219051369705 -2 L 141.38647622798277 -2 L 141.38647622798277 34.285714285714285 L 53.67219051369705 34.285714285714285 M -2 -2 L 1684 -2 L 1684 662.69 L -2 662.69" fill-rule="evenodd" clip-rule="evenodd" />
-			</clipPath><g width="25" height="20" transform="translate(55.67219051369705, -34.285714285714285) scale(3.4285714285714284) rotate(0)"><text xml:space="preserve" x="0.2920074462890625" y="14" width="24.415985107421875" textLength="24.415985107421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="14" 
+			</clipPath><g width="25" height="20" transform="translate(55.67219051369705, -34.285714285714285) scale(3.4285714285714284) rotate(0)"><text xml:space="preserve" x="0.2920074462890625" y="14" width="24.415985107421875" textLength="24.415985107421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="14" 
 				fill="#bd0a0a" direction="ltr" >AST</text></g></g><g width="86.58px" height="0px"  transform="translate(462.13, 331.21) scale(1.027000268654827) rotate(0, 43.29, 0)"><path stroke-linecap="butt" 
 			stroke="#333333" stroke-width="2" fill="transparent"
 			d="M 76.39390741106928 0 L 0 0" /> <use xlink:href="#LineHeadArrow2" fill="#333333"
@@ -284,5 +284,5 @@
 		></rect>
 	</g>
 </svg>
-</g><g width="83.21px" height="17px"  transform="translate(242.38, 308.76) scale(2.640857833683841) rotate(0, 41.605, 8.5)"><g transform="translate(0, 0)"><text xml:space="preserve" x="4.386436233303492" y="14" width="74.43792724609375" textLength="74.43792724609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Ubisoft Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans, Noto Sans SC, PingFang SC, Microsoft YaHei' font-size="14" 
+</g><g width="83.21px" height="17px"  transform="translate(242.38, 308.76) scale(2.640857833683841) rotate(0, 41.605, 8.5)"><g transform="translate(0, 0)"><text xml:space="preserve" x="4.386436233303492" y="14" width="74.43792724609375" textLength="74.43792724609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='Inter, Helvetica, sans-serif' font-size="14" 
 				fill="#1a1a1a" direction="ltr" font-weight="bold">C++ Source</text></g></g></svg>
