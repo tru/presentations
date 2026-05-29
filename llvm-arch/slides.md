@@ -11,7 +11,7 @@ revealjs:
 
 ## A Brief Overview of the LLVM Architecture
 
-tobias@hieta.se | Forge64 Consulting
+**Tobias Hieta** | Forge64 Consulting
 
 ---
 
@@ -21,9 +21,9 @@ tobias@hieta.se | Forge64 Consulting
 
 Forge64 Consulting, **Larian Studios**
 
-**LLVM Release Manager**, Kodsnack Podcast
+**LLVM Release Manager**, Podcasts and more
 
-<img src="./images/larian-logo.png" style="max-height:25vh; float:right;"/>
+<img src="./images/larian-logo.png" style="max-height:25vh; float:right; margin: 50px;"/>
 
 ---
 
@@ -36,6 +36,10 @@ Forge64 Consulting, **Larian Studios**
 ---
 
 ![Umbrella Overview](./images/diagram2.svg)
+
+---
+
+## Disclaimer - reality is always more complicated
 
 ---
 
@@ -68,6 +72,10 @@ int main() {
 
 ```bash
 clang++ -Xclang -dump-tokens -fsyntax-only test.cpp
+```
+
+```
+inline int add_one(int x) { return x + 1; }
 ```
 
 ```text [1-3|4-8|9-13|14]
@@ -350,6 +358,7 @@ store i32 %5, ptr %3, align 4
 
 ## MIR - Machine IR
 
+#### LLVM-IR
 ```llvm
 ; Function Attrs: mustprogress noinline nounwind optnone ssp uwtable(sync)
 define linkonce_odr dso_local noundef i32 @"?add_one@@YAHH@Z"(i32 noundef %0) #0 comdat {
@@ -361,6 +370,7 @@ define linkonce_odr dso_local noundef i32 @"?add_one@@YAHH@Z"(i32 noundef %0) #0
 }
 ```
 
+#### LLVM-MIR
 ```text
 MOV32mr %stack.0, 1, $noreg, 0, $noreg, killed renamable $ecx :: (store (s32) into %ir.2)
 renamable $eax = MOV32rm %stack.0, 1, $noreg, 0, $noreg :: (load (s32) from %ir.2)
@@ -388,6 +398,11 @@ RET64 implicit $eax
 ```bash
 clang++ -O0 test.cpp -S -o-
 ```
+
+```
+inline int add_one(int x) { return x + 1; }
+```
+
 
 ```x86asm
 "?add_one@@YAHH@Z":
@@ -451,6 +466,7 @@ main:
 ---
 
 ## Optimized ASM
+#### Full code
 
 ```x86asm [1-4|5-7]
 "?multiply@@YAHHH@Z":
@@ -495,10 +511,16 @@ main:
 
 ---
 
-<img src="./images/diagram3.svg" alt="Full Diagram" style="max-height:98vh;"/>
+## Summary
+
+![Simple LLVM Diagram](./images/diagram1.svg)
 
 ---
 
-## We have arrived!
+## Summary
+
+<img src="./images/diagram3.svg" alt="Full Diagram" style="max-height:98vh;"/>
+
+---
 
 ## Questions?
